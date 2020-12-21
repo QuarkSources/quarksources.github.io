@@ -7,20 +7,28 @@
     {
       "name": "Cercube",
       "bundleIdentifier": "com.google.ios.youtube",
-      "developerName": "Majd Alfhaily",
+      "developerName": "Majd Alfhaily & _Rex",
       "subtitle": "An elevated YouTube experience.",
-      "version": "15.12.5",
-      "versionDate": "2020-01-19",
-      "versionDescription": "Bug fixes.",
+      "version": "15.42.2",
+      "versionDate": "2020-12-02",
+      "versionDescription": "Cercube v5.2.7\n\n* Adds VP9 software decoding that allows for 1440p@60fps and 4K@30fps videos with no frame drops.\n* Features like Picture-in-Picture and downloads now work correctly.",
       "downloadURL": "https://dl.orangedox.com/quarklibrary/Cercube/Cercube.ipa?dl=1",
       "localizedDescription": "YouTube is one of the best and most popular video-sharing platform available on the web. It features a range of videos from funny pranks to reviews, gaming content, and daily vlogs by popular influencers.\n\nYouTube also offers an app for iOS which provides a more smooth and enjoyable experience watching videos on your iPhone. Unfortunately, the app lacks a lot of essential features.\n\nCercube is a third-party app for YouTube that brings tons of amazing new features and functionality. Some of these are:\n\n• Download and save videos up to 4k resolution\n• Save videos as audio only\n• View, manage and share all your downloads in Cercube's download manager\n• Block ads\n• Share downloaded videos with other devices via AirDrop\n• Background playback for streamed and downloaded videos\n• Import downloads to Music or Videos\n• Play YouTube videos using Picture-in-Picture mode\n• Downloaded videos are displayed within a beautifully crafted downloads manager that shows all the available information\n• Choose the default tab to open when launching YouTube\n• Stream videos in HD on cellular network\n• Auto-replay videos\n• Hide floating upload button\n• Hide the Trending tab\n• Rewind or forward videos\n• Cercube options are configurable from within YouTube settings\n• Play in high quality on Mobile Data\n\nAnd many more features. All-in-all, Cercube takes your YouTube experience to a whole new level with all the innovative features that it provides.",
       "iconURL": "https://i.imgur.com/EUJ4C85.png",
       "tintColor": "#ff0000",
-      "size": 90156778,
+      "size": 100536578,
       "permissions": [
         {
           "type": "photos",
           "usageDescription": "This lets you upload videos you've already created."
+        },
+        {
+          "type": "camera",
+          "usageDescription": "This lets you create videos using the app."
+        },
+        {
+          "type": "network",
+          "usageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV."
         },
         {
           "type": "contacts",
