@@ -193,14 +193,14 @@
       "bundleIdentifier": "com.spotify.client",
       "developerName": "julioverne",
       "subtitle": "Spotify with free premium.",
-      "version": "8.4.43",
-      "versionDate": "2019-08-14",
-      "versionDescription": "Podcasts are here!",
+      "version": "8.5.86",
+      "versionDate": "2020-12-02",
+      "versionDescription": "Updated to Spotilife v1.3a.\n\nBug fixes for iOS 13+",
       "downloadURL": "https://dl.orangedox.com/quarklibrary/Spotify%2B%2B/Spotify%2B%2B.ipa?dl=1",
       "localizedDescription": "Spotify++ essentially activates spotify premium on your device with one exception: No downloads.\n\nSo what does Spotify++ change?\n\n• All kinds of ads removed\n• Unlimited skips\n• Play any song or album\n• Enable extreme streaming quality\n• No forced shuffle\n• Import songs from the Music app",
       "iconURL": "https://i.imgur.com/on9H3Vv.png",
       "tintColor": "#1ed760",
-      "size": 55561205,
+      "size": 59267289,
       "permissions": [
         {
           "type": "camera",
@@ -209,6 +209,10 @@
         {
           "type": "photos",
           "usageDescription": "This lets you save and select images to and from your Photo Library."
+        },
+        {
+          "type": "music",
+          "usageDescription": "This will let you play your imported music on Spotify."
         },
         {
           "type": "motion",
@@ -221,6 +225,10 @@
         {
           "type": "bluetooth",
           "usageDescription": "This lets you use Spotify with external accessories."
+        },
+        {
+          "type": "network",
+          "usageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files."
         },
         {
           "type": "faceid",
