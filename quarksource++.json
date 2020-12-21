@@ -455,19 +455,18 @@
       ]
     },
 		{
-      "name": "Paperback",
+      "name": "Paperback Beta",
       "bundleIdentifier": "com.FaizanDurrani.PaperbackBeta",
       "developerName": "Faizan Durrani",
       "subtitle": "A beta manga reader for Patrons only.",
       "version": "0.3.0",
-      "versionDate": "2020-05-13T17:54:00-05:00",
-      "versionDescription": "THIS BUILD IS NOT TO BE DAILY DRIVEN. Install this build at your own risk, it is an EXTREMELY early preview of sources. This build WILL crash in numerous places, it might also mess up your MDList.\n\nTHIS BUILD REQUIRES A REINSTALL\n\nChangelog\n\n• Fixed an issue where search would close when you come back from a manga\n• Added continue reading\n• Added the ability to open any manga in the browser\n• Added Backups to help with migrations between builds (make sure you export the backup to iCloud or phone storage, it will be erased otherwise)\n• Updated Manga info UI to show the source for the manga\n• Added the ability to turn of homepage sections for sources\n• Added the ability to update a source without uninstalling it\n• Fixed chapter next and previous buttons\n• Adjusted the padding under Description header of the manga page\n\nKnown Issues\n\n• Advanced Search doesn't work\n• Downloading doesn't work\n• Longstrip reader zoom is a bit weird right now\n• Update notifications don't work\n\nFeedback is appreciated.",
+      "versionDate": "2020-05-13",
+      "versionDescription": "* Added chapter markers to backups, making a backup now also exports your chapter progress\n* Added chapter page progress saving\n* Added rate limiting for sources to avoid getting ip-banned\n* Fixed a bug where switching from longstrip to paged reader would cause a black screen\n* Fixed Downloads sometimes getting stuck\n* Fixed a bug where the reader would sometimes get stuck and not let you continue until you go back to the previous page first\n* Fixed a bug with the landscape reader orientation on iPad sometimes getting stuck when a double spread page appeared\n* Removed last updated and update count from sort list until Notifications are implemented\n* Added a method in sources that allows the source to modify almost all outbound requests from the app",
       "downloadURL": "https://dl.orangedox.com/quarklibrary/Paperback-Beta/Paperback-Beta.ipa?dl=1",
       "localizedDescription": "Paperback is a fully ad-free manga reader for iOS 13 and iPadOS 13.4 and up.\n\niPad support\n• Friendly layout with a robust double spread chapter reader for iPad.\n\nMangaDex integration\n• Paperback will sync your mangas and settings to and from MangaDex.\n\nNo advertisements\n• Unlike other not-to-be-named apps and websites, this is a fully ad-free experience.\n\nIf you enjoy the app, please support the developer on Patreon to get access to the beta version of the app: https://www.patreon.com/FaizanDurrani",
       "iconURL": "https://i.imgur.com/uVN9JpL.png",
       "tintColor": "#202020",
       "size": 18817304,
-			"beta": true,
       "screenshotURLs": [
         "https://i.imgur.com/RfnknpJ.png",
 				"https://i.imgur.com/p6q0X1l.png",
