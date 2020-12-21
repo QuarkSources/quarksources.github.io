@@ -668,14 +668,60 @@
       "bundleIdentifier": "com.burbn.instagram",
       "developerName": "Majd Alfhaily",
       "subtitle": "An app crafted with love by Instagram users.",
-      "version": "144.0",
-      "versionDate": "2020-06-06",
+      "version": "145.0",
+      "versionDate": "2020-12-21",
       "versionDescription": "Bug fixes and improvements.",
       "downloadURL": "https://dl.orangedox.com/quarklibrary/Instagram-Rocket/Instagram-Rocket.ipa?dl=1",
       "localizedDescription": "The Much-Awaited App\n\nRocket for Instagram could be categorized as an Instagram user’s dream tweak, because it’s going to let you do things that the photo and video sharing social network probably doesn’t want you to do, but nevertheless they’re things you, the user, have wanted for a long time. Rocket not only gives you the features that are missing from Instagram, but it also gives you full control over the app.\n\nIf you’re an Instagram user looking to enhance your abilities within the app and obtain features that no stock user is ever going to get, Rocket for Instagram could be your new best friend.\n\nAmazing Features:\n\n- Browse home feed in grid layout.\n- Show following status in Profile.\n- Download posts from your feed.\n- Repost any post from your feed.\n- Long press on posts to zoom.\n- Copy post captions from your feed.\n- Download all Stories on Instagram.\n- Save videos from IGTV.\n- View Stories without notifying others.\n- Mute and unmute Stories.\n- Disable Auto-Advance in Stories.\n- Hide Stories from your feed.\n- Play in high quality on Mobile Data.\n- Long press on profile photo to zoom.\n- Disable read receipts in DM.\n- Disable Screenshot notifications in DM.\n- Disable Read Receipts in DM.",
       "iconURL": "https://i.imgur.com/Nf6m0w5.png",
       "tintColor": "#c7309b",
-      "size": 65453731,
+      "size": 80434188,
+			"permissions": [
+				{
+					"type": "photos",
+					"usageDescription": "This lets you share photos from your library and save photos to your Camera Roll."
+				},
+				{
+					"type": "camera",
+					"usageDescription": "This lets you take photos and record video."
+				},
+				{
+					"type": "microphone",
+					"usageDescription": "This lets you record videos with sound."
+				},
+				{
+					"type": "contacts",
+					"usageDescription": "This helps you and others find friends and more. Your contacts will be synced and securely stored on Instagram's servers."
+				},
+				{
+					"type": "location",
+					"usageDescription": "Instagram uses this to make some features work, personalize content, help people find places and more. You can always change this later in your phone’s settings."
+				},
+				{
+					"type": "faceid",
+					"usageDescription": "This lets you log into Instagram using Apple Face ID."
+				}
+			],
+      "screenshotURLs": [
+        "https://i.imgur.com/H6FuvcZ.png",
+        "https://i.imgur.com/JkU9XpS.png",
+        "https://i.imgur.com/Xukz00u.png",
+				"https://i.imgur.com/SZcgiMZ.png"
+      ]
+    },
+    {
+      "name": "Instagram++",
+      "bundleIdentifier": "com.pandaapp.igpp",
+      "developerName": "unlimapps",
+      "subtitle": "The tweaked version of Instagram.",
+      "version": "117.0",
+      "versionDate": "2019-10-28",
+      "versionDescription": "Bug fixes and improvements.",
+      "downloadURL": "https://dl.orangedox.com/quarklibrary/Instagram%2B%2B/Instagram%2B%2B.ipa?dl=1",
+      "localizedDescription": "Instagram++ is a fully tweaked version that adds the most important features that you want.",
+      "iconURL": "https://i.imgur.com/Nf6m0w5.png",
+      "tintColor": "#c7309b",
+      "size": 80434188,
 			"permissions": [
 				{
 					"type": "photos",
@@ -711,17 +757,17 @@
     },
     {
       "name": "Instagram Rhino",
-      "bundleIdentifier": "com.burbn.instagram.rhino",
+      "bundleIdentifier": "com.Lema.Michael.InstagramApp",
       "developerName": "Michael Lema",
       "subtitle": "A powerful tweaked version of Instagram.",
-      "version": "117.0",
-      "versionDate": "2019-10-31",
+      "version": "158.0",
+      "versionDate": "2020-09-07",
       "versionDescription": "Minor improvements.",
       "downloadURL": "https://dl.orangedox.com/quarklibrary/Instagram-Rhino/Instagram-Rhino.ipa?dl=1",
       "localizedDescription": "Instagram Rhino is tweaked version of the popular Instagram app. It adds all the features you've wanted, and more.",
       "iconURL": "https://i.imgur.com/i5M0PEk.png",
       "tintColor": "#16c54f",
-      "size": 44502055,
+      "size": 79346746,
       "permissions": [
         {
           "type": "photos",
