@@ -12,7 +12,7 @@ sourcesData = [
     },
     {
         "url": "https://quarksources.github.io/quarksource.json",
-        "ids": ["net.nerd.iNDS", "com.example.mame4ios", "science.xnu.undecimus", "ru.nonamedude.iTorrent", "com.rileytestut.GBA4iOS", "com.provenance-emu.provenance", "net.hollr.Provenance4", "com.libretro.dist.ios.RetroArch", "org.brandonplank.flappybird", "com.louisanslow.record", "org.scummvm.scummvm", "com.osy86.UTM", "net.namedfork.minivmac", "com.dry05.filzaescaped11-12", "com.wh0ba.xpatcher"]
+        "ids": ["net.nerd.iNDS", "com.example.mame4ios", "science.xnu.undecimus", "ru.nonamedude.iTorrent", "com.rileytestut.GBA4iOS", "com.provenance-emu.provenance", "net.hollr.Provenance4", "com.libretro.dist.ios.RetroArch", "org.brandonplank.flappybird", "com.louisanslow.record", "org.scummvm.scummvm", "com.osy86.UTM", "net.namedfork.minivmac", "com.dry05.filzaescaped11-12", "com.wh0ba.xpatcher", "com.virtualapplications.play"]
     },
     {
         "url": "https://theodyssey.dev/altstore/odysseysource.json",
