@@ -17,6 +17,10 @@ sourcesData = [
     {
         "url": "https://theodyssey.dev/altstore/odysseysource.json",
         "ids": ["org.coolstar.odyssey"]
+    },
+    {
+        "url": "https://alt.getutm.app",
+        "ids": ["com.utmapp.UTM"]
     }
 ]
 alternateAppData = {
