@@ -1,0 +1,40 @@
+name: Update sources
+
+on:
+  schedule:
+    - cron:  '55 * * * *'
+
+jobs:
+  run:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+    - name: Install packages
+      run: |
+        pip install requests
+    - name: Run python scripts
+      run: |
+        python update.py
+    - name: Commit files
+      id: commit
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add --all
+        if [ -z "$(git status --porcelain)" ]; then
+           echo "::set-output name=push::false"
+        else
+           git commit -m "Auto-Update sources" -a
+           echo "::set-output name=push::true"
+        fi
+      shell: bash
+    - name: Push changes
+      if: steps.commit.outputs.push == 'true'
+      uses: ad-m/github-push-action@main
+      with:
+         github_token: ${{ secrets.GITHUB_TOKEN }}
