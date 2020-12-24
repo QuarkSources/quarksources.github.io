@@ -759,14 +759,14 @@
       "bundleIdentifier": "com.Lema.Michael.InstagramApp",
       "developerName": "Michael Lema",
       "subtitle": "A powerful tweaked version of Instagram.",
-      "version": "158.0",
+      "version": "167.0",
       "versionDate": "2020-09-07",
       "versionDescription": "Minor improvements.",
       "downloadURL": "https://dl.orangedox.com/quarklibrary/Instagram-Rhino/Instagram-Rhino.ipa?dl=1",
       "localizedDescription": "Instagram Rhino is tweaked version of the popular Instagram app. It adds all the features you've wanted, and more.",
       "iconURL": "https://i.imgur.com/i5M0PEk.png",
       "tintColor": "#16c54f",
-      "size": 79346746,
+      "size": 64923971,
       "permissions": [
         {
           "type": "photos",
