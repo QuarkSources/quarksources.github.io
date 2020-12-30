@@ -37,7 +37,7 @@ alternateAppData = {
     }
 }
 
-altSourceParser.combineSources("quantumsource.json", sourcesData, alternateAppData)
+altSourceParser.combineSources("quantumsource.json", sourcesData, alternateAppData, prettify=False) # if prettify is true, output will have indents and newlines
 
 sourcesData = [
     {
@@ -68,3 +68,20 @@ alternateAppData = {
 }
 
 altSourceParser.combineSources("altstore-complete.json", sourcesData, alternateAppData)
+
+sourcesData = [
+    {
+        "url": "https://quarksources.github.io/quarksource%2B%2B.json",
+        "ids": ["com.google.ios.youtube", "com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "com.spotify.client", "com.atebits.Tweetie2", "syto203.reddit.pp", "com.FaizanDurrani.Paperback", "com.antique.Popcorn-iOS", "mediaboxhd.event.2", "comicreader.net.ios", "com.channelsapp.channels", "com.burbn.instagram", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp"]
+    },
+    {
+        "url": "https://quarksources.github.io/quarksource-cracked.json",
+        "ids": ["com.grailr.CARROTweather", "com.wolframalpha.wolframalpha", "com.firecore.infuse", "com.stey", "com.luma-touch.LumaFusion"]
+    },
+    {
+        "url": "https://9ani.app/api/altstore",
+        "ids": ["com.marcuszhou.NineAnimator"]
+    }
+]
+
+altSourceParser.combineSources("quantumsource++.json", sourcesData)
