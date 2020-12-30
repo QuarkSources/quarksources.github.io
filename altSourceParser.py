@@ -65,7 +65,7 @@ def combineSourcesV1(fileName: str, primarySource: dict, sourcesData: list, alte
         json.dump(primarySource, file)
         print(primarySource["name"] + " successfully updated.")
 
-def combineSources(fileName: str, sourcesData: list, alternateAppData: dict = None):
+def combineSources(fileName: str, sourcesData: list, alternateAppData: dict = None, prettify: bool = False):
     primarySource: dict = {}
     with open(fileName, "r") as file:
         primarySource = json.load(file)
@@ -101,11 +101,11 @@ def combineSources(fileName: str, sourcesData: list, alternateAppData: dict = No
                         primarySource["news"].append(article)
 
         except Exception as e:
-            raise(e)
             print("Error parsing source: " + data["url"] + "\n" + str(e) + "\nUpdates to this source will not be processed.")
             continue
 
     # Should probably do some evaluating to see if there were actually any changes made.
     with open(fileName, "w") as file:
-        json.dump(primarySource, file)
+        json.dump(primarySource, file, indent = 2 if prettify else None)
+        file.write("\n") # add missing newline to EOF
         print(primarySource["name"] + " successfully updated.")
