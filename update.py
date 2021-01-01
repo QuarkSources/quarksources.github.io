@@ -12,7 +12,7 @@ sourcesData = [
     },
     {
         "url": "https://quarksources.github.io/quarksource.json",
-        "ids": ["net.nerd.iNDS", "com.example.mame4ios", "science.xnu.undecimus", "ru.nonamedude.iTorrent", "com.rileytestut.GBA4iOS", "com.provenance-emu.provenance", "net.hollr.Provenance4", "com.libretro.dist.ios.RetroArch", "org.brandonplank.flappybird", "com.louisanslow.record", "org.scummvm.scummvm", "net.namedfork.minivmac", "com.dry05.filzaescaped11-12", "com.wh0ba.xpatcher", "com.virtualapplications.play"]
+        "ids": ["net.nerd.iNDS", "com.example.mame4ios", "science.xnu.undecimus", "ru.nonamedude.iTorrent", "com.provenance-emu.provenance", "net.hollr.Provenance4", "com.libretro.dist.ios.RetroArch", "org.brandonplank.flappybird", "com.louisanslow.record", "org.scummvm.scummvm", "net.namedfork.minivmac", "com.dry05.filzaescaped11-12", "com.wh0ba.xpatcher", "com.virtualapplications.play"]
     },
     {
         "url": "https://theodyssey.dev/altstore/odysseysource.json",
@@ -21,6 +21,10 @@ sourcesData = [
     {
         "url": "https://alt.getutm.app",
         "ids": ["com.utmapp.UTM"]
+    },
+    {
+        "url": "https://demo.altstore.io",
+        "ids": ["com.rileytestut.GBA4iOS"]
     }
 ]
 alternateAppData = {
@@ -34,6 +38,15 @@ alternateAppData = {
             "https://i.imgur.com/AFKTdmZ.png"
         ],
         "iconURL": "https://i.imgur.com/JP0Fncv.png"
+    },
+    "com.rileytestut.GBA4iOS": {
+        "iconURL": "https://i.imgur.com/SBrqO9g.png",
+        "screenshotURLs": [
+            "https://i.imgur.com/L4H0yM3.png",
+            "https://i.imgur.com/UPGYLVr.png",
+            "https://i.imgur.com/sWpUAii.png",
+            "https://i.imgur.com/UwnDXRc.png"
+          ]
     }
 }
 
