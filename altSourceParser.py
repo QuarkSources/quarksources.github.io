@@ -15,6 +15,14 @@ def parseAltSourceNews(src: dict, ids: list = None) -> list:
             news.append(article)
     return news
 
+def validApp(app: dict) -> bool:
+    # TODO
+    return True
+
+def validNews(article: dict) -> bool:
+    # TODO
+    return True
+
 def alterAppInfo(apps: list, altAppData: dict) -> list:
     for i in range(len(apps)):
         bundleID = apps[i]["bundleIdentifier"]
@@ -29,41 +37,6 @@ def parseIdentifiers(lst: list, key: str) -> list:
     for item in lst:
         ids.append(item[key])
     return ids
-
-def combineSourcesV1(fileName: str, primarySource: dict, sourcesData: list, alternateAppData: dict = None):
-    apps = []
-    news = []
-    for data in sourcesData:
-        try:
-            response = requests.get(data["url"])
-            src = json.loads(response.text)
-        except Exception as e:
-            print("Error fetching source: " + data["url"] + "\n" + str(e) + "\nUsing existing data instead.")
-            with open(fileName, "r") as file:
-                src = json.load(file)
-            # This method still doesn't work quite right. If I turn them False, I might get less apps than intended. If I turn them True, I am guaranteed duplicate apps.
-            data["getAllApps"] = False
-            data["getAllNews"] = False
-        try:
-            # Parse apps first
-            readApps = parseAltSourceApps(src, None if data.get("getAllApps") else data["ids"])
-            if alternateAppData is not None:
-                readApps = alterAppInfo(readApps, alternateAppData)
-            apps.append(readApps)
-            # Then parse news if wanted
-            if not data.get("ignoreNews"):
-                news.append(parseAltSourceNews(src, None if data.get("getAllNews") else data["ids"]))
-        except Exception as e:
-            print("Error parsing source: " + data["url"] + "\n" + str(e) + "\nUpdate aborted.")
-            return
-
-    primarySource["apps"] = apps
-    primarySource["news"] = news
-
-    # Should probably do some evaluating to see if there were actually any changes made.
-    with open(fileName, "w") as file:
-        json.dump(primarySource, file)
-        print(primarySource["name"] + " successfully updated.")
 
 def combineSources(fileName: str, sourcesData: list, alternateAppData: dict = None, prettify: bool = False):
     primarySource: dict = {}
@@ -85,6 +58,9 @@ def combineSources(fileName: str, sourcesData: list, alternateAppData: dict = No
                 readApps = alterAppInfo(readApps, alternateAppData)
             # Insert each app into the correct location: Either the position of the existing app with matching bundleID, or add to the end of the list
             for app in readApps:
+                # Validate app to make sure all required arguments are found
+                if not validApp(app):
+                    continue
                 bundleID = app["bundleIdentifier"]
                 if bundleID in existingAppIDs:
                     primarySource["apps"][existingAppIDs.index(bundleID)] = app # overwrite existing application
@@ -94,6 +70,8 @@ def combineSources(fileName: str, sourcesData: list, alternateAppData: dict = No
             if not data.get("ignoreNews"):
                 readNews = parseAltSourceNews(src, None if data.get("getAllNews") else data["ids"])
                 for article in readNews:
+                    if not validNews(article):
+                        continue
                     newsID = article["identifier"]
                     if newsID in existingNewsIDs:
                         primarySource["news"][existingNewsIDs.index(newsID)] = article # overwrite existing application
