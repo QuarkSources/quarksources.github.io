@@ -3,8 +3,10 @@ import altSourceParser
 sourcesData = [
     {
         "url": "https://techmunchies.net/.netlify/functions/altstore",
-        "ids": ["org.ppsspp.ppsspp"],
-        "ignoreNews": True
+        "ids": ["org.ppsspp.ppsspp"], # Optional: Loads only the apps and news with an id (or appID in case of news) listed here. If missing or set to None, all apps and news will be loaded
+        "ignoreNews": True, # Optional: Overrides everything else to prevent loading the news
+        "getAllNews": False, # Optional: You can get all news regardless of ids
+        "getAllApps": False # Optional: You can also get all apps regardless of ids, although not recommended
     },
     {
         "url": "https://altstore.oatmealdome.me",
@@ -50,14 +52,13 @@ alternateAppData = {
     }
 }
 
-altSourceParser.combineSources("quantumsource.json", sourcesData, alternateAppData, prettify=False) # if prettify is true, output will have indents and newlines
+altSourceParser.updateFromSources("quantumsource.json", sourcesData, alternateAppData, prettify=False) # if prettify is true, output will have indents and newlines
 
 sourcesData = [
     {
         "url": "https://apps.altstore.io",
         "ids": ["com.rileytestut.AltStore", "com.rileytestut.AltStore.Beta", "com.rileytestut.Delta", "com.rileytestut.Delta.Beta", "com.rileytestut.Clip", "com.rileytestut.Clip.Beta"],
-        "getAllNews": True,
-        "getAllApps": False # This is also an option, although not recommended
+        "getAllNews": True
     },
     {
         "url": "https://alpha.altstore.io",
@@ -80,7 +81,7 @@ alternateAppData = {
     }
 }
 
-altSourceParser.combineSources("altstore-complete.json", sourcesData, alternateAppData)
+altSourceParser.updateFromSources("altstore-complete.json", sourcesData, alternateAppData)
 
 sourcesData = [
     {
@@ -97,4 +98,4 @@ sourcesData = [
     }
 ]
 
-altSourceParser.combineSources("quantumsource++.json", sourcesData)
+altSourceParser.updateFromSources("quantumsource++.json", sourcesData)
