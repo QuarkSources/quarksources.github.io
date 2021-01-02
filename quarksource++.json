@@ -509,13 +509,13 @@
       "developerName": "Antique",
       "subtitle": "The new and improved successor to PopcornTime!",
       "version": "3.0",
-      "versionDate": "2020-12-10",
-      "versionDescription": "Updated to v3.0.0.6\n• Streaming improvements",
+      "versionDate": "2020-12-23",
+      "versionDescription": "Updated to v3.0.0.8\n• Fixed all that crashing",
       "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Popcorn.ipa",
       "localizedDescription": "Popcorn uses online torrents to find and stream brand-new movies and TV shows for free.\n\nUseful features include:\n\n• Finds the best torrents automatically\n• Awesome catalog of movies and shows - if it's out there, you can find it\n• No restrictions, subscriptions or ads\n• The ability to select the quality and subtitles\n• Instant streaming or downloads\n• Trakt.tv scrobbling and watchlist syncing\n\nIf you want to know more about how PopcornTime works, visit the FAQ: https://popcorntime.app/faq",
-      "iconURL": "https://i.imgur.com/J6BnjkF.png",
+      "iconURL": "https://i.imgur.com/nylwVXe.png",
       "tintColor": "#495bb9",
-      "size": 50138355,
+      "size": 50074999,
       "permissions": [
         {
           "type": "background-audio",
@@ -523,7 +523,9 @@
         }
       ],
       "screenshotURLs": [
-
+        "https://i.imgur.com/DO8SanA.png",
+        "https://i.imgur.com/YdHBjWL.png",
+        "https://i.imgur.com/4vQu8JA.png"
       ]
     },
     {
