@@ -86,7 +86,7 @@ altSourceParser.updateFromSources("altstore-complete.json", sourcesData, alterna
 sourcesData = [
     {
         "url": "https://quarksources.github.io/quarksource%2B%2B.json",
-        "ids": ["com.google.ios.youtube", "com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "com.spotify.client", "com.atebits.Tweetie2", "syto203.reddit.pp", "com.FaizanDurrani.Paperback", "com.antique.Popcorn-iOS", "mediaboxhd.event.2", "comicreader.net.ios", "com.channelsapp.channels", "com.burbn.instagram", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp"]
+        "ids": ["com.google.ios.youtube", "com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "com.spotify.client", "com.atebits.Tweetie2", "syto203.reddit.pp", "com.FaizanDurrani.Paperback", "com.antique.Popcorn-iOS", "mediaboxhd.event.2", "comicreader.net.ios", "com.channelsapp.channels", "com.burbn.instagram", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp", "com.hotdog.popcorntime81.ios"]
     },
     {
         "url": "https://quarksources.github.io/quarksource-cracked.json",
