@@ -1,0 +1,81 @@
+.jumbotron {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 5.5rem;
+  }
+}
+
+/* SOCIAL MEDIA LINKS
+/* Shoutout to http://ianlunn.github.io/Hover/ for link hover tricks
+------------------------------------------------------------------- */
+
+.social {
+  margin-bottom: 0.25rem;
+}
+.social a {
+  font-size: 1.5rem;
+  margin: 0.25rem 0.5rem;
+  color: #999999;
+  text-decoration: none;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.social a:hover {
+  color: #BBBBBB;
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+/* Declare heights because of positioning of img element */
+.card-img {
+  min-width: 100%;
+  height: 18rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
