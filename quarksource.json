@@ -1,0 +1,604 @@
+{
+	"name": "Quark Source",
+	"identifier": "com.quarksources.quarksource",
+	"sourceURL": "https://quarksources.github.io/quarksource.json",
+	"sourceIconURL": "https://quarksources.github.io/assets/ElementQ.png",
+	"apps": [
+		{
+			"name": "iNDS",
+			"bundleIdentifier": "net.nerd.iNDS",
+			"developerName": "iNDS Team",
+			"subtitle": "Revival of the Nintendo DS emulator for iOS.",
+			"version": "1.10.7",
+			"versionDate": "2020-02-10",
+			"versionDescription": "Version 1.10.7 adds better support for Dark Mode on iOS, thus fixing #129 and #148. Additionally, landscape mode support for modern iPhones (after iPhone X) was improved, fixing #153. Additionally, a bug was fixed in which the status bar would appear in-game and not be dismissable.",
+			"downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/iNDS.ipa",
+			"localizedDescription": "iNDS is a derivation of the previous Nintendo DS emulator apps for iOS: nds4ios and Nitrogen. The iNDS Team release of iNDS is a fork of the original iNDS emulator by William Cobb. The iNDS Team aims to create a version that is driven by support from the community, adding trusted contributors to the team over time so that pull requests and issues do not sit untouched.\n\nCurrently, emulation is powered by the DeSmuME threaded ARM interpreter and runs at nearly full speed on the iPhone 5 and above. Due to the need to mmap the entire ROM into memory, older devices with only 256MB of RAM are not supported. These devices include the iPod Touch 4, iPad 1, iPhone 3GS, and anything below those devices.",
+			"iconURL": "https://i.imgur.com/DbWJeF8.png",
+			"tintColor": "#fc2125",
+			"size": 857669,
+			"permissions": [
+				{
+				"type": "photos",
+				"usageDescription": "Allows iNDS to use images from your Photo Library as game artwork."
+				}
+			],
+			"screenshotURLs": [
+				"https://i.imgur.com/ap8Er1K.png",
+				"https://i.imgur.com/EgfrobI.png",
+				"https://i.imgur.com/9gLwHGD.png"
+			]
+		},
+		{
+			"name": "iDOS",
+			"bundleIdentifier": "com.litchie.idosgames",
+			"developerName": "litchie",
+			"subtitle": "Play DOS games on iOS.",
+			"version": "2.1",
+			"versionDate": "2020-10-20",
+			"versionDescription": "- Support Mfi game controllers\n- Support external bluetooth keyboard (Text input only).\nYou can use Command-1, Command-2 .. for function keys.",
+			"downloadURL": "https://github.com/litchie/dospad/releases/download/2.1/iDOS.ipa",
+			"localizedDescription": "Play classic DOS games on your iPhone and iPad!\n\niDOS turns your device right into a powerful DOS gaming PC, with modern game control to make your old favorites as playable as possible.\n\nYou can also use iDOS for non-gaming purposes, such as word processing, casual programming. Apps in the DOS days are often simpler and surprisingly productive.\n\nKEYBOARD\n\niDOS provides a PC compatible on-screen keyboard with carefully designed layouts for different devices and orientations. The keyboard has a sliding control in landscape mode so that you can keep it from covering critical part of the screen.\n\nBluetooth keyboard is partially supported. We support ESC, function keys, and ordinary CTRL and ALT key bindings. Unfortunately the arrow keys can't be used for game control. You should use a bluetooth game controller instead.\n\nGAMEPAD\n\niDOS provides a virtual gamepad with key bindings that are fairly common in DOS games. You can customize the bindings. The DPAD works in 8-axis way. It can also be toggled into a joystick.\n\nExternal bluetooth game controllers are supported. Make sure your game controller is connected (System Settings->Bluetooth). To customize button bindings, go to iDOS in landscape mode, tap on bluetooth icon on the auto-hiding top bar.\n\nMOUSE\n\n* The screen area serves as a trackpad for moving mouse pointer.\n* Tap on the screen for left click. If direct touch is enabled, the mouse pointer will move to where you tap.\n* Hold one finger on the screen, and tap with another finger for right click.\n* On-screen mouse buttons are also provided for your convenience.\n* Bluetooth mice are only partially supported.\n\nSUPPORT\n\n- Visit https://litchie.com/dospad for more information.\n- Send email to idos@litchie.com\n- Follow the developer on Twitter: https://twitter.com/litchiedev\n- iDOS is open source, report issues on https://github.com/litchie/dospad",
+			"iconURL": "https://i.imgur.com/Yah6zFk.png",
+			"tintColor": "#042eef",
+			"size": 5704322,
+			"screenshotURLs": [
+				"https://i.imgur.com/hRMA2Zr.png",
+				"https://i.imgur.com/gvhvQpo.png",
+				"https://i.imgur.com/NHOE1ba.png",
+				"https://i.imgur.com/eBEqmnt.png"
+			]
+		},
+		{
+			"name": "MAME4iOS",
+			"bundleIdentifier": "com.example.mame4ios",
+			"developerName": "yoshisuga",
+			"subtitle": "A MAME Arcade emulator for iOS.",
+			"version": "2021.02",
+			"versionDate": "2021-01-30",
+			"versionDescription": "Fix for dynamic recompile core setting for games like Killer Instinct.",
+			"downloadURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2021.2/MAME4iOS-2021.2.ipa",
+			"localizedDescription": "MAME stands for Multi Arcade Machine Emulator. This app lets you play arcade games from the past 30+ years on your iPhone, iPad, macOS, or AppleTV.\n\nMore than 2000 games are supported, and the currently supported romset version is MAME 0.139u1 (September 2010).\n\nOther nifty features include:\n* 64-bit binary to run on modern and future iOS devices\n* Supports modern device screen sizes, including iPhone X/XR/XS/XS Max and iPad Pro\n* A native iOS/iPadOS/tvOS frontend (by @ToddLa, new in 2020!)\n* A native Metal rendering engine (by @ToddLa, new in 2020!)\n* tvOS support (new in 2019!)\n* An in-app web server to transfer files from your computer (new in 2019!)\n* Transfer ROMs, Artwork, and ROMSETs via AirDrop or iOS File Sharing (new in 2020!)\n* Multiple MFI controllers (up to 4 with dual analog support - @DarrenBranford)\n* Supports using the touch screen as a lightgun\n* Turbo mode toggle for buttons\n* Touch analog for games like Arkanoid\n* Builds in Xcode 11.x/12.x and runs on latest iOS 13/14 versions",
+			"iconURL": "https://i.imgur.com/gZCjhLl.png",
+			"tintColor": "#51bacc",
+			"size": 25787513,
+			"permissions": [
+				{
+				"type": "bluetooth",
+				"usageDescription": "We need bluetooth for peer play and steam controllers."
+				}
+			],
+			"screenshotURLs": [
+				"https://i.imgur.com/0JkUpEA.png",
+				"https://i.imgur.com/UJXiIUM.png"
+			]
+		},
+		{
+			"name": "unc0ver",
+			"bundleIdentifier": "science.xnu.undecimus",
+			"developerName": "Pwn20wnd",
+			"subtitle": "The most advanced jailbreak tool.",
+			"version": "6.1.1",
+			"versionDate": "2021-03-05",
+			"versionDescription": "More bug fixes.",
+			"downloadURL": "https://unc0ver.dev/downloads/6.1.1/decf7c36cc08118dc83ba455f8ca42e0e3cf354c/unc0ver_Release_6.1.1.ipa",
+			"localizedDescription": "unc0ver is an advanced jailbreaking tool for iOS devices. Jailbreaking with unc0ver unlocks the true power of your iDevice. Customize the appearance of your device, gain full control over how your device operates, obtain access to hidden features of iOS, and more.\n\nCompatibility:\n* unc0ver supports iOS 11.0 through to iOS 14.3 (Excluding 13.5.1 and 13.3.1)\n\nStability:\n* Utilizing the latest stable APT and Mobile Substrate, stability is guaranteed.\n\nSecurity:\n* Utilizing native system sandbox exceptions, security remains intact while enabling access to jailbreak files.",
+			"iconURL": "https://i.imgur.com/5aehDxj.png",
+			"tintColor": "#101216",
+			"size": 58649301,
+			"screenshotURLs": [
+				"https://i.imgur.com/ItMaRRV.png",
+				"https://i.imgur.com/bjzyqpY.png",
+				"https://i.imgur.com/3TMGkaO.png",
+				"https://i.imgur.com/gTYfncm.png"
+			]
+		},
+		{
+      "name": "Chimera",
+      "bundleIdentifier": "com.electrateam.chimera",
+      "developerName": "Electra Team",
+      "subtitle": "A jailbreak tool for iOS 12.",
+      "version": "1.5.1",
+      "versionDate": "2020-12-02",
+      "versionDescription": "Bug fixes and small improvements.",
+      "downloadURL": "https://github.com/coolstar/electra-ipas/raw/master/chimera/1.5.1-12.2-12.4.ipa",
+      "localizedDescription": "Full-fledged\n\nChimera is the first true iOS 12 jailbreak to not only feature a CoreTrust bypass so that binaries don't need to be resigned, but to also support A12 devices, including iPhone Xs, iPhone Xr, and the newest iPads. Chimera doesn't tamper with user files, making it safer than alternatives.\n\nStable\n\nWe've rewritten Chimera from the ground up to ensure that there's no battery drain, freezing, or crashing. There's simply nothing else like it, and we can't wait for you to see for yourself\n\nModern\n\nChimera comes with a modern package manager, Sileo, featuring a UI made to fit iOS, and packed full of features and speed enhancements to make installing packages a breeze. Rather than sticking to tools built decades ago, it ships with modern system tools designed to take advantage wherever possible.\n\nNOTE: This version of Chimera is only compatible with iOS 12.2 to 12.4.9",
+      "iconURL": "https://i.imgur.com/u5xbsHv.png",
+      "tintColor": "#33a597",
+      "size": 30733890,
+      "screenshotURLs": [
+				"https://i.imgur.com/3D3PtjZ.png",
+				"https://i.imgur.com/JzbNTwR.png",
+				"https://i.imgur.com/cjRJw7x.png"
+      ]
+    },
+		{
+      "name": "iTorrent",
+      "bundleIdentifier": "ru.nonamedude.iTorrent",
+      "developerName": "XITRIX",
+      "subtitle": "Ordinary iOS torrent client app.",
+      "version": "1.8.3",
+      "versionDate": "2020-09-20",
+      "versionDescription": "What's new:\n\n• Text accessibility support added\n• Huge backend refactoring\n• Libtorrent updated to 1.2.9\n• Minor UI improvements\n• Many bugs fixed (possibly new ones added)",
+      "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.8.3/iTorrent.ipa",
+      "localizedDescription": "iTorrent is an ordinary torrent client for iOS with Files app support.\n\nWhat can this app do:\n\n• Download in the background\n• Sequential download (use VLC to watch films while loading)\n• Add torrent files from Share menu (Safari and other apps)\n• Add magnet links directly from Safari\n• Store files in Files app (iOS 11+)\n• File sharing directly from app\n• Download torrent by link\n• Download torrent by magnet\n• Send notification on torrent downloaded\n• FTP Server (unstable)\n• Select files to download or not\n• Change UI to dark theme\n\nNow supporting these localizations:\n• English\n• Russian\n• Turkish",
+      "iconURL": "https://i.imgur.com/C3KwMP5.png",
+      "tintColor": "#e32b3c",
+      "size": 21218913,
+			"permissions": [
+				{
+					"type": "photos",
+					"usageDescription": "Allows iTorrent to save files to Photos app."
+				}
+			],
+      "screenshotURLs": [
+        "https://i.imgur.com/0o7qou3.png",
+        "https://i.imgur.com/sO510zC.png",
+        "https://i.imgur.com/MQPWxYz.png",
+				"https://i.imgur.com/xTAo5uE.png"
+      ]
+    },
+		{
+      "name": "GBA4iOS",
+      "bundleIdentifier": "com.rileytestut.GBA4iOS",
+      "developerName": "Riley Testut",
+      "subtitle": "Game Boy games in your pocket.",
+      "version": "2.1",
+      "versionDate": "2020-03-24",
+      "versionDescription": "Initial AltStore release!",
+			"downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/GBA4iOS.ipa",
+      "localizedDescription": "Classic Gaming, Meet iOS.\n\nWhile iPhone and iOS have brought a new era of gaming upon us, there will always be room in our hearts for those classic games from decades ago. Unfortunately, there has been no easy way for people to play these games whenever they so desired...that is, until now. GBA4iOS was made for one purpose and one purpose only: to help everyone relive their favorite games from their past. Now, every where you take your iPhone, iPad, or iPod Touch, you can bring and play your classic games with you, giving you practically endless hours of entertainment!\n\nSo that's great and all, but what features does GBA4iOS actually have? Far too many to list in one App Store description, but here are some of the biggest:\n\n• Multiplayer (iPhone 5 or newer, iPad 4 or newer). GBA4iOS allows you to link with other players nearby and play with them, allowing you to unlock or experience certain events in games that are unavailable to just one player! Plus, nothing is cooler than playing games with your friends.\n\n• Save States. Ever get frustrated when a game requires you to save only at certain points? Well be frustrated no longer, GBA4iOS fully supports Save States, allowing you to save anywhere in the game and resume right from that point later. Even better, you can protect certain save states so you never accidentally overwrite them (and as everyone knows losing game data is one of the worst things in the world).\n\n• Cheat Codes. Sometimes games are just too hard, and you need a little boost to help defeat it. GBA4iOS allows you to input and use GameShark, Action Replay, Code Breaker, and Game Genie codes as you see fit. Don't worry, we won't judge!\n\n• Fast Forward (iPhone 4s or newer, iPad 2 or newer, iPod Touch 5th Gen). Don't you wish there was a way to speed up long cutscenes in games, or to reduce the time doing boring tasks in the game? Well, now there is! GBA4iOS allows you to \"Fast Forward\" through slow parts of the game, allowing you to get back to the fun even quicker.\n\n• Customizable Controller Skins. Want to change the look of the controller to something more personal? No worries, you can download a multitude of new controller skins from within the app, or download almost countless more from the web! You'll definitely be able to find a controller skin you like.\n\n• Dropbox Sync. Have multiple devices, or worried something will happen to your games? Dropbox Sync solves both these issues! When enabled, GBA4iOS will sync your game saves, save states, and cheat codes to Dropbox, keeping any and all your devices up to date with your latest changes. Plus, this means your game data is always backed up in the cloud, so if something happens to your device, your data is safe.\n\n• MFi Controller Support. Sometimes, touchscreen buttons just aren't good enough for the level of precision needed by some games. Luckily, GBA4iOS supports MFi Controllers, allowing you to connect and use physical controllers with your games! Now you can beat that final boss without a sweat.\n\nAll this and more ensures that GBA4iOS will give you the best portable gaming experience, hands down. So what are you waiting for, download GBA4iOS now and enjoy reliving your favorite classic games immediately!",
+      "iconURL": "https://i.imgur.com/SBrqO9g.png",
+      "tintColor": "#78209d",
+      "size": 7924507,
+      "screenshotURLs": [
+        "https://i.imgur.com/L4H0yM3.png",
+        "https://i.imgur.com/UPGYLVr.png",
+        "https://i.imgur.com/sWpUAii.png",
+        "https://i.imgur.com/UwnDXRc.png"
+      ]
+    },
+		{
+      "name": "Provenance",
+      "bundleIdentifier": "com.provenance-emu.provenance",
+      "developerName": "Provenance Emu",
+      "subtitle": "Multi-emulator frontend with dozens of console systems.",
+      "version": "1.4",
+      "versionDate": "2018-03-13",
+      "versionDescription": "New Features:\n\n• PlayStation core\n• Pokémon mini core\n• Virtual Boy core\n• Atari 7800 & Lynx core\n• Neo Geo Pocket / Neo Geo Pocket Color core\n• PC Engine / TurboGrafx-16 (CD) core\n• SuperGrafx core\n• PC-FX core\n• WonderSwan core\n• CRT Shader\n\nImprovements\n\n• Importer improvements (MD5 matching and performance improvements)\n\nHuge thanks to @JoeMatt, @leolobato, @braindx and everyone else who contributed.",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Provenance.ipa",
+      "localizedDescription": "Provenance is a multi-system emulator frontend for a plethora of retro gaming systems. You can keep all your games in one place, display them with cover art, and play to your heart's content.\n\nSystems Supported:\n\n• Atari\n  - 2600\n  - 5200\n  - 7800\n  - Lynx\n  - Jaguar\n• Bandai\n  - WonderSwan / WonderSwan Color\n• NEC\n  - PC Engine / TurboGrafx-16 (PCE/TG16)\n  - PC Engine Super CD-ROM² System / TurboGrafx-CD\n  - PC Engine SuperGrafx\n  - PC-FX\n• Nintendo\n  - Nintendo Entertainment System / Famicom (NES/FC)\n  - Famicom Disk System\n  - Super Nintendo Entertainment System / Super Famicom (SNES/SFC)\n  - Game Boy / Game Boy Color (GB/GBC)\n  - Virtual Boy\n  - Game Boy Advance (GBA)\n  - Pokémon mini\n• Sega\n  - SG-1000\n  - Master System\n  - Genesis / Mega Drive\n  - Game Gear\n  - CD / MegaCD\n  - 32X\n• SNK\n  - Neo Geo Pocket / Neo Geo Pocket Color\n• Sony\n  - PlayStation (PSX/PS1)",
+      "iconURL": "https://i.imgur.com/aI4CJuT.png",
+      "tintColor": "#1c7cf3",
+      "size": 23184304,
+			"permissions": [
+				{
+				"type": "photos",
+				"usageDescription": "Used for album artwork. Provenance can set custom artworks from your photos and save screenshots to your photos library."
+				}
+			],
+      "screenshotURLs": [
+        "https://i.imgur.com/riy0e5N.png",
+        "https://i.imgur.com/kxuHOLQ.png",
+        "https://i.imgur.com/TtoHROM.png"
+      ]
+    },
+		{
+      "name": "Provenance Beta",
+      "bundleIdentifier": "net.hollr.Provenance4",
+      "developerName": "Provenance Emu",
+      "subtitle": "Now with Beta N64 support!",
+      "version": "1.5",
+      "versionDate": "2019-02-21",
+      "versionDescription": "New Features:\n\n• N64 Core\n• Minor UI Improvements",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Provenance-Beta.ipa",
+      "localizedDescription": "Provenance is a multi-system emulator frontend for a plethora of retro gaming systems. You can keep all your games in one place, display them with cover art, and play to your heart's content.\n\nSystems Supported:\n\n• Atari\n  - 2600\n  - 5200\n  - 7800\n  - Lynx\n  - Jaguar\n• Bandai\n  - WonderSwan / WonderSwan Color\n• NEC\n  - PC Engine / TurboGrafx-16 (PCE/TG16)\n  - PC Engine Super CD-ROM² System / TurboGrafx-CD\n  - PC Engine SuperGrafx\n  - PC-FX\n• Nintendo\n  - Nintendo Entertainment System / Famicom (NES/FC)\n  - Famicom Disk System\n  - Super Nintendo Entertainment System / Super Famicom (SNES/SFC)\n  - Game Boy / Game Boy Color (GB/GBC)\n  - Virtual Boy\n  - Nintendo 64 (N64)\n  - Game Boy Advance (GBA)\n  - Pokémon mini\n• Sega\n  - SG-1000\n  - Master System\n  - Genesis / Mega Drive\n  - Game Gear\n  - CD / MegaCD\n  - 32X\n• SNK\n  - Neo Geo Pocket / Neo Geo Pocket Color\n• Sony\n  - PlayStation (PSX/PS1)",
+      "iconURL": "https://i.imgur.com/syyL2oS.png",
+      "tintColor": "#1c7cf3",
+      "size": 47228179,
+			"permissions": [
+				{
+					"type": "photos",
+					"usageDescription": "Used for album artwork. Provenance can set custom artworks from your photos and save screenshots to your photos library."
+				}
+			],
+      "screenshotURLs": [
+        "https://i.imgur.com/Mr5AQBT.png",
+        "https://i.imgur.com/Pk2h0II.png",
+        "https://i.imgur.com/Fkg2IOK.png"
+      ]
+    },
+		{
+      "name": "PPSSPP",
+      "bundleIdentifier": "com.inj.ppsspp",
+      "developerName": "PPSSPP Team",
+      "subtitle": "PlayStation Portable games on iOS.",
+      "version": "1.0",
+      "versionDate": "2019-10-06",
+      "versionDescription": "1.9.3\nBug fixes.",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/PPSSPP.ipa",
+      "localizedDescription": "PPSSPP allows you to play PSP games on your iOS devices.\n\nEnhance your experience!\n• Play in HD resolutions and greater\n• Play on a tablet for big-screen mobile gaming\n• Customize on-screen touch controls or use an external controller or a keyboard\n• Save and restore game state anywhere, anytime\n• Crank up the anisotropic filtering and texture scaling\n• Continue where you left off by transferring saves from your real PSP",
+      "iconURL": "https://i.imgur.com/JP0Fncv.png",
+      "tintColor": "#21486b",
+      "size": 18536809,
+      "screenshotURLs": [
+				"https://i.imgur.com/CWl6GgH.png",
+        "https://i.imgur.com/SxmN1M0.png",
+				"https://i.imgur.com/sGWgR6z.png",
+        "https://i.imgur.com/AFKTdmZ.png"
+      ]
+    },
+		{
+      "name": "DolphiniOS",
+      "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb",
+      "developerName": "OatmealDome",
+      "subtitle": "GameCube and Wii games now on iOS.",
+      "version": "3.1.0",
+      "versionDate": "2020-10-03",
+      "versionDescription": "iOS 13.7 and below devices are now supported. More features from PC Dolphin were added.\n\nFind the full changelog here: https://oatmealdome.me/blog/dolphinios-ver-3-1-0/",
+      "localizedDescription": "DolphiniOS is a port of the popular GameCube and Wii emulator to iOS. Dolphin lets you play your favorite GameCube and Wii games with various enhancements like higher resolutions, save states, and more. You can even play all of Nintendo's classics from past consoles through the Wii's Virtual Console library.\n\nPlease note that devices with A8 processors and older are not compatible and this app is only fully compatible with iOS 13.4.1 and below. Shoutout to the Psychic Paper exploit for making this app possible on jailed devices.\n\nOther versions of iOS 13 will work using the p-trace JIT bug, but will be slower since we cannot activate FastMem.",
+			"downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/DolphiniOS.ipa",
+      "iconURL": "https://i.imgur.com/Wx8AybE.png",
+      "tintColor": "#40cbff",
+      "size": 81189688,
+			"permissions": [
+				{
+					"type": "motion",
+					"usageDescription": "DolphiniOS uses your device's accelerometer and gyroscope to emulate the Wii Remote's built-in accelerometer and gyroscope."
+				}
+			],
+      "screenshotURLs": [
+				"https://i.imgur.com/U2wsr48.png",
+        "https://i.imgur.com/MAaO6MC.png",
+				"https://i.imgur.com/Nbhv1ij.png",
+        "https://i.imgur.com/lNjwJZZ.png"
+      ]
+    },
+		{
+      "name": "RetroArch",
+      "bundleIdentifier": "com.libretro.dist.ios.RetroArch",
+      "developerName": "libretro",
+      "subtitle": "Cross-platform, sophisticated frontend for emulation.",
+      "version": "1.9.0",
+      "versionDate": "2020-08-07",
+      "versionDescription": "Many bug fixes and quality of life improvements. See full changelog for details: https://github.com/libretro/RetroArch/blob/master/CHANGES.md",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/RetroArch.ipa",
+      "localizedDescription": "RetroArch is a frontend for a plethora of emulators. Almost every Retro console can be run using one of RetroArch's downloadable cores.\n\nThere are several ways to customize your experience by installing different themes, rearranging your touchscreen controls, and downloading game box art.\nRetroArch enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all.\n\nIn addition to this, you will soon be able to run original game discs (CDs) from RetroArch.\n\nRetroArch has advanced features like shaders, netplay, rewinding, next-frame response times, runahead, machine translation, blind accessibility features, and more!\n\nCheck out all of RetroArch's awesome features at our website: https://www.retroarch.com/",
+      "iconURL": "https://i.imgur.com/pqgVB0v.png",
+      "tintColor": "#000000",
+      "size": 255389680,
+      "screenshotURLs": [
+				"https://i.imgur.com/uv1x1c4.png",
+        "https://i.imgur.com/qJdyNl2.png",
+        "https://i.imgur.com/fijaR4n.png",
+				"https://i.imgur.com/B3J5zMB.png",
+        "https://i.imgur.com/4Mj77IY.png"
+      ]
+    },
+		{
+      "name": "Play!",
+      "bundleIdentifier": "com.virtualapplications.play",
+      "developerName": "Jean-Philip Desjardins",
+      "subtitle": "PlayStation 2 Games on iOS.",
+      "version": "0.35-44-gb365f4c1",
+      "versionDate": "2020-12-24",
+      "versionDescription": "Bug fixes.",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Play.ipa",
+      "localizedDescription": "Play! is a portable PlayStation2 emulator. The focus of the project is on making PlayStation2 emulation easy and accessible. Just pop in your favorite game's disc and have fun!\n\n• No BIOS required. Play! is an high-level emulator.\n• Easy configuration. No custom settings to fix specific games.\n• Available on many platforms, making sure the experience is the same quality everywhere.",
+      "iconURL": "https://i.imgur.com/NOi1cdl.png",
+      "tintColor": "#5f5fff",
+      "size": 910607,
+      "screenshotURLs": [
+
+      ]
+    },
+		{
+      "name": "Flappy Bird",
+      "bundleIdentifier": "org.brandonplank.flappybird",
+      "developerName": "Brandon Plank",
+      "subtitle": "A revival of the once popular game.",
+      "version": "3.8",
+      "versionDate": "2020-08-20",
+      "versionDescription": "* Fixed a crash that occurred on iOS < 13.0.\n* Fixed a crash specific to 32 bit devices.",
+      "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.8/org.brandonplank.flappybird.ipa",
+      "localizedDescription": "This Flappy Bird is a revival of the original Flappy Bird by Dong Nguyen. There are a many new features to enhance gameplay as well!\n\n• Tap to flap\n• Avoid the hitting the pipes\n• Flap for infinity!",
+      "iconURL": "https://i.imgur.com/tIUJeSs.png",
+      "tintColor": "#49cc48",
+      "size": 101445162,
+      "screenshotURLs": [
+				"https://i.imgur.com/nIq1VVv.png",
+				"https://i.imgur.com/TZBdg7M.png",
+				"https://i.imgur.com/41u9JUh.png"
+      ]
+    },
+		{
+			"name": "Rewound",
+			"bundleIdentifier": "com.louisanslow.record",
+			"developerName": "Louis Anslow",
+			"subtitle": "Turn your iPhone into an iPod. Classic.",
+			"version": "2019.7",
+			"versionDate": "2019-12-09",
+			"versionDescription": "Small fixes.",
+			"downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Rewound.ipa",
+			"localizedDescription": "Rewound uses your Apple Music library and displays it in the nostalgic style of an old spin-wheel iPod.",
+			"iconURL": "https://i.imgur.com/LfIRxqb.png",
+			"tintColor": "#9e968d",
+			"size": 5628716,
+			"permissions": [
+				{
+					"type": "music",
+					"usageDescription": "Rewound needs access to your music library to control your music."
+				}
+			],
+			"screenshotURLs": [
+				"https://i.imgur.com/IfLobOR.png",
+        "https://i.imgur.com/IJcJ6WG.png",
+        "https://i.imgur.com/dVjieD9.png",
+				"https://i.imgur.com/kmC3NtZ.png"
+			]
+		},
+		{
+      "name": "ScummVM",
+      "bundleIdentifier": "org.scummvm.scummvm",
+      "developerName": "ScummVM Team",
+      "subtitle": "Point and click adventures.",
+      "version": "2.2.0",
+      "versionDate": "2020-09-13",
+      "versionDescription": "Bug fixes.",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/ScummVM.ipa",
+      "localizedDescription": "ScummVM is a program which allows you to run certain classic graphical point-and-click adventure games and role-playing games, provided you already have their data files. The clever part about this: ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed!\n\nScummVM supports a huge library of adventures with over 250 games in total. It supports many classics published by legendary studios like LucasArts, Sierra On-Line, Revolution Software, Cyan, Inc. and Westwood Studios. Next to ground-breaking titles like the Monkey Island series, Broken Sword, Myst, Blade Runner and countless other games you will find some really obscure adventures and truly hidden gems to explore.",
+      "iconURL": "https://i.imgur.com/sSQhbwJ.png",
+      "tintColor": "#bf6a27",
+      "size": 57222372,
+      "screenshotURLs": [
+				"https://i.imgur.com/7BHTMT0.png",
+				"https://i.imgur.com/Fp24Isf.png",
+				"https://i.imgur.com/vD3UJfE.png"
+      ]
+    },
+		{
+      "name": "UTM",
+      "bundleIdentifier": "com.osy86.UTM",
+      "developerName": "osy86",
+      "subtitle": "Any OS, Anywhere.",
+      "version": "1.0",
+      "versionDate": "2020-06-19",
+      "versionDescription": "Happy WWDC! And the gold v1.0 is here!\n\nChanges\n\n• Improved contrast of buttons and spinner\n• Added pull-to-refresh on home screen\n• Fix alignment and display issues with activity indicator popup\n\nKnown Issues\n\nPlease check the full list on Github and help report any bug you find that is not listed.\n\nhttps://github.com/utmapp/UTM/issues",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/UTM.ipa",
+      "localizedDescription": "UTM is a full featured virtual machine host for iOS. In short, it allows you to run Windows, Android, and more on your iPhone and iPad. More information at https://getutm.app/\n\nFeatures:\n\n• Emulate any Processor\n30+ processors supported by qemu including x86_64, ARM64, and RISC-V\n• Run any Operating System\nWindows, Linux, and more natively and securely on iOS within an App\n• Fast Emulation\nPara-virtualization with SPICE and JIT compilation with TCG\n• High Compatibility\niOS 11+ supported. Works on iPhone and iPad. No jailbreak needed\n• Free and Open Source\nUTM and its dependencies are all free and open source\n• Easy to Use\nConfigure and customize your VM in a native UI",
+      "iconURL": "https://i.imgur.com/3a4ON34.png",
+      "tintColor": "#2044cd",
+      "size": 130602898,
+      "screenshotURLs": [
+				"https://i.imgur.com/FGLjgZI.png",
+				"https://i.imgur.com/9KLCpQU.png",
+				"https://i.imgur.com/78UfFzZ.png",
+				"https://i.imgur.com/XT0poQa.png",
+				"https://i.imgur.com/bG9lF4B.png",
+				"https://i.imgur.com/lTbMob7.png"
+      ]
+    },
+		{
+      "name": "Mini vMac",
+      "bundleIdentifier": "net.namedfork.minivmac",
+      "developerName": "Gryphel Project & zydeco",
+      "subtitle": "A miniature early Macintosh emulator.",
+      "version": "2.3.2",
+      "versionDate": "2020-06-23",
+      "versionDescription": "• Can now be sideloaded with AltStore (download the ipa file)\n• Support split screen multitasking on iPad OS\n• Added overlay showing gestures\n• Fixed handling of hardware mouse/trackpad when using trackpad mode\n• Minor adjustments to UI transitions",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Mini-vMac.ipa",
+      "localizedDescription": "Features\n\n• Emulates Mac Plus, Mac II or Mac 128K\n• Full simulated keyboard (including all Mac keys)\n• Full sound output\n• Uses external keyboard if available\n• Regulable emulation speed\n• Easy(ish) to import/export disk images\n\nPlease check out the github README for usage instructions: https://github.com/zydeco/minivmac4ios",
+      "iconURL": "https://i.imgur.com/MGxGvKR.png",
+      "tintColor": "#dd2b03",
+      "size": 4957348,
+			"permissions": [
+				{
+					"type": "background-audio",
+					"usageDescription": "This allows the application to continue running audio in the background."
+				}
+			],
+      "screenshotURLs": [
+      ]
+    },
+		{
+      "name": "Filza Escaped",
+      "bundleIdentifier": "com.dry05.filzaescaped11-12",
+      "developerName": "Bas vT",
+      "subtitle": "iOS 12-13 file manager for jailed iPhones.",
+      "version": "3.7",
+      "versionDate": "2020-05-04",
+      "versionDescription": "iOS 13 support.",
+			"downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Filza-Escaped.ipa",
+      "localizedDescription": "It's just normal Filza but for jailed iPhones running iOS 12.1.3 - 13.4.1. This is possible using the Psychic Paper exploit to gain greater file access on stock iOS. Since the exploit used here was patched in iOS 13.5, do not expect many further updates to this application and it will likely never work the same on iOS 13.5 and up.",
+      "iconURL": "https://i.imgur.com/VsEGbQN.png",
+      "tintColor": "#d5ad0b",
+      "size": 10832361,
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "To save photos and videos to photo library."
+        },
+				{
+          "type": "faceid",
+          "usageDescription": "Filza uses Face ID to authenticate."
+        }
+      ],
+      "screenshotURLs": [
+        "https://i.imgur.com/KBkDKkN.png"
+      ]
+    },
+		{
+      "name": "XPatcher",
+      "bundleIdentifier": "com.wh0ba.xpatcher",
+      "developerName": "Wh0ba",
+      "subtitle": "A Rom-patcher utility for your iOS device.",
+      "version": "1.1",
+      "versionDate": "2020-08-14",
+      "versionDescription": "This is a small update to support color highlighting all popular rom formats.",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/XPatcher.ipa",
+      "localizedDescription": "XPatcher is a GUI front-end for flips, libppf, xdelta, and libRUP patching libraries.\n\nThis app allows you to apply patches to files on your iOS devices, mostly used to apply rom hacks to video game roms with a simple to use interface to make it as user-friendly as possible.",
+      "iconURL": "https://i.imgur.com/cgrsWgC.png",
+      "tintColor": "#ff767d",
+      "size": 201642,
+      "screenshotURLs": [
+        "https://i.imgur.com/nFunb9n.png",
+				"https://i.imgur.com/7UvBK4J.png"
+      ]
+    }
+	],
+	"news": [
+		{
+      "title": "iDOS Now Available.",
+      "identifier": "idos-altstore-now-available",
+      "caption": "iDOS is now available through AltStore. Get ready to play the classics.",
+      "tintColor": "#777777",
+      "imageURL": "https://i.imgur.com/VG4OhtA.png",
+      "appID": "com.litchie.idosgames",
+      "date": "2021-01-02",
+      "notify": false
+    },
+		{
+      "title": "UTM version 1.0 release!",
+      "identifier": "utm-1.0-release",
+      "caption": "UTM has now reached its golden 1.0 release. Get Windows, Linux, and more running natively on iOS.",
+      "tintColor": "#2044cd",
+      "imageURL": "https://i.imgur.com/6dMDfs5.png",
+      "appID": "com.osy86.UTM",
+      "date": "2020-06-19",
+      "notify": false
+    },
+		{
+			"title": "unc0ver 5.0.0 OUT NOW!",
+			"identifier": "uncover-v5-release",
+			"caption": "The most advanced jailbreak tool yet. Now supporting iOS 11-13.5",
+			"tintColor": "#505050",
+			"imageURL": "https://i.imgur.com/DahJIZv.png",
+			"appID": "science.xnu.undecimus",
+			"date": "2020-05-23",
+			"notify": false
+		},
+		{
+      "title": "Check out ScummVM!",
+      "identifier": "scummvm-first-release-altstore",
+      "caption": "Point and click adventures at your fingertips.",
+      "tintColor": "#bf6a27",
+      "imageURL": "https://i.imgur.com/5NW814R.png",
+      "appID": "org.scummvm.scummvm",
+      "date": "2020-05-09",
+      "notify": false
+    },
+    {
+      "title": "DolphiniOS now on AltStore!",
+      "identifier": "dolphinios-first-release",
+      "caption": "Play GameCube and Wii classics on your non-jailbroken iPhone or iPad.",
+      "tintColor": "#40cbff",
+      "imageURL": "https://i.imgur.com/PIkcLRW.png",
+      "appID": "me.oatmealdome.DolphiniOS-njb",
+      "date": "2020-05-04",
+      "notify": false
+    },
+		{
+      "title": "Download Play! now.",
+      "identifier": "play-download-now",
+      "caption": "The best PS2 Emulator on iOS.",
+      "tintColor": "#5f5fff",
+      "imageURL": "https://i.imgur.com/zgIEVzB.png",
+      "appID": "com.virtualapplications.play",
+      "date": "2020-04-04",
+      "notify": false
+    },
+		{
+      "title": "RetroArch, now available.",
+      "identifier": "retroarch-now-available",
+      "caption": "Looking for that obscure game console? Look no further.",
+      "tintColor": "#000000",
+      "imageURL": "https://i.imgur.com/NQcpuHI.png",
+      "appID": "com.libretro.RetroArch",
+      "date": "2020-03-26",
+      "notify": false
+    },
+		{
+      "title": "PPSSPP has finally arrived!",
+      "identifier": "ppsspp-arrived-on-altstore",
+      "caption": "Quick and Portable PSP emulator.",
+      "tintColor": "#21486b",
+      "imageURL": "https://i.imgur.com/ibJg9iG.png",
+      "appID": "org.inj.ppsspp",
+      "date": "2020-03-26",
+      "notify": false
+    },
+		{
+      "title": "UTM beta on AltStore!",
+      "identifier": "utm-beta-on-altstore",
+      "caption": "Any OS, Anywhere.",
+      "tintColor": "#2044cd",
+      "imageURL": "https://i.imgur.com/9UAAGYm.png",
+      "appID": "com.osy86.UTM",
+      "date": "2020-03-26",
+      "notify": false
+    },
+		{
+      "title": "Provenance now on AltStore!",
+      "identifier": "provenance-now-on-altstore",
+      "caption": "A clean iOS multi-emulator.",
+      "tintColor": "#1c7cf3",
+      "imageURL": "https://i.imgur.com/IuYs0TW.png",
+      "appID": "com.provenance-emu.provenance",
+      "date": "2020-03-25",
+      "notify": false
+    },
+		{
+      "title": "iNDS available for download.",
+      "identifier": "inds-now-available",
+      "caption": "Revival of the Nintendo DS emulator for iOS.",
+      "tintColor": "#fc2125",
+      "imageURL": "https://i.imgur.com/fEfCDDt.png",
+      "appID": "net.nerd.iNDS",
+      "date": "2020-03-26",
+      "notify": false
+    },
+		{
+      "title": "iTorrent Now Available",
+      "identifier": "itorrent-available-download",
+      "caption": "Simple and straightforward torrenting for iOS.",
+      "tintColor": "#e32b3c",
+      "imageURL": "https://i.imgur.com/LAVDwAh.png",
+      "appID": "ru.nonamedude.iTorrent",
+      "date": "2020-03-24",
+      "notify": false
+    },
+		{
+      "title": "GBA4iOS Now Available",
+      "identifier": "gba4ios-available-download",
+      "caption": "The emulator that started it all.",
+      "tintColor": "#78209d",
+      "imageURL": "https://i.imgur.com/VF4NxOd.png",
+      "appID": "com.rileytestut.GBA4iOS",
+      "date": "2020-03-24",
+      "notify": false
+    },
+		{
+      "title": "Chimera now available on AltStore!",
+      "identifier": "chimera-now-available-altstore",
+      "caption": "Your device, your way. Unlock your potential.",
+      "tintColor": "#33a597",
+      "imageURL": "https://i.imgur.com/RGCwr40.png",
+      "appID": "com.electrateam.chimera",
+      "date": "2020-03-24",
+      "notify": false
+    },
+		{
+			"title": "unc0ver out now!",
+			"identifier": "uncover-available-download",
+			"caption": "The most advanced jailbreak tool yet. Tap to download.",
+			"tintColor": "#101216",
+			"imageURL": "https://i.imgur.com/YPJ2Hu3.png",
+			"appID": "science.xnu.undecimus",
+			"date": "2020-02-09",
+			"notify": false
+		}
+	],
+	"userInfo": {
+
+	}
+}

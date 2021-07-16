@@ -1,0 +1,150 @@
+{
+  "name": "Quark Source Testing",
+	"identifier": "com.quarksources.quarksource-testing",
+  "sourceURL": "https://quarksources.github.io/quarksource-testing.json",
+  "sourceIconURL": "https://quarksources.github.io/assets/ElementQ.png",
+  "apps": [
+    {
+      "name": "Provenance Alpha",
+      "bundleIdentifier": "com.provenance-emu.provenance",
+      "developerName": "Provenance Emu",
+      "subtitle": "Now with better N64 support!",
+      "version": "1.5",
+      "versionDate": "2020-03-12",
+      "versionDescription": "Version: 1.5b9\n\nNew Features:\n\n• N64 Core\n• Minor UI Improvements",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Provenance-Alpha.ipa",
+      "localizedDescription": "Provenance is a multi-system emulator frontend for a plethora of retro gaming systems. You can keep all your games in one place, display them with cover art, and play to your heart's content.\n\nSystems Supported:\n\n• Atari\n  - 2600\n  - 5200\n  - 7800\n  - Lynx\n  - Jaguar\n• Bandai\n  - WonderSwan / WonderSwan Color\n• NEC\n  - PC Engine / TurboGrafx-16 (PCE/TG16)\n  - PC Engine Super CD-ROM² System / TurboGrafx-CD\n  - PC Engine SuperGrafx\n  - PC-FX\n• Nintendo\n  - Nintendo Entertainment System / Famicom (NES/FC)\n  - Famicom Disk System\n  - Super Nintendo Entertainment System / Super Famicom (SNES/SFC)\n  - Game Boy / Game Boy Color (GB/GBC)\n  - Virtual Boy\n  - Nintendo 64 (N64)\n  - Game Boy Advance (GBA)\n  - Pokémon mini\n• Sega\n  - SG-1000\n  - Master System\n  - Genesis / Mega Drive\n  - Game Gear\n  - CD / MegaCD\n  - 32X\n• SNK\n  - Neo Geo Pocket / Neo Geo Pocket Color\n• Sony\n  - PlayStation (PSX/PS1)",
+      "iconURL": "https://i.imgur.com/XAQekMF.png",
+      "tintColor": "#1c7cf3",
+      "size": 57339162,
+			"beta": true,
+			"permissions": [
+				{
+				"type": "photos",
+				"usageDescription": "Used for album artwork. Provenance can set custom artworks from your photos and save screenshots to your photos library."
+      },
+      {
+        "type": "camera",
+        "usageDescription": "Used for album artwork."
+      }
+			],
+      "screenshotURLs": [
+        "https://i.imgur.com/Mr5AQBT.png",
+        "https://i.imgur.com/Pk2h0II.png",
+        "https://i.imgur.com/Fkg2IOK.png"
+      ]
+    },
+    {
+      "name": "Infuse Pro 5",
+      "bundleIdentifier": "com.firecore.infuse",
+      "developerName": "Firecore, LLC",
+      "subtitle": "Watch and listen to media of nearly any format.",
+      "version": "5.0.2",
+      "versionDate": "2016-11-28",
+      "versionDescription": "• Improved notification prompts\n•Improved handling of In-App Purchases",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Infuse-Pro-5.ipa",
+      "localizedDescription": "Ignite your video content with Infuse – the beautiful way to watch almost any video format on your iPhone, iPad, and Apple TV. No need to convert files! Infuse is optimized for iOS 12, with powerful streaming options, trakt sync, and unmatched AirPlay & subtitle support. Gorgeous interface. Precise controls. And silky-smooth playback.\n\n- PLAY MORE VIDEO TYPES\n\nPlay just about anything, including the standard MP4, M4V and MOV – plus MKV, AVI, WMV, MTS, ISO, VIDEO_TS, FLV, OGM, OGV, ASF, 3GP, DVR-MS, WebM, and WTV. Includes fully certified Dolby® Digital Plus (AC3/E-AC3), DTS® and DTS-HD® audio.\n\n- STREAM FROM OTHER DEVICES\n\nBrowse and play videos stored on your Mac, PC, NAS, Wi-Fi hard drive, UPnP/DLNA apps like Plex and Kodi (XBMC), or from cloud services like Dropbox, Google Drive, and OneDrive – no syncing required!\n\n- POWERFUL AIRPLAY & GOOGLE CAST OPTIONS\n\nStream a wide variety of videos types such as MKV, MP4, M4V, and others over AirPlay & Google Cast with full surround sound and subtitles.\n\n- TRAKT 2-WAY SYNC\n\nConnect with trakt to sync watched history, submit ratings and post comments.\n\n- OPTIMIZED SUBTITLES POWERED BY OPENSUBTITLES\n\nBring your own subtitles, or download them on the fly (for free) in virtually any language.\n\n=====\n\nMORE THAN JUST A PRETTY FACE\n\nTHE BASICS\n\n- Silky-smooth hardware decoding (plays full 4K)\n- Stream from a Mac, PC, NAS or Wi-Fi enabled hard drive\n- Connect with Plex, Kodi (XBMC), WMC and most other UPnP/DLNA servers\n- Beautiful layout with quick access to video info\n- Artwork and metadata added automatically\n- Split View & PIP\n\nSUPPORTED FORMATS\n\n- Video: 3GP, AVI, ASF, BDMV, DIVX, DVDMEDIA, DVR-MS, FLV, ISO, M4V, MKV, MOV, MP4, M2TS, MTS, OGM, OGV, TP, TS, VIDEO_TS, WEBM, WMV, WTV\n- Audio: AAC, AC3/E-AC3, DOLBY TRUEHD, DTS, DTS-HD MA, FLAC, MP3, OGG, PCM, WMA\n- Subtitles: DVB, DVDSUB, MICRODVD, MPL2, PGS, SMI, SSA/ASS, SRT, SUB, TIMED TEXT, TMP, TXT, VOBSUB, XSUB\n\nPLAYER FEATURES\n\n- Multiple audio tracks\n- Chapters\n- Gesture controls\n- 8 video zoom options\n- Continuous playback\n- TV out via HDMI or VGA adapter\n- Deinterlacing\n\nEXTRAS\n\n- Folders\n- One-click subtitle downloads from OpenSubtitles\n- Scrobble plays to trakt\n- Download videos from networked devices\n- Drag and drop uploads via web browser\n- Get extra onboard storage with SanDisk iXpand and Mophie Space Pack\n\nGET MORE WITH INFUSE PRO!\n\n- Play even more video formats\n- Enjoy Dolby® Digital Plus (AC3/E-AC3), DTS® and DTS-HD® mobile surround sound\n- Stream a wide variety of video types over AirPlay and Google Cast\n- Access videos stored in cloud services like Dropbox, Google Drive, Box, and OneDrive\n- Sync libraries, settings, watched history, and playback progress between devices.",
+      "iconURL": "https://i.imgur.com/4Gj5J4W.png",
+      "tintColor": "#fd9a00",
+      "size": 32774578,
+			"permissions": [
+				{
+					"type": "camera",
+					"usageDescription": "Used for scanning QR codes."
+				},
+				{
+					"type": "bluetooth",
+					"usageDescription": "Used for streaming media to external devices."
+				},
+				{
+					"type": "music",
+					"usageDescription": "Please allow access in order to show iTunes videos."
+				},
+				{
+					"type": "microphone",
+					"usageDescription": "Used for pairing with external devices."
+				}
+			],
+      "screenshotURLs": [
+        "https://i.imgur.com/2aBltWb.png",
+        "https://i.imgur.com/9Eu6v2X.png",
+        "https://i.imgur.com/p5Y2BYq.png",
+				"https://i.imgur.com/A4YN2vZ.png",
+				"https://i.imgur.com/oWUV1Zg.png"
+      ]
+    },
+		{
+      "name": "GeoFilza",
+      "bundleIdentifier": "com.filza.stuff",
+      "developerName": "GeoSn0w",
+      "subtitle": "An iOS 12 file manager for Jailed iPhones.",
+      "version": "3.6",
+      "versionDate": "2019-07-15T14:00:00-07:00",
+      "versionDescription": "- I fixed Ned's exploit and got tfp0 📦\n- May fail often on iPod Touch 6th. Sorry.\n- Best stability on iPhone 6 and 6 Plus",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/GeoFilza.ipa",
+      "localizedDescription": "GeoFilza for iOS 12.1.3 to 12.2 (A9 -> A11) by GeoSn0w (@FCE365)\n\nThis is pretty much Filza, the File Manager from Cydia. Escapes the Sandbox / Gets ROOT so that you can edit files with it and stuff.",
+      "iconURL": "https://i.imgur.com/ggw2KxO.png",
+      "tintColor": "#d5ad0b",
+      "size": 13508295,
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "To save photos and videos to photo library."
+        }
+      ],
+      "screenshotURLs": [
+
+      ]
+    },
+		{
+      "name": "Kodi Leia",
+      "bundleIdentifier": "org.xbmc.kodi-ios",
+      "developerName": "Team Kodi",
+      "subtitle": "Open source home theater software.",
+      "version": "18.5",
+      "versionDate": "2019-11-16T14:00:00-07:00",
+      "versionDescription": "Interface/Look-and-Feel\n\n- Estuary and GUI info fixes, including scrollbar behaviour, icon names, label changes\n- Add dual support for Artist Slideshow 2.x and 3.x\n- Fix to always allow 'Black' screen saver\n-Fix wrong sort order list for music playlists node\n\nPlayback/Display\n\n- Fixes to external subtitle playback\n- Fixes to support for archives over UPnP\n- Fixes to \"queue item\" and \"play next\" for STRM files with Plugin URL\n- Fixes to \"hide watched\" status for videos\n- Fixes to resume handling when marking a file as unwatched\n\nPVR\n-Fixes to EPG database storage, start/stop of PVR service\n- Fix handling of open modal dialogs\n- Fixes to commercial skip (EDL) processing \n\nOther/General Fixes\n-Multiple Android changes around windowing, secure decoder and SDK versions\n- Multiple iOS changes, including support for iPhone 11 and 7th generation iPad, plus -fixes for touch input, overlapping drawing surfaces, sandbox checks, notch support.\n- MacOS fixes around windowing, where only a portion of the screen was correctly rendered\n- Log files improvements around verbosity and security\n- Shoutcast improvements\n- Various fixes and improvements to add-on settings, package build documentation, build system, advancedsettings.xml, skin/profile changes and many other subsystems",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Kodi-Leia.ipa",
+      "localizedDescription": "Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. \n\nWith its beautiful interface and powerful skinning engine, it's available for Android, BSD, Linux, macOS, iOS and Windows. https://kodi.tv/",
+      "iconURL": "https://i.imgur.com/7rf1qrl.png",
+      "tintColor": "#2e9cc8",
+      "size": 2184796,
+      "screenshotURLs": [
+        "https://i.imgur.com/W5OA8KT.png"
+      ]
+    },
+    {
+      "name": "Covid-19 Tracker",
+      "bundleIdentifier": "com.sammydentino.COVID-Tracker",
+      "developerName": "Sammy Dentino",
+      "subtitle": "Elegant Covid-19 Statistics",
+      "version": "2.5.1",
+      "versionDate": "2020-05-15T00:19:00-05:00",
+      "versionDescription": "* Updated Sources\n* Added Percentage Statistics to Country/State/County Pages",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Covid19-Tracker.ipa",
+      "localizedDescription": "Covid-19 statistics from John Hopkins Research Institute presented in a clear and elegant way.",
+      "iconURL": "https://i.imgur.com/5bTPpdj.png",
+      "tintColor": "#e1b945",
+      "size": 4855462,
+      "screenshotURLs": [
+        "https://i.imgur.com/EOxYCR2.png",
+        "https://i.imgur.com/DCRlgwQ.png"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Kodi Leia is here! Download now.",
+      "identifier": "kodi-leia-download-now",
+      "caption": "The home theater media player.",
+      "tintColor": "#2e9cc8",
+      "imageURL": "https://i.imgur.com/0MnAvgD.png",
+      "appID": "org.xbmc.kodi-ios",
+      "date": "2020-03-28",
+      "notify": false
+    }
+  ],
+	"userInfo": {
+
+	}
+}

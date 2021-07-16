@@ -1,0 +1,235 @@
+{
+	"name": "Quark Source Cracked",
+	"identifier": "com.quarksources.quarksource-cracked",
+  "sourceURL": "https://quarksources.github.io/quarksource-cracked.json",
+	"sourceIconURL": "https://quarksources.github.io/assets/ElementQ.png",
+	"apps": [
+		{
+      "name": "CARROT Weather",
+      "bundleIdentifier": "com.grailr.CARROTweather",
+      "developerName": "Grailr LLC",
+      "subtitle": "The crazy-powerful weather app.",
+      "version": "4.14",
+      "versionDate": "2019-12-06",
+      "versionDescription": "Winter is coming, meatbags, but I've got an update for you that's approximately 756.3% less disappointing than the final season of Game of Thrones.\n\nRedesigned Weather Alerts\nNot only does my weather alerts screen show more information than ever before, many \"warning\"-level alerts will also show a map with the affected area highlighted so you can see if you're in the path of an oncoming severe thunderstorm, tornado, or hurricane. And if it's already too late for you to escape certain death, there may still be time to save your loved ones - just tap an alert to share it.\n\nSecret Locations\nYou can quit pestering my Maker because there's not one but two brand new secret locations for you to track down. (This brings the grand total to 60!)\n\nAlternate App Icon\nGet in the holiday spirit with my festive new alternate app icon, \"Now I Have A Machine Gun\".\n\nBut wait, there's more!\n\n- The Infograph “top text” complication is now available on California watch faces - just set the style to something other than \"snark\" to activate.\n- Siri watch face cards now open directly to the Watch app when you tap on them.\n- Snow accumulations for Dark Sky's day summaries are available again.\n\nAnd because I ran out of coal, I also tossed in a bunch of bug fixes and performance improvements as stocking stuffers. Happy holidays, you filthy animals.\n\nxoxo,\nCARROT",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/CARROT-Weather.ipa",
+      "localizedDescription": "** Winner of Apple’s Editor’s Choice award on the Mac and featured by The New York Times, Good Morning America, CNN, Wired, & more! **\n\nAccurate and Detailed\n\nDark Sky’s super accurate weather data gives you quick access to your current, hourly, and daily forecasts. Plus, you can upgrade to use other providers like AccuWeather, ClimaCell, and MeteoGroup as your data source!\n\nOverflowing with Personality\n\nFrom spooky fog to torrential downpours, CARROT’s dialogue, characters, and scenery change in… “unexpected” ways. You’ll actually be looking forward to a blizzard just to see what CARROT has in store for you!\n\nNotifications\n\nPremium Club members can sign up for all sorts of notifications, including ones for precipitation, weather alerts, lightning strikes, and daily forecast summaries. (Precipitation notifications are available in the US, UK, & parts of Canada. Weather alert and storm cell notifications are only available in the US. Lightning notifications are available in the US and Canada.)\n\nWidgets\n\nCheck the weather right from your Home Screen with CARROT's customizable widgets. (Note: Premium Club subscription required to unlock background updates and some widgets.)\n\nWeather Maps\n\nWatch in awe as the next big storm bears down on your house with CARROT’s trusty radar. Plus, Premium Club Tier 2 members get access to future radar (in the US), lightning strikes, and 12 additional map layers!\n\nCustomization\n\nWant to disable CARROT's personality? You can turn her into a 100% professional weather app! And Premium Club members can customize every last data point that CARROT displays to show the weather data that you care about.\n\nSiri Shortcuts\n\nAsk Siri about upcoming weather or use forecast data to build complex workflows in the Shortcuts app.\n\nSecret Locations\n\nFollow clues to hunt down 60+ secret locations - like the Moon, the Pyramids, and Chernobyl.\n\nAchievements\n\nUnlock 40+ achievements by experiencing weather events, traveling around the world, and using different features in the app.\n\nApple Watch\n\nIn addition to a full weather app and notifications, you also get colorful complications for your watch face. (Note: Premium Club subscription required to unlock background data updates and complication customization features.)\n\nFeatures:\n• Beautifully minimalist weather app\n• Dark Sky’s super accurate weather data\n• AccuWeather, ClimaCell, Foreca, MeteoGroup, Aeris Weather, Environment Canada, and WillyWeather data sources available via upgrade\n• Precipitation, weather alert, lightning strike, storm cell, daily summary, and astronomy notifications (where available)\n• Radar and satellite maps\n• Apple Watch app with complications\n• Home Screen widgets\n• Siri shortcuts\n• 6,500+ lines of hilarious spoken dialogue\n• 62 secret locations\n• 41 achievements\n• 27 alternative app icons\n• Will never sell your location data to third parties\n\nDon’t make CARROT angry. Download her now!",
+      "iconURL": "https://i.imgur.com/StH6kxR.png",
+      "tintColor": "#302960",
+      "size": 102825374,
+			"permissions": [
+				{
+					"type": "photos",
+					"usageDescription": "CARROT uses your photo library to save forecasts to the Photos app."
+				},
+				{
+					"type": "camera",
+					"usageDescription": "CARROT uses your camera for Augmented Reality."
+				},
+				{
+					"type": "location",
+					"usageDescription": "CARROT uses your location to fetch your local weather. \"Always\" access is required for notifications and Apple Watch complications to display data for your current location."
+				},
+				{
+					"type": "background-fetch",
+					"usageDescription": "CARROT fetches your local weather in the background."
+				}
+			],
+      "screenshotURLs": [
+        "https://i.imgur.com/UHvEpF7.png",
+        "https://i.imgur.com/PlGkBhT.png",
+        "https://i.imgur.com/NzoIzvj.png",
+				"https://i.imgur.com/rKntwiD.png",
+				"https://i.imgur.com/VIwCwnM.png",
+				"https://i.imgur.com/pqi8zRt.png",
+				"https://i.imgur.com/mNZnr1j.png",
+				"https://i.imgur.com/ja1SNcf.png"
+      ]
+    },
+		{
+      "name": "WolframAlpha",
+      "bundleIdentifier": "com.wolframalpha.wolframalpha",
+      "developerName": "Wolfram Group, LLC",
+      "subtitle": "Use the power of Wolfram's computational intelligence.",
+      "version": "2.0.5",
+      "versionDate": "2019-11-26",
+      "versionDescription": "Bug fixes.",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/WolframAlpha.ipa?dl=1",
+      "localizedDescription": "Use the power of Wolfram's computational intelligence to answer your questions. Building on 30+ years of development led by Stephen Wolfram, Wolfram|Alpha is the world's definitive source for instant expert knowledge and computation.\n\nAcross thousands of domains—with more continually added—Wolfram|Alpha uses its vast collection of algorithms and data to compute answers and generate reports for you.\n\nWalk through the steps of solving many math and chemistry problems with Wolfram|Alpha. Get even more detailed assistance with a Wolfram|Alpha Pro subscription.\n\nParts of Wolfram|Alpha are used in Apple's Siri assistant; this app gives you access to the full power of the Wolfram|Alpha computational knowledge engine.\n\nUse Wolfram|Alpha to compute the following and much more:\n\n- Get homework help \"Factor 9x^2 + 29x + 6\"\n- Identify a plane \"Flights overhead\"\n- Find out weather \"Weather last New Year's\"\n- Get information on movies \"Movies with Keanu Reeves and Sandra Bullock\"\n- Get financial insight \"APPL vs. MSFT\"\n- Calculate units and measurements \"Seconds in a nanocentury\"\n- Get trivia answers \"Number of tennis balls that can fit in a Boeing 747\"\n- Find nutritional information \"Whopper vs. Big Mac\"\n- Get shopping help \"Chicago Target stores open at 10 pm\"\n- Get fitness information \"Running calculator\"\n- Have fun \"Tell me a joke\"",
+      "iconURL": "https://i.imgur.com/1MsjN5j.png",
+      "tintColor": "#ffc300",
+      "size": 39855086,
+			"permissions": [
+				{
+					"type": "photos",
+					"usageDescription": "Wolfram|Alpha allows you to upload images from the photo library for analysis, and enables you to save results images."
+				},
+				{
+					"type": "camera",
+					"usageDescription": "Wolfram|Alpha allows you to upload images from the camera for analysis."
+				},
+				{
+					"type": "contacts",
+					"usageDescription": "Wolfram|Alpha allows you to use your contacts to send feedback."
+				},
+				{
+					"type": "location",
+					"usageDescription": "Wolfram|Alpha can use your location to provide customized results related to place names, weather, unit systems, calendars, and other region-specific data."
+				}
+			],
+      "screenshotURLs": [
+        "https://i.imgur.com/udPcT9r.png",
+        "https://i.imgur.com/ndKotFI.png",
+        "https://i.imgur.com/yQ4IQCb.png",
+				"https://i.imgur.com/PBqeoch.png",
+				"https://i.imgur.com/K2A653q.png"
+      ]
+    },
+		{
+      "name": "Infuse Pro 6",
+      "bundleIdentifier": "com.firecore.infuse",
+      "developerName": "Firecore, LLC",
+      "subtitle": "Watch and listen to media of nearly any format.",
+      "version": "6.5.6",
+      "versionDate": "2020-12-18",
+      "versionDescription": "Lots of new bug fixes",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Infuse-Pro-6.ipa",
+      "localizedDescription": "Ignite your video content with Infuse – the beautiful way to watch almost any video format on your iPhone, iPad, and Apple TV. No need to convert files! Infuse is optimized for iOS 13, with powerful streaming options, Trakt sync, and unmatched AirPlay & subtitle support. Gorgeous interface. Precise controls. And silky-smooth playback.\n\n- PLAY MORE VIDEO TYPES\n\nA powerful video player that plays just about anything, including the standard MP4, M4V and MOV – plus MKV, AVI, WMV, MTS, ISO, VIDEO_TS, FLV, OGM, OGV, ASF, 3GP, DVR-MS, WebM, and WTV. Includes fully certified Dolby® Digital Plus (AC3/E-AC3), DTS® and DTS-HD® audio.\n\n- STREAM FROM OTHER DEVICES\n\nBrowse and play videos stored on your Mac, PC, NAS, Wi-Fi hard drive, UPnP/DLNA apps like Plex and Kodi (XBMC), or from cloud services like Dropbox, Google Drive, and OneDrive – no syncing required!\n\n- AIRPLAY & GOOGLE CAST OPTIONS\n\nStream a wide variety of videos types such as MKV, MP4, M4V, and others over AirPlay & Google Cast with full surround sound and subtitles.\n\n- TRAKT 2-WAY SYNC\n\nConnect with Trakt to sync watched history, submit ratings and post comments.\n\n- OPTIMIZED SUBTITLES POWERED BY OPENSUBTITLES\n\nBring your own subtitles, or download them on the fly (for free) in virtually any language.\n\n=====\n\nMORE THAN JUST A PRETTY FACE\n\nTHE BASICS\n\n- Silky-smooth video player (plays full 4K w/ HDR & Dolby Vision)\n- Stream from a Mac, PC, NAS or Wi-Fi enabled hard drive\n- Connect with Plex, Kodi (XBMC), WMC and most other UPnP/DLNA servers\n- Beautiful layout with quick access to video info\n- Artwork and metadata added automatically\n- Split View & PIP\n\nSUPPORTED FORMATS\n\n- Video: 3GP, AVI, ASF, BDMV, DIVX, DVDMEDIA, DVR-MS, FLV, ISO, M4V, MKV, MOV, MP4, M2TS, MTS, OGM, OGV, TP, TS, VIDEO_TS, WEBM, WMV, WTV\n- Audio: AAC, AC3/E-AC3, DOLBY TRUEHD, DTS, DTS-HD MA, FLAC, MP3, OGG, PCM, WMA\n- Subtitles: DVB, DVDSUB, MICRODVD, MPL2, PGS, SMI, SSA/ASS, SRT, SUB, TIMED TEXT, TMP, TXT, VOBSUB, XSUB\n\nPLAYER FEATURES\n\n- Multiple audio tracks\n- Chapters\n- Gesture controls\n- 8 video zoom options\n- Continuous playback\n- TV out via HDMI or VGA adapter\n- Deinterlacing\n\nEXTRAS\n\n- Folders\n- One-click subtitle downloads from OpenSubtitles\n- Scrobble plays to Trakt\n- Download videos from networked devices\n- Drag and drop uploads via web browser\n- Get extra onboard storage with SanDisk iXpand\n\nGET MORE WITH INFUSE PRO!\n\n- Play even more video formats\n- Enjoy Dolby® Digital Plus (AC3/E-AC3), DTS® and DTS-HD® mobile surround sound\n- Stream a wide variety of video types over AirPlay and Google Cast\n- Access videos stored in cloud services like Dropbox, Google Drive, Box, and OneDrive\n- Sync libraries, settings, watched history, and playback progress between devices",
+      "iconURL": "https://i.imgur.com/AuR5Nez.png",
+      "tintColor": "#fd9a00",
+      "size": 41222899,
+			"permissions": [
+				{
+					"type": "camera",
+					"usageDescription": "Used for scanning QR codes."
+				},
+				{
+					"type": "bluetooth",
+					"usageDescription": "Used to discover nearby Cast devices and for streaming media to external devices"
+				},
+				{
+					"type": "music",
+					"usageDescription": "Please allow access in order to show iTunes videos."
+				},
+				{
+					"type": "background-audio",
+					"usageDescription": "Used for playing media in the background"
+				},
+				{
+					"type": "microphone",
+					"usageDescription": "Used for pairing with external devices."
+				},
+				{
+					"type": "network",
+					"usageDescription": "Used to discover network shares and Google Cast devices in your local network."
+				},
+				{
+					"type": "faceid",
+					"usageDescription": "Used for unlocking your device when restrictions are enabled."
+				}
+			],
+      "screenshotURLs": [
+        "https://i.imgur.com/QTogbRz.png",
+        "https://i.imgur.com/RXJpPmj.png",
+        "https://i.imgur.com/8f15dQa.png",
+				"https://i.imgur.com/Tm3vNfI.png",
+				"https://i.imgur.com/ofmi26e.png",
+				"https://i.imgur.com/bz28GEI.png",
+				"https://i.imgur.com/avPKKrR.png"
+      ]
+    },
+		{
+      "name": "Filmr Pro",
+      "bundleIdentifier": "com.stey",
+      "developerName": "Stei App",
+      "subtitle": "Become a Pro Video Editor.",
+      "version": "7.5.4",
+      "versionDate": "2020-12-17",
+      "versionDescription": "- 1000 NEW SONGS for you to take your videos to the next level!\n- New amazing \"Holiday Specials\" effects!\n- AR: Christmas characters in real life!\n- Share your videos directly on TikTok\n- Performance improvements",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Filmr-Pro.ipa",
+      "localizedDescription": "Filmr is a video editor that opens the door to infinite possibilities of creation, from beginners to movie directors. With a simple, fast and intuitive interface, our clean vertical design makes it easy to edit and play around with your videos.\n\nOver 5 million downloads. Start creating now and share your stories with #Filmr!\n\nFREE VIDEO CREATOR & EDITOR\n\nTransform your videos with +150 professional features and editing tools. Edit with exclusives filters, effects and transitions. Add your favorite music from files or explore our Royalty Free Music library.\n\nADVANCED EDITING TOOLS\n- Choose Filters from our collection\n- Inspire with awesome Effects (Zoom, RGB, Retro, Sparkles, VHS and many more)\n- Create dynamic clips with unique Transitions\n- Transfer exclusives styles to your videos\n- Adjust the speed of your video\n- Trim, crop, cut, reverse and flip easily\n- Adjust contrast, balance and brightness\n- Create compositions with the Video in Video feature\n- Shoot with front and back camera simultaneously (iPhone XS, XS Max, XR, and iPad Pro; iOS 13)\n- Express yourself with multiple fonts\n- Explore many characters with our Augmented Reality camera (iPhone XS, XS Max, XR, and iPad Pro) iOS 13\n- Try one free feature every day\n\nTHE PERFECT SOUNDTRACK\n\n- Add your favorite music from files or explore our royalty free music library\n- Create narratives with Voice Over and mix it with the volume of the music\n\nSAVE AND SHARE\n\n- Give color to your frames and save directly to your camera roll\n- Export with different formats and FPS\n- Share directly to Youtube, Instagram, Facebook, Twitter, Whatsapp and more\n- Choose between Dark and Light Mode directly on your phone\n- Create GIFs, stop motions, slideshows and tutorials like a PRO",
+      "iconURL": "https://i.imgur.com/v3O5Bmz.png",
+      "tintColor": "#0a0079",
+      "size": 219640035,
+			"permissions": [
+				{
+					"type": "camera",
+					"usageDescription": "This way you can record with our app."
+				},
+				{
+					"type": "photos",
+					"usageDescription": "This allows you to import media and save your videos to your camera roll."
+				},
+				{
+					"type": "bluetooth",
+					"usageDescription": "This permission allows us to detect beacons around you and tailor functionality to your environment."
+				},
+				{
+					"type": "music",
+					"usageDescription": "This allows you to use music from your library."
+				},
+				{
+					"type": "microphone",
+					"usageDescription": "This allows you to use the microphone."
+				},
+				{
+					"type": "location",
+					"usageDescription": "This will remind you the places where you’ve been."
+				}
+			],
+      "screenshotURLs": [
+				"https://i.imgur.com/kCMBrTV.png",
+				"https://i.imgur.com/lrgHRBP.png",
+				"https://i.imgur.com/jozfKSc.png",
+				"https://i.imgur.com/macbdxG.png",
+				"https://i.imgur.com/tGG2UIf.png",
+				"https://i.imgur.com/z7t1Sd8.png",
+				"https://i.imgur.com/2VACNRd.png",
+				"https://i.imgur.com/kUFJFeT.png",
+				"https://i.imgur.com/cd3R893.png"
+      ]
+    },
+		{
+      "name": "LumaFusion",
+      "bundleIdentifier": "com.luma-touch.LumaFusion",
+      "developerName": "Luma Touch, LLC",
+      "subtitle": "Pro video editing and effects.",
+      "version": "2.1.1",
+      "versionDate": "2019-10-27T14:00:00-07:00",
+      "versionDescription": "Fixed:\n\n• Startup crash for original iPad Air and iPad mini 2 users\n• Export to Weibo now appears in Export selection\n• Improved stability and performance",
+      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/LumaFusion.ipa",
+      "localizedDescription": "The most popular mobile video editing app for iOS is now better than ever!\n\nLumaFusion 2.0 introduces a host of powerful new features and an elegant new UI. The simple-start timeline gives new users an intuitive head start, and professionals will find all the powerful features they need.\n\nTutorials, overlay help in the app, and a detailed user guide will get you started and keep you going. Our friendly support gives you direct access to our editing experts.\n\nPROJECT MANAGER\n\n• Create projects with a variety of aspect ratios (including landscape, portrait, square, film)\n• Frame rates (18 to 60 fps including 29.97 and 59.94)\n• Duplicate, add notes, color-tag, search and sort your projects for easy organization\n\nMEDIA LIBRARY\n\n• Browse media directly from Photos, GNARBOX, and WD Wireless Pro/SSD drives – import only clips you use on the timeline.\n• Drag-and-drop or import from anywhere, including cloud storage, SanDisk iXpand flash drives and SMB network drives\n• Use for free - dozens of royalty-free music, loops, sound fx, videos and backgrounds OR subscribe to Storyblocks for LumaFusion to access the full library of thousands clips.\n• View detailed information about your media\n• Rename, add notes, and color-tag clips in the library\n• Sort and search your library to quickly find what you need\n\nEDITING\n\n• 6 video/audio tracks for photos, videos, audio, titles and graphics\n• 6 additional audio tracks for narration, music and sound effects\n• Magnetic timeline with extended features such as insert/overwrite and link/unlink clip\n• New track headers for locking, hiding, and muting all tracks\n• Dozens of transitions\n• Display your preview on an external monitor\n• Add markers with notes to your timeline\n\nEFFECTS\n\n• Layer effects including chroma key, blurs, distort, styles and color in any order to create an endless variety of effects.\n• Use powerful color correction tools\n• Select from included color LUTs like FiLMiC deLog or import your own .cube or .3dl\n• Add unlimited keyframes to animate any effect or color\n• Save effect presets\n\nSLOW AND FAST MOTION\n\n• Create slow motion/fast motion forward and reverse\n• Create smooth slow motion with 120 and 240fps files\n• Edit with time-lapse video files\n\nAUDIO\n\n• Keyframe audio levels and panning for perfect mixes\n• Listen to your mix while adjusting track levels\n• Fill-from-left and fill-from-right for dual-mono audio captures\n• Select tracks from multiple track files (perfect for screen recordings)\n• Duck background music during dialog with Auto-ducking\n• Add audio filters and EQ\n\nTITLER\n\n• Create multi-layer titles with text, shapes and images\n• Adjust font, color, face, border and shadow\n• Import custom fonts including multi-color fonts\n• Save and share title presets or styles\n\nSHARE\n\n• Easily share movies anywhere with control over resolution, compression quality, frame rate and format.\n• Snapshot a photo of any frame in your project to the Photos app\n• Archive projects + media for backup or to edit on another iPhone or iPad\n• Include VR metadata for exporting 360° videos",
+      "iconURL": "https://i.imgur.com/PZ4I4OA.png",
+      "tintColor": "#4c1719",
+      "size": 153279738,
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "We require access to Photos so that you can add photos and videos to your projects."
+        },
+        {
+          "type": "music",
+          "usageDescription": "We require access to Music so that you can add music to your projects."
+        },
+        {
+          "type": "microphone",
+          "usageDescription": "We require access to the Microphone to record Voiceovers for your projects."
+        }
+      ],
+      "screenshotURLs": [
+        "https://i.imgur.com/3gK220b.png",
+        "https://i.imgur.com/LQZn0Om.png",
+        "https://i.imgur.com/KmtV8Ax.png",
+				"https://i.imgur.com/ZOo0IYk.png",
+				"https://i.imgur.com/hlzXzQI.png",
+        "https://i.imgur.com/zX8yJwX.png"
+      ]
+    }
+	],
+	"news": [
+
+	],
+	"userInfo": {
+
+	}
+}
