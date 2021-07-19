@@ -1,4 +1,4 @@
-from sourceUtil import AltSourceManager, AltSourceParser, GithubParser
+from sourceUtil import AltSourceManager, AltSourceParser, GithubParser, Unc0verParser
 
 sourcesData = [
     {
@@ -9,7 +9,7 @@ sourcesData = [
     {
         "parser": AltSourceParser,
         "kwargs": {"filepath": "quarksource.json"},
-        "ids": ["science.xnu.undecimus", "net.hollr.Provenance4", "com.libretro.dist.ios.RetroArch", "com.louisanslow.record", "org.scummvm.scummvm", "net.namedfork.minivmac", "com.dry05.filzaescaped11-12", "com.virtualapplications.play"]
+        "ids": ["net.hollr.Provenance4", "com.libretro.dist.ios.RetroArch", "com.louisanslow.record", "org.scummvm.scummvm", "net.namedfork.minivmac", "com.dry05.filzaescaped11-12", "com.virtualapplications.play"]
     },
     {
         "parser": AltSourceParser,
@@ -65,6 +65,11 @@ sourcesData = [
         "parser": GithubParser,
         "kwargs": {"repo_author": "mariolopjr", "repo_name": "ppsspp-builder"},
         "ids": ["org.ppsspp.ppsspp"]
+    },
+    {
+        "parser": Unc0verParser,
+        "kwargs": {"url": "https://unc0ver.dev/releases.json"},
+        "ids": ["science.xnu.undecimus"]
     }
 ]
 alternateAppData = {

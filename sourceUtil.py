@@ -69,7 +69,7 @@ class AltSourceManager:
                             addedNewsCount += 1
                             primarySource["news"].append(article)
 
-            elif isinstance(parser, GithubParser):
+            elif isinstance(parser, GithubParser) or isinstance(parser, Unc0verParser):
                 app = self.src["apps"][existingAppIDs.index(data["ids"][0])]
                 if version.parse(app["absoluteVersion"] if app.get("absoluteVersion") else app["version"]) < version.parse(parser.version):
                     metadata = parser.get_asset_metadata()
@@ -165,6 +165,58 @@ class AltSourceParser:
             if key not in self.src.keys():
                 return False
         return True
+
+class Unc0verParser:
+    def __init__(self, url: str = None, ver_parse = lambda x: x.lstrip("v"), prefer_date: bool = False):
+        """
+        Supply either the api url, or the repo_author and repo_name.
+        Include a lambda function for ver_parse if needed. ex: (lambda x: x.replace("-r", "."))
+        """
+        releases = requests.get(url).json()
+
+        # alter the release tags to match altstore version tags
+        releases = [{k: ver_parse(v) if k == "tag_name" else v for (k, v) in x.items()} for x in releases]
+
+        if prefer_date:
+            self.data = sorted(releases, key=lambda x: datetime.strptime(x["published_at"], "%Y-%m-%dT%H:%M:%S%z"))[-1] # only grab the most recent release
+        else:
+            self.data = sorted(releases, key=lambda x: version.parse(x["tag_name"]))[-1] # only grab the release with the highest version
+
+    @property
+    def version(self) -> str:
+        return self.data["tag_name"]
+
+    @property
+    def versionDate(self) -> str:
+        return self.data["published_at"]
+
+    @property
+    def versionDescription(self) -> str:
+        return "# " + self.data["name"] + "\n\n" + self.data["body"]
+
+    def get_asset_metadata(self, asset_name: str = None) -> dict:
+        """
+        Returns a dictionary containing the downloadURL, size, bundleID, version
+        """
+        name = asset_name + ".ipa" if asset_name is not None else ".ipa"
+        download_url = "https://unc0ver.dev" + self.data["browser_download_url"]
+        with TemporaryDirectory() as td:
+            tempdir = Path(str(td))
+            r = requests.get(download_url)
+            with open(tempdir / name, "wb") as file:
+                file.write(r.content)
+            with ZipFile(tempdir / name, "r") as ipa:
+                ipa.extractall(path=tempdir)
+            with open(list(tempdir.rglob("Info.plist"))[0], "rb") as fp:
+                plist = plistlib.load(fp)
+
+            metadata = {
+                "downloadURL": download_url,
+                "size": (tempdir / name).stat().st_size,
+                "bundleID": plist["CFBundleIdentifier"],
+                "version": plist["CFBundleShortVersionString"]
+            }
+        return metadata
 
 class GithubParser:
     def __init__(self, url: str = None, repo_author: str = None, repo_name: str = None, ver_parse = lambda x: x.lstrip("v"), include_pre: bool = False, prefer_date: bool = False):
