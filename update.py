@@ -9,7 +9,12 @@ sourcesData = [
     {
         "parser": AltSourceParser,
         "kwargs": {"filepath": "quarksource.json"},
-        "ids": ["net.hollr.Provenance4", "com.libretro.dist.ios.RetroArch", "com.louisanslow.record", "org.scummvm.scummvm", "net.namedfork.minivmac", "com.dry05.filzaescaped11-12", "com.virtualapplications.play"]
+        "ids": ["com.libretro.dist.ios.RetroArch", "com.louisanslow.record", "org.scummvm.scummvm", "net.namedfork.minivmac", "com.dry05.filzaescaped11-12", "com.virtualapplications.play"]
+    },
+    {
+        "parser": AltSourceParser,
+        "kwargs": {"filepath": "https://provenance-emu.com/apps.json"},
+        "ids": ["org.provenance-emu.provenance"]
     },
     {
         "parser": AltSourceParser,
@@ -92,6 +97,34 @@ alternateAppData = {
             "https://i.imgur.com/sWpUAii.png",
             "https://i.imgur.com/UwnDXRc.png"
           ]
+    },
+    "org.provenance-emu.provenance": {
+        "permissions": [
+            {
+              "type": "camera",
+              "usageDescription": "Used for album artwork."
+            },
+            {
+              "type": "photos",
+              "usageDescription": "Provenance can set custom artworks from your photos or save screenshots to your photos library."
+            },
+            {
+              "type": "music",
+              "usageDescription": "This will let you play your imported music on Spotify."
+            },
+            {
+              "type": "bluetooth",
+              "usageDescription": "Provenance uses Bluetooth to support game controllers."
+            },
+            {
+              "type": "background-fetch",
+              "usageDescription": "Provenance can continue running while in the background."
+            },
+            {
+              "type": "background-audio",
+              "usageDescription": "Provenance can continue playing game audio while in the background."
+            }
+        ]
     }
 }
 
