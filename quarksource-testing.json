@@ -15,7 +15,7 @@
       "downloadURL": "https://provenance-emu.com/apps/2.0/Provenance-iOS.ipa",
       "localizedDescription": "Multi-emulator frontend, supporting various Atari, Bandai, NEC, Nintendo, Sega, SNK and Sony console systems",
       "iconURL": "https://camo.githubusercontent.com/28b1224bfcfbbe20b58b2d32117d0884fefe5b9ef8bf0035a0bc884003c684e7/68747470733a2f2f67626c6f627363646e2e676974626f6f6b2e636f6d2f7370616365732532462d4c6373736a547263503748574c6673595a434a2532466176617461722e706e67",
-      "tintColor": "#162434",
+      "tintColor": "#1c7cf3",
       "size": 57676086,
       "permissions": [
               {
