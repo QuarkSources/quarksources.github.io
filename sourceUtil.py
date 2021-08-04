@@ -15,6 +15,30 @@ def compare_versions(v1: str, v2: str) -> bool:
     """
     return version.parse(v1) < version.parse(v2)
 
+def extract_metadata(download_url: str) -> dict:
+    """
+    Downloads .ipa from given url and returns all relevant .ipa metadata from the info.plist
+
+    Returns a dictionary containing the downloadURL, size, bundleID, version
+    """
+    with TemporaryDirectory() as td:
+        tempdir = Path(str(td))
+        r = requests.get(download_url)
+        with open(tempdir / name, "wb") as file:
+            file.write(r.content)
+        with ZipFile(tempdir / name, "r") as ipa:
+            ipa.extractall(path=tempdir)
+        with open(list(tempdir.rglob("Info.plist"))[0], "rb") as fp:
+            plist = plistlib.load(fp)
+
+        metadata = {
+            "downloadURL": download_url,
+            "size": (tempdir / name).stat().st_size,
+            "bundleIdentifier": plist["CFBundleIdentifier"],
+            "version": plist["CFBundleShortVersionString"]
+        }
+    return metadata
+
 class AltSourceManager:
     def __init__(self, filepath, sources_data: list, alternate_data: dict = None, prettify: bool = True):
         """
@@ -68,6 +92,8 @@ class AltSourceManager:
                         else:
                             addedNewsCount += 1
                             primarySource["news"].append(article)
+
+                # create "appID" property as a duplicate of bundleIdentifier value
 
             elif isinstance(parser, GithubParser) or isinstance(parser, Unc0verParser):
                 app = self.src["apps"][existingAppIDs.index(data["ids"][0])]
@@ -200,23 +226,7 @@ class Unc0verParser:
         """
         name = asset_name + ".ipa" if asset_name is not None else ".ipa"
         download_url = "https://unc0ver.dev" + self.data["browser_download_url"]
-        with TemporaryDirectory() as td:
-            tempdir = Path(str(td))
-            r = requests.get(download_url)
-            with open(tempdir / name, "wb") as file:
-                file.write(r.content)
-            with ZipFile(tempdir / name, "r") as ipa:
-                ipa.extractall(path=tempdir)
-            with open(list(tempdir.rglob("Info.plist"))[0], "rb") as fp:
-                plist = plistlib.load(fp)
-
-            metadata = {
-                "downloadURL": download_url,
-                "size": (tempdir / name).stat().st_size,
-                "bundleID": plist["CFBundleIdentifier"],
-                "version": plist["CFBundleShortVersionString"]
-            }
-        return metadata
+        return extract_metadata(download_url)
 
 class GithubParser:
     def __init__(self, url: str = None, repo_author: str = None, repo_name: str = None, ver_parse = lambda x: x.lstrip("v"), include_pre: bool = False, prefer_date: bool = False):
@@ -259,20 +269,4 @@ class GithubParser:
         """
         name = asset_name + ".ipa" if asset_name is not None else ".ipa"
         download_url = next(x for x in self.data["assets"] if x["name"].endswith(name))["browser_download_url"]
-        with TemporaryDirectory() as td:
-            tempdir = Path(str(td))
-            r = requests.get(download_url)
-            with open(tempdir / name, "wb") as file:
-                file.write(r.content)
-            with ZipFile(tempdir / name, "r") as ipa:
-                ipa.extractall(path=tempdir)
-            with open(list(tempdir.rglob("Info.plist"))[0], "rb") as fp:
-                plist = plistlib.load(fp)
-
-            metadata = {
-                "downloadURL": download_url,
-                "size": (tempdir / name).stat().st_size,
-                "bundleID": plist["CFBundleIdentifier"],
-                "version": plist["CFBundleShortVersionString"]
-            }
-        return metadata
+        return extract_metadata(download_url)
