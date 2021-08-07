@@ -24,16 +24,16 @@ def extract_metadata(download_url: str) -> dict:
     with TemporaryDirectory() as td:
         tempdir = Path(str(td))
         r = requests.get(download_url)
-        with open(tempdir / name, "wb") as file:
+        with open(tempdir / "Temp", "wb") as file:
             file.write(r.content)
-        with ZipFile(tempdir / name, "r") as ipa:
+        with ZipFile(tempdir / "Temp", "r") as ipa:
             ipa.extractall(path=tempdir)
         with open(list(tempdir.rglob("Info.plist"))[0], "rb") as fp:
             plist = plistlib.load(fp)
 
         metadata = {
             "downloadURL": download_url,
-            "size": (tempdir / name).stat().st_size,
+            "size": (tempdir / "Temp").stat().st_size,
             "bundleIdentifier": plist["CFBundleIdentifier"],
             "version": plist["CFBundleShortVersionString"]
         }
@@ -99,8 +99,8 @@ class AltSourceManager:
                 app = self.src["apps"][existingAppIDs.index(data["ids"][0])]
                 if version.parse(app["absoluteVersion"] if app.get("absoluteVersion") else app["version"]) < version.parse(parser.version):
                     metadata = parser.get_asset_metadata()
-                    if metadata["bundleID"] != data["ids"][0]:
-                        print(app["name"] + " BundleID has changed to " + metadata["bundleID"] + "\nApp not updated.")
+                    if metadata["bundleIdentifier"] != data["ids"][0]:
+                        print(app["name"] + " BundleID has changed to " + metadata["bundleIdentifier"] + "\nApp not updated.")
                         continue
                     app["absoluteVersion"] = parser.version
                     app["versionDate"] = parser.versionDate
