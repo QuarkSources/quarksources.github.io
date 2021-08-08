@@ -178,7 +178,7 @@ sourcesData = [
     {
         "parser": AltSourceParser,
         "kwargs": {"filepath": "quarksource++.json"},
-        "ids": ["com.google.ios.youtube", "com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "com.spotify.client", "com.atebits.Tweetie2", "syto203.reddit.pp", "com.antique.Popcorn-iOS", "mediaboxhd.event.2", "comicreader.net.ios", "com.channelsapp.channels", "com.burbn.instagram", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp", "com.hotdog.popcorntime81.ios", "tv.twitch"]
+        "ids": ["com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "com.spotify.client", "com.atebits.Tweetie2", "syto203.reddit.pp", "com.antique.Popcorn-iOS", "mediaboxhd.event.2", "comicreader.net.ios", "com.channelsapp.channels", "com.burbn.instagram", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp", "com.hotdog.popcorntime81.ios", "tv.twitch"]
     },
     {
         "parser": AltSourceParser,
@@ -199,10 +199,62 @@ sourcesData = [
         "parser": GithubParser,
         "kwargs": {"repo_author": "tatsuz0u", "repo_name": "EhPanda"},
         "ids": ["zeng.EhPanda"]
+    },
+    {
+        "parser": AltSourceParser,
+        "kwargs": {"filepath": "https://raw.githubusercontent.com/ytjailed/ytjailed.github.io/main/apps.json"},
+        "ids": ["com.google.ios.youtube"]
     }
 ]
+alternateAppData = {
+    "com.google.ios.youtube": {
+        "tintColor": "#1E47D0",
+        "permissions": [
+            {
+              "type": "camera",
+              "usageDescription": "This lets you create videos using the app."
+            },
+            {
+              "type": "photos",
+              "usageDescription": "This lets you upload videos you've already created."
+            },
+            {
+              "type": "bluetooth",
+              "usageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices."
+            },
+            {
+              "type": "contacts",
+              "usageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with."
+            },
+            {
+              "type": "network",
+              "usageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV."
+            },
+            {
+              "type": "music",
+              "usageDescription": "This lets you add your own audio files to your videos."
+            },
+            {
+              "type": "microphone",
+              "usageDescription": "This lets you include audio with your videos and search using your voice."
+            },
+            {
+              "type": "location",
+              "usageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads."
+            },
+            {
+              "type": "background-fetch",
+              "usageDescription": "YouTube can continue running while in the background."
+            },
+            {
+              "type": "background-audio",
+              "usageDescription": "YouTube can continue playing audio while in the background."
+            }
+        ]
+    }
+}
 
-quantumsrc_plus = AltSourceManager("quantumsource++.json", sourcesData, prettify=False)
+quantumsrc_plus = AltSourceManager("quantumsource++.json", sourcesData, alternateAppData, prettify=False)
 try:
     quantumsrc_plus.update()
 except Exception as err:
