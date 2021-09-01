@@ -198,7 +198,7 @@ sourcesData = [
     {
         "parser": AltSourceParser,
         "kwargs": {"filepath": "https://raw.githubusercontent.com/ytjailed/ytjailed.github.io/main/apps.json"},
-        "ids": ["com.google.ios.youtube"]
+        "ids": ["com.google.ios.youtube", "com.google.ios.youtube.cercube", "com.atebits.Tweetie2"]
     }
 ]
 alternateAppData = {
