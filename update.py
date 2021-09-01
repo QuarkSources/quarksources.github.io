@@ -22,8 +22,9 @@ sourcesData = [
         "ids": ["org.coolstar.odyssey"]
     },
     {
-        "parser": AltSourceParser,
-        "kwargs": {"filepath": "https://taurine.app/altstore/taurinestore.json"},
+        "parser": GithubParser,
+        "kwargs": {"repo_author": "Odyssey-Team", "repo_name": "Taurine"},
+        #"kwargs": {"filepath": "https://taurine.app/altstore/taurinestore.json"},
         "ids": ["com.odysseyteam.taurine"]
     },
     {
