@@ -202,8 +202,52 @@ sourcesData = [
     }
 ]
 alternateAppData = {
-    "com.google.ios.youtube": {
+    "com.google.ios.youtube.cercube": {
         "tintColor": "#1E47D0",
+        "permissions": [
+            {
+              "type": "camera",
+              "usageDescription": "This lets you create videos using the app."
+            },
+            {
+              "type": "photos",
+              "usageDescription": "This lets you upload videos you've already created."
+            },
+            {
+              "type": "bluetooth",
+              "usageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices."
+            },
+            {
+              "type": "contacts",
+              "usageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with."
+            },
+            {
+              "type": "network",
+              "usageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV."
+            },
+            {
+              "type": "music",
+              "usageDescription": "This lets you add your own audio files to your videos."
+            },
+            {
+              "type": "microphone",
+              "usageDescription": "This lets you include audio with your videos and search using your voice."
+            },
+            {
+              "type": "location",
+              "usageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads."
+            },
+            {
+              "type": "background-fetch",
+              "usageDescription": "YouTube can continue running while in the background."
+            },
+            {
+              "type": "background-audio",
+              "usageDescription": "YouTube can continue playing audio while in the background."
+            }
+        ]
+    },
+    "com.google.ios.youtube": {
         "permissions": [
             {
               "type": "camera",
