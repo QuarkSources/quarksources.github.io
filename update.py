@@ -198,7 +198,7 @@ sourcesData = [
     {
         "parser": GithubParser,
         "kwargs": {"repo_author": "tatsuz0u", "repo_name": "EhPanda"},
-        "ids": ["zeng.EhPanda"]
+        "ids": ["app.ehpanda"]
     },
     {
         "parser": AltSourceParser,
