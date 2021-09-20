@@ -91,7 +91,7 @@ class AltSourceManager:
                             self.src["news"][existingNewsIDs.index(newsID)] = article # overwrite existing news article
                         else:
                             addedNewsCount += 1
-                            primarySource["news"].append(article)
+                            self.src["news"].append(article)
 
                 # create "appID" property as a duplicate of bundleIdentifier value
 
@@ -152,13 +152,21 @@ class AltSourceParser:
             raise Exception("Invalid source formatting.")
 
     def parse_apps(self, ids: list = None) -> list:
-        apps = list()
+        apps, keys = list(), list()
         for app in self.src["apps"]:
             if self.valid_app(app):
-                if ids is None:
+                id = app["bundleIdentifier"]
+                if id in keys: # bundleID already exists in list of apps processed (meaning there's a duplicate)
+                    index = keys.index(id)
+                    if version.parse(apps[index]["version"]) > version.parse(app["version"]):
+                        next
+                    else:
+                        apps[index] = app
+                elif ids is None:
                     apps.append(app)
-                elif app["bundleIdentifier"] in ids:
+                elif id in ids:
                     apps.append(app)
+                keys.append(id)
         return apps
 
     def parse_news(self, ids: list = None) -> list:
