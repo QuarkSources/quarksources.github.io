@@ -71,6 +71,11 @@ sourcesData = [
         "parser": Unc0verParser,
         "kwargs": {"url": "https://unc0ver.dev/releases.json"},
         "ids": ["science.xnu.undecimus"]
+    },
+    {
+        "parser": GithubParser,
+        "kwargs": {"repo_author": "ianclawson", "repo_name": "Delta-iPac-Edition"},
+        "ids": ["com.ianclawson.DeltaPacEdition"]
     }
 ]
 alternateAppData = {
@@ -126,11 +131,11 @@ alternateAppData = {
     }
 }
 
-quantumsrc = AltSourceManager("quantumsource.json", sourcesData, alternateAppData, prettify=False) # if prettify is true, output will have indents and newlines
+quantumsrc = AltSourceManager("quantumsource.json", sourcesData, alternateAppData, prettify=True) # if prettify is true, output will have indents and newlines
 try:
     quantumsrc.update()
 except Exception as err:
-    print("Unable to update Quantum Source.")
+    print(f"Unable to update {quantumsrc.name}.")
     print(f"{type(err).__name__}: {str(err)}")
 
 sourcesData = [
@@ -166,7 +171,7 @@ alt_complete = AltSourceManager("altstore-complete.json", sourcesData, alternate
 try:
     alt_complete.update()
 except Exception as err:
-    print("Unable to update AltStore Complete.")
+    print(f"Unable to update {alt_complete.name}.")
     print(f"{type(err).__name__}: {str(err)}")
 
 sourcesData = [
@@ -297,5 +302,5 @@ quantumsrc_plus = AltSourceManager("quantumsource++.json", sourcesData, alternat
 try:
     quantumsrc_plus.update()
 except Exception as err:
-    print("Unable to update Quantum Source Plus.")
+    print(f"Unable to update {quantumsrc_plus.name}.")
     print(f"{type(err).__name__}: {str(err)}")

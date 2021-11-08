@@ -51,8 +51,9 @@ class AltSourceManager:
         self.path = filepath
         with open(self.path, "r", encoding="utf-8") as fp:
             self.src = json.load(fp)
+        self.name = self.src["name"]
 
-    def create(self):
+    def add(self):
         raise NotImplementedError()
         print("x apps added, x news added.")
 
@@ -96,19 +97,23 @@ class AltSourceManager:
                 # create "appID" property as a duplicate of bundleIdentifier value
 
             elif isinstance(parser, GithubParser) or isinstance(parser, Unc0verParser):
-                app = self.src["apps"][existingAppIDs.index(data["ids"][0])]
-                if version.parse(app["absoluteVersion"] if app.get("absoluteVersion") else app["version"]) < version.parse(parser.version):
-                    metadata = parser.get_asset_metadata()
-                    if metadata["bundleIdentifier"] != data["ids"][0]:
-                        print(app["name"] + " BundleID has changed to " + metadata["bundleIdentifier"] + "\nApp not updated.")
+                for id in data["ids"]:
+                    if id not in existingAppIDs:
+                        print(f"{id} not found in {self.name}.")
                         continue
-                    app["absoluteVersion"] = parser.version
-                    app["versionDate"] = parser.versionDate
-                    app["versionDescription"] = parser.versionDescription
-                    for (k,v) in metadata.items():
-                        app[k] = v
-                    self.src["apps"][existingAppIDs.index(data["ids"][0])] = app
-                    updatedAppsCount += 1
+                    app = self.src["apps"][existingAppIDs.index(id)]
+                    if version.parse(app["absoluteVersion"] if app.get("absoluteVersion") else app["version"]) < version.parse(parser.version):
+                        metadata = parser.get_asset_metadata()
+                        if metadata["bundleIdentifier"] != id:
+                            print(app["name"] + " BundleID has changed to " + metadata["bundleIdentifier"] + "\nApp not updated.")
+                            continue
+                        app["absoluteVersion"] = parser.version
+                        app["versionDate"] = parser.versionDate
+                        app["versionDescription"] = parser.versionDescription
+                        for (k,v) in metadata.items():
+                            app[k] = v
+                        self.src["apps"][existingAppIDs.index(data["ids"][0])] = app
+                        updatedAppsCount += 1
             else:
                 raise NotImplementedError()
             # end of for loop
