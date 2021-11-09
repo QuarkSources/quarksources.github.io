@@ -131,7 +131,7 @@ alternateAppData = {
     }
 }
 
-quantumsrc = AltSourceManager("quantumsource.json", sourcesData, alternateAppData, prettify=True) # if prettify is true, output will have indents and newlines
+quantumsrc = AltSourceManager("quantumsource.json", sourcesData, alternateAppData, prettify=False) # if prettify is true, output will have indents and newlines
 try:
     quantumsrc.update()
 except Exception as err:
