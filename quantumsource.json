@@ -225,20 +225,20 @@
       "bundleIdentifier": "org.brandonplank.flappybird15",
       "developerName": "Brandon Plank",
       "subtitle": "A revival of the once popular game.",
-      "version": "4.0.5",
-      "versionDate": "2021-10-08T21:25:36Z",
-      "versionDescription": "# 4.0.5 Release\n\n* Fix freeze on death.",
-      "downloadURL": "https://github.com/BrandonPlank/flappybird/releases/download/4.0.5/FlappyBird-iOS.ipa",
+      "version": "4.0.6",
+      "versionDate": "2021-11-09T18:25:29Z",
+      "versionDescription": "# 4.0.6 Release\n\n* Fix leader-board deadlock\r\n* Decrease binary size by a lot!\r\n\r\nThanks @elihwyma for your assistance!",
+      "downloadURL": "https://github.com/BrandonPlank/flappybird/releases/download/4.0.6/FlappyBirdiOS.ipa",
       "localizedDescription": "This Flappy Bird is a revival of the original Flappy Bird by Dong Nguyen. There are a many new features to enhance gameplay as well!\n\n\u2022 Tap to flap\n\u2022 Avoid the hitting the pipes\n\u2022 Flap for infinity!",
       "iconURL": "https://i.imgur.com/tIUJeSs.png",
       "tintColor": "#49cc48",
-      "size": 7361659,
+      "size": 2323936,
       "screenshotURLs": [
         "https://i.imgur.com/nIq1VVv.png",
         "https://i.imgur.com/TZBdg7M.png",
         "https://i.imgur.com/41u9JUh.png"
       ],
-      "absoluteVersion": "4.0.5"
+      "absoluteVersion": "4.0.6"
     },
     {
       "name": "Rewound",
