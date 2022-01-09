@@ -6,8 +6,8 @@ from datetime import datetime
 from packaging import version
 from tempfile import TemporaryDirectory
 from zipfile import ZipFile
+from github3.repos.release import Release
 import json
-from github import GitRelease
 
 def compare_versions(v1: str, v2: str) -> bool:
     """
@@ -52,7 +52,7 @@ def extract_metadata(download_url: str, extract_twice: bool = False, upload_ipa_
         }
     return metadata
 
-def upload_ipa(ipa_path: Path, github_release: GitRelease, name: str, ver: str) -> str:
+def upload_ipa(ipa_path: Path, github_release: Release, name: str, ver: str) -> str:
     """
     Uses PyGithub package to upload IPA to the specified Release using the Github API. The name and version are concatenated to make the github release asset name.
 
