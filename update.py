@@ -1,4 +1,10 @@
 from sourceUtil import AltSourceManager, AltSourceParser, GithubParser, Unc0verParser
+import os
+from github3 import login
+
+gh = login(token=os.environ["GITHUB_TOKEN"])
+g_repo = gh.repository_with_id(321891219)
+g_release = g_repo.latest_release()
 
 sourcesData = [
     {
@@ -9,7 +15,7 @@ sourcesData = [
     {
         "parser": AltSourceParser,
         "kwargs": {"filepath": "quarksource.json"},
-        "ids": ["com.libretro.dist.ios.RetroArch", "com.louisanslow.record", "org.scummvm.scummvm", "net.namedfork.minivmac", "com.dry05.filzaescaped11-12", "com.virtualapplications.play"]
+        "ids": ["com.libretro.dist.ios.RetroArch", "com.louisanslow.record", "org.scummvm.scummvm", "com.dry05.filzaescaped11-12", "com.virtualapplications.play"]
     },
     {
         "parser": AltSourceParser,
@@ -76,6 +82,23 @@ sourcesData = [
         "parser": GithubParser,
         "kwargs": {"repo_author": "ianclawson", "repo_name": "Delta-iPac-Edition"},
         "ids": ["com.ianclawson.DeltaPacEdition"]
+    },
+    {
+        "parser": GithubParser,
+        "kwargs": {"repo_author": "zydeco", "repo_name": "minivmac4ios", "asset_regex": r".*\.ipa\.zip", "extract_twice": True,
+          "upload_ipa_kwargs": {"github_release": g_release, "name": "minivmac4ios"}
+        },
+        "ids": ["net.namedfork.minivmac"]
+    },
+    {
+        "parser": GithubParser,
+        "kwargs": {"repo_author": "T-Pau", "repo_name": "Ready"},
+        "ids": ["at.spiderlab.c64"]
+    },
+    {
+        "parser": GithubParser,
+        "kwargs": {"repo_author": "yoshisuga", "repo_name": "activegs-ios"},
+        "ids": ["com.yoshisuga.activeGS"]
     }
 ]
 alternateAppData = {
@@ -204,6 +227,11 @@ sourcesData = [
         "parser": AltSourceParser,
         "kwargs": {"filepath": "https://raw.githubusercontent.com/ytjailed/ytjailed.github.io/main/apps.json"},
         "ids": ["com.google.ios.youtube", "com.google.ios.youtube.cercube", "com.atebits.Tweetie2"]
+    },
+    {
+        "parser": AltSourceParser,
+        "kwargs": {"filepath": "https://repos.yattee.stream/alt/apps.json"},
+        "ids": ["stream.yattee.app"]
     }
 ]
 alternateAppData = {

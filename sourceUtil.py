@@ -1,4 +1,3 @@
-
 from pathlib import Path
 import plistlib
 import requests
@@ -8,6 +7,7 @@ from packaging import version
 from tempfile import TemporaryDirectory
 from zipfile import ZipFile
 import json
+from github import GitRelease
 
 def compare_versions(v1: str, v2: str) -> bool:
     """
@@ -15,7 +15,7 @@ def compare_versions(v1: str, v2: str) -> bool:
     """
     return version.parse(v1) < version.parse(v2)
 
-def extract_metadata(download_url: str) -> dict:
+def extract_metadata(download_url: str, extract_twice: bool = False, upload_ipa_kwargs: dict = None) -> dict:
     """
     Downloads .ipa from given url and returns all relevant .ipa metadata from the info.plist
 
@@ -23,21 +23,44 @@ def extract_metadata(download_url: str) -> dict:
     """
     with TemporaryDirectory() as td:
         tempdir = Path(str(td))
+        filename = "temp.zip"
         r = requests.get(download_url)
-        with open(tempdir / "Temp", "wb") as file:
+        with open(tempdir / filename, "wb") as file:
             file.write(r.content)
-        with ZipFile(tempdir / "Temp", "r") as ipa:
+        if extract_twice:
+            with ZipFile(tempdir / filename, "r") as zip:
+                filename = "temp2.zip"
+                for file in zip.namelist():
+                    data = zip.read(file)
+                    file_path = tempdir / filename
+                    file_path.write_bytes(data)
+            
+        with ZipFile(tempdir / filename, "r") as ipa:
             ipa.extractall(path=tempdir)
         with open(list(tempdir.rglob("Info.plist"))[0], "rb") as fp:
             plist = plistlib.load(fp)
 
+        if upload_ipa_kwargs is not None:
+            upload_ipa_kwargs["ipa_path"] = tempdir / filename
+            upload_ipa_kwargs["ver"] = plist["CFBundleShortVersionString"]
+            download_url = upload_ipa(**upload_ipa_kwargs)
         metadata = {
             "downloadURL": download_url,
-            "size": (tempdir / "Temp").stat().st_size,
+            "size": (tempdir / filename).stat().st_size,
             "bundleIdentifier": plist["CFBundleIdentifier"],
             "version": plist["CFBundleShortVersionString"]
         }
     return metadata
+
+def upload_ipa(ipa_path: Path, github_release: GitRelease, name: str, ver: str) -> str:
+    """
+    Uses PyGithub package to upload IPA to the specified Release using the Github API. The name and version are concatenated to make the github release asset name.
+
+    Returns the download url for the uploaded IPA.
+    """
+    with open(ipa_path, "rb") as file:
+        uploaded_asset = github_release.upload_asset(content_type="application/octet-stream", name=f"{name}-{ver}.ipa", asset=file)
+    return uploaded_asset.browser_download_url
 
 class AltSourceManager:
     def __init__(self, filepath, sources_data: list, alternate_data: dict = None, prettify: bool = True):
@@ -66,56 +89,62 @@ class AltSourceManager:
         for data in self.src_data:
             try:
                 parser = data["parser"](**data["kwargs"])
-            except (json.JSONDecodeError, requests.RequestException) as err:
+
+                # perform different actions depending on the type of file being parsed
+                if isinstance(parser, AltSourceParser):
+                    apps = parser.parse_apps(None if data.get("getAllApps") else data.get("ids"))
+                    for app in apps:
+                        bundleID = app["bundleIdentifier"]
+                        if bundleID in existingAppIDs:
+                            if version.parse(app["version"]) > version.parse(self.src["apps"][existingAppIDs.index(bundleID)]["version"]):
+                                updatedAppsCount += 1
+                            self.src["apps"][existingAppIDs.index(bundleID)] = app # note that this actually updates the app regardless of whether the version is newer
+                        else:
+                            addedAppsCount += 1
+                            self.src["apps"].append(app)
+
+                    if not data.get("ignoreNews"):
+                        news = parser.parse_news(None if data.get("getAllNews") else data.get("ids"))
+                        for article in news:
+                            newsID = article["identifier"]
+                            if newsID in existingNewsIDs:
+                                self.src["news"][existingNewsIDs.index(newsID)] = article # overwrite existing news article
+                            else:
+                                addedNewsCount += 1
+                                self.src["news"].append(article)
+
+                    # create "appID" property as a duplicate of bundleIdentifier value
+
+                elif isinstance(parser, GithubParser) or isinstance(parser, Unc0verParser):
+                    for id in data["ids"]:
+                        if id not in existingAppIDs:
+                            print(f"{id} not found in {self.name}.")
+                            continue
+                        app = self.src["apps"][existingAppIDs.index(id)]
+                        if version.parse(app["absoluteVersion"] if app.get("absoluteVersion") else app["version"]) < version.parse(parser.version):
+                            metadata = parser.get_asset_metadata()
+                            if metadata["bundleIdentifier"] != id:
+                                print(app["name"] + " BundleID has changed to " + metadata["bundleIdentifier"] + "\nApp not updated.")
+                                continue
+                            app["absoluteVersion"] = parser.version
+                            app["versionDate"] = parser.versionDate
+                            app["versionDescription"] = parser.versionDescription
+                            for (k,v) in metadata.items():
+                                app[k] = v
+                            self.src["apps"][existingAppIDs.index(data["ids"][0])] = app
+                            updatedAppsCount += 1
+                else:
+                    raise NotImplementedError("The specified parser class is not supported.")
+            
+            except (json.JSONDecodeError, requests.RequestException, requests.ConnectionError, GithubError, AltSourceError) as err:
                 print(f"Unable to process {data.get('ids')}.")
                 print(f"{type(err).__name__}: {str(err)}")
                 continue
-
-            # perform different actions depending on the type of file being parsed
-            if isinstance(parser, AltSourceParser):
-                apps = parser.parse_apps(None if data.get("getAllApps") else data.get("ids"))
-                for app in apps:
-                    bundleID = app["bundleIdentifier"]
-                    if bundleID in existingAppIDs:
-                        if version.parse(app["version"]) > version.parse(self.src["apps"][existingAppIDs.index(bundleID)]["version"]):
-                            updatedAppsCount += 1
-                        self.src["apps"][existingAppIDs.index(bundleID)] = app # note that this actually updates the app regardless of whether the version is newer
-                    else:
-                        addedAppsCount += 1
-                        self.src["apps"].append(app)
-
-                if not data.get("ignoreNews"):
-                    news = parser.parse_news(None if data.get("getAllNews") else data.get("ids"))
-                    for article in news:
-                        newsID = article["identifier"]
-                        if newsID in existingNewsIDs:
-                            self.src["news"][existingNewsIDs.index(newsID)] = article # overwrite existing news article
-                        else:
-                            addedNewsCount += 1
-                            self.src["news"].append(article)
-
-                # create "appID" property as a duplicate of bundleIdentifier value
-
-            elif isinstance(parser, GithubParser) or isinstance(parser, Unc0verParser):
-                for id in data["ids"]:
-                    if id not in existingAppIDs:
-                        print(f"{id} not found in {self.name}.")
-                        continue
-                    app = self.src["apps"][existingAppIDs.index(id)]
-                    if version.parse(app["absoluteVersion"] if app.get("absoluteVersion") else app["version"]) < version.parse(parser.version):
-                        metadata = parser.get_asset_metadata()
-                        if metadata["bundleIdentifier"] != id:
-                            print(app["name"] + " BundleID has changed to " + metadata["bundleIdentifier"] + "\nApp not updated.")
-                            continue
-                        app["absoluteVersion"] = parser.version
-                        app["versionDate"] = parser.versionDate
-                        app["versionDescription"] = parser.versionDescription
-                        for (k,v) in metadata.items():
-                            app[k] = v
-                        self.src["apps"][existingAppIDs.index(data["ids"][0])] = app
-                        updatedAppsCount += 1
-            else:
-                raise NotImplementedError()
+            except StopIteration as err:
+                print(f"Unable to process {data.get('ids')}.")
+                print(f"{type(err).__name__}: Could not find download asset with matching criteria.")
+                continue
+            
             # end of for loop
 
         if self.alt_data is not None:
@@ -151,10 +180,10 @@ class AltSourceParser:
                 with open(path, "r", encoding="utf-8") as fp:
                     self.src = json.load(fp)
             except Exception as err:
-                raise TypeError("Filepath must be a path-like object or a url.")
+                raise AltSourceError("Filepath must be a path-like object or a url.")
 
         if not self.valid_source():
-            raise Exception("Invalid source formatting.")
+            raise AltSourceError("Invalid source formatting.")
 
     def parse_apps(self, ids: list = None) -> list:
         apps, keys = list(), list()
@@ -176,6 +205,8 @@ class AltSourceParser:
 
     def parse_news(self, ids: list = None) -> list:
         news = list()
+        if "news" not in self.src.keys():
+            return news
         for article in self.src["news"]:
             if self.valid_news(article):
                 if ids is None:
@@ -199,7 +230,7 @@ class AltSourceParser:
         return True
 
     def valid_source(self) -> bool:
-        requiredKeys = ["name", "identifier", "apps", "news"]
+        requiredKeys = ["name", "identifier", "apps"]
         for key in requiredKeys:
             if key not in self.src.keys():
                 return False
@@ -233,26 +264,31 @@ class Unc0verParser:
     def versionDescription(self) -> str:
         return "# " + self.data["name"] + "\n\n" + self.data["body"]
 
-    def get_asset_metadata(self, asset_name: str = None) -> dict:
+    def get_asset_metadata(self) -> dict:
         """
         Returns a dictionary containing the downloadURL, size, bundleID, version
         """
-        name = asset_name + ".ipa" if asset_name is not None else ".ipa"
         download_url = "https://unc0ver.dev" + self.data["browser_download_url"]
         return extract_metadata(download_url)
 
 class GithubParser:
-    def __init__(self, url: str = None, repo_author: str = None, repo_name: str = None, ver_parse = lambda x: x.lstrip("v"), include_pre: bool = False, prefer_date: bool = False):
+    def __init__(self, url: str = None, repo_author: str = None, repo_name: str = None, ver_parse = lambda x: x.lstrip("v"), include_pre: bool = False, prefer_date: bool = False, asset_regex: str = None, extract_twice: bool = False, upload_ipa_kwargs: dict = None):
         """
         Supply either the api url, or the repo_author and repo_name.
         Include a lambda function for ver_parse if needed. ex: (lambda x: x.replace("-r", "."))
         """
+        self.asset_regex, self.extract_twice, self.upload_ipa_kwargs = asset_regex, extract_twice, upload_ipa_kwargs
         if url is not None:
             releases = requests.get(url).json()
         else:
             releases = requests.get("https://api.github.com/repos/{0}/{1}/releases".format(repo_author, repo_name)).json()
-        if isinstance(releases, dict) and releases.get("message") == "Not Found":
-            raise Exception("Github Repo not found.")
+        if isinstance(releases, dict):
+            if releases.get("message") == "Not Found":
+                raise GithubError("Github Repo not found.")
+            elif releases.get("message").startswith("API rate limit exceeded"):
+                raise GithubError("Github API rate limit has been exceeded for this hour.")
+            else:
+                raise GithubError("Github API issue: " + releases.get("message"))
         if not include_pre:
             releases = list(filter(lambda x: x["prerelease"] != True, releases)) # filter out prereleases
 
@@ -276,10 +312,18 @@ class GithubParser:
     def versionDescription(self) -> str:
         return "# " + self.data["name"] + "\n\n" + self.data["body"]
 
-    def get_asset_metadata(self, asset_name: str = None) -> dict:
+    def get_asset_metadata(self) -> dict:
         """
         Returns a dictionary containing the downloadURL, size, bundleID, version
         """
-        name = asset_name + ".ipa" if asset_name is not None else ".ipa"
-        download_url = next(x for x in self.data["assets"] if x["name"].endswith(name))["browser_download_url"]
-        return extract_metadata(download_url)
+        regex = self.asset_regex if self.asset_regex is not None else r".*\.ipa"
+        download_url = next(x for x in self.data["assets"] if re.fullmatch(regex, x["name"]))["browser_download_url"]
+        return extract_metadata(download_url, extract_twice=self.extract_twice, upload_ipa_kwargs=self.upload_ipa_kwargs)
+
+class GithubError(Exception):
+    """Raised when there is an error related to the GithubAPI"""
+    pass
+
+class AltSourceError(Exception):
+    """Raised when there is an error related to the GithubAPI"""
+    pass
