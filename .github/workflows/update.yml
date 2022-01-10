@@ -22,7 +22,7 @@ jobs:
         pip install github3.py
     - name: Run python scripts
       run: |
-        export GITHUB_TOKEN="{{ secrets.GITHUB_TOKEN }}"
+        export GITHUB_TOKEN="{{ secrets.ACCESS_TOKEN }}"
         python update.py
     - name: Commit files
       id: commit
