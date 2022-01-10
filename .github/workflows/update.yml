@@ -7,7 +7,7 @@ on:
 
 jobs:
   run:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -20,9 +20,9 @@ jobs:
         pip install requests
         pip install packaging
         pip install github3.py
-        setx GITHUB_TOKEN "{{ secrets.GITHUB_TOKEN }}"
     - name: Run python scripts
       run: |
+        export GITHUB_TOKEN={{ secrets.GITHUB_TOKEN }}
         python update.py
     - name: Commit files
       id: commit
