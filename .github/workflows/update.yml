@@ -20,9 +20,9 @@ jobs:
         pip install requests
         pip install packaging
         pip install github3.py
+        setx GITHUB_TOKEN "{{ secrets.GITHUB_TOKEN }}"
     - name: Run python scripts
       run: |
-        setx GITHUB_TOKEN "{{ secrets.GITHUB_TOKEN }}"
         python update.py
     - name: Commit files
       id: commit
