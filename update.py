@@ -2,8 +2,8 @@ from sourceUtil import AltSourceManager, AltSourceParser, GithubParser, Unc0verP
 import os
 from github3 import login
 
-token=os.environ["GITHUB_TOKEN"]
-gh = login(token)
+token = os.environ["GITHUB_TOKEN"]
+gh = login(token=token)
 g_repo = gh.repository_with_id(321891219)
 g_release = g_repo.latest_release()
 
