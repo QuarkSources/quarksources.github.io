@@ -1,11 +1,17 @@
 from sourceUtil import AltSourceManager, AltSourceParser, GithubParser, Unc0verParser
 import os
 from github3 import login
+from github3.exceptions import GitHubError, ResponseError
 
-token = os.environ["GITHUB_TOKEN"]
-gh = login(token=token)
-g_repo = gh.repository_with_id(321891219)
-g_release = g_repo.latest_release()
+try:
+  token = os.environ["GITHUB_TOKEN"]
+  g_repo, g_release = None, None
+  gh = login(token=token)
+  g_repo = gh.repository_with_id(321891219)
+  g_release = g_repo.latest_release()
+except GitHubError as err:
+  print(f"Github Authentication failed.")
+  print(f"{type(err).__name__}: {str(err)}")
 
 sourcesData = [
     {
@@ -100,6 +106,11 @@ sourcesData = [
         "parser": GithubParser,
         "kwargs": {"repo_author": "yoshisuga", "repo_name": "activegs-ios"},
         "ids": ["com.yoshisuga.activeGS"]
+    },
+    {
+        "parser": GithubParser,
+        "kwargs": {"repo_author": "zzanehip", "repo_name": "The-OldOS-Project"},
+        "ids": ["com.zurac.OldOS"]
     }
 ]
 alternateAppData = {
