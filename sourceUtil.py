@@ -7,6 +7,7 @@ from packaging import version
 from tempfile import TemporaryDirectory
 from zipfile import ZipFile
 from github3.repos.release import Release
+from github3.exceptions import GitHubError
 import json
 
 def compare_versions(v1: str, v2: str) -> bool:
@@ -284,11 +285,11 @@ class GithubParser:
             releases = requests.get("https://api.github.com/repos/{0}/{1}/releases".format(repo_author, repo_name)).json()
         if isinstance(releases, dict):
             if releases.get("message") == "Not Found":
-                raise GithubError("Github Repo not found.")
+                raise GitHubError("Github Repo not found.")
             elif releases.get("message").startswith("API rate limit exceeded"):
-                raise GithubError("Github API rate limit has been exceeded for this hour.")
+                raise GitHubError("Github API rate limit has been exceeded for this hour.")
             else:
-                raise GithubError("Github API issue: " + releases.get("message"))
+                raise GitHubError("Github API issue: " + releases.get("message"))
         if not include_pre:
             releases = list(filter(lambda x: x["prerelease"] != True, releases)) # filter out prereleases
 
@@ -319,10 +320,6 @@ class GithubParser:
         regex = self.asset_regex if self.asset_regex is not None else r".*\.ipa"
         download_url = next(x for x in self.data["assets"] if re.fullmatch(regex, x["name"]))["browser_download_url"]
         return extract_metadata(download_url, extract_twice=self.extract_twice, upload_ipa_kwargs=self.upload_ipa_kwargs)
-
-class GithubError(Exception):
-    """Raised when there is an error related to the GithubAPI"""
-    pass
 
 class AltSourceError(Exception):
     """Raised when there is an error related to the GithubAPI"""
