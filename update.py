@@ -71,7 +71,7 @@ sourcesData = [
     },
     {
         "parser": GithubParser,
-        "kwargs": {"repo_author": "mariolopjr", "repo_name": "ppsspp-builder"},
+        "kwargs": {"repo_author": "QuarkSources", "repo_name": "ppsspp-builder"},
         "ids": ["org.ppsspp.ppsspp"]
     },
     {
