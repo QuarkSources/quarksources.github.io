@@ -4,11 +4,14 @@ from github3 import login
 from github3.exceptions import GitHubError, ResponseError
 
 try:
-  token = os.environ["GITHUB_TOKEN"]
   g_repo, g_release = None, None
+  token = os.environ["GITHUB_TOKEN"]
   gh = login(token=token)
   g_repo = gh.repository_with_id(321891219)
   g_release = g_repo.latest_release()
+except KeyError as err:
+  print(f"Could not find GitHub Token.")
+  print(f"{type(err).__name__}: {str(err)}")
 except GitHubError as err:
   print(f"Github Authentication failed.")
   print(f"{type(err).__name__}: {str(err)}")
@@ -99,7 +102,7 @@ sourcesData = [
     },
     {
         "parser": GithubParser,
-        "kwargs": {"repo_author": "T-Pau", "repo_name": "Ready"},
+        "kwargs": {"repo_author": "T-Pau", "repo_name": "Ready", "ver_parse": lambda x: x.replace("release-", "")},
         "ids": ["at.spiderlab.c64"]
     },
     {
