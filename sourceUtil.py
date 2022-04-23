@@ -136,8 +136,12 @@ class AltSourceManager:
                             updatedAppsCount += 1
                 else:
                     raise NotImplementedError("The specified parser class is not supported.")
-            
-            except (json.JSONDecodeError, requests.RequestException, requests.ConnectionError, GitHubError, AltSourceError) as err:
+            except json.JSONDecodeError as err:
+                print(f"Unable to process {data.get('ids')}.")
+                errstr = str(err).replace('\n', ' ') #remove newlines for prettier printing
+                print(f"{type(err).__name__}: {errstr[:50]}...") #only print first 50 chars
+                continue
+            except (requests.RequestException, requests.ConnectionError, GitHubError, AltSourceError) as err:
                 print(f"Unable to process {data.get('ids')}.")
                 print(f"{type(err).__name__}: {str(err)}")
                 continue
