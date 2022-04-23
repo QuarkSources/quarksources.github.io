@@ -75,6 +75,11 @@ sourcesData = [
     },
     {
         "parser": GithubParser,
+        "kwargs": {"repo_author": "nspire-emus", "repo_name": "firebird"},
+        "ids": ["com.firebird.firebird-emu"]
+    },
+    {
+        "parser": GithubParser,
         "kwargs": {"repo_author": "Wh0ba", "repo_name": "XPatcher"},
         "ids": ["com.wh0ba.xpatcher"]
     },
