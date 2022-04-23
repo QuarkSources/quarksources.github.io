@@ -54,6 +54,11 @@ sourcesData = [
         "ids": ["com.rileytestut.GBA4iOS"]
     },
     {
+        "parser": AltSourceParser,
+        "kwargs": {"filepath": "https://flyinghead.github.io/flycast-builds/altstore.json"},
+        "ids": ["com.flyinghead.Flycast"]
+    },
+    {
         "parser": GithubParser,
         "kwargs": {"repo_author": "iNDS-Team", "repo_name": "iNDS"},
         "ids": ["net.nerd.iNDS"]
