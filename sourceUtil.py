@@ -138,8 +138,8 @@ class AltSourceManager:
                     raise NotImplementedError("The specified parser class is not supported.")
             except json.JSONDecodeError as err:
                 print(f"Unable to process {data.get('ids')}.")
-                errstr = str(err).replace('\n', ' ') #remove newlines for prettier printing
-                print(f"{type(err).__name__}: {errstr[:50]}...") #only print first 50 chars
+                errstr = str(err).replace('\n', '\n\t') #indent newlines for prettier printing
+                print(f"{type(err).__name__}: {errstr[:300]}...") #only print first 300 chars
                 continue
             except (requests.RequestException, requests.ConnectionError, GitHubError, AltSourceError) as err:
                 print(f"Unable to process {data.get('ids')}.")
