@@ -55,6 +55,7 @@ sourcesData = [
     },
     {
         "parser": AltSourceParser,
+        #"kwargs": {"repo_author": "flyinghead", "repo_name": "flycast"},
         "kwargs": {"filepath": "https://flyinghead.github.io/flycast-builds/altstore.json"},
         "ids": ["com.flyinghead.Flycast"]
     },
@@ -124,9 +125,18 @@ sourcesData = [
         "parser": GithubParser,
         "kwargs": {"repo_author": "zzanehip", "repo_name": "The-OldOS-Project"},
         "ids": ["com.zurac.OldOS"]
+    },
+    {
+        "parser": GithubParser,
+        "kwargs": {"repo_author": "n3d1117", "repo_name": "appdb"},
+        "ids": ["it.ned.appdb-ios"]
     }
 ]
 alternateAppData = {
+    "com.flyinghead.Flycast": {
+      "localizedDescription": "Flycast is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast.\nInformation about configuration and supported features can be found on TheArcadeStriker's [flycast wiki](https://github.com/TheArcadeStriker/flycast-wiki/wiki).",
+      "screenshotURLs": []
+    },
     "org.ppsspp.ppsspp": {
         "tintColor": "#21486b",
         "subtitle": "PlayStation Portable games on iOS.",
