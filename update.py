@@ -236,7 +236,7 @@ sourcesData = [
     {
         "parser": AltSourceParser,
         "kwargs": {"filepath": "quarksource++.json"},
-        "ids": ["com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "com.spotify.client", "syto203.reddit.pp", "com.antique.Popcorn-iOS", "mediaboxhd.event.2", "comicreader.net.ios", "com.channelsapp.channels", "com.burbn.instagram", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp", "com.hotdog.popcorntime81.ios", "tv.twitch"]
+        "ids": ["com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "com.spotify.client", "syto203.reddit.pp", "com.antique.Popcorn-iOS", "mediaboxhd.event.2", "comicreader.net.ios", "com.channelsapp.channels", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp", "com.hotdog.popcorntime81.ios", "tv.twitch"]
     },
     {
         "parser": AltSourceParser,
@@ -258,20 +258,24 @@ sourcesData = [
         "kwargs": {"repo_author": "tatsuz0u", "repo_name": "EhPanda"},
         "ids": ["app.ehpanda"]
     },
-    {
-        "parser": AltSourceParser,
-        "kwargs": {"filepath": "https://raw.githubusercontent.com/ytjailed/ytjailed.github.io/main/apps.json"},
-        "ids": ["com.google.ios.youtube", "com.google.ios.youtube.cercube", "com.atebits.Tweetie2"]
-    },
+    #{
+    #    "parser": AltSourceParser,
+    #    "kwargs": {"filepath": "https://raw.githubusercontent.com/ytjailed/ytjailed.github.io/main/apps.json"},
+    #    "ids": ["com.google.ios.youtube", "com.atebits.Tweetie2"]
+    #},
     {
         "parser": AltSourceParser,
         "kwargs": {"filepath": "https://repos.yattee.stream/alt/apps.json"},
         "ids": ["stream.yattee.app"]
+    },
+    {
+        "parser": AltSourceParser,
+        "kwargs": {"filepath": "https://qnblackcat.github.io/AltStore/apps.json"},
+        "ids": ["com.burbn.instagram", "com.facebook.Facebook", "com.google.ios.youtubecercubelegacy", "com.atebits.Tweetie2", "com.google.ios.youtubecercube", "com.google.ios.youtube"]
     }
 ]
 alternateAppData = {
-    "com.google.ios.youtube.cercube": {
-        "tintColor": "#1E47D0",
+    "com.google.ios.youtubecercube": {
         "permissions": [
             {
               "type": "camera",
