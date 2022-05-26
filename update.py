@@ -1,20 +1,17 @@
-from sourceUtil import AltSourceManager, AltSourceParser, GithubParser, Unc0verParser
 import os
-from github3 import login
-from github3.exceptions import GitHubError, ResponseError
+import logging
+
+from ipaUtil import get_github_release
+from sourceUtil import (AltSourceManager, AltSourceParser, GithubParser, Unc0verParser)
+
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 try:
-  g_repo, g_release = None, None
-  token = os.environ["GITHUB_TOKEN"]
-  gh = login(token=token)
-  g_repo = gh.repository_with_id(321891219)
-  g_release = g_repo.latest_release()
+    g_token = os.environ["GITHUB_TOKEN"]
+    g_release = get_github_release(g_token, 321891219) # gets the github release by its API id
 except KeyError as err:
-  print(f"Could not find GitHub Token.")
-  print(f"{type(err).__name__}: {str(err)}")
-except GitHubError as err:
-  print(f"Github Authentication failed.")
-  print(f"{type(err).__name__}: {str(err)}")
+    logging.error(f"Could not find GitHub Token.")
+    logging.error(f"{type(err).__name__}: {str(err)}")
 
 sourcesData = [
     {
@@ -106,7 +103,9 @@ sourcesData = [
     },
     {
         "parser": GithubParser,
-        "kwargs": {"repo_author": "zydeco", "repo_name": "minivmac4ios", "extract_twice": False},
+        "kwargs": {"repo_author": "zydeco", "repo_name": "minivmac4ios"},
+        ## This is the previous kwargs required when this application was distributed as a zipped .ipa file ##
+        ## "kwargs": {"repo_author": "zydeco", "repo_name": "minivmac4ios", "asset_regex": r".*\.ipa\.zip", "extract_twice": True, "upload_ipa_repo": g_release},
         "ids": ["net.namedfork.minivmac"]
     },
     {
@@ -133,7 +132,7 @@ sourcesData = [
 alternateAppData = {
     "com.flyinghead.Flycast": {
       "localizedDescription": "Flycast is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast.\nInformation about configuration and supported features can be found on TheArcadeStriker's [flycast wiki](https://github.com/TheArcadeStriker/flycast-wiki/wiki).",
-      "screenshotURLs": []
+      "screenshotURLs": ["https://i.imgur.com/47KjD5a.png", "https://i.imgur.com/MfhD1h1.png", "https://i.imgur.com/wO88IVP.png"]
     },
     "org.ppsspp.ppsspp": {
         "tintColor": "#21486b",
@@ -191,8 +190,8 @@ quantumsrc = AltSourceManager("quantumsource.json", sourcesData, alternateAppDat
 try:
     quantumsrc.update()
 except Exception as err:
-    print(f"Unable to update {quantumsrc.name}.")
-    print(f"{type(err).__name__}: {str(err)}")
+    logging.error(f"Unable to update {quantumsrc.src.name}.")
+    logging.error(f"{type(err).__name__}: {str(err)}")
 
 sourcesData = [
     {
@@ -227,8 +226,8 @@ alt_complete = AltSourceManager("altstore-complete.json", sourcesData, alternate
 try:
     alt_complete.update()
 except Exception as err:
-    print(f"Unable to update {alt_complete.name}.")
-    print(f"{type(err).__name__}: {str(err)}")
+    logging.error(f"Unable to update {alt_complete.src.name}.")
+    logging.error(f"{type(err).__name__}: {str(err)}")
 
 sourcesData = [
     {
@@ -367,5 +366,5 @@ quantumsrc_plus = AltSourceManager("quantumsource++.json", sourcesData, alternat
 try:
     quantumsrc_plus.update()
 except Exception as err:
-    print(f"Unable to update {quantumsrc_plus.name}.")
-    print(f"{type(err).__name__}: {str(err)}")
+    logging.error(f"Unable to update {quantumsrc_plus.src.name}.")
+    logging.error(f"{type(err).__name__}: {str(err)}")
