@@ -198,7 +198,7 @@ def get_github_release(github_token: str, repo_id: int | None = None, repo_name:
             g_repo = gh.create_repository("IPA_Uploads", description="This repository is used for uploading IPA files to.", issues=False, has_projects=False, has_wiki=False, auto_init=True)
             
         # If a release doesn't exist, create one. Otherwise grab latest release.
-        if len(list(g_repo.releases)) == 0:
+        if len(list(g_repo.releases())) == 0:
             g_release = g_repo.create_release("v0.0", name="IPA Storage Release", body="This release has been automatically generated for the use of uploading IPAs for storage and download by the general public.")
         else:
             g_release = g_repo.latest_release()

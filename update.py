@@ -6,12 +6,12 @@ from sourceUtil import (AltSourceManager, AltSourceParser, GithubParser, Unc0ver
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
-try:
-    g_token = os.environ["GITHUB_TOKEN"]
-    g_release = get_github_release(g_token, 321891219) # gets the github release by its API id
-except KeyError as err:
-    logging.error(f"Could not find GitHub Token.")
-    logging.error(f"{type(err).__name__}: {str(err)}")
+# try:
+#     g_token = os.environ["GITHUB_TOKEN"]
+#     g_release = get_github_release(g_token, 321891219) # gets the github release by its API id
+# except KeyError as err:
+#     logging.error(f"Could not find GitHub Token.")
+#     logging.error(f"{type(err).__name__}: {str(err)}")
 
 sourcesData = [
     {
