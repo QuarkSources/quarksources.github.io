@@ -106,9 +106,7 @@ sourcesData = [
     },
     {
         "parser": GithubParser,
-        "kwargs": {"repo_author": "zydeco", "repo_name": "minivmac4ios", "asset_regex": r".*\.ipa\.zip", "extract_twice": True,
-          "upload_ipa_kwargs": {"github_release": g_release, "name": "minivmac4ios"}
-        },
+        "kwargs": {"repo_author": "zydeco", "repo_name": "minivmac4ios", "extract_twice": False},
         "ids": ["net.namedfork.minivmac"]
     },
     {
