@@ -1,13 +1,28 @@
+import os
 import plistlib
+import atexit
 import re
 from pathlib import Path
-from tempfile import TemporaryDirectory
+import shutil
+from tempfile import mkdtemp, TemporaryDirectory
 from zipfile import ZipFile
 
 import requests
+import logging
 from github3 import login
 from github3.exceptions import GitHubError
 from github3.repos.release import Release
+
+def cleanup_tempdir(fp: Path):
+    try:
+        if fp.is_dir():
+            shutil.rmtree(fp.as_posix())
+        else:
+            os.remove(fp.as_posix())
+    except FileNotFoundError as err:
+        logging.debug(f"File not found in temporary directory: {str(fp)}")
+    except Exception as err:
+        logging.warning(f"Unable to cleanup files in temporary directory: {str(fp)} due to {err.__class__}")
 
 class IPA_Info:
     """A wrapper class that makes getting relevant information from the IPAs Info.plist file easier for those who don't have Apple's absurd lingo memorized.
@@ -47,7 +62,7 @@ class IPA_Info:
     def DevelopmentRegion(self) -> str:
         """The development region as determined by the written language used. 
         
-        Example: "en"
+        Example: "en"444
         """
         return self._plist.get("CFBundleDevelopmentRegion")
         
@@ -106,15 +121,15 @@ def download_tempfile(download_url: str) -> Path:
     Returns:
         Path: The Path obj pointing to the downloaded file.
     """
-    td = TemporaryDirectory()
-    tempdir = Path(str(td))
+    tempdir = Path(mkdtemp())
+    atexit.register(cleanup_tempdir, tempdir)
     filename = "temp"
     r = requests.get(download_url)
     with open(tempdir / filename, "wb") as file:
         file.write(r.content)
     return tempdir / filename
 
-def extract_ipa(ipa_path: Path, extract_twice: bool = False, use_temp_dir: bool = False) -> Path:
+def extract_ipa(ipa_path: Path, extract_twice: bool = False, use_temp_dir: bool = False) -> Path | Path:
     """Extracts the ipa data into a directory.
 
     If you are extracting twice, the normal .ipa file will be located in the parent directory of the returned path with the name "temp2.ipa".
@@ -130,7 +145,12 @@ def extract_ipa(ipa_path: Path, extract_twice: bool = False, use_temp_dir: bool 
     Returns:
         Path: A Path object pointing to the extracted IPA contents (the "Payload" folder).
     """
-    dest_path = Path(str(TemporaryDirectory())) if use_temp_dir else ipa_path.parent
+    if use_temp_dir:
+        dest_path = Path(mkdtemp())
+        atexit.register(cleanup_tempdir, dest_path)
+    else:
+        dest_path = ipa_path.parent
+        atexit.register(cleanup_tempdir, ipa_path / "Payload")
     if extract_twice:
         with ZipFile(ipa_path, "r") as zip:
             ipa_path = dest_path / "temp2.ipa"
@@ -147,7 +167,10 @@ def extract_ipa(ipa_path: Path, extract_twice: bool = False, use_temp_dir: bool 
         
     with ZipFile(ipa_path, "r") as ipa:
         ipa.extractall(path=dest_path)
-    return dest_path / "Payload"
+    dest_path = dest_path / "Payload"
+    if not dest_path.exists():
+        raise FileError("Invalid IPA file does not have a Payload folder inside.")
+    return dest_path
 
 def extract_altstore_metadata(ipa_path: Path | None = None, plist_path: Path | None = None) -> dict[str]:
     """Extracts all relevant ipa metadata from the IPA and its Info.plist and converts it into the format AltStore uses as stored in a dictionary.
