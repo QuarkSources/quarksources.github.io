@@ -188,8 +188,7 @@ alternateAppData = {
 
 quantumsrc = AltSourceManager("quantumsource.json", sourcesData, alternateAppData, prettify=False) # if prettify is true, output will have indents and newlines
 try:
-    #quantumsrc.update()
-    pass
+    quantumsrc.update()
 except Exception as err:
     logging.error(f"Unable to update {quantumsrc.src.name}.")
     logging.error(f"{type(err).__name__}: {str(err)}")
