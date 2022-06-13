@@ -127,6 +127,24 @@
       <p>Additionally, not all apps have standardized release platforms like Github. So those have to be manually updated from wherever the developer chooses to release them.</p>
     </div>
   </div>
+  <div class="py-3 text-center">
+    <h5>Want to show your support?</h5>
+    <div id="donate-button-container" class="pt-2">
+      <div id="donate-button"></div>
+      <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+      <script>
+      PayPal.Donation.Button({
+      env:'production',
+      hosted_button_id:'KDLJ9CY6QS3FW',
+      image: {
+      src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+      alt:'Donate with PayPal button',
+      title:'PayPal - The safer, easier way to pay online!',
+      }
+      }).render('#donate-button');
+      </script>
+    </div>
+  </div>
 </main>
 
 <footer class="text-muted">
