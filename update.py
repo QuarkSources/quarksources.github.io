@@ -136,7 +136,7 @@ sourcesData = [
 ]
 alternateAppData = {
     "eu.pokemmo.client": {
-        "beta": false
+        "beta": False
     },
     "com.flyinghead.Flycast": {
       "localizedDescription": "Flycast is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast.\nInformation about configuration and supported features can be found on TheArcadeStriker's [flycast wiki](https://github.com/TheArcadeStriker/flycast-wiki/wiki).",
