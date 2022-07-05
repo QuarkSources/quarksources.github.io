@@ -127,9 +127,17 @@ sourcesData = [
         "parser": GithubParser,
         "kwargs": {"repo_author": "n3d1117", "repo_name": "appdb"},
         "ids": ["it.ned.appdb-ios"]
+    },
+    {
+        "parser": AltSourceParser,
+        "kwargs": {"filepath": "https://pokemmo.eu/altstore/"},
+        "ids": ["eu.pokemmo.client"]
     }
 ]
 alternateAppData = {
+    "eu.pokemmo.client": {
+        "beta": false
+    },
     "com.flyinghead.Flycast": {
       "localizedDescription": "Flycast is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast.\nInformation about configuration and supported features can be found on TheArcadeStriker's [flycast wiki](https://github.com/TheArcadeStriker/flycast-wiki/wiki).",
       "screenshotURLs": ["https://i.imgur.com/47KjD5a.png", "https://i.imgur.com/MfhD1h1.png", "https://i.imgur.com/wO88IVP.png"]
