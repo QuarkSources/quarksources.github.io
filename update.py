@@ -38,7 +38,7 @@ sourcesData = [
         "parser": GithubParser,
         "kwargs": {"repo_author": "Odyssey-Team", "repo_name": "Taurine"},
         #"kwargs": {"filepath": "https://taurine.app/altstore/taurinestore.json"},
-        "ids": ["com.odysseyteam.taurine"]
+        "ids": ["org.coolstar.taurine"]
     },
     {
         "parser": AltSourceParser,
@@ -69,7 +69,7 @@ sourcesData = [
     {
         "parser": GithubParser,
         "kwargs": {"repo_author": "brandonplank", "repo_name": "flappybird"},
-        "ids": ["org.brandonplank.flappybird15"]
+        "ids": ["org.brandonplank.flappybird"]
     },
     {
         "parser": GithubParser,
@@ -376,3 +376,25 @@ try:
 except Exception as err:
     logging.error(f"Unable to update {quantumsrc_plus.src.name}.")
     logging.error(f"{type(err).__name__}: {str(err)}")
+
+sourcesData = [
+  {
+    "parser": AltSourceParser,
+    "kwargs": {"filepath": "https://qnblackcat.github.io/AltStore/apps.json"},
+    "ids": ["com.google.ios.youtube.cercube"]
+  }
+]
+
+alternateAppData = {
+  "com.google.ios.youtube.cercube": {
+    "bundleIdentifier": "com.google.ios.youtube"
+  }
+}
+
+cercube = AltSourceManager("cercube.json", sourcesData, alternateAppData, prettify=False)
+try:
+    cercube.update()
+except Exception as err:
+    logging.error(f"Unable to update {cercube.src.name}.")
+    logging.error(f"{type(err).__name__}: {str(err)}")
+    
