@@ -381,12 +381,12 @@ sourcesData = [
   {
     "parser": AltSourceParser,
     "kwargs": {"filepath": "https://qnblackcat.github.io/AltStore/apps.json"},
-    "ids": ["com.google.ios.youtube.cercube"]
+    "ids": ["com.google.ios.youtubecercube"]
   }
 ]
 
 alternateAppData = {
-  "com.google.ios.youtube.cercube": {
+  "com.google.ios.youtubecercube": {
     "bundleIdentifier": "com.google.ios.youtube"
   }
 }
