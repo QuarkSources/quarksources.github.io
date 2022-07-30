@@ -241,7 +241,7 @@ sourcesData = [
     {
         "parser": AltSourceParser,
         "kwargs": {"filepath": "quarksource++.json"},
-        "ids": ["com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "com.spotify.client", "syto203.reddit.pp", "com.antique.Popcorn-iOS", "mediaboxhd.event.2", "comicreader.net.ios", "com.channelsapp.channels", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp", "com.hotdog.popcorntime81.ios", "tv.twitch"]
+        "ids": ["com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "com.spotify.client", "syto203.reddit.pp", "com.antique.Popcorn", "mediaboxhd.event.2", "comicreader.net.ios", "com.channelsapp.channels", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp", "com.hotdog.popcorntime81.ios", "tv.twitch"]
     },
     {
         "parser": AltSourceParser,
@@ -385,13 +385,13 @@ sourcesData = [
   }
 ]
 
-alternateAppData = {
-  "com.google.ios.youtubecercube": {
-    "bundleIdentifier": "com.google.ios.youtube"
-  }
+alt_data = {
+	"com.google.ios.youtubecercube": {
+		"bundleIdentifier": "com.google.ios.youtube"
+	}
 }
 
-cercube = AltSourceManager("cercube.json", sourcesData, alternateAppData, prettify=False)
+cercube = AltSourceManager("cercube.json", sourcesData, alt_data, prettify=False)
 try:
     cercube.update()
 except Exception as err:

@@ -28,6 +28,17 @@ def is_url(url: str) -> bool:
         return all([result.scheme, result.netloc])
     except ValueError:
         return False
+    
+def flatten_ids(ids: list[str | dict[str, str]], use_keys: bool = True) -> list[str]:
+    nested_ids = [[id] if isinstance(id, str) else id.keys() if use_keys else id.values() for id in ids] # converts a mixed list of strings and dicts to a flat list using the dict keys or values
+    flat_ids = [item for sublist in nested_ids for item in sublist] # flatten list
+    return flat_ids
+
+def gen_id_parse_table(ids: list[str | dict[str, str]]) -> dict[str, str] | None:
+    convert_ids = [dic for dic in ids if isinstance(dic, dict)]
+    if convert_ids is not None:
+        return {k: v for d in convert_ids for k, v in d.items()} # combine into one dict
+    return None
 
 class AltSource:
     class App:
@@ -256,6 +267,17 @@ class AltSource:
         def absoluteVersion(self, value: str):
             self._src["absoluteVersion"] = value
             
+        @property 
+        def appID(self) -> str:
+            return self._src.get("appID")
+        @appID.setter
+        def appID(self, value: str):
+            if not isinstance(value, str):
+                raise ArgumentTypeError("AltSource.App.appID cannot be set to any type other than str.")
+            if self._src.get("appID") is not None:
+                logging.warning(f"App `appID` changed from {self._src['appID']} to {value}.")
+            self._src["appID"] = value
+            
     # End class App
     
     class Article:
@@ -311,10 +333,10 @@ class AltSource:
             self._src["name"] = value
             
         @property 
-        def identifier(self) -> str:
+        def newsID(self) -> str:
             return self._src.get("identifier")
-        @identifier.setter
-        def identifier(self, value: str):
+        @newsID.setter
+        def newsID(self, value: str):
             logging.warning(f"Article `identifier` changed from {self._src['identifier']} to {value}.")
             self._src["identifier"] = value
             
@@ -474,8 +496,8 @@ class AltSourceManager:
 
     def update(self):
         logging.info(f"Starting on {self.src.name}")
-        existingAppIDs = [app.bundleIdentifier for app in self.src.apps]
-        existingNewsIDs = [article.identifier for article in self.src.news]
+        existingAppIDs = [app.appID or app.bundleIdentifier for app in self.src.apps]
+        existingNewsIDs = [article.newsID for article in self.src.news]
         updatedAppsCount = addedAppsCount = addedNewsCount = 0
 
         for data in self.src_data:
@@ -486,7 +508,7 @@ class AltSourceManager:
                 if isinstance(parser, AltSourceParser):
                     apps = parser.parse_apps(None if data.get("getAllApps") else data.get("ids"))
                     for app in apps:
-                        bundleID = app.bundleIdentifier
+                        bundleID = app.appID
                         if bundleID in existingAppIDs:
                             # version.parse() will be a lower value if the version is 'older'
                             if version.parse(app.version) > version.parse(self.src.apps[existingAppIDs.index(bundleID)].version):
@@ -499,32 +521,49 @@ class AltSourceManager:
                     if not data.get("ignoreNews"):
                         news = parser.parse_news(None if data.get("getAllNews") else data.get("ids"))
                         for article in news:
-                            newsID = article.identifier
+                            newsID = article.newsID
                             if newsID in existingNewsIDs:
                                 self.src.news[existingNewsIDs.index(newsID)] = article # overwrite existing news article
                             else:
                                 addedNewsCount += 1
                                 self.src.news.append(article)
 
-                    # create "appID" property as a duplicate of bundleIdentifier value
-
                 elif isinstance(parser, GithubParser) or isinstance(parser, Unc0verParser):
-                    for id in data["ids"]:
+                    ids = data.get("ids")
+                    
+                    if ids is None:
+                        raise NotImplementedError("Support for updating without specified ids is not supported.")
+                    if len(ids) > 1:
+                        raise NotImplementedError("Support for parsing multiple ids from one GitHub release is not supported.") # TODO: Fix GithubParser class to be able to process multiple apps using ids to fetch them
+                    
+                    #fetch_ids = flatten_ids(ids)
+                    app_ids = flatten_ids(ids, use_keys=False)
+                    #id_conv_tbl = gen_id_parse_table(ids)
+                    
+                    for i, id in enumerate(app_ids):
+                        if not isinstance(id, str):
+                            raise ArgumentTypeError("Values in `ids` must all be of type `str`.")
                         if id not in existingAppIDs:
                             logging.warning(f"{id} not found in {self.src.name}. Create an app entry with this bundleID first.")
                             continue
+
                         app = self.src.apps[existingAppIDs.index(id)]
+                        
                         if version.parse(app.absoluteVersion if app.absoluteVersion else app.version) < version.parse(parser.version): # try to use absoluteVersion of the App contains it
                             metadata = parser.get_asset_metadata()
-                            if metadata["bundleIdentifier"] != id:
-                                logging.error(app.name + " BundleID has changed to " + metadata["bundleIdentifier"] + " - App not updated.")
-                                continue
+                            if metadata["bundleIdentifier"] != app.bundleIdentifier:
+                                logging.warning(app.name + " BundleID has changed to " + metadata["bundleIdentifier"])
+
                             app.absoluteVersion = parser.version
                             app.versionDate = parser.versionDate
                             app.versionDescription = parser.versionDescription
                             for (k,v) in metadata.items(): ## TODO: Should find a better way to utilize the functionality of the AltSource objects
                                 app._src[k] = v
-                            self.src.apps[existingAppIDs.index(data["ids"][0])] = app
+                            
+                            if app.appID is None:
+                                app.appID = id
+                            
+                            self.src.apps[existingAppIDs.index(id)] = app
                             updatedAppsCount += 1
                 else:
                     raise NotImplementedError("The specified parser class is not supported.")
@@ -559,7 +598,7 @@ class AltSourceManager:
         Caution: this method bypasses the built-in safety and formatting checks.
         """
         for i in range(len(self.src.apps)):
-            bundleID = self.src.apps[i].bundleIdentifier
+            bundleID = self.src.apps[i].appID
             if bundleID in self.alt_data.keys():
                 for key in self.alt_data[bundleID].keys():
                     if key == "permissions":
@@ -571,8 +610,7 @@ class AltSourceParser:
     """A parser that allows the collection the apps and news articles from an AltSource.
     """
     def __init__(self, filepath: Path | str):
-        """_summary_
-
+        """
         Args:
             filepath (Path | str): The location of the source to be parsed, strings can be a url or filepath.
 
@@ -595,22 +633,48 @@ class AltSourceParser:
         if not self.src.is_valid():
             raise AltSourceError("Invalid source formatting.")
 
-    def parse_apps(self, ids: list[str] | None = None) -> list[AltSource.App]:
+    def parse_apps(self, ids: list[str | dict[str, str]] | None = None) -> list[AltSource.App]:
+        """Takes a provided list of ids that are `str` provided that `appID` is intended to be equal to `bundleIdentifier` or are type `dict` in the case that they are not the same value. The dict key will be the id being parsed from the other source, assumably the `bundleIdentifier` (but if an `appID` does exist, it will prioritize that) and the predetermined `appID` will be the value. It will then ensure every app has a unique `appID` before returning the list of Apps. This allows the user to change the appID of an app when they parse it.
+
+        Args:
+            ids (list[str | dict] | None, optional): _description_. Defaults to None.
+
+        Returns:
+            list[AltSource.App]: _description_
+        """
+        
         processed_apps, processed_keys = list(), list()
+        fetch_ids = flatten_ids(ids)
+        id_conv_tbl = gen_id_parse_table(ids)
+        
         for app in self.src.apps:
             if app.is_valid():
-                id = app.bundleIdentifier
-                if id in processed_keys: # bundleID already exists in list of apps processed (meaning there's a duplicate)
+                id = app.appID or app.bundleIdentifier
+                if id in processed_keys: # appID / bundleID already exists in list of apps processed (meaning there's a duplicate)
                     index = processed_keys.index(id)
                     if version.parse(processed_apps[index].version) > version.parse(app.version):
-                        next
+                        continue
                     else:
                         processed_apps[index] = app
-                elif ids is None:
+                elif ids is None or id in fetch_ids:
                     processed_apps.append(app)
-                elif id in ids:
-                    processed_apps.append(app)
+                else:
+                    continue # app is not going to be included
+                
+                if app.appID is None:
+                    if ids is None or id in ids:
+                        app.appID = app.bundleIdentifier
+                    else:
+                        app.appID = id_conv_tbl[app.bundleIdentifier]
+                        
                 processed_keys.append(id)
+            else:
+                logging.warning(f"Failed to parse invalid app: {app.name}")
+            
+        # determine if any listed keys were not found in the source
+        if len(processed_keys) < len(fetch_ids):
+            missing_ids = set([pid for pid in fetch_ids if pid not in processed_keys])
+            logging.warning(f"Requested ids not found in AltSource ({self.src.name}): {missing_ids}")
         return processed_apps
 
     def parse_news(self, ids: list[str] | None = None) -> list[AltSource.Article]:
@@ -621,7 +685,7 @@ class AltSourceParser:
             if article.is_valid():
                 if ids is None:
                     processed_news.append(article)
-                elif article.identifier in ids:
+                elif article.newsID in ids:
                     processed_news.append(article)
         return processed_news
 
