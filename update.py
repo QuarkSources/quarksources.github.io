@@ -125,7 +125,7 @@ sourcesData = [
     },
     {
         "parser": GithubParser,
-        "kwargs": {"repo_author": "n3d1117", "repo_name": "appdb"},
+        "kwargs": {"repo_author": "n3d1117", "repo_name": "appdb", "prefer_date": True},
         "ids": ["it.ned.appdb-ios"]
     },
     {

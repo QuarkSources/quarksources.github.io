@@ -3,6 +3,7 @@ import json
 import re
 from datetime import datetime
 from pathlib import Path
+from turtle import xcor
 from typing import Callable
 from urllib.parse import urlparse
 
@@ -21,6 +22,9 @@ def current_altstore_datetime() -> str:
         str: A formatted string containing the current date and time.
     """
     return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+
+def parse_github_datetime(dt: str) -> datetime:
+    return datetime.strptime(dt, "%Y-%m-%dT%H:%M:%S%z")
 
 def is_url(url: str) -> bool:
     try:
@@ -549,7 +553,8 @@ class AltSourceManager:
 
                         app = self.src.apps[existingAppIDs.index(id)]
                         
-                        if version.parse(app.absoluteVersion if app.absoluteVersion else app.version) < version.parse(parser.version): # try to use absoluteVersion of the App contains it
+                        # try to use absoluteVersion of the App contains it
+                        if version.parse(app.absoluteVersion if app.absoluteVersion else app.version) < version.parse(parser.version) or (parser.prefer_date and parse_github_datetime(app.versionDate) < parse_github_datetime(parser.versionDate)): 
                             metadata = parser.get_asset_metadata()
                             if metadata["bundleIdentifier"] != app.bundleIdentifier:
                                 logging.warning(app.name + " BundleID has changed to " + metadata["bundleIdentifier"])
@@ -698,13 +703,14 @@ class Unc0verParser:
             ver_parse (_type_, optional): A lambda function used as a preprocessor to the listed tag_version before comparing to the stored version. Defaults to lambda x:x.lstrip("v").
             prefer_date (bool, optional): Utilizes the published date to determine if there is an update. Defaults to False.
         """
+        self.prefer_date, self.ver_parse = prefer_date, ver_parse
         releases = requests.get(url).json()
 
         # alter the release tags to match altstore version tags
         releases = [{k: ver_parse(v) if k == "tag_name" else v for (k, v) in x.items()} for x in releases]
 
         if prefer_date:
-            self.data = sorted(releases, key=lambda x: datetime.strptime(x["published_at"], "%Y-%m-%dT%H:%M:%S%z"))[-1] # only grab the most recent release
+            self.data = sorted(releases, key=lambda x: parse_github_datetime(x["published_at"]))[-1] # only grab the most recent release
         else:
             self.data = sorted(releases, key=lambda x: version.parse(x["tag_name"]))[-1] # only grab the release with the highest version
 
@@ -749,7 +755,7 @@ class GithubParser:
         Raises:
             GitHubError: If there was an issue using the GitHub API to get the release info.
         """
-        self.asset_regex, self.extract_twice, self.upload_ipa_repo = asset_regex, extract_twice, upload_ipa_repo
+        self.asset_regex, self.extract_twice, self.upload_ipa_repo, self.prefer_date = asset_regex, extract_twice, upload_ipa_repo, prefer_date
         if url is not None:
             releases = requests.get(url).json()
         elif repo_author is not None and repo_name is not None:
@@ -763,16 +769,29 @@ class GithubParser:
                 raise GitHubError("Github API rate limit has been exceeded for this hour.")
             else:
                 raise GitHubError("Github API issue: " + releases.get("message"))
+
+        #### Helper methods ####
+        def match_asset(release):
+            assets = list(filter(lambda x: re.fullmatch(self.asset_regex, x["name"]), release["assets"])) # filters assets to match asset_regex
+            asset = sorted(assets, key=lambda x: parse_github_datetime(x["updated_at"]))[-1] # gets most recently updated ipa
+            release["asset"] = asset # set asset in the release to only be most recently IPA found
+            
+        def alter_tag_name(release):
+            release["tag_name"] = ver_parse(release["tag_name"])
+
+        #### Parse the correct release ####
         if not include_pre:
             releases = list(filter(lambda x: x["prerelease"] != True, releases)) # filter out prereleases
-
-        # alter the github release tags to match AltStore version tags
-        releases = [{k: ver_parse(v) if k == "tag_name" else v for (k, v) in x.items()} for x in releases]
-
         if prefer_date:
-            self.data = sorted(releases, key=lambda x: datetime.strptime(x["published_at"], "%Y-%m-%dT%H:%M:%S%z"))[-1] # only grab the most recent release
+            # narrow down assets for all releases to make checking the asset timestamp easier
+            for x in releases: match_asset(x)
+            self.data = sorted(releases, key=lambda x: parse_github_datetime(x["asset"]["updated_at"]))[-1] # only grab the most recent release
+            alter_tag_name(self.data)
         else:
+            # alter the github release tags to match AltStore version tags
+            for x in releases: alter_tag_name(x) 
             self.data = sorted(releases, key=lambda x: version.parse(x["tag_name"]))[-1] # only grab the release with the highest version
+            match_asset(self.data)
 
     @property
     def version(self) -> str:
@@ -780,7 +799,7 @@ class GithubParser:
 
     @property
     def versionDate(self) -> str:
-        return self.data["published_at"]
+        return self.data["asset"]["updated_at"]
 
     @property
     def versionDescription(self) -> str:
@@ -792,7 +811,7 @@ class GithubParser:
         Returns:
             dict: A dictionary containing the downloadURL, size, bundleID, version, and more.
         """
-        download_url = next(x for x in self.data["assets"] if re.fullmatch(self.asset_regex, x["name"]))["browser_download_url"]
+        download_url = self.data["asset"]["browser_download_url"]
 
         ipa_path = download_tempfile(download_url)
         payload_path = extract_ipa(ipa_path, self.extract_twice)
