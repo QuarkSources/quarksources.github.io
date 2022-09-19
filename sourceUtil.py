@@ -1,9 +1,8 @@
-import logging
 import json
+import logging
 import re
 from datetime import datetime
 from pathlib import Path
-from turtle import xcor
 from typing import Callable
 from urllib.parse import urlparse
 
@@ -11,6 +10,7 @@ import requests
 from packaging import version
 
 from ipaUtil import *
+
 
 def current_altstore_datetime() -> str:
     """Generates and returns the current UTC date and time in a format accepted by AltStore.
@@ -34,11 +34,28 @@ def is_url(url: str) -> bool:
         return False
     
 def flatten_ids(ids: list[str | dict[str, str]], use_keys: bool = True) -> list[str]:
+    """Takes a list of mixed data types (str and dict) and converts them all to a list[str] by removing either the key or value of any dict objects.
+
+    Args:
+        ids (list[str  |  dict[str, str]]): The list of ids which is either just the `str` id or a `dict` where the `appID` is the key and `bundleID` the value.
+        use_keys (bool, optional): If True, the method will flatten the list using the keys of any `dict` objects, rather than their values (disposing of the unused key/value). Defaults to True.
+
+    Returns:
+        list[str]: A flattened list of app ids.
+    """
     nested_ids = [[id] if isinstance(id, str) else id.keys() if use_keys else id.values() for id in ids] # converts a mixed list of strings and dicts to a flat list using the dict keys or values
     flat_ids = [item for sublist in nested_ids for item in sublist] # flatten list
     return flat_ids
 
 def gen_id_parse_table(ids: list[str | dict[str, str]]) -> dict[str, str] | None:
+    """Creates a singular dictionary that combines the all the dict objects in `ids`.
+
+    Args:
+        ids (list[str  |  dict[str, str]]): _description_
+
+    Returns:
+        dict[str, str] | None: A dict that allows conversion from key:`appID` and value:`bundleID` based on the list of ids given.
+    """
     convert_ids = [dic for dic in ids if isinstance(dic, dict)]
     if convert_ids is not None:
         return {k: v for d in convert_ids for k, v in d.items()} # combine into one dict
@@ -62,7 +79,9 @@ class AltSource:
                     src = {}
             
             def to_dict(self) -> dict[str]:
-                return self._src
+                ret = self._src
+                ret = {k:v for (k,v) in ret.items() if ret.get(k) is not None}
+                return ret
             
             def missing_keys(self) -> list[str]:
                 """Checks to see if the Permission has all the required values and returns the missing keys.
@@ -111,17 +130,127 @@ class AltSource:
             def usageDescription(self, value: str):
                 self._src["usageDescription"] = value
         # End class Permission
+        class Version:
+            _requiredKeys = ['version', 'date', 'downloadURL', 'size']
+            
+            def __init__(self, src: dict[str] | None = None):
+                if src is not None:
+                    self._src = src
+                    if not all(x in src.keys() for x in self._requiredKeys):
+                        logging.warning(f"Missing required AltSource.App.Permission keys.")
+                else:
+                    logging.info(f"Brand new AltSource.App.Version created. Please remember to set the following properties: {self._requiredKeys}")
+                    src = {}
+            
+            def to_dict(self) -> dict[str]:
+                ret = self._src
+                ret = {k:v for (k,v) in ret.items() if ret.get(k) is not None}
+                return ret
+            
+            def missing_keys(self) -> list[str]:
+                """Checks to see if the Version has all the required values and returns the missing keys.
+                
+                Note that if the list is empty, it will evaluate as False.
+
+                Returns:
+                    list[str]: The list of required keys that are missing. If the Version is valid, the list will be empty.
+                """
+                missing_keys = list()
+                for key in self._requiredKeys:
+                    if key not in self._src.keys():
+                        missing_keys.append(key)
+                return missing_keys
+            
+            def is_valid(self) -> bool:
+                """Checks to see if the AltSource.App.Permission is valid and contains all the required information.
+
+                Returns:
+                    bool: True if the `Permission` is a valid AltSource.App.Permission.
+                """
+                return not self.missing_keys()
+            
+            @property 
+            def version(self) -> str:
+                return self._src.get("version")
+            @version.setter
+            def version(self, value: str):
+                self._src["version"] = value
+                
+            @property 
+            def date(self) -> str:
+                return self._src.get("date")
+            @date.setter
+            def date(self, value: str):
+                self._src["date"] = value
+                
+            @property 
+            def downloadURL(self) -> str:
+                return self._src.get("downloadURL")
+            @downloadURL.setter
+            def downloadURL(self, value: str):
+                self._src["downloadURL"] = value
+                
+            @property 
+            def size(self) -> str:
+                return self._src.get("size")
+            @size.setter
+            def size(self, value: str):
+                self._src["size"] = value
+                
+            @property 
+            def localizedDescription(self) -> str:
+                return self._src.get("localizedDescription")
+            @localizedDescription.setter
+            def localizedDescription(self, value: str):
+                self._src["localizedDescription"] = value
+
+            # Start unofficial AltSource properties
+            
+            @property 
+            def absoluteVersion(self) -> str:
+                return self._src.get("absoluteVersion")
+            @absoluteVersion.setter
+            def absoluteVersion(self, value: str):
+                self._src["absoluteVersion"] = value
+            
+            @property 
+            def sha256(self) -> str:
+                return self._src.get("sha256")
+            @sha256.setter
+            def sha256(self, value: str):
+                self._src["sha256"] = value
+
+        # End class Version
         
-        _requiredKeys = ["name", "bundleIdentifier", "developerName", "version", "versionDate", "downloadURL", "localizedDescription", "iconURL", "size"]
+        _requiredKeys = ["name", "bundleIdentifier", "developerName", "versions", "localizedDescription", "iconURL"]
         
         def __init__(self, src: dict[str] | None = None):
             if src is None:
                 logging.info(f"Brand new AltSource.App created. Please remember to set the following properties: {self._requiredKeys}")
-                self._src = {"name": "Example App", "bundleIdentifier": "com.example.app", "developerName": "Example.com", "version": "1.0", "versionDate": current_altstore_datetime(), "downloadURL": "https://example.com/app.ipa", "localizedDescription": "An app that is an example.", "iconURL": "https://example.com/icon.png", "size": 1}
+                self._src = {
+                    "name": "Example App", 
+                    "bundleIdentifier": "com.example.app", 
+                    "developerName": "Example.com", 
+                    "versions": [],
+                    "localizedDescription": "An app that is an example.", 
+                    "iconURL": "https://example.com/icon.png"
+                    }
             else:
                 self._src = src
                 if "permissions" in src.keys():
                     self._src["permissions"] = [self.Permission(perm) for perm in src["permissions"]]
+                if "versions" in src.keys():
+                    self._src["versions"] = [AltSource.App.Version(ver) for ver in src["versions"]]
+                else: # create the first Version 
+                    self._src["versions"] = [AltSource.App.Version({
+                        "version": src.get("version"),
+                        "date": src.get("versionDate"),
+                        "downloadURL": src.get("downloadURL"),
+                        "localizedDescription": src.get("versionDescription"),
+                        "size": src.get("size"),
+                        "sha256": src.get("sha256"),
+                        "absoluteVersion": src.get("absoluteVersion")
+                    })]
                 missing_keys = self.missing_keys()
                 if missing_keys:
                     logging.warning(f"Missing required AltSource.App keys: {missing_keys}")
@@ -130,6 +259,9 @@ class AltSource:
             ret = self._src
             if "permissions" in self._src.keys():
                 ret["permissions"] = [perm.to_dict() for perm in self.permissions]
+            if "versions" in self._src.keys():
+                ret["versions"] = [ver.to_dict() for ver in self.versions]
+            ret = {k:v for (k,v) in ret.items() if ret.get(k) is not None}
             return ret
         
         def missing_keys(self) -> list[str]:
@@ -153,6 +285,15 @@ class AltSource:
                 bool: True if the `App` is a valid AltSource.App.
             """
             return not self.missing_keys()
+        
+        def _update_old_version_util(self, ver: Version):
+            """Takes an `AltSource.App.Version` and uses it to update all the original AltStore API 
+               properties for managing updates. Utilize this method to maintain backwards compatibility.
+            """
+            self._src["version"] = ver.version
+            self._src["size"] = ver.size
+            self._src["downloadURL"] = ver.downloadURL
+            self._src["versionDate"] = ver.date
         
         @property 
         def name(self) -> str:
@@ -184,31 +325,48 @@ class AltSource:
             self._src["subtitle"] = value
             
         @property 
+        def versions(self) -> list[Version]:
+            return self._src.get("versions")
+        @versions.setter
+        def versions(self, value: list[Version]):
+            if self.versions is not None:
+                logging.warning(f"Entire `versions` section has been replaced for {self.name}.")
+            self._src["versions"] = value
+            
+        @property 
         def version(self) -> str:
+            logging.warning(f"Using deprecated v1 AltSource API.")
             return self._src.get("version")
         @version.setter
         def version(self, value: str):
+            logging.warning(f"Using deprecated v1 AltSource API.")
             self._src["version"] = value
             
         @property 
         def versionDate(self) -> str:
+            logging.warning(f"Using deprecated v1 AltSource API.")
             return self._src.get("versionDate")
         @versionDate.setter
         def versionDate(self, value: str):
+            logging.warning(f"Using deprecated v1 AltSource API.")
             self._src["versionDate"] = value
             
         @property 
         def versionDescription(self) -> str:
+            logging.warning(f"Using deprecated v1 AltSource API.")
             return self._src.get("versionDescription")
         @versionDescription.setter
         def versionDescription(self, value: str):
+            logging.warning(f"Using deprecated v1 AltSource API.")
             self._src["versionDescription"] = value
             
         @property 
         def downloadURL(self) -> str:
+            logging.warning(f"Using deprecated v1 AltSource API.")
             return self._src.get("downloadURL")
         @downloadURL.setter
         def downloadURL(self, value: str):
+            logging.warning(f"Using deprecated v1 AltSource API.")
             self._src["downloadURL"] = value
             
         @property 
@@ -272,6 +430,13 @@ class AltSource:
             self._src["absoluteVersion"] = value
             
         @property 
+        def sha256(self) -> str:
+            return self._src.get("sha256")
+        @sha256.setter
+        def sha256(self, value: str):
+            self._src["sha256"] = value
+            
+        @property 
         def appID(self) -> str:
             return self._src.get("appID")
         @appID.setter
@@ -298,7 +463,9 @@ class AltSource:
                     logging.warning(f"Missing required AltSource.Article keys: {missing_keys}")
             
         def to_dict(self) -> dict[str]:
-            return self._src
+            ret = self._src
+            ret = {k:v for (k,v) in ret.items() if ret.get(k) is not None}
+            return ret
         
         def missing_keys(self) -> list[str]:
             """Checks to see if the `Article` has all the required values and returns the missing keys.
@@ -398,19 +565,21 @@ class AltSource:
     
     def __init__(self, src: dict | None = None):
         if src is None:
-            self._src = {"name": "ExampleSourceName", "identifier": "com.example.identifier", "apps": []}
+            self._src = {"name": "ExampleSourceName", "identifier": "com.example.identifier", "apps": [], "version": 2}
             logging.info(f"Brand new AltSource created. Please remember to set the following properties: {self._requiredKeys}")
         else:
             self._src = src
             self._src["apps"] = [self.App(app) for app in src["apps"]]
             if "news" in self._src.keys():
                 self._src["news"] = [self.Article(art) for art in src["news"]]
+            self.version = 2 # set current API version
     
     def to_dict(self) -> dict[str]:
         ret = self._src
         ret["apps"] = [app.to_dict() for app in self.apps]
         if "news" in self._src.keys():
             ret["news"] = [art.to_dict() for art in self.news]
+        ret = {k:v for (k,v) in ret.items() if ret.get(k) is not None}
         return ret
     
     def missing_keys(self) -> list[str]:
@@ -468,6 +637,17 @@ class AltSource:
         if self.news is not None:
             logging.warning("Entire `news` section has been replaced.")
         self._src["news"] = value
+        
+    # Start unofficial AltSource attributes.
+    
+    @property 
+    def version(self) -> str:
+        """Used to declare the AltSource API version.
+        """
+        return self._src.get("version")
+    @version.setter
+    def version(self, value: str):
+        self._src["version"] = value
 # End class AltSource
 
 class AltSourceManager:
@@ -514,9 +694,14 @@ class AltSourceManager:
                     for app in apps:
                         bundleID = app.appID
                         if bundleID in existingAppIDs:
+                            # save the old versions property to ensure old versions aren't lost even if the other AltSource isn't tracking them
+                            old_vers = self.src.apps[existingAppIDs.index(bundleID)].versions
                             # version.parse() will be a lower value if the version is 'older'
-                            if version.parse(app.version) > version.parse(self.src.apps[existingAppIDs.index(bundleID)].version):
+                            if version.parse(app.versions[0].version) > version.parse(self.src.apps[existingAppIDs.index(bundleID)].versions[0].version):
                                 updatedAppsCount += 1
+                                old_vers.insert(0, app.versions[0])
+                                app._update_old_version_util(old_vers[0])
+                            app._src["versions"] = old_vers # use the _src property to avoid overwrite warnings
                             self.src.apps[existingAppIDs.index(bundleID)] = app # note that this actually updates the app regardless of whether the version is newer
                         else:
                             addedAppsCount += 1
@@ -553,22 +738,28 @@ class AltSourceManager:
 
                         app = self.src.apps[existingAppIDs.index(id)]
                         
-                        # try to use absoluteVersion of the App contains it
-                        if version.parse(app.absoluteVersion if app.absoluteVersion else app.version) < version.parse(parser.version) or (parser.prefer_date and parse_github_datetime(app.versionDate) < parse_github_datetime(parser.versionDate)): 
+                        # try to use absoluteVersion if the App contains it
+                        if version.parse(app.versions[0].absoluteVersion if app.versions[0].absoluteVersion else app.versions[0].version) < version.parse(parser.version) or (parser.prefer_date and parse_github_datetime(app.versions[0].date) < parse_github_datetime(parser.versionDate)): 
                             metadata = parser.get_asset_metadata()
+                            
+                            new_ver = AltSource.App.Version()
+                            new_ver.absoluteVersion = parser.version
+                            new_ver.date = parser.versionDate
+                            new_ver.localizedDescription = parser.versionDescription
+                            new_ver.size = metadata.get("size")
+                            new_ver.version = metadata.get("version")
+                            new_ver.downloadURL = metadata.get("downloadURL")
+                            
                             if metadata["bundleIdentifier"] != app.bundleIdentifier:
                                 logging.warning(app.name + " BundleID has changed to " + metadata["bundleIdentifier"])
+                                app.bundleIdentifier = metadata["bundleIdentifier"]
+                                new_ver.localizedDescription += "\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs."
 
-                            app.absoluteVersion = parser.version
-                            app.versionDate = parser.versionDate
-                            app.versionDescription = parser.versionDescription
-                            for (k,v) in metadata.items(): ## TODO: Should find a better way to utilize the functionality of the AltSource objects
-                                app._src[k] = v
-                            
                             if app.appID is None:
                                 app.appID = id
                             
-                            self.src.apps[existingAppIDs.index(id)] = app
+                            app.versions.insert(0, new_ver)
+                            app._update_old_version_util(new_ver)
                             updatedAppsCount += 1
                 else:
                     raise NotImplementedError("The specified parser class is not supported.")
@@ -591,8 +782,9 @@ class AltSourceManager:
         if self.alt_data is not None:
             self.alter_app_info()
 
+        full_src = self.src.to_dict()
         with open(self.path, "w", encoding="utf-8") as fp:
-            json.dump(self.src.to_dict(), fp, indent = 2 if self.prettify else None)
+            json.dump(full_src, fp, indent = 2 if self.prettify else None)
             fp.write("\n") # add missing newline to EOF
         logging.info(f"{updatedAppsCount} app(s) updated.")
         logging.info(f"{addedAppsCount} app(s) added, {addedNewsCount} news article(s) added.")
@@ -608,6 +800,8 @@ class AltSourceManager:
                 for key in self.alt_data[bundleID].keys():
                     if key == "permissions":
                         self.src.apps[i]._src[key] = [AltSource.App.Permission(perm) for perm in self.alt_data[bundleID][key]]
+                    elif key == "versions":
+                        self.src.apps[i]._src[key] = [AltSource.App.Version(ver) for ver in self.alt_data[bundleID][key]]
                     else:
                         self.src.apps[i]._src[key] = self.alt_data[bundleID][key]
 
@@ -657,7 +851,7 @@ class AltSourceParser:
                 id = app.appID or app.bundleIdentifier
                 if id in processed_keys: # appID / bundleID already exists in list of apps processed (meaning there's a duplicate)
                     index = processed_keys.index(id)
-                    if version.parse(processed_apps[index].version) > version.parse(app.version):
+                    if version.parse(processed_apps[index].versions[0].version) > version.parse(app.versions[0].version):
                         continue
                     else:
                         processed_apps[index] = app

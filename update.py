@@ -1,8 +1,9 @@
-import os
 import logging
+import os
 
 from ipaUtil import get_github_release
-from sourceUtil import (AltSourceManager, AltSourceParser, GithubParser, Unc0verParser)
+from sourceUtil import (AltSourceManager, AltSourceParser, GithubParser,
+                        Unc0verParser)
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
