@@ -747,7 +747,7 @@ class AltSourceManager:
                             new_ver.date = parser.versionDate
                             new_ver.localizedDescription = parser.versionDescription
                             new_ver.size = metadata.get("size")
-                            new_ver.version = metadata.get("version")
+                            new_ver.version = metadata.get("version") or new_ver.absoluteVersion
                             new_ver.downloadURL = metadata.get("downloadURL")
                             
                             if metadata["bundleIdentifier"] != app.bundleIdentifier:
