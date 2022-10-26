@@ -23,7 +23,7 @@ sourcesData = [
     {
         "parser": AltSourceParser,
         "kwargs": {"filepath": "quarksource.json"},
-        "ids": ["com.libretro.dist.ios.RetroArch", "com.louisanslow.record", "org.scummvm.scummvm", "com.dry05.filzaescaped11-12", "com.virtualapplications.play"]
+        "ids": ["com.libretro.RetroArchiOS11", "com.louisanslow.record", "org.scummvm.scummvm", "com.dry05.filzaescaped11-12", "com.virtualapplications.play"]
     },
     {
         "parser": AltSourceParser,
@@ -66,11 +66,6 @@ sourcesData = [
         "parser": GithubParser,
         "kwargs": {"repo_author": "yoshisuga", "repo_name": "MAME4iOS"},
         "ids": ["com.example.mame4ios"]
-    },
-    {
-        "parser": GithubParser,
-        "kwargs": {"repo_author": "brandonplank", "repo_name": "flappybird"},
-        "ids": ["org.brandonplank.flappybird"]
     },
     {
         "parser": GithubParser,
