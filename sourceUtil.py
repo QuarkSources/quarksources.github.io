@@ -64,19 +64,19 @@ def gen_id_parse_table(ids: list[str | dict[str, str]]) -> dict[str, str] | None
 class AltSource:
     class App:
         class Permission:
-            _validTypes = ["photos", "camera", "location", "contacts", "reminders", "music", "microphone", "speech-recognition", "background-audio", "background-fetch", "bluetooth", "network", "calendars", "faceid", "siri", "motion"]
-            _requiredKeys = ["type", "usageDescription"]
+            _valid_types = ["photos", "camera", "location", "contacts", "reminders", "music", "microphone", "speech-recognition", "background-audio", "background-fetch", "bluetooth", "network", "calendars", "faceid", "siri", "motion"]
+            _required_keys = ["type", "usageDescription"]
             
             def __init__(self, src: dict[str] | None = None):
                 if src is not None:
                     self._src = src
-                    if not all(x in src.keys() for x in self._requiredKeys):
+                    if not all(x in src.keys() for x in self._required_keys):
                         logging.warning(f"Missing required AltSource.App.Permission keys. Must have both `type` and `usageDescription`.")
                     if "type" in src.keys() and not self.is_valid():
                         logging.warning(f"Permission type not found in valid permission types.")
                 else:
-                    logging.info(f"Brand new AltSource.App.Permission created. Please remember to set the following properties: {self._requiredKeys}")
-                    src = {}
+                    logging.info(f"Brand new AltSource.App.Permission created. Please remember to set the following properties: {self._required_keys}")
+                    self._src = {}
             
             def to_dict(self) -> dict[str]:
                 ret = self._src
@@ -92,7 +92,7 @@ class AltSource:
                     list[str]: The list of required keys that are missing. If the Permission is valid, the list will be empty.
                 """
                 missing_keys = list()
-                for key in self._requiredKeys:
+                for key in self._required_keys:
                     if key not in self._src.keys():
                         missing_keys.append(key)
                 return missing_keys
@@ -111,14 +111,14 @@ class AltSource:
                 Returns:
                     bool: True if the listed type is valid
                 """
-                return self._src.get("type") in self._validTypes
+                return self._src.get("type") in self._valid_types
             
             @property 
             def type(self) -> str:
                 return self._src.get("type")
             @type.setter
             def type(self, value: str):
-                if value in self._validTypes:
+                if value in self._valid_types:
                     self._src["type"] = value
                 else:
                     raise ValueError("Invalid permission type.")
@@ -131,16 +131,16 @@ class AltSource:
                 self._src["usageDescription"] = value
         # End class Permission
         class Version:
-            _requiredKeys = ['version', 'date', 'downloadURL', 'size']
+            _required_keys = ['version', 'date', 'downloadURL', 'size']
             
             def __init__(self, src: dict[str] | None = None):
                 if src is not None:
                     self._src = src
-                    if not all(x in src.keys() for x in self._requiredKeys):
+                    if not all(x in src.keys() for x in self._required_keys):
                         logging.warning(f"Missing required AltSource.App.Permission keys.")
                 else:
-                    logging.info(f"Brand new AltSource.App.Version created. Please remember to set the following properties: {self._requiredKeys}")
-                    src = {}
+                    logging.info(f"Brand new AltSource.App.Version created. Please remember to set the following properties: {self._required_keys}")
+                    self._src = {}
             
             def to_dict(self) -> dict[str]:
                 ret = self._src
@@ -156,7 +156,7 @@ class AltSource:
                     list[str]: The list of required keys that are missing. If the Version is valid, the list will be empty.
                 """
                 missing_keys = list()
-                for key in self._requiredKeys:
+                for key in self._required_keys:
                     if key not in self._src.keys():
                         missing_keys.append(key)
                 return missing_keys
@@ -222,11 +222,11 @@ class AltSource:
 
         # End class Version
         
-        _requiredKeys = ["name", "bundleIdentifier", "developerName", "versions", "localizedDescription", "iconURL"]
+        _required_keys = ["name", "bundleIdentifier", "developerName", "versions", "localizedDescription", "iconURL"]
         
         def __init__(self, src: dict[str] | None = None):
             if src is None:
-                logging.info(f"Brand new AltSource.App created. Please remember to set the following properties: {self._requiredKeys}")
+                logging.info(f"Brand new AltSource.App created. Please remember to set the following properties: {self._required_keys}")
                 self._src = {
                     "name": "Example App", 
                     "bundleIdentifier": "com.example.app", 
@@ -273,7 +273,7 @@ class AltSource:
                 list[str]: The list of required keys that are missing. If the App is valid, the list will be empty.
             """
             missing_keys = list()
-            for key in self._requiredKeys:
+            for key in self._required_keys:
                 if key not in self._src.keys():
                     missing_keys.append(key)
             return missing_keys
@@ -450,11 +450,11 @@ class AltSource:
     # End class App
     
     class Article:
-        _requiredKeys = ["title", "identifier", "caption", "date"]
+        _required_keys = ["title", "identifier", "caption", "date"]
         
         def __init__(self, src: dict | None = None):
             if src is None:
-                logging.info(f"Brand new AltSource.Article created. Please remember to set the following properties: {self._requiredKeys}")
+                logging.info(f"Brand new AltSource.Article created. Please remember to set the following properties: {self._required_keys}")
                 self._src = {"title": "Example Article Title", "identifier": "com.example.article", "caption": "Provoking example caption.", "date": current_altstore_datetime()}
             else:
                 self._src = src
@@ -476,7 +476,7 @@ class AltSource:
                 list[str]: The list of required keys that are missing. If the `Article` is valid, the list will be empty.
             """
             missing_keys = list()
-            for key in self._requiredKeys:
+            for key in self._required_keys:
                 if key not in self._src.keys():
                     missing_keys.append(key)
             return missing_keys
@@ -561,12 +561,12 @@ class AltSource:
             self._src["url"] = value
     # End class Article
     
-    _requiredKeys = ["name", "identifier", "apps"]
+    _required_keys = ["name", "identifier", "apps"]
     
     def __init__(self, src: dict | None = None):
         if src is None:
             self._src = {"name": "ExampleSourceName", "identifier": "com.example.identifier", "apps": [], "version": 2}
-            logging.info(f"Brand new AltSource created. Please remember to set the following properties: {self._requiredKeys}")
+            logging.info(f"Brand new AltSource created. Please remember to set the following properties: {self._required_keys}")
         else:
             self._src = src
             self._src["apps"] = [self.App(app) for app in src["apps"]]
@@ -591,7 +591,7 @@ class AltSource:
             list[str]: The list of required keys that are missing. If the `AltSource` is valid, the list will be empty.
         """
         missing_keys = list()
-        for key in self._requiredKeys:
+        for key in self._required_keys:
             if key not in self._src.keys():
                 missing_keys.append(key)
         return missing_keys
