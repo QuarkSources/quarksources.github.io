@@ -255,6 +255,12 @@ sourcesData = [
         "ids": ["com.grailr.CARROTweather", "com.wolframalpha.wolframalpha", "com.firecore.infuse", "com.stey", "com.luma-touch.LumaFusion"]
     },
     {
+        "parser": Parser.GITHUB,
+        #"kwargs": {"filepath": "https://altstore.enmity.app/"},
+        "kwargs": {"repo_author": "enmity-mod", "repo_name": "tweak", "asset_regex": r"(?!.*(d|D)ev.*).*\.ipa"},
+        "ids": ["com.hammerandchisel.discord"]
+    },
+    {
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "https://9ani.app/api/altstore"},
         "ids": ["com.marcuszhou.NineAnimator"]
@@ -283,7 +289,7 @@ sourcesData = [
     {
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "https://qnblackcat.github.io/AltStore/apps.json"},
-        "ids": ["com.burbn.instagram", "com.facebook.Facebook", "com.google.ios.youtubecercubelegacy", "com.atebits.Tweetie2", "com.google.ios.youtubecercube", "com.google.ios.youtube"]
+        "ids": ["com.burbn.instagram", "com.facebook.Facebook", "com.google.ios.youtubecercubelegacy", "com.atebits.Tweetie2", "com.google.ios.youtubecercube", "com.google.ios.youtube","com.reddit.Reddit"]
     }
 ]
 alternateAppData = {
