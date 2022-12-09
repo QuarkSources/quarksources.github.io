@@ -927,14 +927,14 @@
       "bundleIdentifier": "org.provenance-emu.provenance",
       "developerName": "Joe Mattiello",
       "subtitle": "Multi-emulator frontend for iOS & tvOS",
-      "version": "2.1.1",
-      "versionDate": "2022-06-15T12:00:00-05:00",
-      "versionDescription": "PSX controller fixes, fceux update, SwiftUI updates.",
-      "downloadURL": "https://provenance-builds.s3-us-east-2.amazonaws.com/apps/2.1.1/Provenance-iOS.ipa",
+      "version": "2.2.0",
+      "versionDate": "2022-12-09T00:01:00-05:00",
+      "versionDescription": "Many bug fixes, SwiftUI additions, new cores, new features and more. See GitHub changelog for more info.",
+      "downloadURL": "https://provenance-builds.s3-us-east-2.amazonaws.com/apps/2.2.0/Provenance.ipa",
       "localizedDescription": "Provenance is a multi-system emulator frontend for a plethora of retro gaming systems. You can keep all your games in one place, display them with cover art, and play to your heart's content.\n\nSystems Supported:\n\n\u2022 Atari\n  - 2600\n  - 5200\n  - 7800\n  - Lynx\n  - Jaguar\n\u2022 Bandai\n  - WonderSwan / WonderSwan Color\n\u2022 NEC\n  - PC Engine / TurboGrafx-16 (PCE/TG16)\n  - PC Engine Super CD-ROM\u00b2 System / TurboGrafx-CD\n  - PC Engine SuperGrafx\n  - PC-FX\n\u2022 Nintendo\n  - Nintendo Entertainment System / Famicom (NES/FC)\n  - Famicom Disk System\n  - Super Nintendo Entertainment System / Super Famicom (SNES/SFC)\n  - Game Boy / Game Boy Color (GB/GBC)\n  - Virtual Boy\n  - Game Boy Advance (GBA)\n  - Pok\u00e9mon mini\n\u2022 Sega\n  - SG-1000\n  - Master System\n  - Genesis / Mega Drive\n  - Game Gear\n  - CD / MegaCD\n  - 32X\n\u2022 SNK\n  - Neo Geo Pocket / Neo Geo Pocket Color\n\u2022 Sony\n  - PlayStation (PSX/PS1)",
       "iconURL": "https://provenance-emu.com/images/icons/icon.512x512.png",
       "tintColor": "#1c7cf3",
-      "size": 36120321,
+      "size": 33978209,
       "permissions": [
         {
           "type": "camera",
@@ -962,14 +962,22 @@
         }
       ],
       "screenshotURLs": [
-        "https://provenance-emu.com/blog/2022/02/15/release-2.1.0/images/ios-menu-icons.jpg",
-        "https://provenance-emu.com/blog/2022/02/15/release-2.1.0/images/tvos-settings.jpg",
-        "https://provenance-emu.com/blog/2022/02/15/release-2.1.0/images/ios-spotlight-mk.jpg",
-        "https://provenance-emu.com/blog/2022/02/15/release-2.1.0/images/n64-ios-newlayout.jpg",
-        "https://provenance-emu.com/blog/2022/02/15/release-2.1.0/images/ios-coreoptions-mednafen.jpg",
-        "https://provenance-emu.com/blog/2022/02/15/release-2.1.0/images/ios-coreoptions-genesis.jpg"
+        "https://provenance-emu.com/blog/2022/12/09/release-2.2.0/images/IMG_2306.jpg",
+        "https://provenance-emu.com/blog/2022/12/09/release-2.2.0/images/IMG_2307.jpg",
+        "https://provenance-emu.com/blog/2022/12/09/release-2.2.0/images/IMG_2308.jpg",
+        "https://provenance-emu.com/blog/2022/12/09/release-2.2.0/images/IMG_2309.jpg",
+        "https://provenance-emu.com/blog/2022/12/09/release-2.2.0/images/IMG_2310.jpg",
+        "https://provenance-emu.com/blog/2022/12/09/release-2.2.0/images/IMG_2311.jpg",
+        "https://provenance-emu.com/blog/2022/12/09/release-2.2.0/images/IMG_2312.jpg"
       ],
       "versions": [
+        {
+          "version": "2.2.0",
+          "date": "2022-12-09T00:01:00-05:00",
+          "downloadURL": "https://provenance-builds.s3-us-east-2.amazonaws.com/apps/2.2.0/Provenance.ipa",
+          "localizedDescription": "Many bug fixes, SwiftUI additions, new cores, new features and more. See GitHub changelog for more info.",
+          "size": 33978209
+        },
         {
           "version": "2.1.1",
           "date": "2022-06-15T12:00:00-05:00",
