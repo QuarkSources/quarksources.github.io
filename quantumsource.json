@@ -271,14 +271,14 @@
       "bundleIdentifier": "com.example.mame4ios",
       "developerName": "yoshisuga",
       "subtitle": "A MAME Arcade emulator for iOS.",
-      "version": "2022.3",
-      "versionDate": "2022-09-17T02:33:58Z",
+      "version": "2022.5",
+      "versionDate": "2022-12-12T02:16:35Z",
       "versionDescription": "# 2022.3\n\n# Version 2022.3\r\n\r\n* iOS 16 support\r\n",
-      "downloadURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.3/MAME4tvOS-2022.3-139.ipa",
+      "downloadURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-139.ipa",
       "localizedDescription": "MAME stands for Multi Arcade Machine Emulator. This app lets you play arcade games from the past 30+ years on your iPhone, iPad, macOS, or AppleTV.\n\nMore than 2000 games are supported, and the currently supported romset version is MAME 0.139u1 (September 2010).\n\nOther nifty features include:\n* 64-bit binary to run on modern and future iOS devices\n* Supports modern device screen sizes, including iPhone X/XR/XS/XS Max and iPad Pro\n* A native iOS/iPadOS/tvOS frontend (by @ToddLa, new in 2020!)\n* A native Metal rendering engine (by @ToddLa, new in 2020!)\n* tvOS support (new in 2019!)\n* An in-app web server to transfer files from your computer (new in 2019!)\n* Transfer ROMs, Artwork, and ROMSETs via AirDrop or iOS File Sharing (new in 2020!)\n* Multiple MFI controllers (up to 4 with dual analog support - @DarrenBranford)\n* Supports using the touch screen as a lightgun\n* Turbo mode toggle for buttons\n* Touch analog for games like Arkanoid\n* Builds in Xcode 11.x/12.x and runs on latest iOS 13/14 versions",
       "iconURL": "https://i.imgur.com/gZCjhLl.png",
       "tintColor": "#51bacc",
-      "size": 46033990,
+      "size": 52332306,
       "permissions": [
         {
           "type": "bluetooth",
@@ -292,6 +292,14 @@
       "absoluteVersion": "2022.3",
       "appID": "com.example.mame4ios",
       "versions": [
+        {
+          "absoluteVersion": "2022.5",
+          "date": "2022-12-12T02:16:35Z",
+          "localizedDescription": "# 2022.5\n\n* Updated to [MAME 250](https://www.mamedev.org/releases/whatsnew_0250.txt).\r\n* tvOS UX: use a Alert instead of a inline Segmented Control.\r\n* Show upload feedback in Web Server UX.\r\n* Added `Make First Favorite` to game context menu.\r\n",
+          "size": 52332306,
+          "version": "2022.5",
+          "downloadURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-139.ipa"
+        },
         {
           "version": "2022.3",
           "date": "2022-09-17T02:33:58Z",
