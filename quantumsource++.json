@@ -1643,7 +1643,7 @@
       "beta": false,
       "bundleIdentifier": "com.reddit.Reddit",
       "developerName": "level3tjg",
-      "downloadURL": "https://github.com/qnblackcat/RedditFilter_Sideloaded/releases/download/v2022.41.0-1.0.8/RedditFilter_2022.41.0_1.0.8.ipa",
+      "downloadURL": "https://github.com/qnblackcat/RedditFilter_Sideloaded/releases/download/v2022.45.0-1.0.9/RedditFilter_2022.45.0_1.0.9.ipa",
       "iconURL": "https://raw.githubusercontent.com/qnblackcat/AltStore/main/ScreenShot/free-reddit-logo-icon-2436-thumb.png",
       "localizedDescription": "- RedditFilter & RedditSideloadFix are made by u/level3tjg!!!\n- Filter out unwanted content from your Reddit feed. Configurable from in-app settings.\n- Requires iOS 14.0 or later.\n- Source code: \nhttps://github.com/level3tjg/RedditFilter\nhttps://github.com/level3tjg/RedditSideloadFix",
       "name": "RedditFilter",
@@ -1654,10 +1654,17 @@
       "size": 142121615,
       "subtitle": "Filter out unwanted content from your Reddit feed. Configurable from in-app settings",
       "tintColor": "ff4600",
-      "version": "2022.41.0",
-      "versionDate": "2022-11-06T12:00:00-01:00",
+      "version": "2022.45.0",
+      "versionDate": "2022-12-12T12:00:00-01:00",
       "versionDescription": "https://level3tjg.me/repo/depictions/com.level3tjg.redditfilter\n",
       "versions": [
+        {
+          "version": "2022.45.0",
+          "date": "2022-12-12T12:00:00-01:00",
+          "downloadURL": "https://github.com/qnblackcat/RedditFilter_Sideloaded/releases/download/v2022.45.0-1.0.9/RedditFilter_2022.45.0_1.0.9.ipa",
+          "localizedDescription": "https://level3tjg.me/repo/depictions/com.level3tjg.redditfilter\n",
+          "size": 142121615
+        },
         {
           "version": "2022.41.0",
           "date": "2022-11-06T12:00:00-01:00",
