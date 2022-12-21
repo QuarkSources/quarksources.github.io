@@ -48,6 +48,14 @@
       "subtitle": "An alternative App Store for iOS.",
       "versions": [
         {
+          "version": "1.6rc",
+          "date": "2022-12-21T11:30:00-06:00",
+          "localizedDescription": "\u2022 Moved Error Log from \"Debug\" settings to \"Techy Things\"\n\u2022 Improved misc. error messages\n\u2022 Fixed repeated \"AltServer could not be found\" notifications\n\u2022 Fixed missing metadata for errors received from AltServer\n\u2022 Fixed decoding nested error metadata values",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_rc.ipa",
+          "size": 5606669,
+          "minOSVersion": "12.2"
+        },
+        {
           "version": "1.6b4",
           "date": "2022-11-30T12:00:00-06:00",
           "localizedDescription": "\u2022 Checks iOS compatibility for updates and installs \n\u2022 Asks user to install latest compatible version if not supported\n\u2022 View unsupported updates from My Apps tab\n\u2022 Pull-to-refresh to check for updates",
@@ -76,14 +84,14 @@
           "size": 5465476
         }
       ],
-      "version": "1.6b4",
-      "versionDate": "2022-11-30T12:00:00-06:00",
+      "version": "1.6rc",
+      "versionDate": "2022-12-21T11:30:00-06:00",
       "versionDescription": "\u2022 Checks iOS compatibility for updates and installs \n\u2022 Asks user to install latest compatible version if not supported\n\u2022 View unsupported updates from My Apps tab\n\u2022 Pull-to-refresh to check for updates",
-      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_b4.ipa",
+      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_rc.ipa",
       "localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis beta release of AltStore adds support for 3rd party sources, allowing you to download apps from other developers directly through AltStore.",
       "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
       "tintColor": "018084",
-      "size": 5608964,
+      "size": 5606669,
       "beta": false,
       "screenshotURLs": [
         "https://user-images.githubusercontent.com/705880/78942028-acf54300-7a6d-11ea-821c-5bb7a9b3e73a.PNG",
