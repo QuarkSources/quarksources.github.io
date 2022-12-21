@@ -84,14 +84,14 @@
           "size": 5465476
         }
       ],
-      "version": "1.6rc",
-      "versionDate": "2022-12-21T11:30:00-06:00",
+      "version": "1.6b4",
+      "versionDate": "2022-11-30T12:00:00-06:00",
       "versionDescription": "\u2022 Checks iOS compatibility for updates and installs \n\u2022 Asks user to install latest compatible version if not supported\n\u2022 View unsupported updates from My Apps tab\n\u2022 Pull-to-refresh to check for updates",
-      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_rc.ipa",
+      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_b4.ipa",
       "localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis beta release of AltStore adds support for 3rd party sources, allowing you to download apps from other developers directly through AltStore.",
       "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
       "tintColor": "018084",
-      "size": 5606669,
+      "size": 5608964,
       "beta": false,
       "screenshotURLs": [
         "https://user-images.githubusercontent.com/705880/78942028-acf54300-7a6d-11ea-821c-5bb7a9b3e73a.PNG",
