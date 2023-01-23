@@ -100,14 +100,14 @@
           "size": 5465476
         }
       ],
-      "version": "1.6rc3",
-      "versionDate": "2023-01-23T11:30:00-06:00",
+      "version": "1.6rc2",
+      "versionDate": "2023-01-18T11:30:00-06:00",
       "versionDescription": "\u2022 Fixed outdated AltStore updates appearing in My Apps tab\n\nPREVIOUS RC\n\u2022 Moved Error Log from \"Debug\" settings to \"Techy Things\"\n\u2022 Improved misc. error messages\n\u2022 Fixed repeated \"AltServer could not be found\" notifications\n\u2022 Fixed missing metadata for errors received from AltServer\n\u2022 Fixed decoding nested error metadata values",
-      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_rc3.ipa",
+      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_rc2.ipa",
       "localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis beta release of AltStore adds support for 3rd party sources, allowing you to download apps from other developers directly through AltStore.",
       "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
       "tintColor": "018084",
-      "size": 5614292,
+      "size": 5614213,
       "beta": false,
       "screenshotURLs": [
         "https://user-images.githubusercontent.com/705880/78942028-acf54300-7a6d-11ea-821c-5bb7a9b3e73a.PNG",
