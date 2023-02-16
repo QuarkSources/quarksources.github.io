@@ -1030,20 +1030,27 @@
       "bundleIdentifier": "com.flyinghead.Flycast",
       "developerName": "Flyinghead",
       "subtitle": "Dreamcast, Naomi and Atomiswave emulator.",
-      "version": "v2.0",
-      "versionDate": "2022-08-29T11:21:00+02:00",
-      "versionDescription": "This update brings Naomi 2 support",
-      "downloadURL": "https://github.com/flyinghead/flycast/releases/download/v2.0/Flycast-2.0.ipa",
+      "version": "v2.1",
+      "versionDate": "2023-02-16T11:24:00+01:00",
+      "versionDescription": "Full framebuffer emulation and texture upscaling on iOS.",
+      "downloadURL": "https://github.com/flyinghead/flycast/releases/download/V2.1/Flycast-2.1.ipa",
       "localizedDescription": "Flycast is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast.\nInformation about configuration and supported features can be found on TheArcadeStriker's [flycast wiki](https://github.com/TheArcadeStriker/flycast-wiki/wiki).",
       "iconURL": "https://github.com/flyinghead/flycast/raw/master/shell/linux/flycast.png",
       "tintColor": "9b54fd",
-      "size": 14716842,
+      "size": 14904310,
       "screenshotURLs": [
         "https://i.imgur.com/47KjD5a.png",
         "https://i.imgur.com/MfhD1h1.png",
         "https://i.imgur.com/wO88IVP.png"
       ],
       "versions": [
+        {
+          "version": "v2.1",
+          "date": "2023-02-16T11:24:00+01:00",
+          "downloadURL": "https://github.com/flyinghead/flycast/releases/download/V2.1/Flycast-2.1.ipa",
+          "localizedDescription": "Full framebuffer emulation and texture upscaling on iOS.",
+          "size": 14904310
+        },
         {
           "version": "v2.0",
           "date": "2022-08-29T11:21:00+02:00",
