@@ -729,7 +729,7 @@
       "beta": false,
       "bundleIdentifier": "com.burbn.instagram",
       "developerName": "Alfhaily & Qn_",
-      "downloadURL": "https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/ES2LQrMElbNIjXPfQe87JAQBko4Oun-LdLKZGCqaFG5kBw?download=1",
+      "downloadURL": "https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/EQUCbcBBMmpAr3rKFl_6qkkBB8nquabTNaymTavyNVapJQ?download=1",
       "iconURL": "https://raw.githubusercontent.com/qnblackcat/AltStore/main/ScreenShot/800px-Instagram_logo_2016.svg.png",
       "localizedDescription": "Rocket not only gives you the features that are missing from Instagram, but it also gives you full control over the app.\n\nLearn how to make your own Rocket for Instagram iPA here: https://github.com/qnblackcat/IGSideloadFix\n\nFEATURES\n- Browse home feed in grid layout.\n- Show following status in Profile.\n- Download posts from your feed.\n- Repost any post from your feed.\n- Long press on posts to zoom.\n- Copy post captions from your feed.\n- Download all Stories on Instagram.\n- Save videos from IGTV.\n- View Stories without notifying others.\n- Mute and unmute Stories.\n- Disable Auto-Advance in Stories.\n- Hide Stories from your feed.\n- Play in high quality on Mobile Data.\n- Long press on profile photo to zoom.\n- Disable read receipts in DM.\n- Disable Screenshot notifications in DM.\n- Disable Read Receipts in DM.\n\nLearn how to make your own Rocket for Instagram iPA here: https://github.com/qnblackcat/IGSideloadFix",
       "name": "Rocket for Instagram",
@@ -742,10 +742,17 @@
       "size": 91750400,
       "subtitle": "Save posts and view stories anonymously and do much more. Requires iOS 12.4 and later.",
       "tintColor": "c72a96",
-      "version": "262.0",
-      "versionDate": "2022-09-12T12:00:00-01:00",
-      "versionDescription": "Changelog v262.0-3.8.1:\n- https://apt.alfhaily.me/depiction/4EYOXC",
+      "version": "271.0",
+      "versionDate": "2023-02-22T12:00:00-01:00",
+      "versionDescription": "Changelog v271.0-3.8.5:\n- https://apt.alfhaily.me/depiction/4EYOXC",
       "versions": [
+        {
+          "version": "271.0",
+          "date": "2023-02-22T12:00:00-01:00",
+          "downloadURL": "https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/EQUCbcBBMmpAr3rKFl_6qkkBB8nquabTNaymTavyNVapJQ?download=1",
+          "localizedDescription": "Changelog v271.0-3.8.5:\n- https://apt.alfhaily.me/depiction/4EYOXC",
+          "size": 91750400
+        },
         {
           "version": "262.0",
           "date": "2022-09-12T12:00:00-01:00",
@@ -1517,7 +1524,7 @@
       "beta": false,
       "bundleIdentifier": "com.facebook.Facebook",
       "developerName": "Michael Lema & Qn_",
-      "downloadURL": "https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/EWEdhH_a8T5FmeQ7104KY70Bm--b0Vg_e9r71yWVdru-aA?download=1",
+      "downloadURL": "https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/Efkyz3QAKyFNouUBvVdZbi0ByCqJToLW78ctOkSB5ayBUw?download=1",
       "iconURL": "https://raw.githubusercontent.com/qnblackcat/AltStore/main/ScreenShot/Facebook-icon.png",
       "localizedDescription": "Wolf is an updated Facebook tweak with powerful features! You can access the tweak settings in Facebook's settings page.\n\nLearn how to make your own IPA of Facebook Wolf here: https://github.com/qnblackcat/FBSideloadfix\n\nFEATURES:\n\u2022 No feed ads\n\u2022 No story ads\n\u2022 Disable marking messages as seen\n\u2022 Disable typing status in messages\n\u2022 Disable marking stories\n\u2022 Disable auto-advance in stories\n\u2022 Save Story images and videos\n\u2022 Save Feed videos by long-pressing the video\n\nNOTES:\n\u2022 I'm not the developer of Wolf. This is not an official version of Wolf.\n\u2022 Michael Lema, the developer of Wolf,  hasn't updated Wolf for a while. Expect some features may not work correctly.",
       "name": "Facebook Wolf",
@@ -1531,10 +1538,17 @@
       "size": 152672665,
       "subtitle": "A tweaked version of \"Wolf\" (made by Michael Lema). Requires iOS 12.4 and later.",
       "tintColor": "478EE2",
-      "version": "372.0",
-      "versionDate": "2022-06-24T14:00:00-00:30",
-      "versionDescription": "v372.0 (2.1): Updated to the latest version of Facebook app",
+      "version": "402.0",
+      "versionDate": "2023-02-22T14:00:00-00:30",
+      "versionDescription": "v402.0 (2.1): Updated to the latest version of Facebook app",
       "versions": [
+        {
+          "version": "402.0",
+          "date": "2023-02-22T14:00:00-00:30",
+          "downloadURL": "https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/Efkyz3QAKyFNouUBvVdZbi0ByCqJToLW78ctOkSB5ayBUw?download=1",
+          "localizedDescription": "v402.0 (2.1): Updated to the latest version of Facebook app",
+          "size": 152672665
+        },
         {
           "version": "372.0",
           "date": "2022-06-24T14:00:00-00:30",
@@ -1686,7 +1700,7 @@
       "beta": false,
       "bundleIdentifier": "com.reddit.Reddit",
       "developerName": "level3tjg",
-      "downloadURL": "https://github.com/qnblackcat/RedditFilter_Sideloaded/releases/download/v2022.45.0-1.0.9/RedditFilter_2022.45.0_1.0.9.ipa",
+      "downloadURL": "https://github.com/qnblackcat/RedditFilter_Sideloaded/releases/download/v2023.07.0-1.1.1/RedditFilter_2023.07.0_1.1.1.ipa",
       "iconURL": "https://raw.githubusercontent.com/qnblackcat/AltStore/main/ScreenShot/free-reddit-logo-icon-2436-thumb.png",
       "localizedDescription": "- RedditFilter & RedditSideloadFix are made by u/level3tjg!!!\n- Filter out unwanted content from your Reddit feed. Configurable from in-app settings.\n- Requires iOS 14.0 or later.\n- Source code: \nhttps://github.com/level3tjg/RedditFilter\nhttps://github.com/level3tjg/RedditSideloadFix",
       "name": "RedditFilter",
@@ -1697,10 +1711,17 @@
       "size": 142121615,
       "subtitle": "Filter out unwanted content from your Reddit feed. Configurable from in-app settings",
       "tintColor": "ff4600",
-      "version": "2022.45.0",
-      "versionDate": "2022-12-12T12:00:00-01:00",
+      "version": "2023.37.0",
+      "versionDate": "2023-02-22T12:00:00-01:00",
       "versionDescription": "https://level3tjg.me/repo/depictions/com.level3tjg.redditfilter\n",
       "versions": [
+        {
+          "version": "2023.37.0",
+          "date": "2023-02-22T12:00:00-01:00",
+          "downloadURL": "https://github.com/qnblackcat/RedditFilter_Sideloaded/releases/download/v2023.07.0-1.1.1/RedditFilter_2023.07.0_1.1.1.ipa",
+          "localizedDescription": "https://level3tjg.me/repo/depictions/com.level3tjg.redditfilter\n",
+          "size": 142121615
+        },
         {
           "version": "2022.45.0",
           "date": "2022-12-12T12:00:00-01:00",
