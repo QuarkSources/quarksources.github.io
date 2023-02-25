@@ -11,6 +11,11 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 sourcesData = [
     {
         "parser": Parser.GITHUB,
+        "kwargs": {"repo_author": "com.worthdoingbadly.WDBRemoveThreeAppLimit", "repo_name": "WDBFontOverwrite"},
+        "ids": ["com.rileytestut.Deltroid"]
+    },
+    {
+        "parser": Parser.GITHUB,
         "kwargs": {"repo_author": "lonkelle", "repo_name": "Deltroid"},
         "ids": ["com.rileytestut.Deltroid"]
     },
