@@ -748,8 +748,15 @@
       "iconURL": "https://i.imgur.com/NOi1cdl.png",
       "tintColor": "#5f5fff",
       "size": 13371703,
-      "screenshotURLs": [],
+      "screenshotURLs": ["https://i.imgur.com/nncQU5J.png","https://i.imgur.com/PoBtswr.png"],
       "versions": [
+        {
+          "version": "0.58",
+          "date": "2022-12-22",
+          "downloadURL": "https://purei.org/downloads/play/stable/0.58/Play.ipa",
+          "localizedDescription": "Bug fixes.",
+          "size": 13389347
+        },
         {
           "version": "0.56",
           "date": "2022-09-13",
