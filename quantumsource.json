@@ -6,6 +6,42 @@
   "userinfo": {},
   "apps": [
     {
+      "name": "Deltroid",
+      "bundleIdentifier": "com.rileytestut.Deltroid",
+      "developerName": "SideStore Team",
+      "subtitle": "Multi-emulator for your classic games on the go!",
+      "version": "1.5",
+      "versionDate": "2023-2-02T03:00:00-05:00",
+      "versionDescription": "Additions and Bugfixes. More info: https://github.com/lonkelle/Deltroid/releases",
+      "downloadURL": "https://github.com/lonkelle/Deltroid/releases/download/v0.9.1/Deltroid.ipa",
+      "localizedDescription": "Deltroid is an all-in-one emulator for iOS. Deltroid builds upon the strengths of its predecessor Delta while improving on it in a community supported fashion. \n\nGithub Repository (https://github.com/lonkelle/Deltroid) \n\nFEATURES\n\nSupported Game Systems\n\u2022 Nintendo Entertainment System\n\u2022 Super Nintendo Entertainment System\n\u2022 Nintendo 64\n\u2022 Game Boy (Color)\n\u2022 Game Boy Advance\n\u2022 Nintendo DS\n\u2022 Nintendo DSi\n\u2022 Sega Genesis\n\u2022 And plenty more to come!\n\nController Support\n\u2022 Supports PS4, PS5, Xbox One S, Xbox Series X, and MFi game controllers.\n\u2022 Supports bluetooth (and wired) keyboards, as well as the Apple Smart Keyboard.\n\u2022 Completely customize button mappings on a per-system, per-controller basis.\n\u2022 Map buttons to special \u201cQuick Save\u201d, \u201cQuick Load,\u201d and \u201cFast Forward\u201d actions.\n\nSave States\n\u2022 Save and load save states for any game from the pause menu.\n\u2022 Lock save states to prevent them from being accidentally overwritten.\n\u2022 Automatically makes backup save states to ensure you never lose your progress.\n\u2022 Support for \u201cQuick Saves,\u201d save states that can be quickly saved/loaded with a single button press (requires external controller).\n\nCheats\n\u2022 Supports various types of cheat codes for each supported system:\n\u2022 NES: Game Genie\n\u2022 SNES: Game Genie, Pro Action Replay\n\u2022 N64: GameShark\n\u2022 GBC: Game Genie, GameShark\n\u2022 GBA: Action Replay, Code Breaker, GameShark\n\u2022 DS: Action Replay\n\nDeltroid Sync\n\u2022 Sync your games, game saves, save states, cheats, controller skins, and controller mappings between devices.\n\u2022 View version histories of everything you sync and optionally restore them to earlier versions.\n\u2022 Supports both Google Drive and Dropbox.\n\nCustom Controller Skins\n\u2022 Beautiful built-in controller skins for all systems.\n\u2022 Import controller skins made by others, or even make your own to share with the world!\n\nHold Button\n\u2022 Choose buttons for Delta to hold down on your behalf, freeing up your thumbs to press other buttons instead.\n\u2022 Perfect for games that typically require one button be held down constantly (ex: run button in Mario games, or the A button in Mario Kart).\n\nFast Forward\n\u2022 Speed through slower parts of games by running the game much faster than normal.\n\u2022 Easily enable or disable from the pause menu, or optionally with a mapped button on an external controller.\n\n3D/Haptic Touch\n\u2022 Use 3D or Haptic Touch to \u201cpeek\u201d at games, save states, and cheat codes.\n\u2022 App icon shortcuts allow quick access to your most recently played games, or optionally customize the shortcuts to always include certain games.\n\nGame Artwork\n\u2022 Automatically displays appropriate box art for imported games.\n\u2022 Change a game\u2019s artwork to anything you want, or select from the built-in game artwork database.\n\nMisc.\n\u2022 Gyroscope support (WarioWare: Twisted! only)\n\u2022 Microphone support (DS only)\n\u2022 Support for delta:// URL scheme to jump directly into a specific game.\n\n**Deltroid and Sidestore are in no way affiliated with Nintendo. The name \"Nintendo\" and all associated game console names are registered trademarks of Nintendo Co., Ltd.**",
+      "iconURL": "https://i.imgur.com/Bimx1aO.png",
+      "tintColor": "8A28F7",
+      "size": 48300000,
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "Allows Deltroid to use images from your Photo Library as game artwork."
+        }
+      ],
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/64176728/215964215-34cefad0-7178-4b38-930d-fc3df1c5592b.png",
+        "https://user-images.githubusercontent.com/64176728/215960133-70db5b84-d2e4-4638-9f96-179b9100aa9c.png",
+        "https://user-images.githubusercontent.com/64176728/215962679-1c01f62f-59ab-4e7f-9a2c-d1353fb409c6.png",
+        "https://user-images.githubusercontent.com/64176728/215960144-930836b3-543f-4729-8b6a-e06446aca4c4.png"
+      ],
+      "versions": [
+        {
+          "version": "1.5",
+          "date": "2023-2-02T03:00:00-05:00",
+          "downloadURL": "https://github.com/lonkelle/Deltroid/releases/download/v0.9.1/Deltroid.ipa",
+          "localizedDescription": "Additions and Bugfixes. More info: https://github.com/lonkelle/Deltroid/releases",
+          "size": 48300000
+        }
+      ],
+      "appID": "com.rileytestut.Deltroid"
+    },
+    {
       "name": "Delta iPac Edition",
       "bundleIdentifier": "com.ianclawson.DeltaPacEdition",
       "developerName": "Riley Testut & Ian Clawson",

@@ -10,6 +10,11 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 sourcesData = [
     {
+        "parser": Parser.GITHUB,
+        "kwargs": {"repo_author": "lonkelle", "repo_name": "Deltroid"},
+        "ids": ["com.rileytestut.Deltroid"]
+    },
+    {
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "https://altstore.oatmealdome.me"},
         "ids": ["me.oatmealdome.dolphinios-njb", "me.oatmealdome.DolphiniOS-njb-patreon-beta"]
