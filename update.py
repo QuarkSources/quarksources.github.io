@@ -257,7 +257,7 @@ sourcesData = [
     {
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "quarksource++.json"},
-        "ids": ["com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "com.spotify.client", "syto203.reddit.pp", "com.antique.Popcorn", "mediaboxhd.event.2", "comicreader.net.ios", "com.channelsapp.channels", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp", "com.hotdog.popcorntime81.ios", "tv.twitch"]
+        "ids": ["com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "syto203.reddit.pp", "com.antique.Popcorn", "mediaboxhd.event.2", "comicreader.net.ios", "com.channelsapp.channels", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp", "com.hotdog.popcorntime81.ios", "tv.twitch"]
     },
     {
         "parser": Parser.ALTSOURCE,
@@ -293,60 +293,22 @@ sourcesData = [
     # },
     {
         "parser": Parser.ALTSOURCE,
+        "kwargs": {"filepath": "https://raw.githubusercontent.com/WuXu1/wuxuslibrary/main/wuxu-complete%2B%2B.json"},
+        "ids": ["com.spotify.client", "com.soundcloud.TouchApp","AlexisBarreyat.BeReal","com.zhiliaoapp.musically","com.errorerrorerror.animenow","jb.zini.tevi","com.toyopagroup.picaboo","com.microblink.PhotoMath"],
+        "ignoreNews": True
+    },
+    {
+        "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "https://repos.yattee.stream/alt/apps.json"},
         "ids": ["stream.yattee.app"]
     },
     {
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "https://qnblackcat.github.io/AltStore/apps.json"},
-        "ids": ["com.burbn.instagram", "com.facebook.Facebook", "com.google.ios.youtubecercubelegacy", "com.atebits.Tweetie2", "com.google.ios.youtubecercube", "com.google.ios.youtube","com.reddit.Reddit"]
+        "ids": ["com.burbn.instagram", "com.facebook.Facebook", "com.atebits.Tweetie2", "com.google.ios.youtube","com.reddit.Reddit"]
     }
 ]
 alternateAppData = {
-    "com.google.ios.youtubecercube": {
-        "permissions": [
-            {
-                "type": "camera",
-                "usageDescription": "This lets you create videos using the app."
-            },
-            {
-                "type": "photos",
-                "usageDescription": "This lets you upload videos you've already created."
-            },
-            {
-                "type": "bluetooth",
-                "usageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices."
-            },
-            {
-                "type": "contacts",
-                "usageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with."
-            },
-            {
-                "type": "network",
-                "usageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV."
-            },
-            {
-                "type": "music",
-                "usageDescription": "This lets you add your own audio files to your videos."
-            },
-            {
-                "type": "microphone",
-                "usageDescription": "This lets you include audio with your videos and search using your voice."
-            },
-            {
-                "type": "location",
-                "usageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads."
-            },
-            {
-                "type": "background-fetch",
-                "usageDescription": "YouTube can continue running while in the background."
-            },
-            {
-                "type": "background-audio",
-                "usageDescription": "YouTube can continue playing audio while in the background."
-            }
-        ]
-    },
     "com.google.ios.youtube": {
         "permissions": [
             {
@@ -402,33 +364,4 @@ try:
     quantumsrc_plus.save(alternate_dir="dist/quantumsource++.min.json",prettify=False)
 except Exception as err:
     logging.error(f"Unable to update {quantumsrc_plus.src.name}.")
-    logging.error(f"{type(err).__name__}: {str(err)}")
-
-########################
-## CERCUBE
-########################
-
-sources_data = [
-    {
-        "parser": Parser.ALTSOURCE,
-        "kwargs": {"filepath": "https://qnblackcat.github.io/AltStore/apps.json"},
-        "ids": ["com.google.ios.youtubecercube"]
-    }
-]
-
-alt_data = {
-    "com.google.ios.youtubecercube": {
-        "bundleIdentifier": "com.google.ios.youtube"
-    }
-}
-
-src = altsource_from_file("cercube.json")
-cercube = AltSourceManager(src, sources_data)
-try:
-    cercube.update()
-    cercube.alter_app_info(alt_data)
-    cercube.save()
-    cercube.save(alternate_dir="dist/cercube.min.json",prettify=False)
-except Exception as err:
-    logging.error(f"Unable to update {cercube.src.name}.")
     logging.error(f"{type(err).__name__}: {str(err)}")
