@@ -16,7 +16,12 @@ sourcesData = [
     },
     {
         "parser": Parser.GITHUB,
-        "kwargs": {"repo_author": "zhuowei", "repo_name": "WDBFontOverwrite"},
+        "kwargs": {"repo_author": "ginsudev", "repo_name": "WDBFontOverwrite"},
+        "ids": ["com.ginsudev.WDBFontOverwrite"]
+    },
+    {
+        "parser": Parser.GITHUB,
+        "kwargs": {"repo_author": "zhuowei", "repo_name": "WDBRemoveThreeAppLimit"},
         "ids": ["com.worthdoingbadly.WDBRemoveThreeAppLimit"]
     },
     {

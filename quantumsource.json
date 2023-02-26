@@ -7,7 +7,7 @@
   "apps": [
     {
       "name": "WDBRemoveThreeAppLimit",
-      "bundleIdentifier": "com.ginsudev.WDBFontOverwrite",
+      "bundleIdentifier": "com.worthdoingbadly.WDBRemoveThreeAppLimit",
       "developerName": "Zhuowei",
       "subtitle": "Removes three app limit from AltStore!",
       "versions": [
@@ -15,7 +15,7 @@
           "version": "1.0",
           "date": "2023-02-16",
           "localizedDescription": "\u2022 Updated WDBRemoveThreeAppLimit to v1.0",
-          "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/WDBRemoveThreeAppLimit.v1.0.Tweak.ipa",
+          "downloadURL": "https://github.com/zhuowei/WDBRemoveThreeAppLimit/releases/download/v1.0/WDBRemoveThreeAppLimit-v1.0.ipa",
           "size": 88800,
           "maxOSVersion": "16.1.2"
         }
@@ -23,14 +23,44 @@
       "version": "1.0",
       "versionDate": "2023-02-16",
       "versionDescription": "\u2022 Updated WDBRemoveThreeAppLimit to v1.0",
-      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/WDBRemoveThreeAppLimit.v1.0.Tweak.ipa",
+      "downloadURL": "https://github.com/zhuowei/WDBRemoveThreeAppLimit/releases/download/v1.0/WDBRemoveThreeAppLimit-v1.0.ipa",
       "localizedDescription": "An app that removes the three app limit for free provisioning. Hit \"Go\" just before installing apps. Should work on iOS 16.1.2 and below / iOS 15.7.1 and below.\n\nThis is very limited:\n\n\u2022 Apps still expire after a week\n\u2022 They still do not get arbitrary entitlements\n\u2022 They still must be signed. It's probably not going to be that useful. It's meant more as a demo of what you can do with MacDirtyCow.",
-      "iconURL": "https://i.imgur.com/SXK4rhS.png",
+      "iconURL": "https://iimgur.com/ODvSw7D.png",
       "tintColor": "#404040",
       "size": 88800,
       "screenshotURLs": [
         "https://i.imgur.com/6pajtgW.png"
       ]
+    },
+    {
+      "name": "WDBFontOverwrite",
+      "bundleIdentifier": "com.ginsudev.WDBFontOverwrite",
+      "developerName": "Zhuowei + Ginsudev",
+      "subtitle": "Removes three app limit from AltStore!",
+      "versions": [
+        {
+          "absoluteVersion": "1.10.8",
+          "date": "2023-02-09T10:15:32Z",
+          "localizedDescription": "# v1.10.8\n\n- Updated grant_full_disk_access.\r\n- Concurrency and code improvements/fixes.",
+          "size": 5348316,
+          "version": "1.10.8",
+          "downloadURL": "https://github.com/ginsudev/WDBFontOverwrite/releases/download/v1.10.8/WDBFontOverwrite.ipa"
+        }
+      ],
+      "version": "1.10.8",
+      "versionDate": "2023-02-09T10:15:32Z",
+      "versionDescription": "\u2022 Updated WDBRemoveThreeAppLimit to v1.0",
+      "downloadURL": "https://github.com/ginsudev/WDBFontOverwrite/releases/download/v1.10.8/WDBFontOverwrite.ipa",
+      "localizedDescription": "An app that removes the three app limit for free provisioning. Hit \"Go\" just before installing apps. Should work on iOS 16.1.2 and below / iOS 15.7.1 and below.\n\nThis is very limited:\n\n\u2022 Apps still expire after a week\n\u2022 They still do not get arbitrary entitlements\n\u2022 They still must be signed. It's probably not going to be that useful. It's meant more as a demo of what you can do with MacDirtyCow.",
+      "iconURL": "https://i.imgur.com/SXK4rhS.png",
+      "tintColor": "#404040",
+      "size": 5348316,
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/704768/209511898-a1477b66-28e4-471a-87d9-36c1c2eb25ca.png",
+        "https://user-images.githubusercontent.com/704768/209606970-a382c273-bdcb-425c-bca1-1b6f9b31862f.png",
+        "https://user-images.githubusercontent.com/704768/209753262-b8204c92-b873-41a7-8127-38bf86096470.png"
+      ],
+      "appID": "com.ginsudev.WDBFontOverwrite"
     },
     {
       "name": "Deltroid",
@@ -699,7 +729,12 @@
           "usageDescription": "This allows the application to continue running audio in the background."
         }
       ],
-      "screenshotURLs": ["https://i.imgur.com/Huqxo8z.png","https://i.imgur.com/Pq2vIrO.png","https://i.imgur.com/A7koKUp.png","https://i.imgur.com/IhtYS9E.png"],
+      "screenshotURLs": [
+        "https://i.imgur.com/Huqxo8z.png",
+        "https://i.imgur.com/Pq2vIrO.png",
+        "https://i.imgur.com/A7koKUp.png",
+        "https://i.imgur.com/IhtYS9E.png"
+      ],
       "absoluteVersion": "2.5",
       "versions": [
         {
