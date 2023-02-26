@@ -175,6 +175,14 @@
       "subtitle": "SoundCloud with no ads and extra features.",
       "versions": [
         {
+          "version": "6.18.0",
+          "date": "2023-02-26",
+          "localizedDescription": "\u2022 Updated SoundCloud to v6.18.0\n\u2022 DarkCloud remains at latest (v1.4)",
+          "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/SoundCloud.v6.18.0.+.DarkCloud.v1.4.ipa",
+          "size": 74000000,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "6.17.0",
           "date": "2023-02-14",
           "localizedDescription": "\u2022 Updated SoundCloud to v6.17.0\n\u2022 DarkCloud remains at Latest (v1.4)",
@@ -206,7 +214,7 @@
       "localizedDescription": "SoundCloud Injected with DarkCloud - A Tweak that disables Ads and enables the developer menu.\n\nThe developer menu includes a wide range of adjustmets the user can make to the app, some include:\n\n\u2022 Block audio and video ads\n\u2022 Enable developer menu\n\u2022 Hide Go+ tab\n\nDon't worry, the tweaks you would expect (such as no ads) are enabled in the dev menu by default. So just install and enjoy.",
       "iconURL": "https://img.ipa4fun.com/b1/62/d8/336353151-logo.jpg",
       "tintColor": "#db5b14",
-      "size": 73000000,
+      "size": 74000000,
       "minOSVersion": "14.0",
       "screenshotURLs": [
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-1.jpg",
@@ -227,6 +235,14 @@
       "subtitle": "See your friends BeReals without posting anything!",
       "versions": [
         {
+          "version": "0.33.1",
+          "date": "2023-02-26",
+          "localizedDescription": "\u2022 BeReal updated to v0.33.1\n\u2022 UnBlur remains at latest (v0.0.2)",
+          "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/BeReal.v0.33.1.+.UnBlur.v0.0.2.ipa",
+          "size": 26900000,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.32.0",
           "date": "2023-02-12",
           "localizedDescription": "\u2022 BeReal updated to v0.32.0\n\u2022 UnBlur remains at latest (v0.0.2)",
@@ -235,14 +251,14 @@
           "minOSVersion": "14.0"
         }
       ],
-      "version": "0.32.0",
-      "versionDate": "2023-02-12",
-      "versionDescription": "\u2022 BeReal updated to v0.32.0\n\u2022 UnBlur remains at latest (v0.0.2)",
-      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/BeReal.v0.32.0.+.UnBlur.v0.0.2.ipa",
+      "version": "0.33.1",
+      "versionDate": "2023-02-26",
+      "versionDescription": "\u2022 BeReal updated to v0.33.1\n\u2022 UnBlur remains at latest (v0.0.2)",
+      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/BeReal.v0.33.1.+.UnBlur.v0.0.2.ipa",
       "localizedDescription": "Unblur your friends\u2019 posts on BeReal, even when you haven't posted. All functions of the app work as normal.",
       "iconURL": "https://img.ipa4fun.com/74/cd/6c/1459645446-logo.jpg",
       "tintColor": "#363636",
-      "size": 26000000,
+      "size": 26900000,
       "minOSVersion": "14.0",
       "screenshotURLs": [
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-1.jpg",
@@ -261,6 +277,14 @@
       "subtitle": "TikTok with added features.",
       "versions": [
         {
+          "version": "28.2.0",
+          "date": "2023-02-26",
+          "localizedDescription": "\u2022 Updated TikTok to v28.2.0",
+          "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/TikTok.v28.2.0.+.LRD+.ipa",
+          "size": 156000000,
+          "minOSVersion": "10.0"
+        },
+        {
           "version": "27.9.0",
           "date": "2023-02-12",
           "localizedDescription": "\u2022 Updated TikTok to v27.9.0 - This is currently the latest version of TikTok that works with TikTokLRD (Cracked)",
@@ -269,14 +293,14 @@
           "minOSVersion": "10.0"
         }
       ],
-      "version": "27.9.0",
-      "versionDate": "2023-02-12",
-      "versionDescription": "\u2022 Updated TikTok to v27.9.0 - This is currently the latest version of TikTok that works with TikTokLRD (Cracked)",
-      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/TikTok.v27.9.0.+.LRD+.ipa",
+      "version": "28.2.0",
+      "versionDate": "2023-02-26",
+      "versionDescription": "\u2022 Updated TikTok to v28.2.0",
+      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/TikTok.v28.2.0.+.LRD+.ipa",
       "localizedDescription": "TikTokLRD (Cracked) - Add features to the TikTok App:\n\n\u2022 Save video without watermark\n\u2022 Share or save the video\n\u2022 Hide the user interface\n\u2022 Play the next video automatically\n\u2022 Skip watching live while watching automatically\n\u2022 Show progress bar for video\n\u2022 Enable high-quality video upload\n\u2022 Save a profile picture\n\u2022 Show the number of videos\n\u2022 Create favorite groups\n\u2022 Increase the number of letters in the comment to 240\n\u2022 Show the country code for the video\n\u2022 Enable copying for description and account\n\u2022 Enable comments transparency\n\u2022 Hide you just saw\n\u2022 Read closed comments\n\u2022 Watching videos under review\n\u2022 Show creation video date\n\u2022 Hide ADS\n\u2022 Change country\n\u2022 Confirm | cancel the like\n\u2022 Confirm | cancel the like in the comments\n\u2022 Confirm | cancel the follow\n\u2022 Lock the app",
       "iconURL": "https://img.ipa4fun.com/06/ac/ac/835599320-logo.jpg",
       "tintColor": "#363636",
-      "size": 160000000,
+      "size": 156000000,
       "minOSVersion": "10.0",
       "screenshotURLs": [
         "https://img.ipa4fun.com/06/ac/ac/835599320-screenshot-1.jpg",
