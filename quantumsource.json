@@ -7,7 +7,7 @@
   "apps": [
     {
       "name": "WDBRemoveThreeAppLimit",
-      "bundleIdentifier": "com.worthdoingbadly.WDBRemoveThreeAppLimit",
+      "bundleIdentifier": "com.ginsudev.WDBFontOverwrite",
       "developerName": "Zhuowei",
       "subtitle": "Removes three app limit from AltStore!",
       "versions": [

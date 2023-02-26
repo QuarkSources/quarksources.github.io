@@ -11,8 +11,13 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 sourcesData = [
     {
         "parser": Parser.GITHUB,
-        "kwargs": {"repo_author": "com.worthdoingbadly.WDBRemoveThreeAppLimit", "repo_name": "WDBFontOverwrite"},
-        "ids": ["com.rileytestut.Deltroid"]
+        "kwargs": {"repo_author": "ish-app", "repo_name": "ish", "prefer_date": True, "include_pre": True},
+        "ids": ["app.ish.iSH"]
+    },
+    {
+        "parser": Parser.GITHUB,
+        "kwargs": {"repo_author": "zhuowei", "repo_name": "WDBFontOverwrite"},
+        "ids": ["com.worthdoingbadly.WDBRemoveThreeAppLimit"]
     },
     {
         "parser": Parser.GITHUB,
@@ -21,7 +26,7 @@ sourcesData = [
     },
     {
         "parser": Parser.GITHUB,
-        "kwargs": {"repo_author": "lonkelle", "repo_name": "Deltroid"},
+        "kwargs": {"repo_author": "lonkelle", "repo_name": "deltroid"},
         "ids": ["com.rileytestut.Deltroid"]
     },
     {
@@ -117,11 +122,6 @@ sourcesData = [
         "parser": Parser.GITHUB,
         "kwargs": {"repo_author": "T-Pau", "repo_name": "Ready", "ver_parse": lambda x: x.replace("release-", "")},
         "ids": ["at.spiderlab.c64"]
-    },
-    {
-        "parser": Parser.GITHUB,
-        "kwargs": {"repo_author": "ish-app", "repo_name": "ish", "prefer_date": True},
-        "ids": ["app.ish.iSH"]
     },
     {
         "parser": Parser.GITHUB,
