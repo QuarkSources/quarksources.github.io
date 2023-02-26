@@ -16,6 +16,11 @@ sourcesData = [
     },
     {
         "parser": Parser.GITHUB,
+        "kwargs": {"repo_author": "vcmi", "repo_name": "vcmi"},
+        "ids": ["com.vcmi.VCMI"]
+    },
+    {
+        "parser": Parser.GITHUB,
         "kwargs": {"repo_author": "lonkelle", "repo_name": "Deltroid"},
         "ids": ["com.rileytestut.Deltroid"]
     },
@@ -112,6 +117,11 @@ sourcesData = [
         "parser": Parser.GITHUB,
         "kwargs": {"repo_author": "T-Pau", "repo_name": "Ready", "ver_parse": lambda x: x.replace("release-", "")},
         "ids": ["at.spiderlab.c64"]
+    },
+    {
+        "parser": Parser.GITHUB,
+        "kwargs": {"repo_author": "ish-app", "repo_name": "ish", "prefer_date": True},
+        "ids": ["app.ish.iSH"]
     },
     {
         "parser": Parser.GITHUB,
