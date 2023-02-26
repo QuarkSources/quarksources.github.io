@@ -92,6 +92,15 @@
         "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot7.png",
         "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot8.png",
         "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot9.png"
+      ],
+      "versions": [
+        {
+          "version": "1.1.1",
+          "date": "2023-02-03T12:00:00+04:00",
+          "downloadURL": "https://github.com/vcmi/vcmi/releases/download/1.1.1/VCMI-1.1.1-iOS.ipa",
+          "localizedDescription": "Fixes for issues found in 1.1 release",
+          "size": 25570455
+        }
       ]
     },
     {
