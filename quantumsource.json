@@ -59,14 +59,40 @@
       ],
       "versions": [
         {
-          "version": "1.5",
+          "version": "0.1",
           "date": "2023-2-02T03:00:00-05:00",
           "downloadURL": "https://github.com/lonkelle/Deltroid/releases/download/v0.9.1/Deltroid.ipa",
           "localizedDescription": "Additions and Bugfixes. More info: https://github.com/lonkelle/Deltroid/releases",
-          "size": 48300000
+          "size": 48300000,
+          "absoluteVersion": "0.1"
         }
       ],
       "appID": "com.rileytestut.Deltroid"
+    },
+    {
+      "name": "VCMI",
+      "bundleIdentifier": "com.vcmi.VCMI",
+      "developerName": "VCMI Team",
+      "subtitle": "Heroes of Might & Magic III engine",
+      "version": "1.1.1",
+      "versionDate": "2023-02-03T12:00:00+04:00",
+      "versionDescription": "Fixes for issues found in 1.1 release",
+      "downloadURL": "https://github.com/vcmi/vcmi/releases/download/1.1.1/VCMI-1.1.1-iOS.ipa",
+      "localizedDescription": "VCMI is a open source cross-platform HoMM3 engine written from scratch. \n\nYou need data copied from original game to play. \nFollow instructions from https://wiki.vcmi.eu/Installation_on_iOS",
+      "iconURL": "https://github.com/vcmi/vcmi/raw/develop/client/icons/vcmiclient.512x512.png",
+      "tintColor": "CD8526",
+      "size": 25570455,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot1.png",
+        "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot2.png",
+        "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot3.png",
+        "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot4.png",
+        "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot5.png",
+        "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot6.png",
+        "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot7.png",
+        "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot8.png",
+        "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot9.png"
+      ]
     },
     {
       "name": "Delta iPac Edition",
@@ -227,25 +253,20 @@
       ]
     },
     {
-      "beta": false,
+      "name": "DolphiniOS",
       "bundleIdentifier": "me.oatmealdome.dolphinios-njb",
       "developerName": "OatmealDome",
-      "downloadURL": "https://github.com/OatmealDome/dolphin/releases/download/3.2.1/DolphiniOS-NJB-Universal-3.2.1-213.ipa",
-      "iconURL": "https://cdn.oatmealdome.me/dolphinios/AppIcon.appiconset/ios_marketing1024x1024.png",
+      "subtitle": "GameCube and Wii games on the go.",
       "localizedDescription": "DolphiniOS is a port of the popular Dolphin emulator to iOS. Dolphin lets you play your favourite GameCube and Wii software with enhancements like higher resolutions, save states, and more. You can even play all of Nintendo's classics from past consoles through the Wii's Virtual Console library.\n\nPlease note that devices with A8 processors and older are not compatible.",
-      "name": "DolphiniOS",
+      "iconURL": "https://cdn.oatmealdome.me/dolphinios/AppIcon.appiconset/ios_marketing1024x1024.png",
+      "tintColor": "41cdff",
       "screenshotURLs": [
         "https://cdn.oatmealdome.me/dolphinios/altstore/screenshots/screenshot_6s_1.PNG",
         "https://cdn.oatmealdome.me/dolphinios/altstore/screenshots/screenshot_6s_2.PNG",
         "https://cdn.oatmealdome.me/dolphinios/altstore/screenshots/screenshot_6s_3_reup.PNG",
         "https://cdn.oatmealdome.me/dolphinios/altstore/screenshots/screenshot_6s_4_edit.png"
       ],
-      "size": 80253902,
-      "subtitle": "GameCube and Wii games on the go.",
-      "tintColor": "41cdff",
-      "version": "3.2.1",
-      "versionDate": "2022-09-11T18:00:00-04:00",
-      "versionDescription": "This update contains the following changes:\n\n- Fixed ubershaders.\n- Fixed fastmem crashing on iOS 16.\n\nFor more information, see https://oatmealdome.me/blog/dolphinios-ver-3-2-0/.",
+      "beta": false,
       "versions": [
         {
           "version": "3.2.1",
@@ -262,28 +283,28 @@
           "size": 80253902
         }
       ],
+      "version": "3.2.1",
+      "versionDate": "2022-09-11T22:00:00.0000000Z",
+      "versionDescription": "This update contains the following changes:\n\n- Fixed ubershaders.\n- Fixed fastmem crashing on iOS 16.\n\nPlease update DolphiniOS to version 3.2.1 before attempting to use it on iOS 16.",
+      "downloadURL": "https://github.com/OatmealDome/dolphin/releases/download/3.2.1/DolphiniOS-NJB-3.2.1-213.ipa",
+      "size": 80253902,
       "appID": "me.oatmealdome.dolphinios-njb"
     },
     {
-      "beta": false,
+      "name": "DolphiniOS (Public Beta)",
       "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
       "developerName": "OatmealDome",
-      "downloadURL": "https://github.com/OatmealDome/dolphin/releases/download/3.2.1b1-213/DolphiniOS-NJB-Beta-Universal-3.2.1b1-213.ipa",
-      "iconURL": "https://cdn.oatmealdome.me/dolphinios/AppIcon.appiconset/BetaAppStore.png",
+      "subtitle": "Test the latest DolphiniOS.",
       "localizedDescription": "DolphiniOS is a port of the popular Dolphin emulator to iOS. Dolphin lets you play your favourite GameCube and Wii software with enhancements like higher resolutions, save states, and more. You can even play all of Nintendo's classics from past consoles through the Wii's Virtual Console library.\n\nPlease note that devices with A8 processors and older are not compatible.",
-      "name": "DolphiniOS (Public Beta)",
+      "iconURL": "https://cdn.oatmealdome.me/dolphinios/AppIcon.appiconset/BetaAppStore.png",
+      "tintColor": "ffbb3d",
       "screenshotURLs": [
         "https://cdn.oatmealdome.me/dolphinios/altstore/screenshots/screenshot_6s_1.PNG",
         "https://cdn.oatmealdome.me/dolphinios/altstore/screenshots/screenshot_6s_2.PNG",
         "https://cdn.oatmealdome.me/dolphinios/altstore/screenshots/screenshot_6s_3_reup.PNG",
         "https://cdn.oatmealdome.me/dolphinios/altstore/screenshots/screenshot_6s_4_edit.png"
       ],
-      "size": 80291610,
-      "subtitle": "Test the latest DolphiniOS.",
-      "tintColor": "ffbb3d",
-      "version": "3.2.1b1",
-      "versionDate": "2022-07-05T18:00:00-04:00",
-      "versionDescription": "This update contains the following changes:\n\n- Fixed ubershaders.\n- Fixed fastmem crashing on iOS 16 betas.\n\nThe next beta build will be based off the rewritten DolphiniOS source code.\n\nFor more information, see https://oatmealdome.me/blog/dolphinios-ver-3-2-0/.",
+      "beta": false,
       "versions": [
         {
           "version": "3.2.1b1",
@@ -293,6 +314,11 @@
           "size": 80291610
         }
       ],
+      "version": "3.2.1b1",
+      "versionDate": "2022-07-05T22:00:00.0000000Z",
+      "versionDescription": "This update contains the following changes:\n\n- Fixed ubershaders.\n- Fixed fastmem crashing on iOS 16 betas.\n\nThe next beta build will be based off the rewritten DolphiniOS source code.",
+      "downloadURL": "https://github.com/OatmealDome/dolphin/releases/download/3.2.1b1-213/DolphiniOS-NJB-Beta-3.2.1b1-213.ipa",
+      "size": 80291610,
       "appID": "me.oatmealdome.DolphiniOS-njb-patreon-beta"
     },
     {
@@ -732,6 +758,32 @@
           "localizedDescription": "# File hashes when selecting files\n\n### XPatcher 2.2\r\n### A small updated with a little feature \r\n\r\nNow when you select a file in the Documents tab, it will show SHA1, MD5, and CRC32 hashes of the selected file.\r\nclosing #5\r\nother changes might be adding .vcdiff to the recognized patch formats (XDelta) but so far it seems kinda broken as stated in #6 .\r\n\r\n**Full Changelog**: https://github.com/Wh0ba/XPatcher/compare/2.0...v2.2",
           "size": 357189,
           "absoluteVersion": "2.2"
+        }
+      ]
+    },
+    {
+      "bundleIdentifier": "app.ish.iSH",
+      "name": "iSH",
+      "developerName": "Theodore Dubois and contributors",
+      "iconURL": "https://ish.app/assets/icon-full.png",
+      "tintColor": "#000000",
+      "subtitle": "Linux shell for iOS",
+      "localizedDescription": "iSH is a project to get a Linux shell environment running locally on your iOS device, using a usermode x86 emulator.",
+      "screenshotURLs": [
+        "https://ish.app/assets/front-iphone-full.png"
+      ],
+      "version": "1.2.3",
+      "versionDate": "2021-02-25T06:06:58+00:00",
+      "versionDescription": "Automated daily build",
+      "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/458/iSH.ipa",
+      "size": 4183190,
+      "versions": [
+        {
+          "version": "1.2.3",
+          "date": "2021-02-25T06:06:58+00:00",
+          "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/458/iSH.ipa",
+          "localizedDescription": "Automated daily build",
+          "size": 4183190
         }
       ]
     },
