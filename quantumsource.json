@@ -36,7 +36,7 @@
       "name": "WDBFontOverwrite",
       "bundleIdentifier": "com.ginsudev.WDBFontOverwrite",
       "developerName": "Zhuowei + Ginsudev",
-      "subtitle": "Removes three app limit from AltStore!",
+      "subtitle": "Override the iOS system fonts!",
       "versions": [
         {
           "absoluteVersion": "1.10.8",
