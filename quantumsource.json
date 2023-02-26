@@ -699,7 +699,12 @@
           "usageDescription": "This allows the application to continue running audio in the background."
         }
       ],
-      "screenshotURLs": ["https://i.imgur.com/Huqxo8z.png","https://i.imgur.com/Pq2vIrO.png","https://i.imgur.com/A7koKUp.png","https://i.imgur.com/IhtYS9E.png"],
+      "screenshotURLs": [
+        "https://i.imgur.com/Huqxo8z.png",
+        "https://i.imgur.com/Pq2vIrO.png",
+        "https://i.imgur.com/A7koKUp.png",
+        "https://i.imgur.com/IhtYS9E.png"
+      ],
       "absoluteVersion": "2.5",
       "versions": [
         {
