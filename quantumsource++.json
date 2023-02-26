@@ -199,10 +199,10 @@
           "minOSVersion": "14.0"
         }
       ],
-      "version": "6.17.0",
-      "versionDate": "2023-02-14",
-      "versionDescription": "Updated SoundCloud to v6.17.0",
-      "downloadURL": "https://github.com/WuXu1/wuxuslibrary.github.io/releases/download/Latest/SoundCloud.v6.16.1.+.DarkCloud.v1.4.ipa",
+      "version": "6.18.0",
+      "versionDate": "2023-02-26",
+      "versionDescription": "Updated SoundCloud to v6.18.0",
+      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/SoundCloud.v6.18.0.+.DarkCloud.v1.4.ipa",
       "localizedDescription": "SoundCloud Injected with DarkCloud - A Tweak that disables Ads and enables the developer menu.\n\nThe developer menu includes a wide range of adjustmets the user can make to the app, some include:\n\n\u2022 Block audio and video ads\n\u2022 Enable developer menu\n\u2022 Hide Go+ tab\n\nDon't worry, the tweaks you would expect (such as no ads) are enabled in the dev menu by default. So just install and enjoy.",
       "iconURL": "https://img.ipa4fun.com/b1/62/d8/336353151-logo.jpg",
       "tintColor": "#db5b14",
