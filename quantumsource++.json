@@ -162,46 +162,46 @@
       ]
     },
     {
-      "name" : "SoundCloud++",
-      "bundleIdentifier" : "com.soundcloud.TouchApp",
-      "developerName" : "Codey Moore",
-      "subtitle" : "SoundCloud with no ads and extra features.",
-      "versions" : [
+      "name": "SoundCloud++",
+      "bundleIdentifier": "com.soundcloud.TouchApp",
+      "developerName": "Codey Moore",
+      "subtitle": "SoundCloud with no ads and extra features.",
+      "versions": [
         {
-          "version" : "6.17.0",
-          "date" : "2023-02-14",
-          "localizedDescription" : "• Updated SoundCloud to v6.17.0\n• DarkCloud remains at Latest (v1.4)",
-          "downloadURL" : "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/SoundCloud.v6.17.0.+.DarkCloud.v1.4.ipa",
-          "size" : 73800000,
-          "minOSVersion" : "14.0"
+          "version": "6.17.0",
+          "date": "2023-02-14",
+          "localizedDescription": "\u2022 Updated SoundCloud to v6.17.0\n\u2022 DarkCloud remains at Latest (v1.4)",
+          "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/SoundCloud.v6.17.0.+.DarkCloud.v1.4.ipa",
+          "size": 73800000,
+          "minOSVersion": "14.0"
         },
         {
-          "version" : "6.16.1",
-          "date" : "2023-02-13",
-          "localizedDescription" : "• Updated SoundCloud to v6.16.1\n• DarkCloud remains at Latest (v1.4)",
-          "downloadURL" : "https://github.com/WuXu1/wuxuslibrary.github.io/releases/download/Latest/SoundCloud.v6.16.1.+.DarkCloud.v1.4.ipa",
-          "size" : 73000000,
-          "minOSVersion" : "14.0"
+          "version": "6.16.1",
+          "date": "2023-02-13",
+          "localizedDescription": "\u2022 Updated SoundCloud to v6.16.1\n\u2022 DarkCloud remains at Latest (v1.4)",
+          "downloadURL": "https://github.com/WuXu1/wuxuslibrary.github.io/releases/download/Latest/SoundCloud.v6.16.1.+.DarkCloud.v1.4.ipa",
+          "size": 73000000,
+          "minOSVersion": "14.0"
         },
         {
-          "version" : "6.16.0",
-          "date" : "2023-01-30",
-          "localizedDescription" : "• Updated SoundCloud to v6.16.0\n• DarkCloud remains at latest (v1.4)",
-          "downloadURL" : "https://github.com/WuXu1/wuxuslibrary.github.io/releases/download/Old/SoundCloud.v6.16.0.+.DarkCloud.v1.4.ipa",
-          "size" : 72900000,
-          "minOSVersion" : "14.0"
+          "version": "6.16.0",
+          "date": "2023-01-30",
+          "localizedDescription": "\u2022 Updated SoundCloud to v6.16.0\n\u2022 DarkCloud remains at latest (v1.4)",
+          "downloadURL": "https://github.com/WuXu1/wuxuslibrary.github.io/releases/download/Old/SoundCloud.v6.16.0.+.DarkCloud.v1.4.ipa",
+          "size": 72900000,
+          "minOSVersion": "14.0"
         }
       ],
-      "version" : "6.17.0",
-      "versionDate" : "2023-02-14",
-      "versionDescription" : "Updated SoundCloud to v6.17.0",
-      "downloadURL" : "https://github.com/WuXu1/wuxuslibrary.github.io/releases/download/Latest/SoundCloud.v6.16.1.+.DarkCloud.v1.4.ipa",
-      "localizedDescription" : "SoundCloud Injected with DarkCloud - A Tweak that disables Ads and enables the developer menu.\n\nThe developer menu includes a wide range of adjustmets the user can make to the app, some include:\n\n• Block audio and video ads\n• Enable developer menu\n• Hide Go+ tab\n\nDon't worry, the tweaks you would expect (such as no ads) are enabled in the dev menu by default. So just install and enjoy.",
-      "iconURL" : "https://img.ipa4fun.com/b1/62/d8/336353151-logo.jpg",
-      "tintColor" : "#db5b14",
-      "size" : 73000000,
-      "minOSVersion" : "14.0",
-      "screenshotURLs" : [
+      "version": "6.17.0",
+      "versionDate": "2023-02-14",
+      "versionDescription": "Updated SoundCloud to v6.17.0",
+      "downloadURL": "https://github.com/WuXu1/wuxuslibrary.github.io/releases/download/Latest/SoundCloud.v6.16.1.+.DarkCloud.v1.4.ipa",
+      "localizedDescription": "SoundCloud Injected with DarkCloud - A Tweak that disables Ads and enables the developer menu.\n\nThe developer menu includes a wide range of adjustmets the user can make to the app, some include:\n\n\u2022 Block audio and video ads\n\u2022 Enable developer menu\n\u2022 Hide Go+ tab\n\nDon't worry, the tweaks you would expect (such as no ads) are enabled in the dev menu by default. So just install and enjoy.",
+      "iconURL": "https://img.ipa4fun.com/b1/62/d8/336353151-logo.jpg",
+      "tintColor": "#db5b14",
+      "size": 73000000,
+      "minOSVersion": "14.0",
+      "screenshotURLs": [
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-1.jpg",
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-2.jpg",
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-3.jpg",
@@ -210,66 +210,68 @@
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-6.jpg",
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-7.jpg",
         "https://img.ipa4fun.com/b1/62/d8/336353151-screenshot-8.jpg"
-      ]
+      ],
+      "appID": "com.soundcloud.TouchApp"
     },
     {
-      "name" : "BeReal++",
-      "bundleIdentifier" : "AlexisBarreyat.BeReal",
-      "developerName" : "Avangelista",
-      "subtitle" : "See your friends BeReals without posting anything!",
-      "versions" : [
+      "name": "BeReal++",
+      "bundleIdentifier": "AlexisBarreyat.BeReal",
+      "developerName": "Avangelista",
+      "subtitle": "See your friends BeReals without posting anything!",
+      "versions": [
         {
-          "version" : "0.32.0",
-          "date" : "2023-02-12",
-          "localizedDescription" : "• BeReal updated to v0.32.0\n• UnBlur remains at latest (v0.0.2)",
-          "downloadURL" : "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/BeReal.v0.32.0.+.UnBlur.v0.0.2.ipa",
-          "size" : 26000000,
-          "minOSVersion" : "14.0"
+          "version": "0.32.0",
+          "date": "2023-02-12",
+          "localizedDescription": "\u2022 BeReal updated to v0.32.0\n\u2022 UnBlur remains at latest (v0.0.2)",
+          "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/BeReal.v0.32.0.+.UnBlur.v0.0.2.ipa",
+          "size": 26000000,
+          "minOSVersion": "14.0"
         }
       ],
-      "version" : "0.32.0",
-      "versionDate" : "2023-02-12",
-      "versionDescription" : "• BeReal updated to v0.32.0\n• UnBlur remains at latest (v0.0.2)",
-      "downloadURL" : "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/BeReal.v0.32.0.+.UnBlur.v0.0.2.ipa",
-      "localizedDescription" : "Unblur your friends’ posts on BeReal, even when you haven't posted. All functions of the app work as normal.",
-      "iconURL" : "https://img.ipa4fun.com/74/cd/6c/1459645446-logo.jpg",
-      "tintColor" : "#363636",
-      "size" : 26000000,
-      "minOSVersion" : "14.0",
-      "screenshotURLs" : [
+      "version": "0.32.0",
+      "versionDate": "2023-02-12",
+      "versionDescription": "\u2022 BeReal updated to v0.32.0\n\u2022 UnBlur remains at latest (v0.0.2)",
+      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/BeReal.v0.32.0.+.UnBlur.v0.0.2.ipa",
+      "localizedDescription": "Unblur your friends\u2019 posts on BeReal, even when you haven't posted. All functions of the app work as normal.",
+      "iconURL": "https://img.ipa4fun.com/74/cd/6c/1459645446-logo.jpg",
+      "tintColor": "#363636",
+      "size": 26000000,
+      "minOSVersion": "14.0",
+      "screenshotURLs": [
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-1.jpg",
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-2.jpg",
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-3.jpg",
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-4.jpg",
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-5.jpg",
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-6.jpg"
-      ]
+      ],
+      "appID": "AlexisBarreyat.BeReal"
     },
     {
-      "name" : "TikTok++",
-      "bundleIdentifier" : "com.zhiliaoapp.musically",
-      "developerName" : "CrazyMind90",
-      "subtitle" : "TikTok with added features.",
-      "versions" : [
+      "name": "TikTok++",
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "developerName": "CrazyMind90",
+      "subtitle": "TikTok with added features.",
+      "versions": [
         {
-          "version" : "27.9.0",
-          "date" : "2023-02-12",
-          "localizedDescription" : "• Updated TikTok to v27.9.0 - This is currently the latest version of TikTok that works with TikTokLRD (Cracked)",
-          "downloadURL" : "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/TikTok.v27.9.0.+.LRD+.ipa",
-          "size" : 160000000,
-          "minOSVersion" : "10.0"
+          "version": "27.9.0",
+          "date": "2023-02-12",
+          "localizedDescription": "\u2022 Updated TikTok to v27.9.0 - This is currently the latest version of TikTok that works with TikTokLRD (Cracked)",
+          "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/TikTok.v27.9.0.+.LRD+.ipa",
+          "size": 160000000,
+          "minOSVersion": "10.0"
         }
       ],
-      "version" : "27.9.0",
-      "versionDate" : "2023-02-12",
-      "versionDescription" : "• Updated TikTok to v27.9.0 - This is currently the latest version of TikTok that works with TikTokLRD (Cracked)",
-      "downloadURL" : "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/TikTok.v27.9.0.+.LRD+.ipa",
-      "localizedDescription" : "TikTokLRD (Cracked) - Add features to the TikTok App:\n\n• Save video without watermark\n• Share or save the video\n• Hide the user interface\n• Play the next video automatically\n• Skip watching live while watching automatically\n• Show progress bar for video\n• Enable high-quality video upload\n• Save a profile picture\n• Show the number of videos\n• Create favorite groups\n• Increase the number of letters in the comment to 240\n• Show the country code for the video\n• Enable copying for description and account\n• Enable comments transparency\n• Hide you just saw\n• Read closed comments\n• Watching videos under review\n• Show creation video date\n• Hide ADS\n• Change country\n• Confirm | cancel the like\n• Confirm | cancel the like in the comments\n• Confirm | cancel the follow\n• Lock the app",
-      "iconURL" : "https://img.ipa4fun.com/06/ac/ac/835599320-logo.jpg",
-      "tintColor" : "#363636",
-      "size" : 160000000,
-      "minOSVersion" : "10.0",
-      "screenshotURLs" : [
+      "version": "27.9.0",
+      "versionDate": "2023-02-12",
+      "versionDescription": "\u2022 Updated TikTok to v27.9.0 - This is currently the latest version of TikTok that works with TikTokLRD (Cracked)",
+      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/TikTok.v27.9.0.+.LRD+.ipa",
+      "localizedDescription": "TikTokLRD (Cracked) - Add features to the TikTok App:\n\n\u2022 Save video without watermark\n\u2022 Share or save the video\n\u2022 Hide the user interface\n\u2022 Play the next video automatically\n\u2022 Skip watching live while watching automatically\n\u2022 Show progress bar for video\n\u2022 Enable high-quality video upload\n\u2022 Save a profile picture\n\u2022 Show the number of videos\n\u2022 Create favorite groups\n\u2022 Increase the number of letters in the comment to 240\n\u2022 Show the country code for the video\n\u2022 Enable copying for description and account\n\u2022 Enable comments transparency\n\u2022 Hide you just saw\n\u2022 Read closed comments\n\u2022 Watching videos under review\n\u2022 Show creation video date\n\u2022 Hide ADS\n\u2022 Change country\n\u2022 Confirm | cancel the like\n\u2022 Confirm | cancel the like in the comments\n\u2022 Confirm | cancel the follow\n\u2022 Lock the app",
+      "iconURL": "https://img.ipa4fun.com/06/ac/ac/835599320-logo.jpg",
+      "tintColor": "#363636",
+      "size": 160000000,
+      "minOSVersion": "10.0",
+      "screenshotURLs": [
         "https://img.ipa4fun.com/06/ac/ac/835599320-screenshot-1.jpg",
         "https://img.ipa4fun.com/06/ac/ac/835599320-screenshot-2.jpg",
         "https://img.ipa4fun.com/06/ac/ac/835599320-screenshot-3.jpg",
@@ -277,126 +279,130 @@
         "https://img.ipa4fun.com/06/ac/ac/835599320-screenshot-5.jpg",
         "https://img.ipa4fun.com/06/ac/ac/835599320-screenshot-6.jpg",
         "https://img.ipa4fun.com/06/ac/ac/835599320-screenshot-7.jpg"
-      ]
+      ],
+      "appID": "com.zhiliaoapp.musically"
     },
     {
-      "name" : "Anime Now!",
-      "bundleIdentifier" : "com.errorerrorerror.animenow",
-      "developerName" : "AnimeNow Team",
-      "subtitle" : "Watch your favorite Anime anywhere for free!",
-      "versions" : [
+      "name": "Anime Now!",
+      "bundleIdentifier": "com.errorerrorerror.animenow",
+      "developerName": "AnimeNow Team",
+      "subtitle": "Watch your favorite Anime anywhere for free!",
+      "versions": [
         {
-          "version" : "1.0.0-beta.1",
-          "date" : "2023-02-14",
-          "localizedDescription" : "• Updated Anime Now to v1.0.0-beta.1",
-          "downloadURL" : "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Anime.Now.v1.0.0-b1.ipa",
-          "size" : 6380000,
-          "minOSVersion" : "14.0"
+          "version": "1.0.0-beta.1",
+          "date": "2023-02-14",
+          "localizedDescription": "\u2022 Updated Anime Now to v1.0.0-beta.1",
+          "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Anime.Now.v1.0.0-b1.ipa",
+          "size": 6380000,
+          "minOSVersion": "14.0"
         }
       ],
-      "version" : "1.0.0-beta.1",
-      "versionDate" : "2023-02-14",
-      "versionDescription" : "• Updated Anime Now to v1.0.0-beta.1",
-      "downloadURL" : "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Anime.Now.v1.0.0-b1.ipa",
-      "localizedDescription" : "Features:\n\n• Ad Free\n• No logins\n• Custom video playback\n• Airplay 2 Support\n• Picture in Picture playback support\n• Download & play episodes offline\n• Custom Collections\n• Third party anime tracking\n• Manga support (Will be added in V2.0.0)",
-      "iconURL" : "https://static.appdb.to/images/cydia-1900001008-icon-1669968478.png",
-      "tintColor" : "#343334",
-      "size" : 6380000,
-      "minOSVersion" : "14.0",
-      "screenshotURLs" : [
+      "version": "1.0.0-beta.1",
+      "versionDate": "2023-02-14",
+      "versionDescription": "\u2022 Updated Anime Now to v1.0.0-beta.1",
+      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Anime.Now.v1.0.0-b1.ipa",
+      "localizedDescription": "Features:\n\n\u2022 Ad Free\n\u2022 No logins\n\u2022 Custom video playback\n\u2022 Airplay 2 Support\n\u2022 Picture in Picture playback support\n\u2022 Download & play episodes offline\n\u2022 Custom Collections\n\u2022 Third party anime tracking\n\u2022 Manga support (Will be added in V2.0.0)",
+      "iconURL": "https://static.appdb.to/images/cydia-1900001008-icon-1669968478.png",
+      "tintColor": "#343334",
+      "size": 6380000,
+      "minOSVersion": "14.0",
+      "screenshotURLs": [
         "https://static.appdb.to/images/cydia-1900001008-iphone-0-1669964060.png",
         "https://static.appdb.to/images/cydia-1900001008-iphone-1-1669964061.png",
         "https://static.appdb.to/images/cydia-1900001008-iphone-2-1669964061.png",
         "https://static.appdb.to/images/cydia-1900001008-iphone-3-1669964061.png"
-      ]
+      ],
+      "appID": "com.errorerrorerror.animenow"
     },
     {
-      "name" : "ZiniTevi++",
-      "bundleIdentifier" : "jb.zini.tevi",
-      "developerName" : "",
-      "subtitle" : "Watch free movies and TV Shows on your iPhone!",
-      "versions" : [
+      "name": "ZiniTevi++",
+      "bundleIdentifier": "jb.zini.tevi",
+      "developerName": "",
+      "subtitle": "Watch free movies and TV Shows on your iPhone!",
+      "versions": [
         {
-          "version" : "1.5.0",
-          "date" : "2023-02-15",
-          "localizedDescription" : "• Updated ZiniTevi to v1.5.0",
-          "downloadURL" : "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/ZiniTevi+.v1.5.0.ipa",
-          "size" : 7580000,
-          "minOSVersion" : "14.0"
+          "version": "1.5.0",
+          "date": "2023-02-15",
+          "localizedDescription": "\u2022 Updated ZiniTevi to v1.5.0",
+          "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/ZiniTevi+.v1.5.0.ipa",
+          "size": 7580000,
+          "minOSVersion": "14.0"
         }
       ],
-      "version" : "1.5.0",
-      "versionDate" : "2023-02-15",
-      "versionDescription" : "• Updated ZiniTevi to v1.5.0",
-      "downloadURL" : "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/ZiniTevi+.v1.5.0.ipa",
-      "localizedDescription" : "Tweaked version of ZiniTevi - Ads disabled\n\nApp for Streaming Movies and TV Shows for free on your phone.\n\nApp features:\n\n• Play video online and offline.\n• Download multiple videos in background mode.\n• Stream video to Google's Chromecast, Airplay, Smart TV,\n• Android TV Box, Web Browser, UPnP, DLNA.\n• Add to favorites list.\n• Save to watched list.\n• Caption in video with all languages on over the world.\n• Trakt.tv to sync history and favorites list to the cloud.\n\nEnjoy!",
-      "iconURL" : "https://i.imgur.com/rgL5qrB.png",
-      "tintColor" : "#333939",
-      "size" : 7580000,
-      "minOSVersion" : "14.0",
-      "screenshotURLs" : [
+      "version": "1.5.0",
+      "versionDate": "2023-02-15",
+      "versionDescription": "\u2022 Updated ZiniTevi to v1.5.0",
+      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/ZiniTevi+.v1.5.0.ipa",
+      "localizedDescription": "Tweaked version of ZiniTevi - Ads disabled\n\nApp for Streaming Movies and TV Shows for free on your phone.\n\nApp features:\n\n\u2022 Play video online and offline.\n\u2022 Download multiple videos in background mode.\n\u2022 Stream video to Google's Chromecast, Airplay, Smart TV,\n\u2022 Android TV Box, Web Browser, UPnP, DLNA.\n\u2022 Add to favorites list.\n\u2022 Save to watched list.\n\u2022 Caption in video with all languages on over the world.\n\u2022 Trakt.tv to sync history and favorites list to the cloud.\n\nEnjoy!",
+      "iconURL": "https://i.imgur.com/rgL5qrB.png",
+      "tintColor": "#333939",
+      "size": 7580000,
+      "minOSVersion": "14.0",
+      "screenshotURLs": [
         "https://static.appdb.to/images/cydia-1900000660-iphone-0.png",
         "https://static.appdb.to/images/cydia-1900000660-iphone-1.png",
         "https://static.appdb.to/images/cydia-1900000660-iphone-2.png"
-      ]
+      ],
+      "appID": "jb.zini.tevi"
     },
     {
-      "name" : "Photomath++",
-      "bundleIdentifier" : "com.microblink.PhotoMath",
-      "developerName" : "Strejda603",
-      "subtitle" : "Photomath with plus activated!",
-      "versions" : [
+      "name": "Photomath++",
+      "bundleIdentifier": "com.microblink.PhotoMath",
+      "developerName": "Strejda603",
+      "subtitle": "Photomath with plus activated!",
+      "versions": [
         {
-          "version" : "8.19.1",
-          "date" : "2023-02-16",
-          "localizedDescription" : "• Updated Photomath to v8.19.1",
-          "downloadURL" : "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Photomath+.v8.18.1.ipa",
-          "size" : 12900000,
-          "minOSVersion" : "13.0"
+          "version": "8.19.1",
+          "date": "2023-02-16",
+          "localizedDescription": "\u2022 Updated Photomath to v8.19.1",
+          "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Photomath+.v8.18.1.ipa",
+          "size": 12900000,
+          "minOSVersion": "13.0"
         }
       ],
-      "version" : "8.19.1",
-      "versionDate" : "2023-02-16",
-      "versionDescription" : "• Updated Photomath to v8.19.1",
-      "downloadURL" : "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Photomath+.v8.18.1.ipa",
-      "localizedDescription" : "Photomath works as normal, only the premium features are activated as if you bought them.",
-      "iconURL" : "https://img.ipa4fun.com/c9/1d/c3/919087726-logo.jpg",
-      "tintColor" : "#830824",
-      "size" : 12900000,
-      "minOSVersion" : "13.0",
-      "screenshotURLs" : [
+      "version": "8.19.1",
+      "versionDate": "2023-02-16",
+      "versionDescription": "\u2022 Updated Photomath to v8.19.1",
+      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Photomath+.v8.18.1.ipa",
+      "localizedDescription": "Photomath works as normal, only the premium features are activated as if you bought them.",
+      "iconURL": "https://img.ipa4fun.com/c9/1d/c3/919087726-logo.jpg",
+      "tintColor": "#830824",
+      "size": 12900000,
+      "minOSVersion": "13.0",
+      "screenshotURLs": [
         "https://img.ipa4fun.com/c9/1d/c3/919087726-screenshot-1.jpg",
         "https://img.ipa4fun.com/c9/1d/c3/919087726-screenshot-2.jpg",
         "https://img.ipa4fun.com/c9/1d/c3/919087726-screenshot-3.jpg",
         "https://img.ipa4fun.com/c9/1d/c3/919087726-screenshot-4.jpg",
         "https://img.ipa4fun.com/c9/1d/c3/919087726-screenshot-5.jpg"
-      ]
+      ],
+      "appID": "com.microblink.PhotoMath"
     },
     {
-      "name" : "Snapchat++",
-      "bundleIdentifier" : "com.toyopagroup.picaboo",
-      "developerName" : "Kanji",
-      "subtitle" : "Snapchat Tweaked with extra features!",
-      "versions" : [
+      "name": "Snapchat++",
+      "bundleIdentifier": "com.toyopagroup.picaboo",
+      "developerName": "Kanji",
+      "subtitle": "Snapchat Tweaked with extra features!",
+      "versions": [
         {
-          "version" : "11.80.0",
-          "date" : "2023-02-20",
-          "localizedDescription" : "• Updated Snapchat to last working version with Shadow X (v11.80.0)",
-          "downloadURL" : "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Snapchat.v11.80.0.+.Shadow.X.ipa",
-          "size" : 80600000,
-          "minOSVersion" : "12.0"
+          "version": "11.80.0",
+          "date": "2023-02-20",
+          "localizedDescription": "\u2022 Updated Snapchat to last working version with Shadow X (v11.80.0)",
+          "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Snapchat.v11.80.0.+.Shadow.X.ipa",
+          "size": 80600000,
+          "minOSVersion": "12.0"
         }
       ],
-      "version" : "11.80.0",
-      "versionDate" : "2023-02-20",
-      "versionDescription" : "• Updated Snapchat to last working version with Shadow X (v11.80.0)",
-      "downloadURL" : "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Snapchat.v11.80.0.+.Shadow.X.ipa",
-      "localizedDescription" : "(Possibility of getting banned. I have not except when I tried to install and use normal SnapChat while I still had the tweak installed)\n\n•Screenshot Supression - Screenshotting will no longer send a notification.\n\n• Keep Snaps In Chat - Delivered and open snaps will temporarily be saved in chat.\n\n• Story Ghost - View stories anonymously.\n\n• Snap Ghost - Snaps and messages will appear unviewed/unopened.\n\n• Spoof Story Views\n\n• Spoof Story Screenshots\n\n• Save To Camera Roll - Tap and hold while viewing a snap to bring up the UI press \"Save Snap\"\n\n• Hide Subtitle - Hide the subtitle containing an MOTD or something from the devs\n\n• Upload From Camera Roll - Press the upload button to select an image and then press the button to take a picture.\n\n• Hide Call Buttons - Hide the call buttons on recent Ul versions.\n\n• Video Call Confirm - Presents a popup to verify that the action was intentional.\n\n• Audio Call Confirm - Presents a popup to verify that the action was intentional.\n\n• Hide New Chat Button - Hide the blue button on the bottom on recent Ul versions.\n\n• Remove Highlights (Not Working) - Remove the stupid TikTok knock-off tab (requires app restart).\n\n• Hide Friendmoji - Hide the \"Friendmojis\" next to people's names (requires pull-refresh).\n\n• Randomize Best Friends - Randomly change the order off the best friends list.\n\n• Keep Normal Title - Enable this to hide the \"Shadow X\" label\n\n• Cool RGB Animation - Makes the shadow header RBG (think chromahomebarx).",
-      "iconURL" : "https://img.ipa4fun.com/5f/b5/79/447188370-logo.jpg",
-      "tintColor" : "#b0b004",
-      "size" : 80600000,
-      "minOSVersion" : "12.0",
-      "screenshotURLs" : [
+      "version": "11.80.0",
+      "versionDate": "2023-02-20",
+      "versionDescription": "\u2022 Updated Snapchat to last working version with Shadow X (v11.80.0)",
+      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Snapchat.v11.80.0.+.Shadow.X.ipa",
+      "localizedDescription": "(Possibility of getting banned. I have not except when I tried to install and use normal SnapChat while I still had the tweak installed)\n\n\u2022Screenshot Supression - Screenshotting will no longer send a notification.\n\n\u2022 Keep Snaps In Chat - Delivered and open snaps will temporarily be saved in chat.\n\n\u2022 Story Ghost - View stories anonymously.\n\n\u2022 Snap Ghost - Snaps and messages will appear unviewed/unopened.\n\n\u2022 Spoof Story Views\n\n\u2022 Spoof Story Screenshots\n\n\u2022 Save To Camera Roll - Tap and hold while viewing a snap to bring up the UI press \"Save Snap\"\n\n\u2022 Hide Subtitle - Hide the subtitle containing an MOTD or something from the devs\n\n\u2022 Upload From Camera Roll - Press the upload button to select an image and then press the button to take a picture.\n\n\u2022 Hide Call Buttons - Hide the call buttons on recent Ul versions.\n\n\u2022 Video Call Confirm - Presents a popup to verify that the action was intentional.\n\n\u2022 Audio Call Confirm - Presents a popup to verify that the action was intentional.\n\n\u2022 Hide New Chat Button - Hide the blue button on the bottom on recent Ul versions.\n\n\u2022 Remove Highlights (Not Working) - Remove the stupid TikTok knock-off tab (requires app restart).\n\n\u2022 Hide Friendmoji - Hide the \"Friendmojis\" next to people's names (requires pull-refresh).\n\n\u2022 Randomize Best Friends - Randomly change the order off the best friends list.\n\n\u2022 Keep Normal Title - Enable this to hide the \"Shadow X\" label\n\n\u2022 Cool RGB Animation - Makes the shadow header RBG (think chromahomebarx).",
+      "iconURL": "https://img.ipa4fun.com/5f/b5/79/447188370-logo.jpg",
+      "tintColor": "#b0b004",
+      "size": 80600000,
+      "minOSVersion": "12.0",
+      "screenshotURLs": [
         "https://img.ipa4fun.com/5f/b5/79/447188370-screenshot-1.jpg",
         "https://img.ipa4fun.com/5f/b5/79/447188370-screenshot-2.jpg",
         "https://img.ipa4fun.com/5f/b5/79/447188370-screenshot-3.jpg",
@@ -406,7 +412,8 @@
         "https://img.ipa4fun.com/5f/b5/79/447188370-screenshot-7.jpg",
         "https://img.ipa4fun.com/5f/b5/79/447188370-screenshot-8.jpg",
         "https://img.ipa4fun.com/5f/b5/79/447188370-screenshot-9.jpg"
-      ]
+      ],
+      "appID": "com.toyopagroup.picaboo"
     },
     {
       "name": "Crunchyroll++",
@@ -583,60 +590,8 @@
     {
       "name": "Spotify++",
       "bundleIdentifier": "com.spotify.client",
-      "developerName": "julioverne",
-      "subtitle": "Spotify with free premium.",
-      "version": "8.6.54",
-      "versionDate": "2021-11-18",
-      "versionDescription": "Should finally work on iOS 15+. Added Spos 1.7.",
-      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Spotify%2B%2B.ipa",
-      "localizedDescription": "Spotify++ essentially activates spotify premium on your device with one exception: No downloads.\n\nSo what does Spotify++ change?\n\n\u2022 All kinds of ads removed\n\u2022 Unlimited skips\n\u2022 Play any song or album\n\u2022 Enable extreme streaming quality\n\u2022 No forced shuffle\n\u2022 Import songs from the Music app",
-      "iconURL": "https://i.imgur.com/on9H3Vv.png",
-      "tintColor": "#1ed760",
-      "size": 50510887,
-      "permissions": [
-        {
-          "type": "camera",
-          "usageDescription": "This lets you scan Spotify Codes."
-        },
-        {
-          "type": "photos",
-          "usageDescription": "This lets you save and select images to and from your Photo Library."
-        },
-        {
-          "type": "music",
-          "usageDescription": "This will let you play your imported music on Spotify."
-        },
-        {
-          "type": "motion",
-          "usageDescription": "Used to control your tempo for Spotify Running."
-        },
-        {
-          "type": "microphone",
-          "usageDescription": "This lets you control Spotify using your voice."
-        },
-        {
-          "type": "bluetooth",
-          "usageDescription": "This lets you use Spotify with external accessories."
-        },
-        {
-          "type": "network",
-          "usageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files."
-        },
-        {
-          "type": "faceid",
-          "usageDescription": "This lets you set access restrictions using Face ID."
-        }
-      ],
-      "screenshotURLs": [
-        "https://i.imgur.com/t75Ef2i.png",
-        "https://i.imgur.com/tN2HRrN.png",
-        "https://i.imgur.com/7niziJz.png",
-        "https://i.imgur.com/Gaj1CMM.png",
-        "https://i.imgur.com/r31e5Wu.png",
-        "https://i.imgur.com/JABe5A7.png",
-        "https://i.imgur.com/3hUWRcU.png",
-        "https://i.imgur.com/EC0ExwD.png"
-      ],
+      "developerName": "iJulioVerne",
+      "subtitle": "Spotify with free premium, and extra UI features",
       "versions": [
         {
           "version": "8.6.54",
@@ -645,6 +600,27 @@
           "localizedDescription": "Should finally work on iOS 15+. Added Spos 1.7.",
           "size": 50510887
         }
+      ],
+      "version": "8.6.42",
+      "versionDate": "2023-02-13",
+      "versionDescription": "\u2022 Spotify Updated to v8.6.42\n\u2022 Spotilife Updated to v1.8\n\u2022 Sposify Updated to v8.5.52\n\u2022 Volify Updated to v2.0.2",
+      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Spotify.v8.6.42.+.Spotilife.v1.8.+.Sposify.v8.5.52.+.Volify.v2.0.2.+.SpotifyAllowSetting.v1.0.ipa",
+      "localizedDescription": "Spotify++ contants a tweak that activates Premium. As well as a number of tweaks to customise the UI and improve the overall user experience.\n\nHere are the following tweaks:\n\n\u2022 Spotilife - Premium for free.\n\n\u2022 Sposify - A Tweak to customize your Spotify App UI and expand functionalities.\n\n\u2022 Volify - Adds a volume slider to Spotify.\n\n\u2022 SpotifyAllowSetting - Allows you to access all of the settings in Spotify that are normally disabled when someone else is playing music from another device.",
+      "iconURL": "https://img.ipa4fun.com/ef/cd/d4/324684580-logo.jpg",
+      "tintColor": "#1c843c",
+      "size": 47000000,
+      "minOSVersion": "12.0",
+      "screenshotURLs": [
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-1.jpg",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-2.jpg",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-3.jpg",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-4.jpg",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-5.jpg",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-6.jpg",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-7.jpg",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-8.jpg",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-9.jpg",
+        "https://img.ipa4fun.com/ef/cd/d4/324684580-screenshot-10.jpg"
       ],
       "appID": "com.spotify.client"
     },
