@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 sourcesData = [
     {
         "parser": Parser.GITHUB,
-        "kwargs": {"repo_author": "ish-app", "repo_name": "ish", "prefer_date": True, "include_pre": True},
+        "kwargs": {"repo_author": "ish-app", "repo_name": "ish", "prefer_date": True, "include_pre": False},
         "ids": ["app.ish.iSH"]
     },
     {
@@ -320,7 +320,7 @@ sourcesData = [
     {
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "https://qnblackcat.github.io/AltStore/apps.json"},
-        "ids": ["com.burbn.instagram", "com.facebook.Facebook", "com.atebits.Tweetie2", "com.google.ios.youtube","com.reddit.Reddit"]
+        "ids": ["com.burbn.instagram", "com.facebook.Facebook", "com.google.ios.youtube","com.reddit.Reddit"]
     }
 ]
 alternateAppData = {

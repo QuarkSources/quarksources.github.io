@@ -839,14 +839,6 @@
           "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/459/iSH.ipa"
         },
         {
-          "absoluteVersion": "builds/458",
-          "date": "2023-02-25T06:16:04Z",
-          "localizedDescription": "# Build 458\n\nAutomated daily build",
-          "size": 4183190,
-          "version": "1.3",
-          "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/458/iSH.ipa"
-        },
-        {
           "version": "1.2.3",
           "date": "2021-02-25T06:06:58+00:00",
           "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/458/iSH.ipa",
