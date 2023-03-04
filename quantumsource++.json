@@ -32,6 +32,32 @@
       ]
     },
     {
+      "name": "PopcornTime",
+      "subtitle": "Watch all movies from your phone!",
+      "bundleIdentifier": "com.wdfff.PopcornTime",
+      "developerName": "WD1000",
+      "localizedDescription": "PopcornTime is a free application made for streaming videos and movies. It is a multi-platform, open source Bittorrent client that also includes a media player. It uses sequential downloading and uploading to play films in its media player. Our website: https://popcorntime-ios.nl/",
+      "iconURL": "https://popcorntime-ios.nl/assets/Appicon.025a95d0.png",
+      "tintColor": "4153b6",
+      "screenshotURLs": [
+        "https://popcorntime-ios.nl/altstore/assets/916/1.png",
+        "https://popcorntime-ios.nl/altstore/assets/916/2.png",
+        "https://popcorntime-ios.nl/altstore/assets/916/3.png",
+        "https://popcorntime-ios.nl/altstore/assets/916/4.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2023-02-21T12:00:00-06:00",
+          "localizedDescription": "Watch all your favourite movies and shows from your phone.",
+          "downloadURL": "https://popcorntime-ios.nl/download/1.0/PopcornTimeiOS.ipa",
+          "size": 37334455,
+          "minOSVersion": "12.1"
+        }
+      ],
+      "appID": "com.wdfff.PopcornTime"
+    },
+    {
       "beta": false,
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "MiRO92 & Qn_",
@@ -787,40 +813,6 @@
       ]
     },
     {
-      "name": "Popcorn",
-      "bundleIdentifier": "com.antique.Popcorn-iOS",
-      "developerName": "Antique",
-      "subtitle": "The new and improved successor to PopcornTime!",
-      "version": "3.0",
-      "versionDate": "2020-12-23",
-      "versionDescription": "Updated to v3.0.0.8\n\u2022 Fixed all that crashing",
-      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Popcorn.ipa",
-      "localizedDescription": "Popcorn uses online torrents to find and stream brand-new movies and TV shows for free.\n\nUseful features include:\n\n\u2022 Finds the best torrents automatically\n\u2022 Awesome catalog of movies and shows - if it's out there, you can find it\n\u2022 No restrictions, subscriptions or ads\n\u2022 The ability to select the quality and subtitles\n\u2022 Instant streaming or downloads\n\u2022 Trakt.tv scrobbling and watchlist syncing\n\nIf you want to know more about how PopcornTime works, visit the FAQ: https://popcorntime.app/faq",
-      "iconURL": "https://i.imgur.com/nylwVXe.png",
-      "tintColor": "#495bb9",
-      "size": 50074999,
-      "permissions": [
-        {
-          "type": "background-audio",
-          "usageDescription": "This lets you use Popcorn audio in the background."
-        }
-      ],
-      "screenshotURLs": [
-        "https://i.imgur.com/DO8SanA.png",
-        "https://i.imgur.com/YdHBjWL.png",
-        "https://i.imgur.com/4vQu8JA.png"
-      ],
-      "versions": [
-        {
-          "version": "3.0",
-          "date": "2020-12-23",
-          "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Popcorn.ipa",
-          "localizedDescription": "Updated to v3.0.0.8\n\u2022 Fixed all that crashing",
-          "size": 50074999
-        }
-      ]
-    },
-    {
       "name": "MediaBox HD",
       "bundleIdentifier": "mediaboxhd.event.2",
       "developerName": "MediaBox Team",
@@ -1468,42 +1460,6 @@
       "appID": "com.marcuszhou.NineAnimator"
     },
     {
-      "name": "PopcornTimeTV",
-      "bundleIdentifier": "com.hotdog.popcorntime81.ios",
-      "developerName": "PopcornTimeTV",
-      "subtitle": "Free TV Shows and Movies for iOS, with Butter!",
-      "version": "3.2",
-      "versionDate": "2020-04-14",
-      "versionDescription": "This update will require you to uninstall the current PopcornTime and then reinstall.\n\nFixed unknown error among other updates and changes.",
-      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/PopcornTimeTV.ipa",
-      "localizedDescription": "PopcornTimeTV uses online torrents to find and stream brand-new movies and TV shows for free.\n\nUseful features include:\n\n\u2022 Finds the best torrents automatically\n\u2022 Awesome catalog of movies and shows - if it's out there, you can find it\n\u2022 No restrictions, subscriptions or ads\n\u2022 The ability to select the quality and subtitles\n\u2022 Instant streaming or downloads\n\u2022 Trakt.tv scrobbling and watchlist syncing\n\nIf you want to know more about how PopcornTime works, visit the FAQ: https://popcorntime.app/faq",
-      "iconURL": "https://i.imgur.com/c7BzAgE.png",
-      "tintColor": "#495bb9",
-      "size": 37879565,
-      "permissions": [
-        {
-          "type": "bluetooth",
-          "usageDescription": "This lets you use PopcornTime with external devices."
-        }
-      ],
-      "screenshotURLs": [
-        "https://i.imgur.com/WhH2WUe.png",
-        "https://i.imgur.com/hlmpbth.png",
-        "https://i.imgur.com/vHyZY1o.png",
-        "https://i.imgur.com/9zCu89L.png"
-      ],
-      "versions": [
-        {
-          "version": "3.2",
-          "date": "2020-04-14",
-          "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/PopcornTimeTV.ipa",
-          "localizedDescription": "This update will require you to uninstall the current PopcornTime and then reinstall.\n\nFixed unknown error among other updates and changes.",
-          "size": 37879565
-        }
-      ],
-      "appID": "com.hotdog.popcorntime81.ios"
-    },
-    {
       "name": "Twitch++",
       "bundleIdentifier": "tv.twitch",
       "developerName": "Michael Lema",
@@ -1923,41 +1879,6 @@
       ]
     },
     {
-      "name": "Popcorn",
-      "bundleIdentifier": "com.antique.Popcorn",
-      "developerName": "Antique",
-      "subtitle": "The new and improved successor to PopcornTime!",
-      "version": "3",
-      "versionDate": "2021-06-29",
-      "versionDescription": "Updated to v3.4\nWhat's new?\n\n1. Reviews\n- Reviews are now available for all users.\n- Reviews require a Popcorn account and username.\n\n2. Accounts\n- Improved Get Started, Reconnect and Account.\n- Account options are now available by tapping your email.\n- Users can now assign a username.\n- Usernames are permanent. Ensure you set it correctly.\n\n3. Servers\n- Fixed an issue which caused Popcorn to fail while opening if a server",
-      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Popcorn.ipa",
-      "localizedDescription": "Popcorn uses online torrents to find and stream brand-new movies and TV shows for free.\n\nUseful features include:\n\n\u2022 Finds the best torrents automatically\n\u2022 Awesome catalog of movies and shows - if it's out there, you can find it\n\u2022 No restrictions, subscriptions or ads\n\u2022 The ability to select the quality and subtitles\n\u2022 Instant streaming or downloads\n\u2022 Trakt.tv scrobbling and watchlist syncing\n\nIf you want to know more about how PopcornTime works, visit the FAQ: https://popcorntime.app/faq",
-      "iconURL": "https://i.imgur.com/nylwVXe.png",
-      "tintColor": "#495bb9",
-      "size": 52848507,
-      "permissions": [
-        {
-          "type": "background-audio",
-          "usageDescription": "This lets you use Popcorn audio in the background."
-        }
-      ],
-      "screenshotURLs": [
-        "https://i.imgur.com/DO8SanA.png",
-        "https://i.imgur.com/YdHBjWL.png",
-        "https://i.imgur.com/4vQu8JA.png"
-      ],
-      "versions": [
-        {
-          "version": "3",
-          "date": "2021-06-29",
-          "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Popcorn.ipa",
-          "localizedDescription": "Updated to v3.4\nWhat's new?\n\n1. Reviews\n- Reviews are now available for all users.\n- Reviews require a Popcorn account and username.\n\n2. Accounts\n- Improved Get Started, Reconnect and Account.\n- Account options are now available by tapping your email.\n- Users can now assign a username.\n- Usernames are permanent. Ensure you set it correctly.\n\n3. Servers\n- Fixed an issue which caused Popcorn to fail while opening if a server",
-          "size": 52848507
-        }
-      ],
-      "appID": "com.antique.Popcorn"
-    },
-    {
       "beta": false,
       "bundleIdentifier": "com.reddit.Reddit",
       "developerName": "level3tjg",
@@ -2100,6 +2021,27 @@
       "appID": "app.ehpanda",
       "date": "2021-07-12",
       "notify": false
+    },
+    {
+      "title": "PopcornTime iOS is back updated!",
+      "identifier": "com.wdfff.PopcornTime.news.0",
+      "appID": "com.wdfff.PopcornTime",
+      "caption": "Make sure to join our discord to get support. Link: https://discord.gg/WahEGe4tys",
+      "tintColor": "4153b6",
+      "imageURL": "https://i.imgur.com/sMqSXC8.png",
+      "url": "https://popcorntime-ios.nl/",
+      "date": "2023-02-22",
+      "notify": false
+    },
+    {
+      "title": "PopcornTime for iOS has been released!",
+      "identifier": "com.wdfff.PopcornTime",
+      "caption": "Make sure to join our discord to get support. Link: https://discord.gg/WahEGe4tys",
+      "tintColor": "4153b6",
+      "imageURL": "https://popcorntime-ios.nl/assets/Appicon.025a95d0.png",
+      "url": "https://popcorntime-ios.nl/",
+      "date": "2023-02-22",
+      "notify": true
     }
   ],
   "version": 2

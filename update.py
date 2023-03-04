@@ -272,7 +272,7 @@ sourcesData = [
     {
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "quarksource++.json"},
-        "ids": ["com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "syto203.reddit.pp", "com.antique.Popcorn", "mediaboxhd.event.2", "comicreader.net.ios", "com.channelsapp.channels", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp", "com.hotdog.popcorntime81.ios", "tv.twitch"]
+        "ids": ["com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "syto203.reddit.pp", "mediaboxhd.event.2", "comicreader.net.ios", "com.channelsapp.channels", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp", "tv.twitch"]
     },
     {
         "parser": Parser.ALTSOURCE,
@@ -321,6 +321,11 @@ sourcesData = [
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "https://qnblackcat.github.io/AltStore/apps.json"},
         "ids": ["com.burbn.instagram", "com.facebook.Facebook", "com.google.ios.youtube","com.reddit.Reddit"]
+    },
+    {
+        "parser": Parser.ALTSOURCE,
+        "kwargs": {"filepath": "https://popcorntime-ios.nl/altstore/popcorntime-altstore.json"},
+        "ids": ["com.wdfff.PopcornTime"]
     }
 ]
 alternateAppData = {
