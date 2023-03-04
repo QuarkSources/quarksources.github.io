@@ -1227,7 +1227,7 @@
       "bundleIdentifier": "com.flyinghead.Flycast",
       "developerName": "Flyinghead",
       "subtitle": "Dreamcast, Naomi and Atomiswave emulator.",
-      "version": "v2.1",
+      "version": "V2.1",
       "versionDate": "2023-02-16T11:24:00+01:00",
       "versionDescription": "Full framebuffer emulation and texture upscaling on iOS.",
       "downloadURL": "https://github.com/flyinghead/flycast/releases/download/V2.1/Flycast-2.1.ipa",
