@@ -62,6 +62,14 @@
       "subtitle": "An alternative App Store for iOS.",
       "versions": [
         {
+          "version": "1.6.2b",
+          "date": "2023-03-21T12:00:00-05:00",
+          "localizedDescription": "This beta fixes the \"no provisioning profile with the requested identifier\u2026\" error when sideloading or refreshing apps.\n\n\u26a0\ufe0f You must manually install this update by downloading the latest AltServer beta from Patreon and using it to re-install AltStore. You do not need to delete AltStore first.",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_2_b.ipa",
+          "size": 5624104,
+          "minOSVersion": "12.2"
+        },
+        {
           "version": "1.6.1b2",
           "date": "2023-02-17T12:00:00-06:00",
           "localizedDescription": "This beta fixes Windows Defender blocking AltStore from updating.\n\nPREVIOUS BETA:\n\u2022 Sideload more than 3 apps via MacDirtyCow exploit*\n\u2022 \u201cClear Cache\u201d button removes non-essential data to free up disk space\n\u2022 Fixes crash when viewing Sources on iOS 12\n\n*Requires iOS 14.0 - 15.7.1 or 16.0 - 16.1.2. See Patreon post for instructions.",
@@ -130,14 +138,14 @@
           "size": 5465476
         }
       ],
-      "version": "1.6.1b2",
-      "versionDate": "2023-02-17T12:00:00-06:00",
-      "versionDescription": "This beta fixes Windows Defender blocking AltStore from updating.\n\nPREVIOUS BETA:\n\u2022 Sideload more than 3 apps via MacDirtyCow exploit*\n\u2022 \u201cClear Cache\u201d button removes non-essential data to free up disk space\n\u2022 Fixes crash when viewing Sources on iOS 12\n\n*Requires iOS 14.0 - 15.7.1 or 16.0 - 16.1.2. See Patreon post for instructions.",
-      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_1_b2.ipa",
+      "version": "1.6.2b",
+      "versionDate": "2023-03-21T12:00:00-05:00",
+      "versionDescription": "This beta fixes the \"no provisioning profile with the requested identifier\u2026\" error when sideloading or refreshing apps.\n\n\u26a0\ufe0f You must manually install this update by downloading the latest AltServer beta from Patreon and using it to re-reinstall AltStore. You do not need to delete AltStore first.",
+      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_2_b.ipa",
       "localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis beta release of AltStore adds support for 3rd party sources, allowing you to download apps from other developers directly through AltStore.",
       "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
       "tintColor": "018084",
-      "size": 5626076,
+      "size": 5624104,
       "beta": false,
       "screenshotURLs": [
         "https://user-images.githubusercontent.com/705880/78942028-acf54300-7a6d-11ea-821c-5bb7a9b3e73a.PNG",
@@ -211,6 +219,27 @@
       "bundleIdentifier": "com.rileytestut.Delta.Beta",
       "developerName": "Riley Testut",
       "subtitle": "Classic games in your pocket.",
+      "version": "1.4rc",
+      "versionDate": "2023-02-13T09:41:00-08:00",
+      "versionDescription": "\"Contributors\" screen\n\u2022 See everyone who has contributed to Delta\n\u2022 View associated Pull Requests for contributed features\n\nPREVIOUS BETA\n\u2022 \u201cRespect Silent Mode\u201d setting\n\u2022 Automatically mutes game audio if another app is playing audio\n\u2022 Browse CheatBase for all known cheats for games (thanks Noah Keck @horn978)",
+      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_4_rc.ipa",
+      "localizedDescription": "The next consoles for Delta are coming: this beta version of Delta brings support for playing Nintendo DS and Sega Genesis games!\n\nPlease report any issues you find to support@altstore.io. Thanks!",
+      "iconURL": "https://user-images.githubusercontent.com/705880/63391976-4d311700-c37a-11e9-91a8-4fb0c454413d.png",
+      "tintColor": "8A28F7",
+      "size": 46299284,
+      "beta": false,
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "Allows Delta to use images from your Photo Library as game artwork."
+        }
+      ],
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/705880/65600448-f7d9be00-df54-11e9-9e3e-d4c31296da94.PNG",
+        "https://user-images.githubusercontent.com/705880/65601942-e5ad4f00-df57-11e9-9255-1463e0296e46.PNG",
+        "https://user-images.githubusercontent.com/705880/65813009-f2ae8600-e183-11e9-9eb7-704effc11173.png",
+        "https://user-images.githubusercontent.com/705880/65601117-58b5c600-df56-11e9-9c19-9a5ba5da54cf.PNG"
+      ],
       "versions": [
         {
           "version": "1.5b1",
@@ -255,27 +284,6 @@
           "localizedDescription": "NEW\n\u2022 Supports Split View and Stage Manager multitasking on iPad\n\u2022 Automatically pauses + resumes emulation when switching between foreground apps with Stage Manager\n\u2022 Optimized full screen-width controller skins when using Split View, Slide Over, or Stage Manager\n\u2022 Supports controller skins with new `placement` parameter\n\u2022 Supports controller skins with custom screens that don\u2019t have explicit `outputFrame`\n\nFIXED\n\u2022 Fixed not detecting keyboard presses when remapping inputs\n\u2022 Fixed potential crash rendering game screen after changing EAGLContext\n\u2022 Fixed incorrect game screen frame when software keyboard appears on iOS 16\n\u2022 Fixed software keyboard sometimes appearing when not emulating anything",
           "size": 42968657
         }
-      ],
-      "version": "1.4rc",
-      "versionDate": "2023-02-13T09:41:00-08:00",
-      "versionDescription": "\"Contributors\" screen\n\u2022 See everyone who has contributed to Delta\n\u2022 View associated Pull Requests for contributed features\n\nPREVIOUS BETA\n\u2022 \u201cRespect Silent Mode\u201d setting\n\u2022 Automatically mutes game audio if another app is playing audio\n\u2022 Browse CheatBase for all known cheats for games (thanks Noah Keck @horn978)",
-      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_4_rc.ipa",
-      "localizedDescription": "The next consoles for Delta are coming: this beta version of Delta brings support for playing Nintendo DS and Sega Genesis games!\n\nPlease report any issues you find to support@altstore.io. Thanks!",
-      "iconURL": "https://user-images.githubusercontent.com/705880/63391976-4d311700-c37a-11e9-91a8-4fb0c454413d.png",
-      "tintColor": "8A28F7",
-      "size": 46299284,
-      "beta": false,
-      "permissions": [
-        {
-          "type": "photos",
-          "usageDescription": "Allows Delta to use images from your Photo Library as game artwork."
-        }
-      ],
-      "screenshotURLs": [
-        "https://user-images.githubusercontent.com/705880/65600448-f7d9be00-df54-11e9-9e3e-d4c31296da94.PNG",
-        "https://user-images.githubusercontent.com/705880/65601942-e5ad4f00-df57-11e9-9255-1463e0296e46.PNG",
-        "https://user-images.githubusercontent.com/705880/65813009-f2ae8600-e183-11e9-9eb7-704effc11173.png",
-        "https://user-images.githubusercontent.com/705880/65601117-58b5c600-df56-11e9-9c19-9a5ba5da54cf.PNG"
       ],
       "appID": "com.rileytestut.Delta.Beta"
     },
