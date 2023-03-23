@@ -580,6 +580,15 @@
       "tintColor": "FF6700",
       "date": "2023-03-01",
       "notify": false
+    },
+    {
+      "title": "\u201cNo provisioning profile\u201d?",
+      "identifier": "no-provisioning-profile-error",
+      "caption": "Tap here for full instructions on how to fix this error.",
+      "url": "https://twitter.com/altstoreio/status/1638599316762664974",
+      "tintColor": "DA627D",
+      "date": "2023-03-23",
+      "notify": true
     }
   ],
   "userInfo": {},
