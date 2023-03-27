@@ -212,22 +212,30 @@
     },
     {
       "name": "Firebird Emu",
-      "bundleIdentifier": "com.firebird.firebird-emu",
+      "bundleIdentifier": "com.adriweb.firebird-emu",
       "developerName": "nspire-emus",
       "version": "1.5",
-      "versionDate": "2020-03-28T14:25:34Z",
+      "versionDate": "2023-01-07T16:36:46Z",
       "versionDescription": "# A heap of improvements: Firebird 1.5\n\n**New features:**\r\n* UI language can be switched\r\n* The debugger has a command history, press Up and Down arrow keys\r\n* On Android, the system file picker is used now, which fixes \"Could not start the emulation\" in many cases\r\n* The color scheme follows the system now\r\n* Improved performance of CX flash access by ignoring certain cache flush requests\r\n\r\n**Improvements:**\r\n* LCD can be resized freely now\r\n* Performance improvements for the ARM and AArch64 JITs\r\n* Supports macOS 10.15 Catalina\r\n* The Android APK includes arm64-v8a now\r\n* The Windows ZIP includes software OpenGL now, so should work on more systems\r\n\r\n**Bugfixes:**\r\n* Fix the external LCD sometimes being invisible\r\n* Allows building with recent versions of the Android NDK with clang\r\n* Does not crash on exit due to use of incompatible compile flags with GCC\r\n* Android devices with a lower w/h ratio are marked as supported now\r\n* firebird-send supports different implementations of netcat now\r\n* GDB and remote debugger work after emulation autostart as well\r\n* Moving the cursor over keypad buttons no longer clicks\r\n* On Windows, the filename for snapshots can now include non-ASCII characters\r\n* Fix crash on emulation start on certain x86-64 systems\r\n* Fix freeze on exit on JIT builds for the iOS version\r\n\r\nNote: Firebird Emu requires Qt 5.9 now.\r\n\r\n_Repo for Arch, Debian, Fedora, Ubuntu and openSUSE: [via OBS](https://software.opensuse.org/download.html?project=home%3AVogtinator%3Afirebird-emu&package=firebird-emu&locale=en)._\r\n",
-      "downloadURL": "https://github.com/nspire-emus/firebird/releases/download/v1.5/firebird-iOS.ipa",
+      "downloadURL": "https://github.com/nspire-emus/firebird/releases/download/v1.6/firebird-iOS.ipa",
       "localizedDescription": "Third-party multi-platform emulator of the ARM-based TI-Nspire calculators.",
       "iconURL": "https://i.imgur.com/U2HvZFZ.png",
       "tintColor": "#010f00",
-      "size": 9680896,
+      "size": 9953289,
       "screenshotURLs": [
         "https://i.imgur.com/LT1u2bi.png"
       ],
       "subtitle": "ARM-based TI-Nspire calculator.",
       "absoluteVersion": "1.5",
       "versions": [
+        {
+          "absoluteVersion": "1.6",
+          "date": "2023-01-07T16:36:46Z",
+          "localizedDescription": "# New year, new version: Firebird 1.6\n\n**New features:**\r\n* New dialog for creating Flash images, which is also available in the Mobile UI! (#262) \r\n* Running as 64bit application on Windows is supported now (#234)\r\n* Polish translation is available now (#207)\r\n* CX II (/-T/CAS) calculators can now be emulated (#165)! However, with the current dumping programs you will not get a complete bootrom and booting the OS will fail.\r\n\r\n**Improvements:**\r\n* Multiple files can be sent in the Mobile UI and by dropping them into the main window on desktop (#279)\r\n Reimplemented emulation speed control: Now it's more accurate, especially on Windows\r\n* GitHub actions now performs automated builds for Android (armeabi-v7a and arm64-v8a in one APK), macOS and Windows (32bit and 64bit) on releases and pull requests (#283, #284, #285)\r\n* The \"installer\" for OS 4.5.3.14 (and later?) works now. It requires [fastboot RAM](https://hackspire.org/index.php?title=Memory-mapped_I/O_ports_on_CX#90030000_-_Fastboot_RAM) to persist state across reboots, which is now implemented.\r\n* More accurate emulation of the On button: It's now possible to enter Press-To-Test mode (#271)\r\n* Faster saving and loading of snapshots (#231)\r\n* More reliable USB file transfers\r\n* The debugger console now includes entered commands in the log\r\n* Support for PIE (position-independent executables) on x86_64. Previously, care needed to be taken that PIE was disabled, otherwise it would crash on start. (#211)\r\n* Building the JIT is disabled automatically if the platform does not support it (#197)\r\n* Firebird builds on FreeBSD now (#228, #248)\r\n\r\n**Bugfixes:**\r\n* File access on Android got fixed (#202 and its various duplicates)\r\n* Fix placement of keypad buttons in the touchpad area (#41)\r\n* Various fixes for the Mobile UI layout (#201)\r\n* The kit configuration page in the Mobile UI no longer causes the keyboard to pop up by default (#257)\r\n* Connecting with GDB on windows works now (#259, #260)\r\n* Some shades of grey were not displayed properly when emulating pre-CX models (#270)\r\n* Fix crash on AArch64/arm64 when executing certain instructions\r\n* The keypad reacts to touch events in the desktop version as well now (#292, #293)\r\n* Some places were no longer translated correctly after the introduction of language switching in 1.5\r\n* Keys could get stuck on focus changes. Now they're all released when the keypad loses focus (#287)\r\n* The Ctrl key now changes color when pressed\r\n* Emulation speed no longer remains unlimited after a failed file transfer\r\n\r\n_Repo for Arch, Debian, Fedora, Ubuntu and openSUSE: [via OBS](https://software.opensuse.org/download.html?project=home%3AVogtinator%3Afirebird-emu&package=firebird-emu&locale=en)._\r\n\r\nThere is work in progress to implement and improve support for running in the browser on Qt for WebAssembly (#294). A preview is available on https://nspire-emus.github.io/firebird/wasm/\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs.",
+          "size": 9953289,
+          "version": "1.5",
+          "downloadURL": "https://github.com/nspire-emus/firebird/releases/download/v1.6/firebird-iOS.ipa"
+        },
         {
           "version": "1.5",
           "date": "2020-03-28T14:25:34Z",
@@ -236,7 +244,8 @@
           "size": 9680896,
           "absoluteVersion": "1.5"
         }
-      ]
+      ],
+      "appID": "com.firebird.firebird-emu"
     },
     {
       "name": "ActiveGS iOS",
@@ -1262,7 +1271,7 @@
       "beta": false,
       "bundleIdentifier": "eu.pokemmo.client",
       "developerName": "PokeMMO",
-      "downloadURL": "https://dl.pokemmo.com/download/PokeMMO-Client.ipa?hash=6d42df75",
+      "downloadURL": "https://dl.pokemmo.com/download/PokeMMO-Client.ipa?hash=73c73a82",
       "iconURL": "https://pokemmo.com/build/images/altstore.ba9b8a4e.png",
       "localizedDescription": "PokeMMO is a free to play mmorpg, come join a growing community as you level up and discover new monsters. Available now on PC, Android, iOS, Mac, and Linux.",
       "name": "PokeMMO",
@@ -1273,11 +1282,17 @@
         "https://pokemmo.com/build/images/screenshot/e.ed0aa85b.png",
         "https://pokemmo.com/build/images/screenshot/a.debf11f5.png"
       ],
-      "size": 143552701,
+      "size": 143553661,
       "tintColor": "73ACE2",
-      "version": "22215",
-      "versionDate": "2023-01-24T02:06:46+00:00",
+      "version": "22217",
+      "versionDate": "2023-03-27T16:43:48+00:00",
       "versions": [
+        {
+          "version": "22217",
+          "date": "2023-03-27T16:43:48+00:00",
+          "downloadURL": "https://dl.pokemmo.com/download/PokeMMO-Client.ipa?hash=73c73a82",
+          "size": 143553661
+        },
         {
           "version": "22215",
           "date": "2023-01-24T02:06:46+00:00",
