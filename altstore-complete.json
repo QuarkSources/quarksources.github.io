@@ -370,14 +370,31 @@
       "bundleIdentifier": "com.rileytestut.AltStore.Alpha",
       "developerName": "Riley Testut",
       "subtitle": "An alternative App Store for iOS.",
-      "version": "1.4.2a1",
-      "versionDate": "2020-11-04T15:30:00-07:00",
+      "versions": [
+        {
+          "version": "2.0a1",
+          "date": "2023-03-27T12:00:00-05:00",
+          "localizedDescription": "This alpha includes the initial version of About pages for sources.",
+          "downloadURL": "https://f000.backblazeb2.com/file/altstore/sources/alpha/altstore/2_0_a1.ipa",
+          "size": 5626076,
+          "minOSVersion": "12.2"
+        },
+        {
+          "version": "1.4.2a1",
+          "date": "2020-11-04T15:30:00-07:00",
+          "downloadURL": "https://f000.backblazeb2.com/file/altstore/sources/alpha/altstore/1_4_2_a1.ipa",
+          "localizedDescription": "Allows sideloaded apps to use just-in-time (JIT) compilation on iOS 14.2 and later.",
+          "size": 5374382
+        }
+      ],
+      "version": "2.0a1",
+      "versionDate": "2023-03-27T12:00:00-05:00",
       "versionDescription": "Allows sideloaded apps to use just-in-time (JIT) compilation on iOS 14.2 and later.",
-      "downloadURL": "https://f000.backblazeb2.com/file/altstore/sources/alpha/altstore/1_4_2_a1.ipa",
+      "downloadURL": "https://f000.backblazeb2.com/file/altstore/sources/alpha/altstore/2_0_a1.ipa",
       "localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis beta release of AltStore allows you to install Delta as well as any app (.ipa) directly from the Files app.",
       "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
       "tintColor": "018084",
-      "size": 5374382,
+      "size": 5626076,
       "screenshotURLs": [
         "https://user-images.githubusercontent.com/705880/65605563-2f009d00-df5e-11e9-9b40-1f36135d5c80.PNG",
         "https://user-images.githubusercontent.com/705880/65605569-30ca6080-df5e-11e9-8dfb-15ebb00e10cb.PNG",
@@ -391,15 +408,6 @@
         {
           "type": "background-audio",
           "usageDescription": "Allows AltStore to run longer than 30 seconds when refreshing apps in background."
-        }
-      ],
-      "versions": [
-        {
-          "version": "1.4.2a1",
-          "date": "2020-11-04T15:30:00-07:00",
-          "downloadURL": "https://f000.backblazeb2.com/file/altstore/sources/alpha/altstore/1_4_2_a1.ipa",
-          "localizedDescription": "Allows sideloaded apps to use just-in-time (JIT) compilation on iOS 14.2 and later.",
-          "size": 5374382
         }
       ],
       "appID": "com.rileytestut.AltStore.Alpha"
@@ -503,7 +511,7 @@
       "caption": "Please read the FAQ for help with installing apps.",
       "tintColor": "018084",
       "url": "https://altstore.io/faq/",
-      "date": "2019-09-28",
+      "date": "2023-03-27",
       "notify": false
     },
     {
