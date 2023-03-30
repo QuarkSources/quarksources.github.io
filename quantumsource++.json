@@ -284,6 +284,14 @@
       "subtitle": "See your friends BeReals without posting anything!",
       "versions": [
         {
+          "version": "0.36.0",
+          "date": "2023-03-30",
+          "localizedDescription": "\u2022 BeReal updated to v0.36.0\n\u2022 UnBlur remains at latest (v0.0.2)",
+          "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/BeReal.v0.36.0.+.UnBlur.v0.0.2.ipa",
+          "size": 23800000,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.33.1",
           "date": "2023-02-26",
           "localizedDescription": "\u2022 BeReal updated to v0.33.1\n\u2022 UnBlur remains at latest (v0.0.2)",
@@ -300,14 +308,14 @@
           "minOSVersion": "14.0"
         }
       ],
-      "version": "0.33.1",
-      "versionDate": "2023-02-26",
-      "versionDescription": "\u2022 BeReal updated to v0.33.1\n\u2022 UnBlur remains at latest (v0.0.2)",
-      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/BeReal.v0.33.1.+.UnBlur.v0.0.2.ipa",
+      "version": "0.36.0",
+      "versionDate": "2023-03-30",
+      "versionDescription": "\u2022 BeReal updated to v0.36.0\n\u2022 UnBlur remains at latest (v0.0.2)",
+      "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/BeReal.v0.36.0.+.UnBlur.v0.0.2.ipa",
       "localizedDescription": "Unblur your friends\u2019 posts on BeReal, even when you haven't posted. All functions of the app work as normal.",
       "iconURL": "https://img.ipa4fun.com/74/cd/6c/1459645446-logo.jpg",
       "tintColor": "#363636",
-      "size": 26900000,
+      "size": 23800000,
       "minOSVersion": "14.0",
       "screenshotURLs": [
         "https://img.ipa4fun.com/74/cd/6c/1459645446-screenshot-1.jpg",
