@@ -901,14 +901,14 @@
       "bundleIdentifier": "it.ned.appdb-ios",
       "developerName": "ned",
       "subtitle": "A fully-featured iOS client for appdb.to",
-      "version": "1.1.3",
-      "versionDate": "2022-03-26T21:12:55Z",
-      "versionDescription": "# Release 1.1.3\n\n- Full support for new v1.5 APIs\r\n- Support new installation options (patch in-app, push notifications, app duplication, game trainer etc...). Make sure to enable \"Ask for installation options\" in Settings!\r\n- Added alternate icons! You can now change app icon from settings, check out the new shiny colors!\r\n- Various UI fixes and iOS 15 specific improvements",
-      "downloadURL": "https://github.com/n3d1117/appdb/releases/download/v1.1.3/appdb_1.1.3_hotfix4.ipa",
+      "version": "1.1.4",
+      "versionDate": "2023-04-03T23:20:04Z",
+      "versionDescription": "# Release 1.1.4\n\nSupport for Free Enterprise Signing\r\nSupport for appdb PLUS\r\nFull support for latest appdb features\r\nSupport for injecting dylibs, frameworks and debs into apps - Make sure to enable \"Ask for installation options\" in Settings!\r\nSupport for AltStore repos\r\nSupport for displaying link reports and link compatibility\r\nVarious UI and bug fixes",
+      "downloadURL": "https://github.com/n3d1117/appdb/releases/download/v1.1.4/appdb_1.1.4.ipa",
       "localizedDescription": "A fully-featured iOS client for appdb.to written in Swift 5 (iOS 10+).",
       "iconURL": "https://i.imgur.com/vmryx82.png",
       "tintColor": "#007ed8",
-      "size": 25756822,
+      "size": 24356196,
       "screenshotURLs": [
         "https://i.imgur.com/r2id9BJ.png",
         "https://i.imgur.com/DDl4zSF.png",
@@ -921,6 +921,14 @@
       "absoluteVersion": "1.1.3",
       "appID": "it.ned.appdb-ios",
       "versions": [
+        {
+          "absoluteVersion": "1.1.4",
+          "date": "2023-04-03T23:20:04Z",
+          "localizedDescription": "# Release 1.1.4\n\nSupport for Free Enterprise Signing\r\nSupport for appdb PLUS\r\nFull support for latest appdb features\r\nSupport for injecting dylibs, frameworks and debs into apps - Make sure to enable \"Ask for installation options\" in Settings!\r\nSupport for AltStore repos\r\nSupport for displaying link reports and link compatibility\r\nVarious UI and bug fixes",
+          "size": 24356196,
+          "version": "1.1.4",
+          "downloadURL": "https://github.com/n3d1117/appdb/releases/download/v1.1.4/appdb_1.1.4.ipa"
+        },
         {
           "version": "1.1.3",
           "date": "2022-03-26T21:12:55Z",
