@@ -944,10 +944,10 @@
       "bundleIdentifier": "org.coolstar.odyssey",
       "developerName": "Odyssey Team",
       "subtitle": "A new jailbreak for a new era.",
-      "version": "1.4.2",
-      "versionDate": "2022-02-18",
-      "versionDescription": "- Update Sileo to 2.3\n- Replace Packix with Havoc as default repo",
-      "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.4.2/Odyssey-1.4.2.ipa",
+      "version": "1.4.3",
+      "versionDate": "2023-04-03",
+      "versionDescription": "- Update Sileo to 2.3-1",
+      "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.4.3/Odyssey-1.4.3.ipa",
       "localizedDescription": "Supporting iOS Versions: 13.0 - 13.7.\nOdyssey is the first jailbreak to be written almost entirely in Swift. Completely open source and welcomes community contributions and pull requests, as a tribute to the dearly departed s0uthwes and his continued optimism and faith in the project. Comes with the open source Procursus bootstrap, designed from the ground up with openness and compatiblity in mind. Along with a new tweak injection platform, libhooker.",
       "iconURL": "https://theodyssey.dev/assets/images/icon.png",
       "tintColor": "D287F4",
@@ -959,6 +959,13 @@
         "https://theodyssey.dev/assets/images/ss-3.png"
       ],
       "versions": [
+        {
+          "version": "1.4.3",
+          "date": "2023-04-03",
+          "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.4.3/Odyssey-1.4.3.ipa",
+          "localizedDescription": "- Update Sileo to 2.3-1",
+          "size": 27200000
+        },
         {
           "version": "1.4.2",
           "date": "2022-02-18",
