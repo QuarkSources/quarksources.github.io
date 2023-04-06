@@ -901,14 +901,14 @@
       "bundleIdentifier": "it.ned.appdb-ios",
       "developerName": "ned",
       "subtitle": "A fully-featured iOS client for appdb.to",
-      "version": "1.1.4",
-      "versionDate": "2023-04-03T23:20:04Z",
-      "versionDescription": "# Release 1.1.4\n\nSupport for Free Enterprise Signing\r\nSupport for appdb PLUS\r\nFull support for latest appdb features\r\nSupport for injecting dylibs, frameworks and debs into apps - Make sure to enable \"Ask for installation options\" in Settings!\r\nSupport for AltStore repos\r\nSupport for displaying link reports and link compatibility\r\nVarious UI and bug fixes",
-      "downloadURL": "https://github.com/n3d1117/appdb/releases/download/v1.1.4/appdb_1.1.4.ipa",
+      "version": "1.1.5",
+      "versionDate": "2023-04-06T07:51:43Z",
+      "versionDescription": "# Release 1.1.5\n\nSwitch between available Free Enterprise Signing certificates\r\nSupport for listing and deleting IPA Cache files\r\nShow download statistics on app detail page\r\nFix the bug on status page not showing some values\r\nAdd black icon\r\nAdd translations for icon chooser\r\nMake disabling ads easy and disabled by default\r\nCompletely remove old \"PRO\" stuff",
+      "downloadURL": "https://github.com/n3d1117/appdb/releases/download/v1.1.5/appdb-v1.1.5-stev3fvcks.ipa",
       "localizedDescription": "A fully-featured iOS client for appdb.to written in Swift 5 (iOS 10+).",
       "iconURL": "https://i.imgur.com/vmryx82.png",
       "tintColor": "#007ed8",
-      "size": 24356196,
+      "size": 24408468,
       "screenshotURLs": [
         "https://i.imgur.com/r2id9BJ.png",
         "https://i.imgur.com/DDl4zSF.png",
@@ -921,6 +921,14 @@
       "absoluteVersion": "1.1.3",
       "appID": "it.ned.appdb-ios",
       "versions": [
+        {
+          "absoluteVersion": "1.1.5",
+          "date": "2023-04-06T07:51:43Z",
+          "localizedDescription": "# Release 1.1.5\n\nSwitch between available Free Enterprise Signing certificates\r\nSupport for listing and deleting IPA Cache files\r\nShow download statistics on app detail page\r\nFix the bug on status page not showing some values\r\nAdd black icon\r\nAdd translations for icon chooser\r\nMake disabling ads easy and disabled by default\r\nCompletely remove old \"PRO\" stuff",
+          "size": 24408468,
+          "version": "1.1.5",
+          "downloadURL": "https://github.com/n3d1117/appdb/releases/download/v1.1.5/appdb-v1.1.5-stev3fvcks.ipa"
+        },
         {
           "absoluteVersion": "1.1.4",
           "date": "2023-04-03T23:20:04Z",
