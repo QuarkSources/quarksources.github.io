@@ -2,7 +2,19 @@
   "name": "Quantum Source++",
   "identifier": "com.quarksources.quantumsource++",
   "sourceURL": "https://quarksources.github.io/dist/quantumsource%2B%2B.min.json",
-  "sourceIconURL": "https://quarksources.github.io/assets/ElementQ.png",
+  "subtitle": "Contains tweaked apps, free streaming, cracked apps, and more.",
+  "description": "This source is an automatically kept up-to-date source, powered by GitHub Actions, the Python altparse library, and the support of independent developers. In here, you'll find anything from streaming services without ads, to custom themed App Store apps. If you have an app you'd like to see here, please use our website to reach out!",
+  "headerURL": "https://quarksources.github.io/assets/quantumsource++.png",
+  "iconURL": "https://quarksources.github.io/assets/ElementQ.png",
+  "website": "https://quarksources.github.io/",
+  "tintColor": "#343a40",
+  "featuredApps": [
+    "com.spotify.client",
+    "com.wdfff.PopcornTime",
+    "com.google.ios.youtube",
+    "com.marcuszhou.NineAnimator",
+    "com.hammerandchisel.discord"
+  ],
   "userinfo": {},
   "apps": [
     {
@@ -509,7 +521,7 @@
       "versionDate": "2023-02-20",
       "versionDescription": "\u2022 Updated Snapchat to last working version with Shadow X (v11.80.0)",
       "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Snapchat.v11.80.0.+.Shadow.X.ipa",
-      "localizedDescription": "(Possibility of getting banned. I have not except when I tried to install and use normal SnapChat while I still had the tweak installed)\n\n\u2022Screenshot Supression - Screenshotting will no longer send a notification.\n\n\u2022 Keep Snaps In Chat - Delivered and open snaps will temporarily be saved in chat.\n\n\u2022 Story Ghost - View stories anonymously.\n\n\u2022 Snap Ghost - Snaps and messages will appear unviewed/unopened.\n\n\u2022 Spoof Story Views\n\n\u2022 Spoof Story Screenshots\n\n\u2022 Save To Camera Roll - Tap and hold while viewing a snap to bring up the UI press \"Save Snap\"\n\n\u2022 Hide Subtitle - Hide the subtitle containing an MOTD or something from the devs\n\n\u2022 Upload From Camera Roll - Press the upload button to select an image and then press the button to take a picture.\n\n\u2022 Hide Call Buttons - Hide the call buttons on recent Ul versions.\n\n\u2022 Video Call Confirm - Presents a popup to verify that the action was intentional.\n\n\u2022 Audio Call Confirm - Presents a popup to verify that the action was intentional.\n\n\u2022 Hide New Chat Button - Hide the blue button on the bottom on recent Ul versions.\n\n\u2022 Remove Highlights (Not Working) - Remove the stupid TikTok knock-off tab (requires app restart).\n\n\u2022 Hide Friendmoji - Hide the \"Friendmojis\" next to people's names (requires pull-refresh).\n\n\u2022 Randomize Best Friends - Randomly change the order off the best friends list.\n\n\u2022 Keep Normal Title - Enable this to hide the \"Shadow X\" label\n\n\u2022 Cool RGB Animation - Makes the shadow header RBG (think chromahomebarx).",
+      "localizedDescription": "Note: Notifications may not work for some devices\n\nFeatures:\n\n\u2022Screenshot Supression - Screenshotting will no longer send a notification.\n\n\u2022 Keep Snaps In Chat - Delivered and open snaps will temporarily be saved in chat.\n\n\u2022 Story Ghost - View stories anonymously.\n\n\u2022 Snap Ghost - Snaps and messages will appear unviewed/unopened.\n\n\u2022 Spoof Story Views\n\n\u2022 Spoof Story Screenshots\n\n\u2022 Save To Camera Roll - Tap and hold while viewing a snap to bring up the UI press \"Save Snap\"\n\n\u2022 Hide Subtitle - Hide the subtitle containing an MOTD or something from the devs\n\n\u2022 Upload From Camera Roll - Press the upload button to select an image and then press the button to take a picture.\n\n\u2022 Hide Call Buttons - Hide the call buttons on recent Ul versions.\n\n\u2022 Video Call Confirm - Presents a popup to verify that the action was intentional.\n\n\u2022 Audio Call Confirm - Presents a popup to verify that the action was intentional.\n\n\u2022 Hide New Chat Button - Hide the blue button on the bottom on recent Ul versions.\n\n\u2022 Remove Highlights (Not Working) - Remove the stupid TikTok knock-off tab (requires app restart).\n\n\u2022 Hide Friendmoji - Hide the \"Friendmojis\" next to people's names (requires pull-refresh).\n\n\u2022 Randomize Best Friends - Randomly change the order off the best friends list.\n\n\u2022 Keep Normal Title - Enable this to hide the \"Shadow X\" label\n\n\u2022 Cool RGB Animation - Makes the shadow header RBG (think chromahomebarx).",
       "iconURL": "https://img.ipa4fun.com/5f/b5/79/447188370-logo.jpg",
       "tintColor": "#b0b004",
       "size": 80600000,

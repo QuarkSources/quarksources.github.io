@@ -147,6 +147,12 @@ sourcesData = [
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "https://pokemmo.eu/altstore/"},
         "ids": ["eu.pokemmo.client"]
+    },
+    {
+        "parser": Parser.ALTSOURCE,
+        "kwargs": {"filepath": "https://apps.litritt.com/"},
+        "ids": ["com.litritt.ignited"],
+        "ignoreNews": True
     }
 ]
 alternateAppData = {

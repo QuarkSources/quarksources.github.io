@@ -2,7 +2,19 @@
   "name": "Quantum Source",
   "identifier": "com.quarksources.quantumsource",
   "sourceURL": "https://quarksources.github.io/dist/quantumsource.min.json",
-  "sourceIconURL": "https://quarksources.github.io/assets/ElementQ.png",
+  "subtitle": "Contains all of your favorite emulators, games, jailbreaks, utilities, and more.",
+  "description": "This source is an automatically kept up-to-date source, powered by GitHub Actions, the Python altparse library, and the support of independent developers. In here, you'll find anything from community maintained forks of Delta Emulator, to tiny Mac utilities that no one's ever heard of. If you have an app you'd like to see here, please use our website to reach out!",
+  "headerURL": "https://quarksources.github.io/assets/quantumsource.png",
+  "iconURL": "https://quarksources.github.io/assets/ElementQ.png",
+  "website": "https://quarksources.github.io/",
+  "tintColor": "#343a40",
+  "featuredApps": [
+    "com.litritt.ignited",
+    "com.example.mame4ios",
+    "com.wh0ba.xpatcher",
+    "net.namedfork.minivmac",
+    "com.zurac.OldOS"
+  ],
   "userinfo": {},
   "apps": [
     {
@@ -1408,9 +1420,196 @@
         }
       ],
       "appID": "eu.pokemmo.client"
+    },
+    {
+      "subtitle": "Retro games meet modern design.",
+      "version": "1.1.3",
+      "versionDate": "2023-04-05T00:00:08-00:00",
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "Allows Delta to use images from your Photo Library as game artwork."
+        }
+      ],
+      "bundleIdentifier": "com.litritt.ignited",
+      "iconURL": "https://github.com/Lit-Development/Assets/blob/main/apps/delta-ignited/icon-180.png?raw=true",
+      "tintColor": "FF6A00",
+      "versionDescription": "New Features\n\u2022 Added option for clicky haptic feedback - A more rigid haptic impulse will be sent on both button press and release\n\u2022 Added slider for haptic feedback strength",
+      "size": 50355653,
+      "screenshotURLs": [
+        "https://github.com/Lit-Development/Assets/blob/main/apps/delta-ignited/theme.jpg?raw=true",
+        "https://github.com/Lit-Development/Assets/blob/main/apps/delta-ignited/library.jpg?raw=true",
+        "https://github.com/Lit-Development/Assets/blob/main/apps/delta-ignited/game.jpg?raw=true",
+        "https://github.com/Lit-Development/Assets/blob/main/apps/delta-ignited/speed.jpg?raw=true",
+        "https://github.com/Lit-Development/Assets/blob/main/apps/delta-ignited/updates.jpg?raw=true",
+        "https://github.com/Lit-Development/Assets/blob/main/apps/delta-ignited/settings.jpg?raw=true"
+      ],
+      "versions": [
+        {
+          "size": 50355653,
+          "date": "2023-04-02T00:00:08-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.1.3/Ignited.ipa",
+          "localizedDescription": "New Features\n\u2022 Added option for clicky haptic feedback - A more rigid haptic impulse will be sent on both button press and release\n\u2022 Added slider for haptic feedback strength",
+          "version": "1.1.3"
+        },
+        {
+          "size": 50355653,
+          "date": "2023-04-02T00:00:08-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.1.2/Ignited.ipa",
+          "localizedDescription": "WARNING\n\u2022 This update uses a new bundleID with my domain. It will never change again after this point. Installing will not overwrite your old app. You will need to use Sync or manually transfer data to the new app. I apologize for any inconvenience this causes.\n\nNew Features\n\u2022 Made auto save states syncable\n\nUpdates\n\u2022 Made the restart game button available to skins and controllers\n\u2022 Made the current game highlighting stand out more\n\nBugfixes\n\u2022 Fixed last unthemed elements buried in settings",
+          "version": "1.1.2"
+        },
+        {
+          "size": 50355653,
+          "date": "2023-04-02T00:00:02-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.1.1/Ignited.ipa",
+          "localizedDescription": "New Features\n\u2022 Added a toggle to automatically load the last auto save when launching a game\n\u2022 Added toggle to enabled/disabled in-game toast notifications\n\nUpdates\n\u2022 Removed the Resume Game prompt from the game selection screen\n\u2022 Added a Restart Game pause menu button\n\u2022 Updated toast notification logic to prevent multiple toasts being shown at once",
+          "version": "1.1.1"
+        },
+        {
+          "size": 50355653,
+          "date": "2023-04-02T00:00:12-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.1.0/Ignited.ipa",
+          "localizedDescription": "New Features\n\u2022 Added a toggle to automatically load the last auto save when launching a game\n\u2022 Added toggle to enabled/disabled in-game toast notifications\n\nUpdates\n\u2022 Removed the Resume Game prompt from the game selection screen\n\u2022 Added a Restart Game pause menu button",
+          "version": "1.1.0"
+        },
+        {
+          "size": 50355653,
+          "date": "2023-04-01T00:00:12-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.0.2/Ignited.ipa",
+          "localizedDescription": "New Features\n\u2022 Added color highlighting to currently running game\n\nUpdates\n\u2022 Artwork spacing is now dynamic like the size\n\nBugfixes\n\u2022 Fixed some artwork bugs caused by resizing",
+          "version": "1.0.2"
+        },
+        {
+          "size": 50355653,
+          "date": "2023-03-30T00:00:12-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.0.1/Ignited.ipa",
+          "localizedDescription": "New Features\n\u2022 App Theming - Choose from a variety of colors to change the tint and app icon of Ignited. Emulate in your own style!\n\nUI Updates\n\u2022 Album artwork now has rounded corners, contrasting borders, and a drop shadow\n\u2022 Can now change the artwork size between small, medium, and large\n\u2022 Default box-art now features the cartridge of their respective system\n\nChanges\n\u2022 Custom fast-forward is enabled by default\n\u2022 Default speed changed to 4x\n\u2022 Removed 4x from unsafe speeds",
+          "version": "1.0.1"
+        },
+        {
+          "size": 50758248,
+          "date": "2023-03-18T00:00:12-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.7.1/Ignited.ipa",
+          "localizedDescription": "Changes\n\u2022 Alternate Skin pause menu item now only shows is the current skin supports it\n\u2022 Debug Mode pause menu item now only shows if the current skin's debug property is set to true, or debug mode is manually enabled in settings\n\u2022 Reordered save state menu sections. General at the top and Quick/Auto at the bottom\n\u2022 Rebrand to from Delta Ignited to just Ignited",
+          "version": "0.7.1"
+        },
+        {
+          "size": 50760528,
+          "date": "2023-03-18T00:00:12-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.7.0/delta-ignited.ipa",
+          "localizedDescription": "New Feature\n\u2022 AltSkin - Alternate appearances for skins\n\u2022 Options to show skins with a controller connected\n\u2022 Access to skin debug mode in-app\n\u2022 In-game toast notifications for various actions\n\nChanges\n\u2022 Updated settings section footers\n\u2022 Added Alternate Skin and Debug Mode options to pause menu",
+          "version": "0.7.0"
+        },
+        {
+          "size": 50627697,
+          "date": "2023-03-11T00:00:12-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.6.3/delta-ignited.ipa",
+          "localizedDescription": "New Feature\n\u2022 Access custom fast forward speeds from in-game menu\n\nChanges\n\u2022 Make users accept a warning prompt to access 4x and faster speeds\n\u2022 Add 150% speed setting\n\u2022 Game will auto-save on every fast forward activation\n\u2022 Number of auto-saves increased from 2 to 4",
+          "version": "0.6.3"
+        },
+        {
+          "size": 50627697,
+          "date": "2023-03-05T00:00:12-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.6.2/delta-ignited.ipa",
+          "localizedDescription": "New Feature\n\u2022 OTA Installation for patrons\n\u2022 In-App Update Changelog - View all updates from the settings\n\nChanges\n\u2022 Change formatting of updates screen\n\u2022 Move updates to its own section in settings\n\u2022 Fix controller skin previews not showing for standard size iPhones",
+          "version": "0.6.2"
+        },
+        {
+          "size": 50743252,
+          "date": "2023-03-03T00:00:12-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.6.1/delta-ignited.ipa",
+          "localizedDescription": "New Feature\n\u2022 In-App Update Changelog - View all updates from the settings\n\nChanges\n\u2022 Change formatting of updates screen\n\u2022 Move updates to its own section in settings",
+          "version": "0.6.1"
+        },
+        {
+          "size": 50742803,
+          "date": "2023-03-03T00:00:10-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.6.0/delta-ignited.ipa",
+          "localizedDescription": "New Feature\n\u2022 In-App Update Changelog - View all updates from the settings",
+          "version": "0.6.0"
+        },
+        {
+          "size": 50724007,
+          "date": "2023-03-03T00:00:00-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.5.3/delta-ignited.ipa",
+          "localizedDescription": "New Feature\n\u2022 Controller Skin Previews - Supports showing a preview image in settings instead of a bare skin image\n\nChanges\n\u2022 Update local multiplayer settings logic\n\u2022 Removed Rewind feature due to crashes\n\u2022 Updated GBC controller skin to new style\n\u2022 Updated GBA controller skin to use new previews\n\u2022 Removed branding from GBA skin for a cleaner look",
+          "version": "0.5.3"
+        },
+        {
+          "size": 52114631,
+          "date": "2023-02-26T00:00:00-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.5.2/delta-ignited.ipa",
+          "localizedDescription": "New Feature\n\u2022 Controller Skin Previews - Supports showing a preview image in settings instead of a bare skin image\n\nChanges\n\u2022 Updated GBC controller skin to new style\n\u2022 Updated GBA controller skin to use new previews\n\u2022 Removed branding from GBA skin for a cleaner look",
+          "version": "0.5.2"
+        },
+        {
+          "size": 52114631,
+          "date": "2023-02-25T00:00:20-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.5.1/delta-ignited.ipa",
+          "localizedDescription": "New Feature\n\u2022 Controller Skin Previews - Supports showing a preview image in settings instead of a bare skin image\n\nChanges\n\u2022 Updated GBA controller skin to use new previews\n\u2022 Removed branding from GBA skin for a cleaner look",
+          "version": "0.5.1"
+        },
+        {
+          "size": 52097008,
+          "date": "2023-02-25T00:00:10-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.5.0/delta-ignited.ipa",
+          "localizedDescription": "New Feature\n\u2022 Controller Skin Previews - Supports showing a preview image in settings instead of a bare skin image",
+          "version": "0.5.0"
+        },
+        {
+          "size": 52094410,
+          "date": "2023-02-25T00:00:00-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.4.1/delta-ignited.ipa",
+          "localizedDescription": "New Feature\n\u2022 Customizable Fast Forward Speed\n\nBug Fixes\n\u2022 Fixed some popups crashing on iPad\n\u2022 Fixed a crash in settings with local multiplayer\n  \u2022 Controller selection remains glitchy but functional",
+          "version": "0.4.1"
+        },
+        {
+          "size": 51978697,
+          "date": "2023-02-24T00:00:00-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.4.0/delta-ignited.ipa",
+          "localizedDescription": "New Feature\n\u2022 Customizable Fast Forward Speed",
+          "version": "0.4.0"
+        },
+        {
+          "size": 51973518,
+          "date": "2023-02-23T00:00:00-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.3.0/delta-ignited.ipa",
+          "localizedDescription": "New Features\n\u2022 Download skins from settings\n\u2022 Rounded and inset settings tables",
+          "version": "0.3.0"
+        },
+        {
+          "size": 51971781,
+          "date": "2023-02-21T00:00:00-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.2.1/delta-ignited.ipa",
+          "localizedDescription": "New Features\n\u2022 Add Genesis and remove all beta checks\n\u2022 Update and expand contributors list",
+          "version": "0.2.1"
+        },
+        {
+          "size": 51971282,
+          "date": "2023-02-20T00:00:00-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Delta-Ignited/releases/download/v0.2.0/delta-ignited.ipa",
+          "localizedDescription": "New Features\n\u2022 Local Multiplayer - Connect up to 4 controllers on supported consoles\n\u2022 Save State Rewind - Rolling save states that can be rewinded to at any time\n\u2022 Extended MFi Support - Add support for missing MFi inputs",
+          "version": "0.2.0"
+        }
+      ],
+      "appID": "com.litritt.ignited",
+      "developerName": "Lit Development",
+      "localizedDescription": "Ignited is an overhaul of Delta, an all-in-one emulator for iOS.\n\nFEATURES\n\nSupported Game Systems\n\u2022 Nintendo Entertainment System\n\u2022 Super Nintendo Entertainment System\n\u2022 Sega Genesis\n\u2022 Nintendo 64\n\u2022 Game Boy (Color)\n\u2022 Game Boy Advance\n\u2022 Nintendo DS\n\nController Support\n\u2022 Supports PS4, PS5, Xbox One S, Xbox Series X, and MFi game controllers.\n\u2022 Supports bluetooth (and wired) keyboards, as well as the Apple Smart Keyboard.\n\u2022 Completely customize button mappings on a per-system, per-controller basis.\n\u2022 Map buttons to special \"Quick Save\", \"Quick Load,\" and \"Fast Forward\" actions.\n\nSave States\n\u2022 Save and load save states for any game from the pause menu.\n\u2022 Lock save states to prevent them from being accidentally overwritten.\n\u2022 Automatically makes backup save states to ensure you never lose your progress.\n\u2022 Support for \"Quick Saves,\" save states that can be quickly saved/loaded with a single button press (requires external controller or supported skin).\n\u2022 Save State Rewind - Rolling save states that can be rewound to for up to 2 minutes. Configurable interval. (Currently disabled)\n\nCheats\n\u2022 Supports various types of cheat codes for each supported system:\n\u2022 NES: Game Genie\n\u2022 SNES: Game Genie, Pro Action Replay\n\u2022 N64: GameShark\n\u2022 GBC: Game Genie, GameShark\n\u2022 GBA: Action Replay, Code Breaker, GameShark\n\u2022 DS: Action Replay\n\nDelta Sync\n\u2022 Sync your games, game saves, save states, cheats, controller skins, and controller mappings between devices.\n\u2022 View version histories of everything you sync and optionally restore them to earlier versions.\n\u2022 Supports both Google Drive and Dropbox.\n\nCustom Controller Skins\n\u2022 Beautiful built-in controller skins for all systems.\n\u2022 Import controller skins made by others, or even make your own to share with the world!\n\nHold Button\n\u2022 Choose buttons for Delta to hold down on your behalf, freeing up your thumbs to press other buttons instead.\n\u2022 Perfect for games that typically require one button be held down constantly (ex: run button in Mario games, or the A button in Mario Kart).\n\nFast Forward\n\u2022 Speed through slower parts of games by running the game much faster than normal.\n\u2022 Easily enable or disable from the pause menu, or optionally with a mapped button on an external controller.\n\n3D/Haptic Touch\n\u2022 Use 3D or Haptic Touch to \"peek\" at games, save states, and cheat codes.\n\u2022 App icon shortcuts allow quick access to your most recently played games, or optionally customize the shortcuts to always include certain games.\n\nGame Artwork\n\u2022 Automatically displays appropriate box art for imported games.\n\u2022 Change a game's artwork to anything you want, or select from the built-in game artwork database.\n\nMisc.\n\u2022 Gyroscope support (WarioWare: Twisted! only)\n\u2022 Microphone support (DS only)\n\u2022 Support for delta:// URL scheme to jump directly into a specific game.\n\n**Ignited and Lit Development are in no way affiliated with Nintendo. The name \"Nintendo\" and all associated game console names are registered trademarks of Nintendo Co., Ltd.**",
+      "name": "Ignited",
+      "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.1.2/Ignited.ipa"
     }
   ],
   "news": [
+    {
+      "title": "Ignited Is Here!",
+      "identifier": "ignited-initial-release",
+      "caption": "New features, fixes, and skins.\n\nTap for full changelog and more info.",
+      "tintColor": "FF6A00",
+      "url": "https://litritt.com/ignited",
+      "date": "2023-02-25",
+      "notify": false
+    },
     {
       "appID": "me.oatmealdome.dolphinios-njb",
       "caption": "Play GameCube and Wii classics on your non-jailbroken iPhone or iPad.",
