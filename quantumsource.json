@@ -1423,8 +1423,8 @@
     },
     {
       "subtitle": "Retro games meet modern design.",
-      "version": "1.2.4",
-      "versionDate": "2023-04-11T00:00:12-00:00",
+      "version": "1.2.5",
+      "versionDate": "2023-04-12T00:00:12-00:00",
       "permissions": [
         {
           "type": "photos",
@@ -1434,7 +1434,7 @@
       "bundleIdentifier": "com.litritt.ignited",
       "iconURL": "https://github.com/Lit-Development/Assets/blob/main/apps/delta-ignited/icon-180.png?raw=true",
       "tintColor": "FF6A00",
-      "versionDescription": "Bugfixes\n\u2022 Disabled auto-load save on DSi Home Screen\n\u2022 Removed cheats, save, load, and rewind pause menu items from DSi Home Screen\n\u2022 Removed cheats from DS Home Screen",
+      "versionDescription": "Bugfixes\n\u2022 Fixed importing game saves with auto-load save state enabled\n\nNew Features\n\u2022 Added advanced setting to clear auto save states from every game",
       "size": 50355653,
       "screenshotURLs": [
         "https://github.com/Lit-Development/Assets/blob/main/apps/delta-ignited/theme.jpg?raw=true",
@@ -1445,6 +1445,13 @@
         "https://github.com/Lit-Development/Assets/blob/main/apps/delta-ignited/settings.jpg?raw=true"
       ],
       "versions": [
+        {
+          "size": 50355653,
+          "date": "2023-04-12T00:00:12-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.2.5/Ignited.ipa",
+          "localizedDescription": "Bugfixes\n\u2022 Fixed importing game saves with auto-load save state enabled\n\nNew Features\n\u2022 Added advanced setting to clear auto save states from every game",
+          "version": "1.2.5"
+        },
         {
           "size": 50355653,
           "date": "2023-04-11T00:00:12-00:00",
@@ -1639,7 +1646,7 @@
       "developerName": "Lit Development",
       "localizedDescription": "Ignited is an overhaul of Delta, an all-in-one emulator for iOS.\n\nFEATURES\n\nSupported Game Systems\n\u2022 Nintendo Entertainment System\n\u2022 Super Nintendo Entertainment System\n\u2022 Sega Genesis\n\u2022 Nintendo 64\n\u2022 Game Boy (Color)\n\u2022 Game Boy Advance\n\u2022 Nintendo DS\n\nController Support\n\u2022 Supports PS4, PS5, Xbox One S, Xbox Series X, and MFi game controllers.\n\u2022 Supports bluetooth (and wired) keyboards, as well as the Apple Smart Keyboard.\n\u2022 Completely customize button mappings on a per-system, per-controller basis.\n\u2022 Map buttons to special \"Quick Save\", \"Quick Load,\" and \"Fast Forward\" actions.\n\nSave States\n\u2022 Save and load save states for any game from the pause menu.\n\u2022 Lock save states to prevent them from being accidentally overwritten.\n\u2022 Automatically makes backup save states to ensure you never lose your progress.\n\u2022 Support for \"Quick Saves,\" save states that can be quickly saved/loaded with a single button press (requires external controller or supported skin).\n\u2022 Save State Rewind - Rolling save states that can be rewound to for up to 2 minutes. Configurable interval. (Currently disabled)\n\nCheats\n\u2022 Supports various types of cheat codes for each supported system:\n\u2022 NES: Game Genie\n\u2022 SNES: Game Genie, Pro Action Replay\n\u2022 N64: GameShark\n\u2022 GBC: Game Genie, GameShark\n\u2022 GBA: Action Replay, Code Breaker, GameShark\n\u2022 DS: Action Replay\n\nDelta Sync\n\u2022 Sync your games, game saves, save states, cheats, controller skins, and controller mappings between devices.\n\u2022 View version histories of everything you sync and optionally restore them to earlier versions.\n\u2022 Supports both Google Drive and Dropbox.\n\nCustom Controller Skins\n\u2022 Beautiful built-in controller skins for all systems.\n\u2022 Import controller skins made by others, or even make your own to share with the world!\n\nHold Button\n\u2022 Choose buttons for Delta to hold down on your behalf, freeing up your thumbs to press other buttons instead.\n\u2022 Perfect for games that typically require one button be held down constantly (ex: run button in Mario games, or the A button in Mario Kart).\n\nFast Forward\n\u2022 Speed through slower parts of games by running the game much faster than normal.\n\u2022 Easily enable or disable from the pause menu, or optionally with a mapped button on an external controller.\n\n3D/Haptic Touch\n\u2022 Use 3D or Haptic Touch to \"peek\" at games, save states, and cheat codes.\n\u2022 App icon shortcuts allow quick access to your most recently played games, or optionally customize the shortcuts to always include certain games.\n\nGame Artwork\n\u2022 Automatically displays appropriate box art for imported games.\n\u2022 Change a game's artwork to anything you want, or select from the built-in game artwork database.\n\nMisc.\n\u2022 Gyroscope support (WarioWare: Twisted! only)\n\u2022 Microphone support (DS only)\n\u2022 Support for delta:// URL scheme to jump directly into a specific game.\n\n**Ignited and Lit Development are in no way affiliated with Nintendo. The name \"Nintendo\" and all associated game console names are registered trademarks of Nintendo Co., Ltd.**",
       "name": "Ignited",
-      "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.2.4/Ignited.ipa"
+      "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.2.5/Ignited.ipa"
     }
   ],
   "news": [
