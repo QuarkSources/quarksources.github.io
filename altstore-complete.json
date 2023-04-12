@@ -9,6 +9,13 @@
       "developerName": "Riley Testut",
       "versions": [
         {
+          "version": "1.6.3",
+          "date": "2023-04-12T12:00:00-05:00",
+          "localizedDescription": "\u2022 Fixed error fetching Friend Zone patrons due to unexpected nil name\n\u2022 Fixed incorrect cell height for some News items",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_3.ipa",
+          "size": 5625134
+        },
+        {
           "version": "1.6.2",
           "date": "2023-03-22T12:00:00-05:00",
           "localizedDescription": "This update fixes the \"no provisioning profile with the requested identifier\u2026\" error when sideloading or refreshing apps.\n\n\u26a0\ufe0f You must manually install this update by re-installing AltStore with AltServer. You do NOT need to delete AltStore first.",
@@ -37,14 +44,14 @@
           "size": 5465976
         }
       ],
-      "version": "1.6.2",
-      "versionDate": "2023-03-22T12:00:00-05:00",
-      "versionDescription": "\u26a0\ufe0f You must manually install this update by re-installing AltStore with AltServer. You do NOT need to delete AltStore first.\n\nThis update fixes the \"no provisioning profile with the requested identifier\u2026\" error when sideloading or refreshing apps.",
-      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_2.ipa",
+      "version": "1.6.3",
+      "versionDate": "2023-04-12T12:00:00-05:00",
+      "versionDescription": "\u2022 Fixed error fetching Friend Zone patrons due to unexpected nil name\n\u2022 Fixed incorrect cell height for some News items",
+      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_3.ipa",
       "localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis version of AltStore allows you to install Delta, an all-in-one emulator for iOS, as well as sideload other .ipa files from the Files app.",
       "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
       "tintColor": "018084",
-      "size": 5624498,
+      "size": 5625134,
       "screenshotURLs": [
         "https://user-images.githubusercontent.com/705880/78942028-acf54300-7a6d-11ea-821c-5bb7a9b3e73a.PNG",
         "https://user-images.githubusercontent.com/705880/78942222-0fe6da00-7a6e-11ea-9f2a-dda16157583c.PNG",
