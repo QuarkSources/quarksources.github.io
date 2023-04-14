@@ -1432,8 +1432,8 @@
     },
     {
       "subtitle": "Retro games meet modern design.",
-      "version": "1.2.5",
-      "versionDate": "2023-04-12T00:00:12-00:00",
+      "version": "1.2.6",
+      "versionDate": "2023-04-14T00:00:12-00:00",
       "permissions": [
         {
           "type": "photos",
@@ -1443,7 +1443,7 @@
       "bundleIdentifier": "com.litritt.ignited",
       "iconURL": "https://github.com/Lit-Development/Assets/blob/main/apps/delta-ignited/icon-180.png?raw=true",
       "tintColor": "FF6A00",
-      "versionDescription": "Bugfixes\n\u2022 Fixed importing game saves with auto-load save state enabled\n\nNew Features\n\u2022 Added advanced setting to clear auto save states from every game",
+      "versionDescription": "New Features\n\u2022 Game Screenshots - save a screenshot of the game screen to your photos with a pause menu item or controller skin button",
       "size": 50355653,
       "screenshotURLs": [
         "https://github.com/Lit-Development/Assets/blob/main/apps/delta-ignited/theme.jpg?raw=true",
@@ -1454,6 +1454,13 @@
         "https://github.com/Lit-Development/Assets/blob/main/apps/delta-ignited/settings.jpg?raw=true"
       ],
       "versions": [
+        {
+          "size": 50355653,
+          "date": "2023-04-14T00:00:12-00:00",
+          "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.2.5/Ignited.ipa",
+          "localizedDescription": "New Features\n\u2022 Game Screenshots - save a screenshot of the game screen to your photos with a pause menu item or controller skin button",
+          "version": "1.2.6"
+        },
         {
           "size": 50355653,
           "date": "2023-04-12T00:00:12-00:00",
