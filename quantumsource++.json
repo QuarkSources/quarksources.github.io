@@ -1,11 +1,10 @@
 {
   "name": "Quantum Source++",
   "identifier": "com.quarksources.quantumsource++",
-  "sourceURL": "https://quarksources.github.io/dist/quantumsource%2B%2B.min.json",
   "subtitle": "Contains tweaked apps, free streaming, cracked apps, and more.",
   "description": "This source is an automatically kept up-to-date source, powered by GitHub Actions, the Python altparse library, and the support of independent developers. In here, you'll find anything from streaming services without ads, to custom themed App Store apps. If you have an app you'd like to see here, please use our website to reach out!",
   "headerURL": "https://quarksources.github.io/assets/quantumsource++.png",
-  "iconURL": "https://quarksources.github.io/assets/ElementQ.png",
+  "iconURL": "https://quarksources.github.io/assets/ElementQ-Circled.png",
   "website": "https://quarksources.github.io/",
   "tintColor": "#343a40",
   "featuredApps": [
@@ -30,7 +29,10 @@
       "iconURL": "https://files.enmity.app/icon-altstore.png",
       "tintColor": "#6D00FF",
       "size": 87875765,
-      "screenshotURLs": [],
+      "screenshotURLs": [
+        "https://i.imgur.com/Xg65i1U.png",
+        "https://i.imgur.com/97x9gcA.png"
+      ],
       "appID": "com.hammerandchisel.discord",
       "versions": [
         {
@@ -39,7 +41,8 @@
           "localizedDescription": "# Enmity v2.2.4\n\n",
           "size": 87875765,
           "version": "175.0",
-          "downloadURL": "https://github.com/enmity-mod/tweak/releases/download/v2.2.4/Enmity.ipa"
+          "downloadURL": "https://github.com/enmity-mod/tweak/releases/download/v2.2.4/Enmity.ipa",
+          "sha256": "e0de7020f485162747c40f043746c5101e63602ec9c516896abddc27e1841c32"
         },
         {
           "absoluteVersion": "2.1.4",
@@ -72,7 +75,8 @@
           "localizedDescription": "Watch all your favourite movies and shows from your phone.",
           "downloadURL": "https://popcorntime-ios.nl/download/1.0/PopcornTimeiOS.ipa",
           "size": 37334455,
-          "minOSVersion": "12.1"
+          "minOSVersion": "12.1",
+          "sha256": "f68149b34d0938201e188234a8867f30da68285b510ade3708ec2e7106c1d68d"
         }
       ],
       "appID": "com.wdfff.PopcornTime"
@@ -104,7 +108,8 @@
           "date": "2023-02-28T12:00:00-01:00",
           "downloadURL": "https://github.com/qnblackcat/uYouPlus/releases/download/v18.08.1-2.3.1/uYouPlus_18.08.1_2.3.1.ipa",
           "localizedDescription": "v18.08.1 (2.3~1): The changelog can be found at\nhttps://github.com/qnblackcat/uYouPlus/releases/latest",
-          "size": 111605847
+          "size": 111605847,
+          "sha256": "811aa811a51a46dbf632760c59a0336a7a2784c27381076c9efdad9d1d3c873d"
         },
         {
           "version": "18.07.5",
@@ -233,7 +238,8 @@
           "localizedDescription": "\u2022 Updated SoundCloud to v6.20.0\n\u2022 DarkCloud remains at latest (v1.4)",
           "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/SoundCloud.v6.20.0.+.DarkCloud.v1.4.ipa",
           "size": 58500000,
-          "minOSVersion": "14.0"
+          "minOSVersion": "14.0",
+          "sha256": "fa0183d33a6c1b92f61d84b5c5cf4f2a062872193039f81383e60dffc62a1d97"
         },
         {
           "version": "6.19.1",
@@ -309,7 +315,8 @@
           "localizedDescription": "\u2022 BeReal updated to v0.36.0\n\u2022 UnBlur remains at latest (v0.0.2)",
           "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/BeReal.v0.36.0.+.UnBlur.v0.0.2.ipa",
           "size": 23800000,
-          "minOSVersion": "14.0"
+          "minOSVersion": "14.0",
+          "sha256": "a32f35eca6542e4b53f08563bdc728e365bf6576ead732a26255e9acd5b9a136"
         },
         {
           "version": "0.33.1",
@@ -359,7 +366,8 @@
           "localizedDescription": "\u2022 Updated TikTok to v28.4.1\n\u2022 Updated LRD+ to v2.5\n\nOnce settings have been applied app will freeze close and relaunch app for settings to successfully apply",
           "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/TikTok.v28.2.0.+.LRD+.ipa",
           "size": 202000000,
-          "minOSVersion": "10.0"
+          "minOSVersion": "10.0",
+          "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
         },
         {
           "version": "28.2.0",
@@ -410,7 +418,8 @@
           "localizedDescription": "\u2022 Updated Anime Now to v1.0.0-b3",
           "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Anime.Now.v1.0.0-b3.ipa",
           "size": 6870000,
-          "minOSVersion": "14.0"
+          "minOSVersion": "14.0",
+          "sha256": "fc2b5c61eaa67161a69e54e9dfb0bc026f30bc56960a8c4df56144e01b2f70e5"
         },
         {
           "version": "1.0.0-beta.1",
@@ -450,7 +459,8 @@
           "localizedDescription": "\u2022 Updated ZiniTevi to v1.5.0",
           "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/ZiniTevi+.v1.5.0.ipa",
           "size": 7580000,
-          "minOSVersion": "14.0"
+          "minOSVersion": "14.0",
+          "sha256": "88608b7a46821c63f6e92ed9fd42ccce2cd730d8603cbf00627155032d29ae54"
         }
       ],
       "version": "1.5.0",
@@ -481,7 +491,8 @@
           "localizedDescription": "\u2022 Updated Photomath to v8.21.0",
           "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Photomath.Cracked.v8.21.0.ipa",
           "size": 13700000,
-          "minOSVersion": "13.0"
+          "minOSVersion": "13.0",
+          "sha256": "bbe3184e0f934a058f36a30c1e83f671227a666c12abcfbd5bb297e67ade97dc"
         },
         {
           "version": "8.19.1",
@@ -522,7 +533,8 @@
           "localizedDescription": "\u2022 Updated Snapchat to last working version with Shadow X (v11.80.0)",
           "downloadURL": "https://github.com/WuXu1/wuxuslibrary/releases/download/Latest/Snapchat.v11.80.0.+.Shadow.X.ipa",
           "size": 80600000,
-          "minOSVersion": "12.0"
+          "minOSVersion": "12.0",
+          "sha256": "c490af4452a6b217653cd6ba241e62d37c2d80a2b98db1dace0e86ba74933f49"
         }
       ],
       "version": "11.80.0",
@@ -599,7 +611,8 @@
           "date": "2019-10-01",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Crunchyroll++.ipa",
           "localizedDescription": "Optimized for iOS 13.",
-          "size": 11688173
+          "size": 11688173,
+          "sha256": "2a6a8910501ef6a0e31d3083acacd1276701d8a95b0083b7a6ca5066be9abdd9"
         }
       ],
       "appID": "com.crunchyroll.iphone"
@@ -649,7 +662,8 @@
           "date": "2019-01-22",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Duolingo++.ipa",
           "localizedDescription": "Bug fixes and performance improvements.",
-          "size": 92016431
+          "size": 92016431,
+          "sha256": "deca2bed643c2f71c46c87b3d5ba5b8d426ceb71369cbdd2669e9e26dba9c92c"
         }
       ],
       "appID": "com.duolingo.DuolingoMobile"
@@ -714,7 +728,8 @@
           "date": "2020-10-15",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Deezer++.ipa",
           "localizedDescription": "Deezerlife v0.5\n\nDowngraded to v7 of Deezer since v8 crashes on login.",
-          "size": 99126030
+          "size": 99126030,
+          "sha256": "49b85132a6cf710a3b63a668ffef1d6e14df1c57f011dad563ab1115e1bcb407"
         }
       ],
       "appID": "com.deezer.Deezer"
@@ -730,7 +745,8 @@
           "date": "2021-11-18",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Spotify%2B%2B.ipa",
           "localizedDescription": "Should finally work on iOS 15+. Added Spos 1.7.",
-          "size": 50510887
+          "size": 50510887,
+          "sha256": "1402a927d7944c4782a5eab15ef6b8167b4ef9cd5d00c683d1e70af11625023d"
         }
       ],
       "version": "8.6.42-0.1",
@@ -783,7 +799,8 @@
           "date": "2022-03-07T14:00:00-07:00",
           "downloadURL": "https://github.com/qnblackcat/BHTwitter-Plus_Sideloaded/releases/download/v9.2-2.9.2/BHTwitterPlus_9.2-2.9.2.ipa",
           "localizedDescription": "v9.2 (2.9.2): The changelog can be found at\nhttps://github.com/qnblackcat/BHTwitter-Plus_Sideloaded/releases/latest\n BHTwitterPlus is now deprecated. Follow @BandarHL on Twitter (https://twitter.com/bandarhl?s=21) to get the latest version of BHTwitter.",
-          "size": 78643200
+          "size": 78643200,
+          "sha256": "4f47ee0be8c88f49e85e33f579072d7df705861c8474baf47fe411a3f6e39722"
         }
       ],
       "appID": "com.atebits.Tweetie2"
@@ -841,7 +858,8 @@
           "date": "2020-01-12",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Reddit%2B%2B.ipa",
           "localizedDescription": "Bug fixes.",
-          "size": 55538241
+          "size": 55538241,
+          "sha256": "9c46e0817678f84f2362d40f5ae9b1527cdabf7d98286fd65c381d86ca00038b"
         }
       ],
       "appID": "syto203.reddit.pp"
@@ -876,7 +894,8 @@
           "downloadURL": "https://github.com/Paperback-iOS/app/releases/download/v0.7-r45/Paperback.ipa",
           "localizedDescription": "# Public Release 0.7 (45)\n\n# Changelog\r\n - Fixed search history items not being cleared\r\n - Fixed Group Priority not working correctly",
           "size": 21747099,
-          "absoluteVersion": "0.7.45"
+          "absoluteVersion": "0.7.45",
+          "sha256": "c80affbf01164d033db98350c63914bb0f357de0aec3fd1b3d4597c5c323b1dd"
         }
       ]
     },
@@ -942,7 +961,8 @@
           "date": "2020-02-06",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/MediaBox.ipa",
           "localizedDescription": "More subtitles now supported.",
-          "size": 57384853
+          "size": 57384853,
+          "sha256": "db7ba2ad9056b8f812b82d18079905b23461b307c8662be3358a04b02c90f91f"
         }
       ],
       "appID": "mediaboxhd.event.2"
@@ -1001,7 +1021,8 @@
           "date": "2019-05-30",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/ComicBox.ipa",
           "localizedDescription": "Small bug fixes and various UI improvements.",
-          "size": 158480864
+          "size": 158480864,
+          "sha256": "a09fc9d509f79132483ca693f5094759d7fc9bb13313c1a16b17f1b4bfc041b0"
         }
       ],
       "appID": "comicreader.net.ios"
@@ -1041,7 +1062,8 @@
           "date": "2020-03-24T00:00:00-00:00",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Channels.ipa",
           "localizedDescription": "\u2022 Completely redesigned Events tab\n\u2022 Most streams will open in the default iOS player instead of in the browser\n\u2022 'Open in VLC' support (VLC app has Chromecast)\n\u2022 Reduced app size by 85%! (168 MB -> 22 MB)\n\u2022 Smoother loading experience\n\u2022 Cleanup and bugfixes",
-          "size": 9090644
+          "size": 9090644,
+          "sha256": "b66b56e974ac820d9b1ea8da35cd197518b4883f8a7d156e0be530ae6e0de425"
         }
       ],
       "appID": "com.channelsapp.channels"
@@ -1072,7 +1094,8 @@
           "date": "2023-02-22T12:00:00-01:00",
           "downloadURL": "https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/EQUCbcBBMmpAr3rKFl_6qkkBB8nquabTNaymTavyNVapJQ?download=1",
           "localizedDescription": "Changelog v271.0-3.8.5:\n- https://apt.alfhaily.me/depiction/4EYOXC",
-          "size": 91750400
+          "size": 91750400,
+          "sha256": "aead68d4f3601ac66ea590e88675ef35c000e8c0a7eeb92544b6db64ad58e984"
         },
         {
           "version": "262.0",
@@ -1140,7 +1163,8 @@
           "date": "2020-09-07",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Instagram-Rhino.ipa",
           "localizedDescription": "Minor improvements.",
-          "size": 64923971
+          "size": 64923971,
+          "sha256": "d4a80044a9d814e9d2b69a71a9b9a7424698e7c10bcb51c2366d2aa00621de42"
         }
       ],
       "appID": "com.Lema.Michael.InstagramApp"
@@ -1207,7 +1231,8 @@
           "date": "2019-08-14",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/WhatsApp%2B%2B.ipa?dl=1",
           "localizedDescription": "Bug fixes.",
-          "size": 119535189
+          "size": 119535189,
+          "sha256": "88096f27900fa0ba9a5efcbb1b23e1969f3080798e14db9c4937c8eff426b4f8"
         }
       ],
       "appID": "net.whatsapp.WhatsApp"
@@ -1259,7 +1284,8 @@
           "date": "2019-12-06",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/CARROT-Weather.ipa",
           "localizedDescription": "Winter is coming, meatbags, but I've got an update for you that's approximately 756.3% less disappointing than the final season of Game of Thrones.\n\nRedesigned Weather Alerts\nNot only does my weather alerts screen show more information than ever before, many \"warning\"-level alerts will also show a map with the affected area highlighted so you can see if you're in the path of an oncoming severe thunderstorm, tornado, or hurricane. And if it's already too late for you to escape certain death, there may still be time to save your loved ones - just tap an alert to share it.\n\nSecret Locations\nYou can quit pestering my Maker because there's not one but two brand new secret locations for you to track down. (This brings the grand total to 60!)\n\nAlternate App Icon\nGet in the holiday spirit with my festive new alternate app icon, \"Now I Have A Machine Gun\".\n\nBut wait, there's more!\n\n- The Infograph \u201ctop text\u201d complication is now available on California watch faces - just set the style to something other than \"snark\" to activate.\n- Siri watch face cards now open directly to the Watch app when you tap on them.\n- Snow accumulations for Dark Sky's day summaries are available again.\n\nAnd because I ran out of coal, I also tossed in a bunch of bug fixes and performance improvements as stocking stuffers. Happy holidays, you filthy animals.\n\nxoxo,\nCARROT",
-          "size": 102825374
+          "size": 102825374,
+          "sha256": "1cfe8c66fd5b8d5369673effe57c42a22803375aea21c7b11bcec60ac1567659"
         }
       ],
       "appID": "com.grailr.CARROTweather"
@@ -1308,7 +1334,8 @@
           "date": "2019-11-26",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/WolframAlpha.ipa?dl=1",
           "localizedDescription": "Bug fixes.",
-          "size": 39855086
+          "size": 39855086,
+          "sha256": "17a2d714eeaea435bcc927800a4aab164747eed588d850bf1c6de19da20791a9"
         }
       ],
       "appID": "com.wolframalpha.wolframalpha"
@@ -1371,7 +1398,8 @@
           "date": "2020-12-18",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Infuse-Pro-6.ipa",
           "localizedDescription": "Lots of new bug fixes",
-          "size": 41222899
+          "size": 41222899,
+          "sha256": "e43c84d898f208afd1808386a23bcabf1a3ded57f9c446adcef115ab9c66bcd0"
         }
       ],
       "appID": "com.firecore.infuse"
@@ -1432,7 +1460,8 @@
           "date": "2020-12-17",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Filmr-Pro.ipa",
           "localizedDescription": "- 1000 NEW SONGS for you to take your videos to the next level!\n- New amazing \"Holiday Specials\" effects!\n- AR: Christmas characters in real life!\n- Share your videos directly on TikTok\n- Performance improvements",
-          "size": 219640035
+          "size": 219640035,
+          "sha256": "61fd1589b46017404a6c3a4d65e69ea76ae88b33c867945bb53ca13bd93ccba4"
         }
       ],
       "appID": "com.stey"
@@ -1478,7 +1507,8 @@
           "date": "2019-10-27T14:00:00-07:00",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/LumaFusion.ipa",
           "localizedDescription": "Fixed:\n\n\u2022 Startup crash for original iPad Air and iPad mini 2 users\n\u2022 Export to Weibo now appears in Export selection\n\u2022 Improved stability and performance",
-          "size": 153279738
+          "size": 153279738,
+          "sha256": "d1d765789b5ea6f492dfcda94fc59f707e337680d4f8276665f7ac35213b96b2"
         }
       ],
       "appID": "com.luma-touch.LumaFusion"
@@ -1522,7 +1552,8 @@
           "date": "2021-04-26T02:21:41Z",
           "downloadURL": "https://github.com/SuperMarcus/NineAnimator/releases/download/1.2.7-6/NineAnimator_1.2.7_Build_6.ipa",
           "localizedDescription": "**## Important Notes\r**\u2022 *Backup Your Data**: Remember to backup your history & subscriptions before upgrading the app. In some rare cases, NineAnimator updates may cause the app settings to be reset. Use the `Create Backup` option in the app settings to create a backup file.\r\n\r\n\u2022 *TestFlight Users**: Please note that builds of version 1.2.7 will not be immediately available to the NineAnimator Beta Testing program. Please use [other methods of installation](https://nineanimator.marcuszhou.com/docs/installation.html). Please join our [Discord server](https://discord.gg/dzTVzeW) for more information.\r\n\r\n\u2022 *macOS Users**: The macCatalyst build is unsigned. If the system prompts you that the app cannot be opened, please go to `System Preferences -> Security & Privacy` and allow the app to run. Please join our [Discord server](https://discord.gg/dzTVzeW) for more information.\r\n\r\n\u2022 *iOS 12 Users**: Starting from version 1.2.7 Build 6, NineAnimator will only support devices running iOS 12.3 or higher versions. Please join our [Discord server](https://discord.gg/dzTVzeW) for more information.",
-          "size": 9132049
+          "size": 9132049,
+          "sha256": "2f00d1566ee68ca4e016c56762a55b0ea8ddcd87ae9b3323706a9f6bbb7032d4"
         }
       ],
       "appID": "com.marcuszhou.NineAnimator"
@@ -1568,7 +1599,8 @@
           "date": "2020-07-15",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Twitch++.ipa",
           "localizedDescription": "Twitch Fox v1.1\n\nBug fixes, stability fixes, and app optimizations.",
-          "size": 36594109
+          "size": 36594109,
+          "sha256": "5f45ee9d3dcec284721e30d151114a4a349942d02c3c3361248ecfc825dfd8d9"
         }
       ],
       "appID": "tv.twitch"
@@ -1613,7 +1645,8 @@
           "localizedDescription": "# Bugfix\n\n1. fix: A minor fix to the app strings.",
           "size": 6150382,
           "version": "2.6.1",
-          "downloadURL": "https://github.com/EhPanda-Team/EhPanda/releases/download/v2.6.1/EhPanda.ipa"
+          "downloadURL": "https://github.com/EhPanda-Team/EhPanda/releases/download/v2.6.1/EhPanda.ipa",
+          "sha256": "d9b2248c3aee788e53a26a3b3a42d2b449dab6650a7108f074cc9b16b0df440f"
         },
         {
           "absoluteVersion": "2.5.1",
@@ -1742,7 +1775,8 @@
           "date": "2021-10-30T16:25:00",
           "downloadURL": "https://github.com/ytjailed/ytjailed.github.io/releases/download/0.1/Cercube_5-3-3_16-42-3.ipa",
           "localizedDescription": "Changelog:\n- Update YouTube base to 16.42.3\n\nFor full changelog, visit https://apt.alfhaily.me/changelogs/FDXO5R",
-          "size": 103228234
+          "size": 103228234,
+          "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
         }
       ]
     },
@@ -1770,7 +1804,8 @@
           "date": "2022-08-17",
           "downloadURL": "https://github.com/yattee/yattee/releases/download/v1.3.5/Yattee-1.3.5-iOS.ipa",
           "localizedDescription": "- Fixed reported crash\n- Fixed issue where \"Add to Playlist\" window cannot be closed when there is no playlists",
-          "size": 2522502
+          "size": 2522502,
+          "sha256": "459462a7cc3fb009d33a7b52aca756f536555a31f79acfaba0586eea47698c8b"
         }
       ],
       "appID": "stream.yattee.app"
@@ -1800,7 +1835,8 @@
           "date": "2022-09-16T14:00:00-01:00",
           "downloadURL": "https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/Eeeh0Cxz3nFLh9DKqUIs3C0BIbPTA60ipOgEPW4O78qfqQ?download=1",
           "localizedDescription": "v17.36.4 (5.3.11): The information can be found at\nhttps://github.com/qnblackcat/CercubePlus/tree/iOS-12",
-          "size": 112617062
+          "size": 112617062,
+          "sha256": "fd8d0e2b177de00d49b645b73bfd207aa8663576edaea86a2d1e88d1c88f94b6"
         }
       ],
       "appID": "com.google.ios.youtubecercubelegacy"
@@ -1832,7 +1868,8 @@
           "date": "2023-02-22T14:00:00-00:30",
           "downloadURL": "https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/Efkyz3QAKyFNouUBvVdZbi0ByCqJToLW78ctOkSB5ayBUw?download=1",
           "localizedDescription": "v402.0 (2.1): Updated to the latest version of Facebook app",
-          "size": 152672665
+          "size": 152672665,
+          "sha256": "efaf94aa95f8a26b32cf4acf8e90533ed06ab4d8df143c923354807f4d8814c2"
         },
         {
           "version": "372.0",
@@ -1871,7 +1908,8 @@
           "date": "2022-11-06T16:00:00-01:00",
           "downloadURL": "https://github.com/qnblackcat/CercubePlus/releases/download/v17.43.1-5.3.11/CercubePlus_17.43.1_5.3.11.ipa",
           "localizedDescription": "v17.43.1 (5.3.11): The changelog can be found at\nhttps://github.com/qnblackcat/CercubePlus/releases/latest",
-          "size": 101187584
+          "size": 101187584,
+          "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
         },
         {
           "version": "17.42.7",
@@ -1970,7 +2008,8 @@
           "date": "2023-02-22T12:00:00-01:00",
           "downloadURL": "https://github.com/qnblackcat/RedditFilter_Sideloaded/releases/download/v2023.07.0-1.1.1/RedditFilter_2023.07.0_1.1.1.ipa",
           "localizedDescription": "https://level3tjg.me/repo/depictions/com.level3tjg.redditfilter\n",
-          "size": 142121615
+          "size": 142121615,
+          "sha256": "e1b95d56fbab0ff3a631c80d0fae0c77dafe2be44a195c83fe012366047f416b"
         },
         {
           "version": "2022.45.0",

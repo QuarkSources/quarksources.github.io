@@ -1,11 +1,10 @@
 {
   "name": "Quantum Source",
   "identifier": "com.quarksources.quantumsource",
-  "sourceURL": "https://quarksources.github.io/dist/quantumsource.min.json",
   "subtitle": "Contains all of your favorite emulators, games, jailbreaks, utilities, and more.",
   "description": "This source is an automatically kept up-to-date source, powered by GitHub Actions, the Python altparse library, and the support of independent developers. In here, you'll find anything from community maintained forks of Delta Emulator, to tiny Mac utilities that no one's ever heard of. If you have an app you'd like to see here, please use our website to reach out!",
   "headerURL": "https://quarksources.github.io/assets/quantumsource.png",
-  "iconURL": "https://quarksources.github.io/assets/ElementQ.png",
+  "iconURL": "https://quarksources.github.io/assets/ElementQ-Circled.png",
   "website": "https://quarksources.github.io/",
   "tintColor": "#343a40",
   "featuredApps": [
@@ -29,7 +28,8 @@
           "localizedDescription": "\u2022 Updated WDBRemoveThreeAppLimit to v1.0",
           "downloadURL": "https://github.com/zhuowei/WDBRemoveThreeAppLimit/releases/download/v1.0/WDBRemoveThreeAppLimit-v1.0.ipa",
           "size": 88800,
-          "maxOSVersion": "16.1.2"
+          "maxOSVersion": "16.1.2",
+          "sha256": "428982c14796e7caa66d2743964fa37157d0e9db574ada326aa09a65a11c147c"
         }
       ],
       "version": "1.0",
@@ -56,7 +56,8 @@
           "localizedDescription": "# v1.10.8\n\n- Updated grant_full_disk_access.\r\n- Concurrency and code improvements/fixes.",
           "size": 5348316,
           "version": "1.10.8",
-          "downloadURL": "https://github.com/ginsudev/WDBFontOverwrite/releases/download/v1.10.8/WDBFontOverwrite.ipa"
+          "downloadURL": "https://github.com/ginsudev/WDBFontOverwrite/releases/download/v1.10.8/WDBFontOverwrite.ipa",
+          "sha256": "c0247494c3852c200aeececaada8476b0967958154a28cfd260b21a9c20392ec"
         }
       ],
       "version": "1.10.8",
@@ -106,7 +107,8 @@
           "localizedDescription": "# v0.9.1\n\n\u2022 Fixes default NES / DS skins\r\n\u2022 Fixes importing `.md` files from the in-app File Picker.",
           "size": 48342198,
           "version": "1.5",
-          "downloadURL": "https://github.com/lonkelle/Deltroid/releases/download/v0.9.1/Deltroid.ipa"
+          "downloadURL": "https://github.com/lonkelle/Deltroid/releases/download/v0.9.1/Deltroid.ipa",
+          "sha256": "e7334a815833de25221675380d6774a3d2cb6df03fbd56caa80b0d6da553153b"
         },
         {
           "version": "0.1",
@@ -150,7 +152,8 @@
           "localizedDescription": "# VCMI 1.2.0\n\n### Player Changelog: [1.1.1 -> 1.2](https://github.com/vcmi/vcmi/blob/master/ChangeLog.md#111---120)\r\n\r\n### Full Changelog: https://github.com/vcmi/vcmi/compare/1.1.1...1.2.0\r\n\r\n<!-- ### Android release is available on [Google Play](https://play.google.com/store/apps/details?id=is.xyz.vcmi) --->\r\n### Ubuntu release is available on [VCMI PPA](https://launchpad.net/~vcmi/+archive/ubuntu/ppa)\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs.",
           "size": 26346303,
           "version": "1.2",
-          "downloadURL": "https://github.com/vcmi/vcmi/releases/download/1.2.0/VCMI-1.2.0-iOS.ipa"
+          "downloadURL": "https://github.com/vcmi/vcmi/releases/download/1.2.0/VCMI-1.2.0-iOS.ipa",
+          "sha256": "8f1ea600a8156eae17de80f9f72a3cb38b4be9b087b276324192f797a3516511"
         },
         {
           "version": "1.1.1",
@@ -195,7 +198,8 @@
           "downloadURL": "https://github.com/ianclawson/Delta-iPac-Edition/releases/download/1.0.1/Delta-iPac.ipa",
           "localizedDescription": "# iPac Edition Official Release\n\nOnly the IPA is included. The \"Source Code\" is merely the README.\r\n\r\nNew Features:\r\n* Optimized AirPlay Support\r\n* Local Mulitplayer (NES, SNES, N64, GEN)\r\n* Nintendo-Switch-Online-like Rewind\r\n* Additional MFi Inputs (L3, R3, Options, Home, and some PS/Xbox-specific inputs)\r\n* External Controller deadzones for analog inputs (allows analog sticks to work properly for d-pads)\r\n* External Controller connection now prevents game screen from rotating\r\n* SNES Audio no longer crackles\r\n* Bonus: Quick Saves now Sync",
           "size": 19765623,
-          "absoluteVersion": "1.0.1"
+          "absoluteVersion": "1.0.1",
+          "sha256": "fe1eda29ab29ad408430934a35b9d46b08e10edd7eea50b072b2b54b16b1c182"
         }
       ]
     },
@@ -227,7 +231,8 @@
           "downloadURL": "https://github.com/QuarkSources/ppsspp-builder/releases/download/v1.13.2/PPSSPP_v1.13.2.ipa",
           "localizedDescription": "# v1.13.2\n\n",
           "size": 14509458,
-          "absoluteVersion": "1.13.2"
+          "absoluteVersion": "1.13.2",
+          "sha256": "15868764789f1187ae3ed73cb7a3c9c599c9de18239a73f5cdd51fdfdcfda66d"
         }
       ]
     },
@@ -255,7 +260,8 @@
           "localizedDescription": "# New year, new version: Firebird 1.6\n\n**New features:**\r\n* New dialog for creating Flash images, which is also available in the Mobile UI! (#262) \r\n* Running as 64bit application on Windows is supported now (#234)\r\n* Polish translation is available now (#207)\r\n* CX II (/-T/CAS) calculators can now be emulated (#165)! However, with the current dumping programs you will not get a complete bootrom and booting the OS will fail.\r\n\r\n**Improvements:**\r\n* Multiple files can be sent in the Mobile UI and by dropping them into the main window on desktop (#279)\r\n Reimplemented emulation speed control: Now it's more accurate, especially on Windows\r\n* GitHub actions now performs automated builds for Android (armeabi-v7a and arm64-v8a in one APK), macOS and Windows (32bit and 64bit) on releases and pull requests (#283, #284, #285)\r\n* The \"installer\" for OS 4.5.3.14 (and later?) works now. It requires [fastboot RAM](https://hackspire.org/index.php?title=Memory-mapped_I/O_ports_on_CX#90030000_-_Fastboot_RAM) to persist state across reboots, which is now implemented.\r\n* More accurate emulation of the On button: It's now possible to enter Press-To-Test mode (#271)\r\n* Faster saving and loading of snapshots (#231)\r\n* More reliable USB file transfers\r\n* The debugger console now includes entered commands in the log\r\n* Support for PIE (position-independent executables) on x86_64. Previously, care needed to be taken that PIE was disabled, otherwise it would crash on start. (#211)\r\n* Building the JIT is disabled automatically if the platform does not support it (#197)\r\n* Firebird builds on FreeBSD now (#228, #248)\r\n\r\n**Bugfixes:**\r\n* File access on Android got fixed (#202 and its various duplicates)\r\n* Fix placement of keypad buttons in the touchpad area (#41)\r\n* Various fixes for the Mobile UI layout (#201)\r\n* The kit configuration page in the Mobile UI no longer causes the keyboard to pop up by default (#257)\r\n* Connecting with GDB on windows works now (#259, #260)\r\n* Some shades of grey were not displayed properly when emulating pre-CX models (#270)\r\n* Fix crash on AArch64/arm64 when executing certain instructions\r\n* The keypad reacts to touch events in the desktop version as well now (#292, #293)\r\n* Some places were no longer translated correctly after the introduction of language switching in 1.5\r\n* Keys could get stuck on focus changes. Now they're all released when the keypad loses focus (#287)\r\n* The Ctrl key now changes color when pressed\r\n* Emulation speed no longer remains unlimited after a failed file transfer\r\n\r\n_Repo for Arch, Debian, Fedora, Ubuntu and openSUSE: [via OBS](https://software.opensuse.org/download.html?project=home%3AVogtinator%3Afirebird-emu&package=firebird-emu&locale=en)._\r\n\r\nThere is work in progress to implement and improve support for running in the browser on Qt for WebAssembly (#294). A preview is available on https://nspire-emus.github.io/firebird/wasm/\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs.",
           "size": 9953289,
           "version": "1.6",
-          "downloadURL": "https://github.com/nspire-emus/firebird/releases/download/v1.6/firebird-iOS.ipa"
+          "downloadURL": "https://github.com/nspire-emus/firebird/releases/download/v1.6/firebird-iOS.ipa",
+          "sha256": "54166448ccd9eee964b36997acff30beb1a1219cbacc1278bcc5fd1c97224e79"
         },
         {
           "version": "1.5",
@@ -294,7 +300,8 @@
           "downloadURL": "https://github.com/yoshisuga/activegs-ios/releases/download/2021.9/ActiveGS.ipa",
           "localizedDescription": "# 2021.9\n\nThis is a fork of Olivier Goguel's ActiveGS emulator for iOS.\r\n\r\nI've been tinkering it over the years and added some experimental features such as:\r\n\r\n- Support for iOS 15\r\n- Remap keyboard to supported wireless controller buttons (mFi/PS4/PS5/XBox One)\r\n- Custom split keyboard usable in landscape mode (written in Swift)\r\n\r\n![Simulator Screen Shot - iPhone 13 Pro Max - 2021-09-22 at 22 43 15](https://user-images.githubusercontent.com/564774/134484167-3c17c2a7-1d6a-467c-ac82-d7bfae7f281b.png)\r\n\r\n- A memory debugger/rudimentary memory-editing cheat engine (also written in Swift). Accessible via the \"D\" button in the right pane custom keyboard. Browse the memory map and change memory values. Not sure how the bank switching works and how it's mapped to memory but you get some representation of memory. \r\n![Simulator Screen Shot - iPhone 13 Pro Max - 2021-09-22 at 23 25 55](https://user-images.githubusercontent.com/564774/134484125-b984318a-b089-4484-b306-b976521963c3.png)\r\n\r\n\r\n",
           "size": 16593403,
-          "absoluteVersion": "2021.9"
+          "absoluteVersion": "2021.9",
+          "sha256": "4ce99019167c13e1fdce6005243002591586366852ddf793fa6a6521885a4910"
         }
       ]
     },
@@ -325,7 +332,8 @@
           "downloadURL": "https://github.com/T-Pau/Ready/releases/download/release-1.6/Ready-1.6.ipa",
           "localizedDescription": "# Release 1.6\n\n- Rename to Ready.\r\n\r\n- Add Commodore 16 and Plus/4 emulation.\r\n\r\n- Add ZX Spectrum emulation. Supported models are 16k, 48k, Specturm+, 128k, +2.\r\n\r\n- Add new app icons, one for each supported computer.\r\n",
           "size": 63972294,
-          "absoluteVersion": "1.6"
+          "absoluteVersion": "1.6",
+          "sha256": "379a0006350f996aa3e9b26be09bd1140553071d9301192e00f86666844e1a9b"
         }
       ]
     },
@@ -350,7 +358,8 @@
           "date": "2022-09-11T18:00:00-04:00",
           "downloadURL": "https://github.com/OatmealDome/dolphin/releases/download/3.2.1/DolphiniOS-NJB-Universal-3.2.1-213.ipa",
           "localizedDescription": "This update contains the following changes:\n\n- Fixed ubershaders.\n- Fixed fastmem crashing on iOS 16.\n\nFor more information, see https://oatmealdome.me/blog/dolphinios-ver-3-2-0/.",
-          "size": 80253902
+          "size": 80253902,
+          "sha256": "dcae6e6053d6e4e3f3f44ab9e0d2f709f77f2405243e66184d7864796d80de5c"
         },
         {
           "version": "3.2.0",
@@ -388,7 +397,8 @@
           "date": "2022-07-05T18:00:00-04:00",
           "downloadURL": "https://github.com/OatmealDome/dolphin/releases/download/3.2.1b1-213/DolphiniOS-NJB-Beta-Universal-3.2.1b1-213.ipa",
           "localizedDescription": "This update contains the following changes:\n\n- Fixed ubershaders.\n- Fixed fastmem crashing on iOS 16 betas.\n\nThe next beta build will be based off the rewritten DolphiniOS source code.\n\nFor more information, see https://oatmealdome.me/blog/dolphinios-ver-3-2-0/.",
-          "size": 80291610
+          "size": 80291610,
+          "sha256": "302438ec452636ff0b033ac1561f35f95ec42c644263d318978ef6fb83fc09d8"
         }
       ],
       "version": "3.2.1b1",
@@ -428,7 +438,8 @@
           "date": "2021-03-01T22:39:20Z",
           "downloadURL": "https://github.com/iNDS-Team/iNDS/releases/download/v1.10.8/iNDS.ipa",
           "localizedDescription": "Version 1.10.8 fixes the cover art system, thus closing #190. ~~There also appears to be an issue with the previous Cydia release being corrupted, so hopefully, that is fixed in this version.~~\r\n\r\n**Full Changelog**\r\n- Fixed cover art system (#203). Thanks, @unlmtd.\r\n- Fixed compilation errors (#191). Thanks, @jdkula.",
-          "size": 8553596
+          "size": 8553596,
+          "sha256": "795253059e78f7acd96af1ce6e9430bc98611cf58342e51f8e7e6e8c459a59b0"
         }
       ]
     },
@@ -464,7 +475,8 @@
           "localizedDescription": "# 2022.5\n\n* Updated to [MAME 250](https://www.mamedev.org/releases/whatsnew_0250.txt).\r\n* tvOS UX: use a Alert instead of a inline Segmented Control.\r\n* Show upload feedback in Web Server UX.\r\n* Added `Make First Favorite` to game context menu.\r\n",
           "size": 52332306,
           "version": "2022.5",
-          "downloadURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-139.ipa"
+          "downloadURL": "https://github.com/yoshisuga/MAME4iOS/releases/download/2022.5/MAME4iOS-2022.5-139.ipa",
+          "sha256": "c3c715c4d4ffedb781141733c1e645c197a6548d30bc73e22246853d36ebc35b"
         },
         {
           "version": "2022.3",
@@ -530,7 +542,8 @@
           "downloadURL": "https://github.com/zzanehip/The-OldOS-Project/releases/download/1.0_18/OldOS.ipa",
           "localizedDescription": "# IPA V1.0 Build 18\n\n1.0 (18):\r\n- Mail is here! This is a full-blown email client, no ifs, ands, or buts\r\n- View mailboxes, read emails, move emails, manage inbox, and send emails\r\n- Fixes to YouTube backend\r\n- Other bug fixes",
           "size": 88173533,
-          "absoluteVersion": "1.0_18"
+          "absoluteVersion": "1.0_18",
+          "sha256": "60c65a79a5fda77cb6bb42280a379196ba0ed8be5d9c03dab1da8b76a97ddb18"
         }
       ]
     },
@@ -596,7 +609,8 @@
           "date": "2020-09-20",
           "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.8.3/iTorrent.ipa",
           "localizedDescription": "What's new:\n\n\u2022 Text accessibility support added\n\u2022 Huge backend refactoring\n\u2022 Libtorrent updated to 1.2.9\n\u2022 Minor UI improvements\n\u2022 Many bugs fixed (possibly new ones added)",
-          "size": 21218913
+          "size": 21218913,
+          "sha256": "f6854b9b402b522dca849469b15dd8c4c41f0fe2e3efcd2b3550f6074ece5564"
         }
       ]
     },
@@ -625,7 +639,8 @@
           "date": "2020-03-24T14:30:00-07:00",
           "downloadURL": "https://f000.backblazeb2.com/file/altstore/sources/demo/GBA4iOS.ipa",
           "localizedDescription": "Initial AltStore release!",
-          "size": 7924507
+          "size": 7924507,
+          "sha256": "523ede3000e89716dc6e16f04ddd1d6e66a950a9295784769dab3e65a5ecc351"
         }
       ],
       "appID": "com.rileytestut.GBA4iOS"
@@ -656,7 +671,8 @@
           "date": "2022-10-17",
           "downloadURL": "https://buildbot.libretro.com/stable/1.12.0/apple/ios-arm64/RetroArch.ipa",
           "localizedDescription": "Many bug fixes and quality of life improvements. See full changelog for details: https://github.com/libretro/RetroArch/blob/master/CHANGES.md",
-          "size": 435770036
+          "size": 435770036,
+          "sha256": "d790ce8ef9c2b8f9cd2c974f4e70690aa24c0a99cdb8c65ed235b790c1f0c47e"
         },
         {
           "version": "1.9.0",
@@ -699,7 +715,8 @@
           "date": "2019-12-09",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Rewound.ipa",
           "localizedDescription": "Small fixes.",
-          "size": 5628716
+          "size": 5628716,
+          "sha256": "6fe3f0e30e23e1a0a3f224245dfdb1f804de7bedf46496110b797eb271282721"
         }
       ],
       "appID": "com.louisanslow.record"
@@ -728,7 +745,8 @@
           "date": "2022-07-25",
           "downloadURL": "https://downloads.scummvm.org/frs/scummvm/2.6.0/scummvm-2.6.0-ios.ipa",
           "localizedDescription": "Bug fixes.",
-          "size": 92033520
+          "size": 92033520,
+          "sha256": "2d4a5cd37e20075af432af8fb072d1a204746da8edeb469714462ae603be329a"
         },
         {
           "version": "2.2.0",
@@ -773,7 +791,8 @@
           "downloadURL": "https://github.com/zydeco/minivmac4ios/releases/download/v2.5/minivmac4ios-2.5.ipa",
           "localizedDescription": "# Mini vMac for iOS 2.5\n\n* Update to Mini vMac 37.03 beta\r\n* Fixed crash when deleting disk images on iPad\r\n* Adds recently used disks to quick actions menu\r\n* Removed custom presentation modes for disk and settings screens\r\n* Doesn't show \"The developer of this app needs to update it to work with this version of iOS\" error when installing IPA on iOS 15",
           "size": 1194371,
-          "absoluteVersion": "2.5"
+          "absoluteVersion": "2.5",
+          "sha256": "2d3fd7a540944d46c1c968dbc88434deffea93a14a54f06191436fc804e9796b"
         }
       ]
     },
@@ -809,7 +828,8 @@
           "date": "2020-05-04",
           "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Filza-Escaped.ipa",
           "localizedDescription": "iOS 13 support.",
-          "size": 10832361
+          "size": 10832361,
+          "sha256": "8c82cee4f15b4900395b8a1e34bce80cdd5caaa3646560524d412be5339947e7"
         }
       ],
       "appID": "com.dry05.filzaescaped11-12"
@@ -839,7 +859,8 @@
           "downloadURL": "https://github.com/Wh0ba/XPatcher/releases/download/v2.2/XPatcher_2.2.ipa",
           "localizedDescription": "# File hashes when selecting files\n\n### XPatcher 2.2\r\n### A small updated with a little feature \r\n\r\nNow when you select a file in the Documents tab, it will show SHA1, MD5, and CRC32 hashes of the selected file.\r\nclosing #5\r\nother changes might be adding .vcdiff to the recognized patch formats (XDelta) but so far it seems kinda broken as stated in #6 .\r\n\r\n**Full Changelog**: https://github.com/Wh0ba/XPatcher/compare/2.0...v2.2",
           "size": 357189,
-          "absoluteVersion": "2.2"
+          "absoluteVersion": "2.2",
+          "sha256": "0f2bf920c6760fdb410fb39fe5df7f678aaf12c55c4d4ca0e01c76bd860b8e24"
         }
       ]
     },
@@ -866,7 +887,8 @@
           "localizedDescription": "# Build 459\n\nAutomated daily build",
           "size": 4183205,
           "version": "1.3",
-          "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/459/iSH.ipa"
+          "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/459/iSH.ipa",
+          "sha256": "a2fca4586775821af42d56b92db6aaf27cf776d2f006584abd46d22debec6995"
         },
         {
           "version": "1.2.3",
@@ -898,7 +920,8 @@
           "date": "2022-12-22",
           "downloadURL": "https://purei.org/downloads/play/stable/0.58/Play.ipa",
           "localizedDescription": "Bug fixes.",
-          "size": 13389347
+          "size": 13389347,
+          "sha256": "7ab7dc4cbc9202594188ef6d378753b9cc4ed4ecf595d7ed047d6f4419952597"
         },
         {
           "version": "0.56",
@@ -948,7 +971,8 @@
           "localizedDescription": "# Release 1.1.5\n\nSwitch between available Free Enterprise Signing certificates\r\nSupport for listing and deleting IPA Cache files\r\nShow download statistics on app detail page\r\nFix the bug on status page not showing some values\r\nAdd black icon\r\nAdd translations for icon chooser\r\nMake disabling ads easy and disabled by default\r\nCompletely remove old \"PRO\" stuff",
           "size": 24408468,
           "version": "1.1.5",
-          "downloadURL": "https://github.com/n3d1117/appdb/releases/download/v1.1.5/appdb-v1.1.5-stev3fvcks.ipa"
+          "downloadURL": "https://github.com/n3d1117/appdb/releases/download/v1.1.5/appdb-v1.1.5-stev3fvcks.ipa",
+          "sha256": "2161101b4cd6464800c97fc1ae08390d87779684635c7c7bf223a2ab65246b1b"
         },
         {
           "absoluteVersion": "1.1.4",
@@ -993,7 +1017,8 @@
           "date": "2023-04-03",
           "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.4.3/Odyssey-1.4.3.ipa",
           "localizedDescription": "- Update Sileo to 2.3-1",
-          "size": 27200000
+          "size": 27200000,
+          "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
         },
         {
           "version": "1.4.2",
@@ -1037,7 +1062,8 @@
           "date": "2023-02-27T02:28:31Z",
           "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.1.6/UTM.ipa",
           "localizedDescription": "This is the same release as v4.1.5 but with the change to default enable GPU acceleration for Linux reverted. This is due to a number of guest-side driver issues in the latest version of Mesa (#4983). As a result of these issues, we decided to disable GPU acceleration in Linux by default for new VMs created by the wizard. If you have an existing VM with graphical issues, you can disable GPU acceleration by going into the VM settings, under Display, change the Emulated Display Card to `virtio-gpu-pci` or another card that does not have `-gl` in the name. You can verify that GPU acceleration is disabled when the checkbox below the card is unchecked.\r\n\r\n## Highlights\r\n* **QEMU backend updated to v7.2.0**. Also updated usbredir (0.13.0), virglrenderer (latest commit), ANGLE (latest commit)\r\n* **Improved renderer backend**. Lots of bug fixes and stability improvements to GPU accelerated Linux VMs (most common crashes when GPU acceleration is enabled should be gone now). New option to change the renderer backend to ANGLE Metal and limit FPS (in Preferences). Switching to Metal is highly recommended.\r\n* (iOS) **TrollStore build (UTM.HV.ipa) now supports JIT**. Additionally, there is now in-app settings.\r\n* (iOS) **TrollStore build now supports TSO (Total Store Ordering)**. TSO is used by Rosetta on the Mac to improve x86_64 emulation on ARM64. It can now be used on M1 iPads with QEMU to improve performance of FEX-Emu or a patched Rosetta. Note that it is recommended that TSO be disabled if you do not need to emulate x86_64 because it can reduce performance of other tasks.\r\n* (macOS) **AppleScript (OSA) support and CLI interface**. You can control parts of UTM through the OSA interface. Currently there is support for listing VMs as well as start/stop/suspend operations and the ability to print out the guest serial port connections. More functionality will be added in the future. A command line application is also provided in `UTM.app/Contents/MacOS/utmctl` (which you can symlink to `/usr/local/bin/utmctl` if desired) that can be used for automation tasks without needing to learn AppleScript.\r\n* (macOS 13+) **Menu bar extra**. You can enable the menu bar extra icon in Preferences (Cmd+,) as well as disable the dock icon. The menu bar extra provides a minimal interface to start/stop/suspend VMs and is useful when paired with headless VMs (a VM that does not have any display or terminal console installed).\r\n\r\n## Notes\r\n* **iOS 14 and macOS 11.3** are the minimum supported systems for UTM v4.x. Please use UTM v3.x for support down to iOS 11 and macOS 11\r\n* ~~Newly created Linux VMs will now use `virtio-gpu-gl-pci` by default. It is recommended that you change the display card of existing QEMU backend Linux VMs to this card in order to take advantage of the improved renderer backend. This should result in improved performance in GUI rendering. Note that some applications (particularly 3D applications) may lock up or crash UTM and if you are experiencing issues, you can go back to `virtio-ramfb` or `virtio-vga`.~~\r\n* Newly created Windows VMs will now use `virtio-ramfb-gl` (Apple Silicon) or `virtio-vga-gl` (Intel) by default. There is NO 3D acceleration drivers for Windows yet, so unlike Linux, this will not improve any compatibility with applications. However, the GL backend can still be beneficial to Windows users because it has smoother animations and less tearing and artifacts. The overall benefits will not be as pronounced as for Linux VMs so it is optional that you change existing VMs to a `-gl` display card.\r\n* (iOS) It is recommended that you switch to the Metal backend in Preferences for better performance. However, some applications such as `glxgears` will not work with the Metal backend.\r\n\r\n## Changes (v4.1.6)\r\n* Wizard: Re-introduced the checkbox for \"Hardware OpenGL Acceleration\" which is disabled by default due to guest-side issues in the latest Mesa driver\r\n\r\n## Changes (v4.1.5)\r\n* Improved rendering of non-GL graphics on the new renderer backend. This should reduce some of the tearing seen in earlier updates. For the best performance, it is recommended that a GL backend is selected.\r\n* Support read-only disk images in QEMU backend as well as selecting images that are read-only (#4838) Note: all external drive images (ISOs) are now loaded as read-only, this was not enforced in previous versions due to an error in the logic.\r\n* Newly created Windows VMs will now use `virtio-ramfb-gl` (Apple Silicon) or `virtio-vga-gl` (Intel) by default. See the Notes section for more information.\r\n* Fixed an issue where the incorrect tmp directory path was used by QEMU (#4882)\r\n* Scripting: Fixed an issue where the proper error message was not displayed in some cases.\r\n* CLI: Improved some help text.\r\n* Localization: updated Japanese (thanks @MMP0)\r\n\r\n## Changes (v4.1.4)\r\n* Fixed slow rendering of GRUB and EFI menus\r\n* Introduced new optimizations to renderer: bliting done on GPU instead of CPU now (for non-GL rendering), guest draw calls that are faster than the monitor refresh rate are now consolidated before drawing at vblank, rendering of multiple displays can happen concurrently now\r\n* Fixed rendering to multiple displays on the new renderer backend\r\n* Fixed an issue in QEMU where the vmnet backend uses 100% of CPU when the VM is suspended (#4803)\r\n* (iOS) TrollStore: Fixed JIT enable in the HV builds\r\n* (iOS) TrollStore: New option to enable TSO (Total Store Ordering) in QEMU settings (see Highlights for more details)\r\n* (iOS) Restored the default renderer backend to GL. This was changed in v4.1.3 because Metal is faster but the new backend can introduce regressions such as `glxgears` not working (#4856). As a result, the new backend is now opt-in but is still highly recommended.\r\n* (iOS) Fixed crash when changing VM settings on iOS 14 (#4864)\r\n* (iOS) Fixed crash when starting a VM with UTM SE (#4848)\r\n* (macOS) A tooltip will now reveal why suspend functionality is disabled\r\n\r\n## Changes (v4.1.3)\r\n* Updated QEMU to v7.2.0\r\n* Reworked CocoaSpice renderer to respond faster to GL updates from the guest, should improve frame pacing on GL supported Linux VMs\r\n* Added global setting to change renderer backend, introduce ANGLE Metal as an option (and also the new default for iOS)\r\n* Added global setting to limit FPS which can be used to improve frame pacing for a smoother rendering experience\r\n* Settings: clearly show if the current display hardware supports GPU acceleration\r\n* Wizard: GPU acceleration is now enabled by default when Linux is selected as the operating system\r\n* Fixed crash due to an error with `GL_DRAW_COOKIE_INVALID` (#4722)\r\n* Fixed deadlock on startup caused by gstosxaudio (#2364)\r\n* Fixed memory leak when GPU acceleration is enabled (#4449)\r\n* Fixed crash in `-[MTLResourceList releaseAllObjectsAndReset]` (#3519)\r\n* Fixed Mesa issue causing some GNOME desktop to freeze when GPU acceleration is enabled\r\n* Fixed incorrect logic when cloning a VM (#4815)\r\n* Fixed some thread scheduling warning (#4352)\r\n* Localization: updated French (thanks @FRtranslator)\r\n* (iOS) TrollStore build: use `com.apple.private.security.no-sandbox` instead of `com.apple.private.security.no-container` on recommendation of other devs and to align with how other apps perform JIT.\r\n* (iOS) Fixed blank screen when choosing \"Open\" in the wizard (#4842)\r\n* (iOS) Fixed toolbar not auto-hiding before first interaction (#4844)\r\n* (macOS) New design for global settings (Cmd+,) which better organizes the settings\r\n* (macOS) utmctl: Fixed crash when `utmctl help attach` runs (#4817)\r\n* (macOS) utmctl: Fixed `utmctl stop` with `--request` and `kill` (#4850)\r\n\r\n## Changes (v4.1.2)\r\n* Localization: updated Spanish (Latin America) (thanks @JezerM)\r\n* Localization: updated Japanese (thanks @MMP0 and @skyarrow87)\r\n* Localization: updated Chinese Simplified (thanks @changanmoon)\r\n* (iOS) Fix new VM wizard not appearing on < iOS 14.5 (#4776)\r\n* (macOS) Implement OSA interface for AppleScript\r\n* (macOS) Introduce a CLI application (`UTM.app/Contents/MacOS/utmctl`) that wraps around the OSA interface for automation\r\n* (macOS 13+) New settings option to enable a menu bar extra icon for controlling VMs\r\n* (macOS 13+) New settings option to disable the dock icon\r\n* (macOS) Fix various alignment issues in settings (#4596) (thanks @JezerM)\r\n* (macOS) Fix a crash when the pasteboard is updated (#4745)\r\n* (macOS) Support custom resolutions for Apple Virtualization VMs\r\n* (macOS) Fixed a UI freeze when canceling out of the settings for an Apple Virtualization VM\r\n\r\n## Changes (v4.1.1)\r\n* Fixed launching SPARC machines (#4575)\r\n* Fixed an error when attempting to save a VM where one of its removable drives is linked to a file that has been deleted\r\n* Fixed IPSW/.utm download failing when the device goes to sleep (the download should resume after wake up)\r\n* Restored scroll bars when system is set to always show scroll bars. Added a new SwiftUI crash workaround thanks to @evelyneee.\r\n* Display all sizes in binary (MiB/GiB) mode in order to be consistent (#4396)\r\n* Localization: added Polish (thanks @mavethee)\r\n* Localization: updated Japanese (thanks @MMP0)\r\n* Localization: updated Spanish (Latin America) (thanks @JezerM)\r\n* Localization: updated French (thanks @FRtranslator)\r\n* (macOS) Fixed the port forward UI on macOS 11 and introduce a new port forward UI for macOS 12+ (#4690)\r\n* (macOS) Fixed \"This virtual machine cannot be run on this machine.\" error on a newly created Apple VM (#4595)\r\n* (macOS) Added new 21:9 widescreen resolution for Apple VMs (thanks @Tandolf)\r\n* (macOS) Added a clarifying message about shared directory support on older macOS guests (#4594)\r\n* (macOS) Added new shutdown options (software request and force kill) which can be toggled by long pressing the power button in the VM window (#4001)\r\n* (macOS) Added a confirmation dialog when deleting a drive (#4687)\r\n\r\n## Changes (v4.1.0)\r\n* Updated QEMU to v7.1.0\r\n* Updated ANGLE and virglrenderer to latest commit\r\n* Fixed an issue where user override of machine property settings was not applied properly\r\n* Localization: updated Japanese (thanks @MMP0)\r\n* Localization: updated Spanish (Latin America) (thanks @JezerM)\r\n* (iOS) Added in-app settings popover which synchronizes with the Settings app (useful for TrollStore installs where the Settings app page is inaccessible) (#4446)\r\n* (iOS) TrollStore: support JIT without needing a separate JIT enabler (thanks @PojavLauncherTeam for the idea)\r\n\r\n## Issues\r\nPlease check the full list on [Github][2] and help report any bug you find that is not listed.\r\n\r\n## Installation\r\n\r\n* [iOS](https://docs.getutm.app/installation/ios/)\r\n* [macOS](https://docs.getutm.app/installation/macos/)\r\n\r\n| File | Description | Installation | JIT | Hypervisor | USB |\r\n|------|------------|--------------|-----|-----------|-----|\r\n| UTM.deb | Jailbroken iOS version | Open in Cydia, dpkg, or Sileo | Yes | Yes(1) | Yes |\r\n| UTM.dmg | macOS version | Mounting and copying UTM.app to /Applications | Yes | Yes | Yes |\r\n| UTM.ipa | Non-jailbroken iOS version (sideloading) | AltStore, etc (see guide) | Yes(2) | No | No |\r\n| UTM.HV.ipa | Non-jailbroken iOS version (TrollStore) | TrollStore | Yes | Yes(1) | Yes |\r\n| UTM.SE.ipa | Non-jailbroken iOS version (sideloading) | AltStore, enterprise signing, etc | No | No | No |\r\n\r\n1. Hypervisor on iOS requires an M1 iPad.\r\n2. Enabling JIT may require a separate JIT enabler such as [Jitterbug][3] or Jitstreamer.\r\n\r\n[1]: https://getutm.app/install/\r\n[2]: https://github.com/utmapp/UTM/issues\r\n[3]: https://github.com/osy/Jitterbug",
-          "size": 121696501
+          "size": 121696501,
+          "sha256": "85c12ff30c33a0a2911dcdbd8a19f3c3726a74500e4082edde9a667b8f83bcdb"
         },
         {
           "version": "4.1.5",
@@ -1095,7 +1121,8 @@
           "date": "2020-10-20",
           "downloadURL": "https://github.com/litchie/dospad/releases/download/2.1/iDOS.ipa",
           "localizedDescription": "- Support Mfi game controllers\n- Support external bluetooth keyboard (Text input only).\nYou can use Command-1, Command-2 .. for function keys.",
-          "size": 5704322
+          "size": 5704322,
+          "sha256": "1660903b0d3ec6cc4686bc99c028d3f46267018ecdac5ccf9c02778a96cb1a4d"
         }
       ]
     },
@@ -1161,7 +1188,8 @@
           "date": "2023-02-27T02:28:31Z",
           "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.1.6/UTM.SE.ipa",
           "localizedDescription": "This is the same release as v4.1.5 but with the change to default enable GPU acceleration for Linux reverted. This is due to a number of guest-side driver issues in the latest version of Mesa (#4983). As a result of these issues, we decided to disable GPU acceleration in Linux by default for new VMs created by the wizard. If you have an existing VM with graphical issues, you can disable GPU acceleration by going into the VM settings, under Display, change the Emulated Display Card to `virtio-gpu-pci` or another card that does not have `-gl` in the name. You can verify that GPU acceleration is disabled when the checkbox below the card is unchecked.\r\n\r\n## Highlights\r\n* **QEMU backend updated to v7.2.0**. Also updated usbredir (0.13.0), virglrenderer (latest commit), ANGLE (latest commit)\r\n* **Improved renderer backend**. Lots of bug fixes and stability improvements to GPU accelerated Linux VMs (most common crashes when GPU acceleration is enabled should be gone now). New option to change the renderer backend to ANGLE Metal and limit FPS (in Preferences). Switching to Metal is highly recommended.\r\n* (iOS) **TrollStore build (UTM.HV.ipa) now supports JIT**. Additionally, there is now in-app settings.\r\n* (iOS) **TrollStore build now supports TSO (Total Store Ordering)**. TSO is used by Rosetta on the Mac to improve x86_64 emulation on ARM64. It can now be used on M1 iPads with QEMU to improve performance of FEX-Emu or a patched Rosetta. Note that it is recommended that TSO be disabled if you do not need to emulate x86_64 because it can reduce performance of other tasks.\r\n* (macOS) **AppleScript (OSA) support and CLI interface**. You can control parts of UTM through the OSA interface. Currently there is support for listing VMs as well as start/stop/suspend operations and the ability to print out the guest serial port connections. More functionality will be added in the future. A command line application is also provided in `UTM.app/Contents/MacOS/utmctl` (which you can symlink to `/usr/local/bin/utmctl` if desired) that can be used for automation tasks without needing to learn AppleScript.\r\n* (macOS 13+) **Menu bar extra**. You can enable the menu bar extra icon in Preferences (Cmd+,) as well as disable the dock icon. The menu bar extra provides a minimal interface to start/stop/suspend VMs and is useful when paired with headless VMs (a VM that does not have any display or terminal console installed).\r\n\r\n## Notes\r\n* **iOS 14 and macOS 11.3** are the minimum supported systems for UTM v4.x. Please use UTM v3.x for support down to iOS 11 and macOS 11\r\n* ~~Newly created Linux VMs will now use `virtio-gpu-gl-pci` by default. It is recommended that you change the display card of existing QEMU backend Linux VMs to this card in order to take advantage of the improved renderer backend. This should result in improved performance in GUI rendering. Note that some applications (particularly 3D applications) may lock up or crash UTM and if you are experiencing issues, you can go back to `virtio-ramfb` or `virtio-vga`.~~\r\n* Newly created Windows VMs will now use `virtio-ramfb-gl` (Apple Silicon) or `virtio-vga-gl` (Intel) by default. There is NO 3D acceleration drivers for Windows yet, so unlike Linux, this will not improve any compatibility with applications. However, the GL backend can still be beneficial to Windows users because it has smoother animations and less tearing and artifacts. The overall benefits will not be as pronounced as for Linux VMs so it is optional that you change existing VMs to a `-gl` display card.\r\n* (iOS) It is recommended that you switch to the Metal backend in Preferences for better performance. However, some applications such as `glxgears` will not work with the Metal backend.\r\n\r\n## Changes (v4.1.6)\r\n* Wizard: Re-introduced the checkbox for \"Hardware OpenGL Acceleration\" which is disabled by default due to guest-side issues in the latest Mesa driver\r\n\r\n## Changes (v4.1.5)\r\n* Improved rendering of non-GL graphics on the new renderer backend. This should reduce some of the tearing seen in earlier updates. For the best performance, it is recommended that a GL backend is selected.\r\n* Support read-only disk images in QEMU backend as well as selecting images that are read-only (#4838) Note: all external drive images (ISOs) are now loaded as read-only, this was not enforced in previous versions due to an error in the logic.\r\n* Newly created Windows VMs will now use `virtio-ramfb-gl` (Apple Silicon) or `virtio-vga-gl` (Intel) by default. See the Notes section for more information.\r\n* Fixed an issue where the incorrect tmp directory path was used by QEMU (#4882)\r\n* Scripting: Fixed an issue where the proper error message was not displayed in some cases.\r\n* CLI: Improved some help text.\r\n* Localization: updated Japanese (thanks @MMP0)\r\n\r\n## Changes (v4.1.4)\r\n* Fixed slow rendering of GRUB and EFI menus\r\n* Introduced new optimizations to renderer: bliting done on GPU instead of CPU now (for non-GL rendering), guest draw calls that are faster than the monitor refresh rate are now consolidated before drawing at vblank, rendering of multiple displays can happen concurrently now\r\n* Fixed rendering to multiple displays on the new renderer backend\r\n* Fixed an issue in QEMU where the vmnet backend uses 100% of CPU when the VM is suspended (#4803)\r\n* (iOS) TrollStore: Fixed JIT enable in the HV builds\r\n* (iOS) TrollStore: New option to enable TSO (Total Store Ordering) in QEMU settings (see Highlights for more details)\r\n* (iOS) Restored the default renderer backend to GL. This was changed in v4.1.3 because Metal is faster but the new backend can introduce regressions such as `glxgears` not working (#4856). As a result, the new backend is now opt-in but is still highly recommended.\r\n* (iOS) Fixed crash when changing VM settings on iOS 14 (#4864)\r\n* (iOS) Fixed crash when starting a VM with UTM SE (#4848)\r\n* (macOS) A tooltip will now reveal why suspend functionality is disabled\r\n\r\n## Changes (v4.1.3)\r\n* Updated QEMU to v7.2.0\r\n* Reworked CocoaSpice renderer to respond faster to GL updates from the guest, should improve frame pacing on GL supported Linux VMs\r\n* Added global setting to change renderer backend, introduce ANGLE Metal as an option (and also the new default for iOS)\r\n* Added global setting to limit FPS which can be used to improve frame pacing for a smoother rendering experience\r\n* Settings: clearly show if the current display hardware supports GPU acceleration\r\n* Wizard: GPU acceleration is now enabled by default when Linux is selected as the operating system\r\n* Fixed crash due to an error with `GL_DRAW_COOKIE_INVALID` (#4722)\r\n* Fixed deadlock on startup caused by gstosxaudio (#2364)\r\n* Fixed memory leak when GPU acceleration is enabled (#4449)\r\n* Fixed crash in `-[MTLResourceList releaseAllObjectsAndReset]` (#3519)\r\n* Fixed Mesa issue causing some GNOME desktop to freeze when GPU acceleration is enabled\r\n* Fixed incorrect logic when cloning a VM (#4815)\r\n* Fixed some thread scheduling warning (#4352)\r\n* Localization: updated French (thanks @FRtranslator)\r\n* (iOS) TrollStore build: use `com.apple.private.security.no-sandbox` instead of `com.apple.private.security.no-container` on recommendation of other devs and to align with how other apps perform JIT.\r\n* (iOS) Fixed blank screen when choosing \"Open\" in the wizard (#4842)\r\n* (iOS) Fixed toolbar not auto-hiding before first interaction (#4844)\r\n* (macOS) New design for global settings (Cmd+,) which better organizes the settings\r\n* (macOS) utmctl: Fixed crash when `utmctl help attach` runs (#4817)\r\n* (macOS) utmctl: Fixed `utmctl stop` with `--request` and `kill` (#4850)\r\n\r\n## Changes (v4.1.2)\r\n* Localization: updated Spanish (Latin America) (thanks @JezerM)\r\n* Localization: updated Japanese (thanks @MMP0 and @skyarrow87)\r\n* Localization: updated Chinese Simplified (thanks @changanmoon)\r\n* (iOS) Fix new VM wizard not appearing on < iOS 14.5 (#4776)\r\n* (macOS) Implement OSA interface for AppleScript\r\n* (macOS) Introduce a CLI application (`UTM.app/Contents/MacOS/utmctl`) that wraps around the OSA interface for automation\r\n* (macOS 13+) New settings option to enable a menu bar extra icon for controlling VMs\r\n* (macOS 13+) New settings option to disable the dock icon\r\n* (macOS) Fix various alignment issues in settings (#4596) (thanks @JezerM)\r\n* (macOS) Fix a crash when the pasteboard is updated (#4745)\r\n* (macOS) Support custom resolutions for Apple Virtualization VMs\r\n* (macOS) Fixed a UI freeze when canceling out of the settings for an Apple Virtualization VM\r\n\r\n## Changes (v4.1.1)\r\n* Fixed launching SPARC machines (#4575)\r\n* Fixed an error when attempting to save a VM where one of its removable drives is linked to a file that has been deleted\r\n* Fixed IPSW/.utm download failing when the device goes to sleep (the download should resume after wake up)\r\n* Restored scroll bars when system is set to always show scroll bars. Added a new SwiftUI crash workaround thanks to @evelyneee.\r\n* Display all sizes in binary (MiB/GiB) mode in order to be consistent (#4396)\r\n* Localization: added Polish (thanks @mavethee)\r\n* Localization: updated Japanese (thanks @MMP0)\r\n* Localization: updated Spanish (Latin America) (thanks @JezerM)\r\n* Localization: updated French (thanks @FRtranslator)\r\n* (macOS) Fixed the port forward UI on macOS 11 and introduce a new port forward UI for macOS 12+ (#4690)\r\n* (macOS) Fixed \"This virtual machine cannot be run on this machine.\" error on a newly created Apple VM (#4595)\r\n* (macOS) Added new 21:9 widescreen resolution for Apple VMs (thanks @Tandolf)\r\n* (macOS) Added a clarifying message about shared directory support on older macOS guests (#4594)\r\n* (macOS) Added new shutdown options (software request and force kill) which can be toggled by long pressing the power button in the VM window (#4001)\r\n* (macOS) Added a confirmation dialog when deleting a drive (#4687)\r\n\r\n## Changes (v4.1.0)\r\n* Updated QEMU to v7.1.0\r\n* Updated ANGLE and virglrenderer to latest commit\r\n* Fixed an issue where user override of machine property settings was not applied properly\r\n* Localization: updated Japanese (thanks @MMP0)\r\n* Localization: updated Spanish (Latin America) (thanks @JezerM)\r\n* (iOS) Added in-app settings popover which synchronizes with the Settings app (useful for TrollStore installs where the Settings app page is inaccessible) (#4446)\r\n* (iOS) TrollStore: support JIT without needing a separate JIT enabler (thanks @PojavLauncherTeam for the idea)\r\n\r\n## Issues\r\nPlease check the full list on [Github][2] and help report any bug you find that is not listed.\r\n\r\n## Installation\r\n\r\n* [iOS](https://docs.getutm.app/installation/ios/)\r\n* [macOS](https://docs.getutm.app/installation/macos/)\r\n\r\n| File | Description | Installation | JIT | Hypervisor | USB |\r\n|------|------------|--------------|-----|-----------|-----|\r\n| UTM.deb | Jailbroken iOS version | Open in Cydia, dpkg, or Sileo | Yes | Yes(1) | Yes |\r\n| UTM.dmg | macOS version | Mounting and copying UTM.app to /Applications | Yes | Yes | Yes |\r\n| UTM.ipa | Non-jailbroken iOS version (sideloading) | AltStore, etc (see guide) | Yes(2) | No | No |\r\n| UTM.HV.ipa | Non-jailbroken iOS version (TrollStore) | TrollStore | Yes | Yes(1) | Yes |\r\n| UTM.SE.ipa | Non-jailbroken iOS version (sideloading) | AltStore, enterprise signing, etc | No | No | No |\r\n\r\n1. Hypervisor on iOS requires an M1 iPad.\r\n2. Enabling JIT may require a separate JIT enabler such as [Jitterbug][3] or Jitstreamer.\r\n\r\n[1]: https://getutm.app/install/\r\n[2]: https://github.com/utmapp/UTM/issues\r\n[3]: https://github.com/osy/Jitterbug",
-          "size": 149873322
+          "size": 149873322,
+          "sha256": "23e0634405388a01cadd1a864fecb81011b3c926b07ee818a311349a04668c92"
         },
         {
           "version": "4.1.5",
@@ -1248,7 +1276,8 @@
           "date": "2022-12-30T00:01:00-05:00",
           "downloadURL": "https://provenance-builds.s3-us-east-2.amazonaws.com/apps/2.2.1.beta1/Provenance.ipa",
           "localizedDescription": "Pre-release of Play!, Dolphin and PPSSPP. JIT Required or cores will crash.",
-          "size": 77010038
+          "size": 77010038,
+          "sha256": "48b834e58724a07b16a8f951ff8983c6ca7088f85d5f480c3dfe04530c915f9c"
         },
         {
           "version": "2.2.1.beta.1",
@@ -1299,7 +1328,8 @@
           "date": "2023-02-16T11:24:00+01:00",
           "downloadURL": "https://github.com/flyinghead/flycast/releases/download/V2.1/Flycast-2.1.ipa",
           "localizedDescription": "Full framebuffer emulation and texture upscaling on iOS.",
-          "size": 14904310
+          "size": 14904310,
+          "sha256": "ce84e20531ec2c4c283c860a6646bc6d113b476fff0e45da3912fd0d86f93644"
         },
         {
           "version": "v2.0",
@@ -1335,7 +1365,8 @@
           "version": "22217",
           "date": "2023-03-27T16:43:48+00:00",
           "downloadURL": "https://dl.pokemmo.com/download/PokeMMO-Client.ipa?hash=73c73a82",
-          "size": 143553661
+          "size": 143553661,
+          "sha256": "73c73a82d759f6554315859b4cb35c59752e497ed124d1b1563e30eb3d25c370"
         },
         {
           "version": "22215",
@@ -1459,7 +1490,8 @@
           "date": "2023-04-15T00:00:12-00:00",
           "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.2.7/Ignited.ipa",
           "localizedDescription": "New Features\n\u2022 Added options to toggle game artwork borders, shadows, and rounded corners\n\nUpdates\n\u2022 Added confirmation popup to advanced settings\n\u2022 Game screenshots are now scaled up by 5x before being saved",
-          "version": "1.2.7"
+          "version": "1.2.7",
+          "sha256": "7bc39a5cb959649c715d77787ba395f63dc8a775a4ee8f0d0561b6253f1b8ac8"
         },
         {
           "size": 50355653,
