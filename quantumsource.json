@@ -574,7 +574,8 @@
           "downloadURL": "https://unc0ver.dev/downloads/8.0.2/9e44edfbfd1905cadf23c3b9ad1d5bed683ce061/unc0ver_Release_8.0.2.ipa",
           "localizedDescription": "# v8.0.2 Release\n\n- Add exploit guidance to improve reliability on A12-A13 iPhones running iOS 14.6-14.8\r\n- Fix exploit reliability on iPhone XS devices running iOS 14.6-14.8",
           "size": 54489484,
-          "absoluteVersion": "8.0.2"
+          "absoluteVersion": "8.0.2",
+          "sha256": "d385c2be158c3106266b0b7795647fe2f873905bca94874b57ef35cce6cf50f6"
         }
       ]
     },
@@ -1152,7 +1153,8 @@
           "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.6/Taurine-1.1.6.ipa",
           "localizedDescription": "# 1.1.6\n\n- Backports DER entitlement fixes from Taurine15\r\n- Backports codesignature fixes from Taurine15\r\n- Backports various other fixes from Taurine15\r\n",
           "size": 31938370,
-          "absoluteVersion": "1.1.6"
+          "absoluteVersion": "1.1.6",
+          "sha256": "0e628c33eabeef030ac08478f79ac74d9be8582301df0ae7bec26d8d1af8dad6"
         }
       ]
     },
