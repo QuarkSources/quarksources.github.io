@@ -877,19 +877,19 @@
         "https://ish.app/assets/front-iphone-full.png"
       ],
       "version": "1.3",
-      "versionDate": "2023-02-27T06:22:02Z",
-      "versionDescription": "Automated daily build",
-      "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/459/iSH.ipa",
-      "size": 4183205,
+      "versionDate": "2023-04-23T04:46:13Z",
+      "versionDescription": "# iSH 1.3 (build 482)\n\nNew stuff:\r\n- iSH now supports custom themes\r\n- Preferences are now exposed via procfs\r\n- Some more app icon choices\r\n- Hyperlinks created by OSC 8 are underlined instead of invisible\r\n\r\nFixed bugs:\r\n- Forward SO_RCVTIMEO, SO_SNDTIMEO in setsockopts to support snac\r\n- Add about four dozen SIMD instructions to improve support for nodejs and Rust\r\n- Fix bottom keyboard inset for iPad, Stage Manager, and devices with no home button\r\n- Implement /proc/pid/task to fix recent versions of GDB\r\n- Fix VoiceOver focus stealing keyboard focus on iOS 15+\r\n- Resolve an issue with xadd causing git clones to hang\r\n- Trigger segfault on unaligned cmpxchg8b, which iSH does not support\r\n- Fix a race condition that causes some output to be lost\r\n- Fix toolbar button sizing",
+      "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/482/iSH.ipa",
+      "size": 4183791,
       "versions": [
         {
-          "absoluteVersion": "builds/459",
-          "date": "2023-02-27T06:22:02Z",
-          "localizedDescription": "# Build 459\n\nAutomated daily build",
-          "size": 4183205,
+          "absoluteVersion": "builds/482",
+          "date": "2023-04-23T04:46:13Z",
+          "localizedDescription": "# iSH 1.3 (build 482)\n\nNew stuff:\r\n- iSH now supports custom themes\r\n- Preferences are now exposed via procfs\r\n- Some more app icon choices\r\n- Hyperlinks created by OSC 8 are underlined instead of invisible\r\n\r\nFixed bugs:\r\n- Forward SO_RCVTIMEO, SO_SNDTIMEO in setsockopts to support snac\r\n- Add about four dozen SIMD instructions to improve support for nodejs and Rust\r\n- Fix bottom keyboard inset for iPad, Stage Manager, and devices with no home button\r\n- Implement /proc/pid/task to fix recent versions of GDB\r\n- Fix VoiceOver focus stealing keyboard focus on iOS 15+\r\n- Resolve an issue with xadd causing git clones to hang\r\n- Trigger segfault on unaligned cmpxchg8b, which iSH does not support\r\n- Fix a race condition that causes some output to be lost\r\n- Fix toolbar button sizing",
+          "size": 4183791,
+          "sha256": "318c8aa2b36cf0879c07323e099a5b806a105a891af6dea15fdd4987e8fb43eb",
           "version": "1.3",
-          "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/459/iSH.ipa",
-          "sha256": "a2fca4586775821af42d56b92db6aaf27cf776d2f006584abd46d22debec6995"
+          "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/482/iSH.ipa"
         },
         {
           "version": "1.2.3",
