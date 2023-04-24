@@ -167,14 +167,14 @@
           "size": 5465476
         }
       ],
-      "version": "1.6.2b",
-      "versionDate": "2023-03-21T12:00:00-05:00",
-      "versionDescription": "This beta fixes the \"no provisioning profile with the requested identifier\u2026\" error when sideloading or refreshing apps.\n\n\u26a0\ufe0f You must manually install this update by downloading the latest AltServer beta from Patreon and using it to re-reinstall AltStore. You do not need to delete AltStore first.",
-      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_2_b.ipa",
+      "version": "2.0b1",
+      "versionDate": "2023-04-06T09:30:00-05:00",
+      "versionDescription": "The first beta of AltStore 2.0 is finally here! \ud83c\udf89\n\nAltStore 2.0 will unlock third-party sources for everyone, allowing anyone to distribute their apps with AltStore.\n\nNEW\n\nSource \"About\" Page\n\u2022 Preview sources before adding them to AltStore\n\u2022 Browse all apps and news for a source\n\u2022 \"About\" section includes detailed information and additional links\n\u2022 \"Featured Apps\" showcases a source's best apps\n\u2022 Customizable with updated source JSON format\n\nFIXED\n\u2022 Fixed error fetching Friend Zone patrons due to unexpected nil name\n\u2022 Fixed incorrect cell height for some News items\n\u2022 Fixed incorrectly merging app versions for same app from different sources",
+      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_b1.ipa",
       "localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis beta release of AltStore adds support for 3rd party sources, allowing you to download apps from other developers directly through AltStore.",
       "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
       "tintColor": "018084",
-      "size": 5624104,
+      "size": 5793338,
       "beta": false,
       "screenshotURLs": [
         "https://user-images.githubusercontent.com/705880/78942028-acf54300-7a6d-11ea-821c-5bb7a9b3e73a.PNG",
