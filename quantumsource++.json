@@ -1072,7 +1072,7 @@
       "beta": false,
       "bundleIdentifier": "com.burbn.instagram",
       "developerName": "Alfhaily & Qn_",
-      "downloadURL": "https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/EQUCbcBBMmpAr3rKFl_6qkkBB8nquabTNaymTavyNVapJQ?download=1",
+      "downloadURL": "https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/EVmGQw5amutDvTKiKOn6cdYBad3s6R-SsSAGV3BshbNd7g?download=1",
       "iconURL": "https://raw.githubusercontent.com/qnblackcat/AltStore/main/ScreenShot/800px-Instagram_logo_2016.svg.png",
       "localizedDescription": "Rocket not only gives you the features that are missing from Instagram, but it also gives you full control over the app.\n\nLearn how to make your own Rocket for Instagram iPA here: https://github.com/qnblackcat/IGSideloadFix\n\nFEATURES\n- Browse home feed in grid layout.\n- Show following status in Profile.\n- Download posts from your feed.\n- Repost any post from your feed.\n- Long press on posts to zoom.\n- Copy post captions from your feed.\n- Download all Stories on Instagram.\n- Save videos from IGTV.\n- View Stories without notifying others.\n- Mute and unmute Stories.\n- Disable Auto-Advance in Stories.\n- Hide Stories from your feed.\n- Play in high quality on Mobile Data.\n- Long press on profile photo to zoom.\n- Disable read receipts in DM.\n- Disable Screenshot notifications in DM.\n- Disable Read Receipts in DM.\n\nLearn how to make your own Rocket for Instagram iPA here: https://github.com/qnblackcat/IGSideloadFix",
       "name": "Rocket for Instagram",
@@ -1085,10 +1085,18 @@
       "size": 91750400,
       "subtitle": "Save posts and view stories anonymously and do much more. Requires iOS 12.4 and later.",
       "tintColor": "c72a96",
-      "version": "271.0",
-      "versionDate": "2023-02-22T12:00:00-01:00",
-      "versionDescription": "Changelog v271.0-3.8.5:\n- https://apt.alfhaily.me/depiction/4EYOXC",
+      "version": "280.0",
+      "versionDate": "2023-04-28T12:00:00-01:00",
+      "versionDescription": "Changelog v280.0-3.8.5:\n- https://apt.alfhaily.me/depiction/4EYOXC",
       "versions": [
+        {
+          "version": "280.0",
+          "date": "2023-04-28T12:00:00-01:00",
+          "downloadURL": "https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/EVmGQw5amutDvTKiKOn6cdYBad3s6R-SsSAGV3BshbNd7g?download=1",
+          "localizedDescription": "Changelog v280.0-3.8.5:\n- https://apt.alfhaily.me/depiction/4EYOXC",
+          "size": 91750400,
+          "sha256": "117e0821504b8a866c0dd7b20d041ff8904c8d64bd3d30e41a71500e02694ccc"
+        },
         {
           "version": "271.0",
           "date": "2023-02-22T12:00:00-01:00",
