@@ -9,7 +9,7 @@
   "tintColor": "#343a40",
   "featuredApps": [
     "com.spotify.client",
-    "com.wdfff.PopcornTime",
+    "com.streamer.ios",
     "com.google.ios.youtube",
     "com.marcuszhou.NineAnimator",
     "com.hammerandchisel.discord"
@@ -55,31 +55,35 @@
       ]
     },
     {
-      "name": "PopcornTime",
-      "subtitle": "Watch all movies from your phone!",
-      "bundleIdentifier": "com.wdfff.PopcornTime",
-      "developerName": "WD1000",
-      "localizedDescription": "PopcornTime is a free application made for streaming videos and movies. It is a multi-platform, open source Bittorrent client that also includes a media player. It uses sequential downloading and uploading to play films in its media player. Our website: https://popcorntime-ios.nl/",
-      "iconURL": "https://popcorntime-ios.nl/assets/Appicon.025a95d0.png",
-      "tintColor": "4153b6",
+      "name": "Streamer",
+      "appID": "com.streamer.ios",
+      "bundleIdentifier": "com.streamer.ios",
+      "developerName": "StreamerApp",
+      "subtitle": "App for Streaming Movies and TV shows",
+      "version": "1.2.12",
+      "versionDate": "2023-04-07",
+      "versionDescription": "- fixes Akwam, Cima4now, StreamingCommunity, KinoKiste, Zoro.to \n - fixes search for Flixtor, Fmovies.to, sflix.pro",
+      "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.12/Streamer-iOS.ipa",
+      "localizedDescription": "App for Streaming Movies and TV shows on iOS and tvOS.\n\n- Stream all TV shows and Movies from multiple websites without any annoying ads\n- Supports Chromecast to stream to FireTV and Chromecasts\n- Supports multi-language subtitles for iOS and tvOS\n- Favorite functionality to quickly access your favorite shows and movies\n",
+      "iconURL": "https://i.imgur.com/JbUuxP9.png",
+      "tintColor": "#5e5e5e",
+      "size": 1170000,
       "screenshotURLs": [
-        "https://popcorntime-ios.nl/altstore/assets/916/1.png",
-        "https://popcorntime-ios.nl/altstore/assets/916/2.png",
-        "https://popcorntime-ios.nl/altstore/assets/916/3.png",
-        "https://popcorntime-ios.nl/altstore/assets/916/4.png"
+        "https://user-images.githubusercontent.com/96978272/191682372-93158122-160c-446e-9384-282833cc5626.png",
+        "https://user-images.githubusercontent.com/96978272/191682918-b644aa53-3084-4c3b-b809-97f1b010f985.png",
+        "https://user-images.githubusercontent.com/96978272/191682352-3cb452c1-081e-4981-9dcc-6246a4b6ff4c.png",
+        "https://user-images.githubusercontent.com/96978272/191682345-f882e099-3ba3-4851-b5db-b9709bc64abe.png"
       ],
       "versions": [
         {
-          "version": "1.0",
-          "date": "2023-02-21T12:00:00-06:00",
-          "localizedDescription": "Watch all your favourite movies and shows from your phone.",
-          "downloadURL": "https://popcorntime-ios.nl/download/1.0/PopcornTimeiOS.ipa",
-          "size": 37334455,
-          "minOSVersion": "12.1",
-          "sha256": "f68149b34d0938201e188234a8867f30da68285b510ade3708ec2e7106c1d68d"
+          "version": "1.2.12",
+          "date": "2023-04-07",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.12/Streamer-iOS.ipa",
+          "localizedDescription": "- fixes Akwam, Cima4now, StreamingCommunity, KinoKiste, Zoro.to \n - fixes search for Flixtor, Fmovies.to, sflix.pro",
+          "size": 1170000,
+          "sha256": "43470de9f9101b2e3560a8001cd82435f99a19cc6adda40946a9cb24f4194f5c"
         }
-      ],
-      "appID": "com.wdfff.PopcornTime"
+      ]
     },
     {
       "beta": false,
@@ -898,134 +902,6 @@
           "sha256": "c80affbf01164d033db98350c63914bb0f357de0aec3fd1b3d4597c5c323b1dd"
         }
       ]
-    },
-    {
-      "name": "MediaBox HD",
-      "bundleIdentifier": "mediaboxhd.event.2",
-      "developerName": "MediaBox Team",
-      "subtitle": "The best free streaming app for iOS.",
-      "version": "2.4.9.2",
-      "versionDate": "2020-02-06",
-      "versionDescription": "More subtitles now supported.",
-      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/MediaBox.ipa",
-      "localizedDescription": "The best movie and TV streaming app for iOS.\n\n\u2022 Uses direct streaming only, No Torrents (peer to peer / P2P)\n\u2022 Media Box HD is constantly searching all over the web for the best stream from the most relevant sites.\n\nThe Best Features\n\n\u2022 Discover popular Movies/Shows.\n\u2022 Supports Chromecast, Roku, FireTV, Smart-TV, Wifi-Sharing.\n\u2022 Trakt.tv sync\n\u2022 Real-Debrid supported\n\u2022 Offline Watching. Download in the background\n\u2022 Files app support\n\u2022 VLC-Player support\n\u2022 Supports subtitles (from these sources: opensubtitles; popcorn-time; subscene; mediaboxhd)\n\u2022 Customizable themes\n\nThe Best Service\n\n\u2022 You can request Movies/Shows, Subtitles.\n\u2022 You can help improve the app by giving us feedback about any problems you're having, and we will update the app ASAP",
-      "iconURL": "https://i.imgur.com/buZHkx2.png",
-      "tintColor": "#1e1e1e",
-      "size": 57384853,
-      "permissions": [
-        {
-          "type": "photos",
-          "usageDescription": "This app requires access to the photo library."
-        },
-        {
-          "type": "camera",
-          "usageDescription": "Some ad content may access camera to take picture."
-        },
-        {
-          "type": "bluetooth",
-          "usageDescription": "The app would like to use bluetooth."
-        },
-        {
-          "type": "microphone",
-          "usageDescription": "The app would like to use microphone."
-        },
-        {
-          "type": "calendars",
-          "usageDescription": "Some ad content may create a calendar event."
-        },
-        {
-          "type": "motion",
-          "usageDescription": "Some ad content may require access to accelerometer for interactive ad experience."
-        },
-        {
-          "type": "background-fetch",
-          "usageDescription": "The app would like to fetch in the background."
-        },
-        {
-          "type": "background-audio",
-          "usageDescription": "The app would like to play audio in the background."
-        }
-      ],
-      "screenshotURLs": [
-        "https://i.imgur.com/dJqSRlb.png",
-        "https://i.imgur.com/otRiR3J.png",
-        "https://i.imgur.com/pG3Mdv2.png",
-        "https://i.imgur.com/0pNIcOD.png",
-        "https://i.imgur.com/HMYs5DV.png",
-        "https://i.imgur.com/I1zxbBV.png",
-        "https://i.imgur.com/VEv0sOb.png"
-      ],
-      "versions": [
-        {
-          "version": "2.4.9.2",
-          "date": "2020-02-06",
-          "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/MediaBox.ipa",
-          "localizedDescription": "More subtitles now supported.",
-          "size": 57384853,
-          "sha256": "db7ba2ad9056b8f812b82d18079905b23461b307c8662be3358a04b02c90f91f"
-        }
-      ],
-      "appID": "mediaboxhd.event.2"
-    },
-    {
-      "name": "ComicBox",
-      "bundleIdentifier": "comicreader.net.ios",
-      "developerName": "MediaBox Team",
-      "subtitle": "A free comic/manga reader app for iOS.",
-      "version": "1.3.3",
-      "versionDate": "2019-05-30",
-      "versionDescription": "Small bug fixes and various UI improvements.",
-      "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/ComicBox.ipa",
-      "localizedDescription": "ComicBox is a free reader for comics, manga, and more.\n\nHuge Library\n\n\u2022 Read thousands of comic/manga in many different languages: English, Spanish, French, etc. from many popular sources\n\nBest Features\n\n\u2022 Discover popular comic/manga.\n\u2022 The Best Viewer. Enjoy a seamless reading experience & customize it any way you want.\n\u2022 Offline Reading. Download any manga back to your device & read later without constant Internet connection\n\u2022 Changeable themes\n\u2022 ... and many other wonderful delights you will discover in the app.\n\nBest Service\n\n\u2022 You can request Comic/Manga.\n\u2022 You can help improve the app by giving us feedback about any problems you're having, and we will update the app",
-      "iconURL": "https://i.imgur.com/qaFkT1Q.png",
-      "tintColor": "#012839",
-      "size": 158480864,
-      "permissions": [
-        {
-          "type": "photos",
-          "usageDescription": "This app requires access to the photo library."
-        },
-        {
-          "type": "camera",
-          "usageDescription": "Some ad content may access camera to take a picture."
-        },
-        {
-          "type": "bluetooth",
-          "usageDescription": "The app would like to use bluetooth."
-        },
-        {
-          "type": "microphone",
-          "usageDescription": "The app would like to use microphone."
-        },
-        {
-          "type": "calendars",
-          "usageDescription": "Some ad content may create a calendar event."
-        },
-        {
-          "type": "motion",
-          "usageDescription": "Some ad content may require access to accelerometer for an interactive ad experience."
-        },
-        {
-          "type": "background-fetch",
-          "usageDescription": "The app would like to fetch in the background to give notifications."
-        }
-      ],
-      "screenshotURLs": [
-        "https://i.imgur.com/CjfUYSc.png",
-        "https://i.imgur.com/ucxVVjW.png",
-        "https://i.imgur.com/JR6AVFd.png"
-      ],
-      "versions": [
-        {
-          "version": "1.3.3",
-          "date": "2019-05-30",
-          "downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/ComicBox.ipa",
-          "localizedDescription": "Small bug fixes and various UI improvements.",
-          "size": 158480864,
-          "sha256": "a09fc9d509f79132483ca693f5094759d7fc9bb13313c1a16b17f1b4bfc041b0"
-        }
-      ],
-      "appID": "comicreader.net.ios"
     },
     {
       "name": "Channels",

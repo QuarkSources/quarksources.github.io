@@ -280,7 +280,7 @@ sourcesData = [
     {
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "quarksource++.json"},
-        "ids": ["com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "syto203.reddit.pp", "mediaboxhd.event.2", "comicreader.net.ios", "com.channelsapp.channels", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp", "tv.twitch"]
+        "ids": ["com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "syto203.reddit.pp", "com.channelsapp.channels", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp", "tv.twitch"]
     },
     {
         "parser": Parser.ALTSOURCE,
@@ -306,7 +306,7 @@ sourcesData = [
     },
     {
         "parser": Parser.GITHUB,
-        "kwargs": {"repo_author": "tatsuz0u", "repo_name": "EhPanda"},
+        "kwargs": {"repo_author": "tatsuz0u", "repo_name": "EhPanda", "asset_regex": r".*iOS\.ipa"},
         "ids": ["app.ehpanda"]
     },
     # {
@@ -331,9 +331,9 @@ sourcesData = [
         "ids": ["com.burbn.instagram", "com.facebook.Facebook", "com.google.ios.youtube","com.reddit.Reddit"]
     },
     {
-        "parser": Parser.ALTSOURCE,
-        "kwargs": {"filepath": "https://popcorntime-ios.nl/altstore/popcorntime-altstore.json"},
-        "ids": ["com.wdfff.PopcornTime"]
+        "parser": Parser.GITHUB,
+        "kwargs": {"repo_author": "StreamerApp", "repo_name": "Streamer"},
+        "ids": ["com.streamer.ios"]
     }
 ]
 alternateAppData = {
