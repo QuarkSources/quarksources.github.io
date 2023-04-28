@@ -126,14 +126,14 @@
       "bundleIdentifier": "eu.vcmi.vcmiclient",
       "developerName": "VCMI Team",
       "subtitle": "Heroes of Might & Magic III engine",
-      "version": "1.2",
-      "versionDate": "2023-04-14T14:08:18Z",
-      "versionDescription": "# VCMI 1.2.0\n\n### Player Changelog: [1.1.1 -> 1.2](https://github.com/vcmi/vcmi/blob/master/ChangeLog.md#111---120)\r\n\r\n### Full Changelog: https://github.com/vcmi/vcmi/compare/1.1.1...1.2.0\r\n\r\n<!-- ### Android release is available on [Google Play](https://play.google.com/store/apps/details?id=is.xyz.vcmi) --->\r\n### Ubuntu release is available on [VCMI PPA](https://launchpad.net/~vcmi/+archive/ubuntu/ppa)\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs.",
-      "downloadURL": "https://github.com/vcmi/vcmi/releases/download/1.2.0/VCMI-1.2.0-iOS.ipa",
+      "version": "1.2.1",
+      "versionDate": "2023-04-28T18:40:12Z",
+      "versionDescription": "# VCMI 1.2.1\n\n### Player Changelog: [1.2.0 -> 1.2.1](https://github.com/vcmi/vcmi/blob/master/ChangeLog.md#120---121)\r\n\r\n### Full Changelog: https://github.com/vcmi/vcmi/compare/1.2.0...1.2.1\r\n\r\n<!-- ### Android release is available on [Google Play](https://play.google.com/store/apps/details?id=is.xyz.vcmi) -->\r\n### Ubuntu release is available on [VCMI PPA](https://launchpad.net/~vcmi/+archive/ubuntu/ppa)",
+      "downloadURL": "https://github.com/vcmi/vcmi/releases/download/1.2.1/VCMI-1.2.1-iOS.ipa",
       "localizedDescription": "VCMI is a open source cross-platform HoMM3 engine written from scratch. \n\nYou need data copied from original game to play. \nFollow instructions from https://wiki.vcmi.eu/Installation_on_iOS",
       "iconURL": "https://github.com/vcmi/vcmi/raw/develop/client/icons/vcmiclient.512x512.png",
       "tintColor": "CD8526",
-      "size": 26346303,
+      "size": 26347869,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot1.png",
         "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot2.png",
@@ -146,6 +146,15 @@
         "https://raw.githubusercontent.com/vcmi/vcmi-updates/master/altstore/screenshots/screenshot9.png"
       ],
       "versions": [
+        {
+          "absoluteVersion": "1.2.1",
+          "date": "2023-04-28T18:40:12Z",
+          "localizedDescription": "# VCMI 1.2.1\n\n### Player Changelog: [1.2.0 -> 1.2.1](https://github.com/vcmi/vcmi/blob/master/ChangeLog.md#120---121)\r\n\r\n### Full Changelog: https://github.com/vcmi/vcmi/compare/1.2.0...1.2.1\r\n\r\n<!-- ### Android release is available on [Google Play](https://play.google.com/store/apps/details?id=is.xyz.vcmi) -->\r\n### Ubuntu release is available on [VCMI PPA](https://launchpad.net/~vcmi/+archive/ubuntu/ppa)",
+          "size": 26347869,
+          "sha256": "7556bb42ca0afebad75be8ccf8a00a3121313178392f6ccb5a86059f060c3b00",
+          "version": "1.2.1",
+          "downloadURL": "https://github.com/vcmi/vcmi/releases/download/1.2.1/VCMI-1.2.1-iOS.ipa"
+        },
         {
           "absoluteVersion": "1.2.0",
           "date": "2023-04-14T14:08:18Z",
