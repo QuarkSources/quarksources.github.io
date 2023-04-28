@@ -89,7 +89,7 @@
       "beta": false,
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "MiRO92 & Qn_",
-      "downloadURL": "https://github.com/qnblackcat/uYouPlus/releases/download/v18.08.1-2.3.1/uYouPlus_18.08.1_2.3.1.ipa",
+      "downloadURL": "https://github.com/qnblackcat/uYouPlus/releases/download/v18.14.1-3.0/uYouPlus_18.14.1_3.0.ipa",
       "iconURL": "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/icon_clipped.png",
       "localizedDescription": "uYouPlus is a modified version of uYou with some extra features! (requires iOS 14.0 and later).\n\nFull infomation about uYouPlus (uYou+) is available on my Github: https://github.com/qnblackcat/uYouPlus/\n\nCredits: Please keep the Credits if you re-up uYouPlus! \nhttps://github.com/qnblackcat/uYouPlus#credits\n\nAttention:\n- If you like the app, considering support the developers!\n- YTUHD is not stable atm. You might encounter stuttering, heat, battery drain..., especially when playing at 2160p (4K) quality. However, this should not happen if you use TrollStore.\n- Unless you're using TrollStore, deep-link (aka Open in the YouTube App) simply will not work.\n\nKnown issues:\n- uYou's issues: https://github.com/MiRO92/uYou-for-YouTube/issues\n- uYouPlus's issues: https://github.com/qnblackcat/uYouPlus",
       "name": "uYouPlus (uYou+)",
@@ -100,13 +100,21 @@
         "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/IMG_1523.PNG",
         "https://raw.githubusercontent.com/qnblackcat/My-AltStore-repo/main/ScreenShot/IMG_2395.PNG"
       ],
-      "size": 111605847,
+      "size": 123882320,
       "subtitle": "A modified version of uYou with extra features! Requires iOS 14.0 and later.",
       "tintColor": "e85567",
-      "version": "18.08.1",
-      "versionDate": "2023-02-28T12:00:00-01:00",
-      "versionDescription": "v18.08.1 (2.3~1): The changelog can be found at\nhttps://github.com/qnblackcat/uYouPlus/releases/latest",
+      "version": "18.14.1",
+      "versionDate": "2023-4-27T12:00:00-01:00",
+      "versionDescription": "v18.14.1 (3.0): The changelog can be found at\nhttps://github.com/qnblackcat/uYouPlus/releases/tag/latest",
       "versions": [
+        {
+          "version": "18.14.1",
+          "date": "2023-4-27T12:00:00-01:00",
+          "downloadURL": "https://github.com/qnblackcat/uYouPlus/releases/download/v18.14.1-3.0/uYouPlus_18.14.1_3.0.ipa",
+          "localizedDescription": "v18.14.1 (3.0): The changelog can be found at\nhttps://github.com/qnblackcat/uYouPlus/releases/tag/latest",
+          "size": 123882320,
+          "sha256": "f47caf1bbb36a8d3a5eff99c80631efe0b0534936cd797ca20ce13c9ef52f4e8"
+        },
         {
           "version": "18.08.1",
           "date": "2023-02-28T12:00:00-01:00",
