@@ -251,6 +251,15 @@
       "subtitle": "Classic games in your pocket.",
       "versions": [
         {
+          "version": "1.5b2",
+          "date": "2023-05-03T14:00:00-05:00",
+          "localizedDescription": "NEW\n\nAirPlay Support \n\u2022 Stream your games to the big screen with AirPlay\n\u2022 [DS] Optionally AirPlay just top screen for true multi-screen experience\n\nExperimental Features\n\u2022 New section in Settings for features by third-party contributors\n\u2022 Features are WIP and should be used at user\u2019s discretion\n\nInitial Experimental Features\n\u2022 Show Status Bar: View time/WiFi/battery while playing a game (@LitRitt)\n\u2022 Game Screenshots: Take screenshots from pause menu (@LitRitt)\n\u2022 In-Game Notifications: Show pop-up alerts when performing certain actions (@LitRitt)\n\u2022 AirPlay Skins: Customize appearance of games on TV when AirPlaying\n\u2022 Variable Fast Forward: Change the Fast Forward speed per-system\n\nFIXED\n\u2022 Fixed translucent controller skins resetting opacity after rotating device\n\u2022 Fixed incorrect thumbstick size after rotating device",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_5_b2.ipa",
+          "size": 46120077,
+          "minOSVersion": "14.0",
+          "sha256": "95570ea367c08d8d97b1f154c5cd9f6798e2efb40df1ccd6032730b2a272f2e2"
+        },
+        {
           "version": "1.5b1",
           "date": "2023-03-02T10:00:00-06:00",
           "localizedDescription": "Local Multiplayer (thanks Ian Clawson @ThatClawsonBoy!)\n\u2022 Play NES, SNES, N64, and Genesis games with friends\n\u2022 Supports up to 4 players\n\nImproved Non-MFi Controller Support\n\u2022 New default mappings for single Joy-Cons and Switch NES/SNES controllers\n\u2022 Uses Logo/Home button as Delta pause button if possible",
@@ -295,14 +304,14 @@
           "size": 42968657
         }
       ],
-      "version": "1.4rc",
-      "versionDate": "2023-02-13T09:41:00-08:00",
-      "versionDescription": "\"Contributors\" screen\n\u2022 See everyone who has contributed to Delta\n\u2022 View associated Pull Requests for contributed features\n\nPREVIOUS BETA\n\u2022 \u201cRespect Silent Mode\u201d setting\n\u2022 Automatically mutes game audio if another app is playing audio\n\u2022 Browse CheatBase for all known cheats for games (thanks Noah Keck @horn978)",
-      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_4_rc.ipa",
+      "version": "1.5b2",
+      "versionDate": "2023-05-03T14:00:00-05:00",
+      "versionDescription": "NEW\n\nAirPlay Support \n\u2022 Stream your games to the big screen with AirPlay\n\u2022 [DS] Optionally AirPlay just top screen for true multi-screen experience\n\nExperimental Features\n\u2022 New section in Settings for features by third-party contributors\n\u2022 Features are WIP and should be used at user\u2019s discretion\n\nInitial Experimental Features\n\u2022 Show Status Bar: View time/WiFi/battery while playing a game (@LitRitt)\n\u2022 Game Screenshots: Take screenshots from pause menu (@LitRitt)\n\u2022 In-Game Notifications: Show pop-up alerts when performing certain actions (@LitRitt)\n\u2022 AirPlay Skins: Customize appearance of games on TV when AirPlaying\n\u2022 Variable Fast Forward: Change the Fast Forward speed per-system\n\nFIXED\n\u2022 Fixed translucent controller skins resetting opacity after rotating device\n\u2022 Fixed incorrect thumbstick size after rotating device",
+      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_5_b2.ipa",
       "localizedDescription": "The next consoles for Delta are coming: this beta version of Delta brings support for playing Nintendo DS and Sega Genesis games!\n\nPlease report any issues you find to support@altstore.io. Thanks!",
       "iconURL": "https://user-images.githubusercontent.com/705880/63391976-4d311700-c37a-11e9-91a8-4fb0c454413d.png",
       "tintColor": "8A28F7",
-      "size": 46299284,
+      "size": 46120077,
       "beta": false,
       "permissions": [
         {
