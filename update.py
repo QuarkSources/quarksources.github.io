@@ -1,8 +1,4 @@
 import logging
-import sys
-
-sys.path.insert(0, 'D:\\HDD - Documents\\Documents\\Github\\AltSourceParser\\src')
-sys.path.insert(1, 'D:\\HDD - Documents\\Documents\\Github\\AltSourceParser\\src\\altparse')
 
 from altparse import AltSourceManager, Parser, altsource_from_file
 
