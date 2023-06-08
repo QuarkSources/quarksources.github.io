@@ -1,4 +1,8 @@
 import logging
+import sys
+
+sys.path.insert(0, 'D:\\HDD - Documents\\Documents\\Github\\AltSourceParser\\src')
+sys.path.insert(1, 'D:\\HDD - Documents\\Documents\\Github\\AltSourceParser\\src\\altparse')
 
 from altparse import AltSourceManager, Parser, altsource_from_file
 
@@ -294,8 +298,9 @@ sourcesData = [
         "ids": ["com.hammerandchisel.discord"]
     },
     {
-        "parser": Parser.ALTSOURCE,
-        "kwargs": {"filepath": "https://9ani.app/api/altstore"},
+        "parser": Parser.GITHUB,
+        #"kwargs": {"filepath": "https://9ani.app/api/altstore"},
+        "kwargs": {"repo_author": "SuperMarcus", "repo_name": "NineAnimator"},
         "ids": ["com.marcuszhou.NineAnimator"]
     },
     {
@@ -306,7 +311,7 @@ sourcesData = [
     },
     {
         "parser": Parser.GITHUB,
-        "kwargs": {"repo_author": "tatsuz0u", "repo_name": "EhPanda", "asset_regex": r".*iOS\.ipa"},
+        "kwargs": {"repo_author": "tatsuz0u", "repo_name": "EhPanda"},
         "ids": ["app.ehpanda"]
     },
     # {
