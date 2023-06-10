@@ -59,6 +59,66 @@
       "appID": "com.hammerandchisel.discord"
     },
     {
+      "name": "iVanced for YouTube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "TherionRO",
+      "subtitle": "A strong suite of improvements to YouTube!",
+      "localizedDescription": "iVanced for YouTube is a modded application for iPhone user with or without jailbreak. iVanced supports adblocking, dislikes, skip sponsors (iSponsorBlock) and many more customizations and features! All of this without charging you anything: no subscriptions, no unlocks.",
+      "iconURL": "https://i.imgur.com/ZCtZ5W4.png",
+      "tintColor": "#6D00FF",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "absoluteVersion": "18.20.03",
+          "version": "18.20.3",
+          "buildVersion": "18.20.3",
+          "date": "2023-05-25T16:14:47Z",
+          "localizedDescription": "# iVanced 18.20.03\n\niVanced for YouTube 18.20.03 |\r\n\r\nDownload from AppDb : https://appdb.to/app/cydia/1900001075 or download the .ipa file from this release.",
+          "downloadURL": "https://github.com/TherionRO/YouTubeiVanced/releases/download/release18.20.03/iVanced_18.20.3.ipa",
+          "size": 121168063,
+          "sha256": "37740aeb43b7faca359bcb46ecfaca410739a2c027d01424967e530495ed0c6e"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "AppleMusic",
+            "usageDescription": "This lets you add your own audio files to your videos."
+          },
+          {
+            "name": "BluetoothPeripheral",
+            "usageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices."
+          },
+          {
+            "name": "Camera",
+            "usageDescription": "This lets you create videos using the app."
+          },
+          {
+            "name": "Contacts",
+            "usageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with."
+          },
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV."
+          },
+          {
+            "name": "LocationWhenInUse",
+            "usageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads."
+          },
+          {
+            "name": "Microphone",
+            "usageDescription": "This lets you include audio with your videos and search using your voice."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "This lets you upload media you've already created."
+          }
+        ]
+      },
+      "appID": "com.google.ios.youtube.ivanced"
+    },
+    {
       "name": "Streamer",
       "bundleIdentifier": "com.streamer.ios",
       "developerName": "StreamerApp",
@@ -226,6 +286,43 @@
           "size": 111886527
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "AppleMusic",
+            "usageDescription": "This lets you add your own audio files to your videos."
+          },
+          {
+            "name": "BluetoothPeripheral",
+            "usageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices."
+          },
+          {
+            "name": "Camera",
+            "usageDescription": "This lets you create videos using the app."
+          },
+          {
+            "name": "Contacts",
+            "usageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with."
+          },
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV."
+          },
+          {
+            "name": "LocationWhenInUse",
+            "usageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads."
+          },
+          {
+            "name": "Microphone",
+            "usageDescription": "This lets you include audio with your videos and search using your voice."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "This lets you upload media you've already created."
+          }
+        ]
+      },
       "beta": false,
       "appID": "com.google.ios.youtube"
     },

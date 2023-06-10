@@ -1,4 +1,5 @@
 import logging
+import re
 
 from altparse import AltSourceManager, Parser, altsource_from_file
 
@@ -9,6 +10,16 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 ########################
 
 sourcesData = [
+    {
+        "parser": Parser.GITHUB,
+        "kwargs": {"repo_author": "emuPlace", "repo_name": "emuThreeDS", "include_pre": True},
+        "ids": ["com.antique.emuThreeDS"]
+    },
+    {
+        "parser": Parser.GITHUB,
+        "kwargs": {"repo_author": "rinsuki", "repo_name": "citra", "ver_parse": lambda x: re.sub('\D', '', x), "include_pre": True},
+        "ids": [{"net.rinsuki.slapps.citra.ci-artifact": "net.rinsuki.slapps.citra"}]
+    },
     {
         "parser": Parser.GITHUB,
         "kwargs": {"repo_author": "ish-app", "repo_name": "ish", "prefer_date": True, "include_pre": False},
@@ -146,7 +157,7 @@ sourcesData = [
     {
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "https://pokemmo.eu/altstore/"},
-        "ids": ["eu.pokemmo.client"]
+        "ids": ["eu.pokemmo.client", "eu.pokemmo.client.pts"]
     },
     {
         "parser": Parser.ALTSOURCE,
@@ -185,33 +196,7 @@ alternateAppData = {
     },
     "org.provenance-emu.provenance": {
         "localizedDescription": "Provenance is a multi-system emulator frontend for a plethora of retro gaming systems. You can keep all your games in one place, display them with cover art, and play to your heart's content.\n\nSystems Supported:\n\n• Atari\n  - 2600\n  - 5200\n  - 7800\n  - Lynx\n  - Jaguar\n• Bandai\n  - WonderSwan / WonderSwan Color\n• NEC\n  - PC Engine / TurboGrafx-16 (PCE/TG16)\n  - PC Engine Super CD-ROM² System / TurboGrafx-CD\n  - PC Engine SuperGrafx\n  - PC-FX\n• Nintendo\n  - Nintendo Entertainment System / Famicom (NES/FC)\n  - Famicom Disk System\n  - Super Nintendo Entertainment System / Super Famicom (SNES/SFC)\n  - Game Boy / Game Boy Color (GB/GBC)\n  - Virtual Boy\n  - Game Boy Advance (GBA)\n  - Pokémon mini\n• Sega\n  - SG-1000\n  - Master System\n  - Genesis / Mega Drive\n  - Game Gear\n  - CD / MegaCD\n  - 32X\n• SNK\n  - Neo Geo Pocket / Neo Geo Pocket Color\n• Sony\n  - PlayStation (PSX/PS1)",
-        "tintColor": "#1c7cf3",
-                                "permissions": [
-                                    {
-                                        "type": "camera",
-                                        "usageDescription": "Used for album artwork."
-                                    },
-                                    {
-                                        "type": "photos",
-                                        "usageDescription": "Provenance can set custom artworks from your photos or save screenshots to your photos library."
-                                    },
-                                    {
-                                        "type": "music",
-                                        "usageDescription": "This will let you play your imported music on Spotify."
-                                    },
-                                    {
-                                        "type": "bluetooth",
-                                        "usageDescription": "Provenance uses Bluetooth to support game controllers."
-                                    },
-                                    {
-                                        "type": "background-fetch",
-                                        "usageDescription": "Provenance can continue running while in the background."
-                                    },
-                                    {
-                                        "type": "background-audio",
-                                        "usageDescription": "Provenance can continue playing game audio while in the background."
-                                    }
-                                ]
+        "tintColor": "#1c7cf3"
     }
 }
 
@@ -335,6 +320,11 @@ sourcesData = [
         "parser": Parser.GITHUB,
         "kwargs": {"repo_author": "StreamerApp", "repo_name": "Streamer"},
         "ids": ["com.streamer.ios"]
+    },
+    {
+        "parser": Parser.GITHUB,
+        "kwargs": {"repo_author": "TherionRO", "repo_name": "YouTubeiVanced", "ver_parse": lambda x: x.lstrip("release")},
+        "ids": [{"com.google.ios.youtube": "com.google.ios.youtube.ivanced"}]
     }
 ]
 alternateAppData = {

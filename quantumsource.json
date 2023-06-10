@@ -13,9 +13,67 @@
     "com.example.mame4ios",
     "com.wh0ba.xpatcher",
     "net.namedfork.minivmac",
-    "com.zurac.OldOS"
+    "com.antique.emuThreeDS"
   ],
   "apps": [
+    {
+      "name": "emuThreeDS",
+      "bundleIdentifier": "com.antique.emuThreeDS",
+      "developerName": "Antique",
+      "subtitle": "Nintendo 3DS emulator for iOS.",
+      "localizedDescription": "emuThreeDS is a Nintendo 3DS emulator for Apple TV, iPad and iPhone based on Citra.",
+      "iconURL": "https://i.imgur.com/XUAH0bL.png",
+      "tintColor": "#5CA399",
+      "screenshotURLs": [
+        "https://i.imgur.com/AhhhDIK.png",
+        "https://i.imgur.com/u05omA7.png"
+      ],
+      "versions": [
+        {
+          "absoluteVersion": "1.0.6.3",
+          "version": "1.0.6",
+          "buildVersion": "3",
+          "date": "2023-06-08T08:31:08Z",
+          "localizedDescription": "# Added new virtual controller buttons and added new settings.\n\nChange-logs will go back to normal from here on out... I've not kept track properly for this version.",
+          "downloadURL": "https://github.com/emuPlace/emuThreeDS/releases/download/1.0.6.3/emuThreeDS_v1.0.6.3.ipa",
+          "size": 37590539,
+          "sha256": "2b41c723d5c7512a8787e22fe6029f5c7cb2dfce0f496eb8fdc3cf91f975ce28",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "appID": "com.antique.emuThreeDS"
+    },
+    {
+      "name": "citra",
+      "bundleIdentifier": "net.rinsuki.slapps.citra.ci-artifact",
+      "developerName": "rinsuki",
+      "subtitle": "Citra Nintendo 3DS emulator for iOS.",
+      "localizedDescription": "Citra is a Nintendo 3DS emulator. This is a fork specifically compiled for iOS devices and is still in its early stages of development. You should not expect the same compatibility and performance that you might expect of the PC version of Citra.",
+      "iconURL": "https://github.com/rinsuki/citra/blob/ios_frontend/dist/icon.png?raw=true",
+      "tintColor": "#5CA399",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "absoluteVersion": "4865233241",
+          "version": "0.1.gha.4865233241.Release.5af330c0e6cac9c183a432d5839cf78780873951",
+          "buildVersion": "1",
+          "date": "2023-05-02T20:46:17Z",
+          "localizedDescription": "# iOS (\u03b1) CI.4865233241\n\n* Tell compiler to support only A12 or later CPU, but I'm not sure this actually improves performance\r\n\r\n## NOTE\r\n* This version requires A12 or later device (iPhone XS/XR or later)\r\n  * this is coming from GPU requirements (we need layered rendering)\r\n* This version can install to iOS 14 or later device, but...\r\n  * We only supports latest stable iOS.\r\n  * in iOS 14.x or older, you can't use virtual controller (which means you need to use external controller, like DS4 or Xbox or MFi certificated controller)\r\n* This version doesn't supporting these features:\r\n  * Audio Input (Mic)\r\n  * Camera\r\n  * Motion Sensor\r\n  * Touch Screen\r\n  * NFC\r\n  * SELECT/HOME button for physical controller\r\n  * Circle Pad (including Pro), ZL/ZR, SELECT/START/HOME button for virtual controller",
+          "downloadURL": "https://github.com/rinsuki/citra/releases/download/ios/alpha/4865233241/citra_ios_ci_4865233241_Release_5af330c0e6cac9c183a432d5839cf78780873951.ipa",
+          "size": 8581046,
+          "sha256": "bee252d9ce9b350122e5ae0e48d2ec1a6ba87cdf9ef5263a5e8b90e3c0766ca1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "appID": "net.rinsuki.slapps.citra"
+    },
     {
       "name": "WDBRemoveThreeAppLimit",
       "bundleIdentifier": "com.worthdoingbadly.WDBRemoveThreeAppLimit",
@@ -1568,9 +1626,47 @@
         }
       ],
       "appID": "com.litritt.ignited"
+    },
+    {
+      "name": "PokeMMO PTS",
+      "bundleIdentifier": "eu.pokemmo.client.pts",
+      "developerName": "PokeMMO",
+      "localizedDescription": "PokeMMO is a free to play mmorpg, come join a growing community as you level up and discover new monsters. Available now on PC, Android, iOS, Mac, and Linux.",
+      "iconURL": "https://pokemmo.com/build/images/altstore.ba9b8a4e.png",
+      "tintColor": "73ACE2",
+      "screenshotURLs": [
+        "https://pokemmo.com/build/images/screenshot/c.f3968293.png",
+        "https://pokemmo.com/build/images/screenshot/b.3a233486.png",
+        "https://pokemmo.com/build/images/screenshot/d.4080dd9c.png",
+        "https://pokemmo.com/build/images/screenshot/e.ed0aa85b.png",
+        "https://pokemmo.com/build/images/screenshot/a.debf11f5.png"
+      ],
+      "versions": [
+        {
+          "version": "22920",
+          "date": "2023-06-10T18:49:07+00:00",
+          "downloadURL": "https://dl.pokemmo.com/PokeMMO-Client-PTS.ipa?r=22920",
+          "size": 92882405,
+          "sha256": "ee2cf81801025c336820c596da0abdade0ab518b6f130a282f3479b095529543"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "appID": "eu.pokemmo.client.pts"
     }
   ],
   "news": [
+    {
+      "title": "emuThreeDS is on AltStore!",
+      "identifier": "emuThreeDS-initial",
+      "caption": "Early Beta Nintendo 3DS emulation on iOS is here.",
+      "date": "2023-06-10",
+      "tintColor": "#090C0F",
+      "notify": false,
+      "appID": "com.antique.emuThreeDS"
+    },
     {
       "title": "Ignited Is Here!",
       "identifier": "ignited-initial-release",
