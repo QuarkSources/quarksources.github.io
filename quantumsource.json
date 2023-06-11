@@ -1643,6 +1643,13 @@
       ],
       "versions": [
         {
+          "version": "23662",
+          "date": "2023-06-10T18:49:07+00:00",
+          "downloadURL": "https://dl.pokemmo.com/PokeMMO-Client-PTS.ipa?r=22920",
+          "size": 92882405,
+          "sha256": "ee2cf81801025c336820c596da0abdade0ab518b6f130a282f3479b095529543"
+        },
+        {
           "version": "22920",
           "date": "2023-06-10T18:49:07+00:00",
           "downloadURL": "https://dl.pokemmo.com/PokeMMO-Client-PTS.ipa?r=22920",
