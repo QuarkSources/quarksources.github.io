@@ -203,7 +203,7 @@ alternateAppData = {
 src = altsource_from_file("quantumsource.json")
 quantumsrc = AltSourceManager(src, sourcesData)
 try:
-    quantumsrc.update()
+    #quantumsrc.update()
     quantumsrc.update_hashes()
     quantumsrc.alter_app_info(alternateAppData)
     quantumsrc.save()
@@ -302,8 +302,9 @@ sourcesData = [
     # },
     {
         "parser": Parser.ALTSOURCE,
-        "kwargs": {"filepath": "https://raw.githubusercontent.com/WuXu1/wuxuslibrary/main/wuxu-complete%2B%2B.json"},
-        "ids": ["com.spotify.client", "com.soundcloud.TouchApp","AlexisBarreyat.BeReal","com.zhiliaoapp.musically","com.errorerrorerror.animenow","jb.zini.tevi","com.toyopagroup.picaboo","com.microblink.PhotoMath"],
+        "kwargs": {"filepath": "https://raw.githubusercontent.com/WuXu1/WuXu1.github.io/main/wuxu-complete-plus.json"},
+        "ids": ["com.spotify.client","com.errorerrorerror.animenow","jb.zini.tevi"],
+        # "com.toyopagroup.picaboo","com.microblink.PhotoMath","com.wuxulibs.uyouplus","AlexisBarreyat.BeReal","com.soundcloud.TouchApp","com.zhiliaoapp.musically"
         "ignoreNews": True
     },
     {
@@ -314,7 +315,7 @@ sourcesData = [
     {
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "https://qnblackcat.github.io/AltStore/apps.json"},
-        "ids": ["com.burbn.instagram", "com.facebook.Facebook", "com.google.ios.youtube","com.reddit.Reddit"]
+        "ids": ["com.burbn.instagram", "com.facebook.Facebook","com.reddit.Reddit"]
     },
     {
         "parser": Parser.GITHUB,
@@ -328,50 +329,7 @@ sourcesData = [
     }
 ]
 alternateAppData = {
-    "com.google.ios.youtube": {
-        "permissions": [
-            {
-                "type": "camera",
-                "usageDescription": "This lets you create videos using the app."
-            },
-            {
-                "type": "photos",
-                "usageDescription": "This lets you upload videos you've already created."
-            },
-            {
-                "type": "bluetooth",
-                "usageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices."
-            },
-            {
-                "type": "contacts",
-                "usageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with."
-            },
-            {
-                "type": "network",
-                "usageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV."
-            },
-            {
-                "type": "music",
-                "usageDescription": "This lets you add your own audio files to your videos."
-            },
-            {
-                "type": "microphone",
-                "usageDescription": "This lets you include audio with your videos and search using your voice."
-            },
-            {
-                "type": "location",
-                "usageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads."
-            },
-            {
-                "type": "background-fetch",
-                "usageDescription": "YouTube can continue running while in the background."
-            },
-            {
-                "type": "background-audio",
-                "usageDescription": "YouTube can continue playing audio while in the background."
-            }
-        ]
-    }
+    "none"
 }
 
 src = altsource_from_file("quantumsource++.json")
@@ -379,7 +337,7 @@ quantumsrc_plus = AltSourceManager(src, sourcesData)
 try:
     quantumsrc_plus.update()
     quantumsrc_plus.update_hashes()
-    quantumsrc_plus.alter_app_info(alternateAppData)
+    #quantumsrc_plus.alter_app_info(alternateAppData)
     quantumsrc_plus.save()
     quantumsrc_plus.save(alternate_dir="dist/quantumsource++.min.json",prettify=False)
 except Exception as err:
