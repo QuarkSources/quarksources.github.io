@@ -203,7 +203,7 @@ alternateAppData = {
 src = altsource_from_file("quantumsource.json")
 quantumsrc = AltSourceManager(src, sourcesData)
 try:
-    #quantumsrc.update()
+    quantumsrc.update()
     quantumsrc.update_hashes()
     quantumsrc.alter_app_info(alternateAppData)
     quantumsrc.save()
