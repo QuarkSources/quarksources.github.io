@@ -478,15 +478,58 @@
       ],
       "versions": [
         {
-          "absoluteVersion": "1.0_18",
+          "absoluteVersion": "1.0.18",
           "version": "1.0",
-          "date": "2021-11-23T19:01:37Z",
+          "buildVersion": "18",
+          "date": "2021-11-23T19:01:20Z",
           "localizedDescription": "# IPA V1.0 Build 18\n\n1.0 (18):\r\n- Mail is here! This is a full-blown email client, no ifs, ands, or buts\r\n- View mailboxes, read emails, move emails, manage inbox, and send emails\r\n- Fixes to YouTube backend\r\n- Other bug fixes",
           "downloadURL": "https://github.com/zzanehip/The-OldOS-Project/releases/download/1.0_18/OldOS.ipa",
           "size": 88173533,
           "sha256": "60c65a79a5fda77cb6bb42280a379196ba0ed8be5d9c03dab1da8b76a97ddb18"
         }
-      ]
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "AppleMusic",
+            "usageDescription": "To view, play, and experience your music in OldOS, please enable access to your music library. "
+          },
+          {
+            "name": "Camera",
+            "usageDescription": "To take photos in OldOS, please enable access to your camera."
+          },
+          {
+            "name": "Contacts",
+            "usageDescription": "To view and manage your contacts in OldOS, please enable access to your contacts list."
+          },
+          {
+            "name": "LocationAlwaysAndWhenInUse",
+            "usageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app."
+          },
+          {
+            "name": "LocationAlways",
+            "usageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app."
+          },
+          {
+            "name": "LocationWhenInUse",
+            "usageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app."
+          },
+          {
+            "name": "Microphone",
+            "usageDescription": "To record your audio while filming a video in OldOS, please in enable microphone access."
+          },
+          {
+            "name": "PhotoLibraryAdd",
+            "usageDescription": "To view, manage, and add photos to your photo library in OldOS, please enable access. Then close and re-open the Photos app."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "To view, manage, and add photos to your photo library in OldOS, please enable access. Then close and re-open the Photos app."
+          }
+        ]
+      },
+      "appID": "com.zurac.OldOS"
     },
     {
       "name": "unc0ver",

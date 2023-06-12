@@ -146,7 +146,7 @@ sourcesData = [
     },
     {
         "parser": Parser.GITHUB,
-        "kwargs": {"repo_author": "zzanehip", "repo_name": "The-OldOS-Project"},
+        "kwargs": {"repo_author": "zzanehip", "repo_name": "The-OldOS-Project", "ver_parse": lambda x: x.lstrip("v").replace("_", ".")},
         "ids": ["com.zurac.OldOS"]
     },
     {
