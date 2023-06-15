@@ -30,6 +30,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.0.6.4",
+          "version": "1.0.6",
+          "buildVersion": "4",
+          "date": "2023-06-15T08:42:18Z",
+          "localizedDescription": "# Settings galore, Full controller support, Latest Vulkan and more!\n\nSee **[CHANGELOG.md](https://github.com/emuPlace/emuThreeDS/blob/main/resources/markdowns/CHANGELOG.md)** for more information.\r\n\r\nThis will be the last SwiftUI release as the project is moving back to Swift.",
+          "downloadURL": "https://github.com/emuPlace/emuThreeDS/releases/download/1.0.6.4/emuThreeDS_v1.0.6.4.ipa",
+          "size": 37520848,
+          "sha256": "e63fe50f820286b4124e9e758610c8e707f1d9b76f65301e9ffb1bfcda38566b"
+        },
+        {
           "absoluteVersion": "1.0.6.3",
           "version": "1.0.6",
           "buildVersion": "3",
