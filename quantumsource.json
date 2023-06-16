@@ -1395,6 +1395,14 @@
       ],
       "versions": [
         {
+          "version": "1.4.5",
+          "date": "2023-06-16T00:00:00-00:00",
+          "localizedDescription": "New Features\n\u2022Blurred game backgrounds for skins\n  \u2022Options to enable/disable, change blur strength, and adjust the brightness\n\u2022Option to change the N64 graphics rendering API between OpenGL ES 2 and OpenGL ES 3\n\nUpdates\n\u2022Adds support for skins with .ignitedskin extension to differentiate between legacy Delta skins and new Ignited skins\n\u2022Adds more mappable inputs for controllers\n\nBugfixes\n\u2022Fixes overlapping buttons when mapping controller inputs\n\u2022Fixes crashes on N64 when opening menu and saving state",
+          "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.4.5/Ignited.ipa",
+          "size": 50355653,
+          "sha256": "0535aebd58b6fd21a1bc242afbff2975676063499ad04141351e8b863cc0e0a2"
+        },
+        {
           "version": "1.4.4",
           "date": "2023-06-07T00:00:12-00:00",
           "localizedDescription": "New Features\n\u2022Adds several new alternate app icons and an interface to change between them\n\u2022Adds an option within every feature to reset all options to their default values, and a power user option to reset all options at once\n\u2022Adds an option to change the intensity of the favorite games highlight glow\n\nUpdates\n\u2022Makes the reset artwork feature work with the DS home screen icons\n\u2022Makes rewind deleting its states on rewinding or quitting the game a toggleable option\n  \u2022Allows the rewind feature to be used as a persistent secondary auto-save method\n\nBugfixes\n\u2022Fixes artwork size setting not applying until swiping to a new page",
@@ -1678,6 +1686,23 @@
           "size": 51971282
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "Ignited uses the local network to communicate with AltServer and enable JIT."
+          },
+          {
+            "name": "Microphone",
+            "usageDescription": "Ignited uses your microphone to emulate the Nintendo DS microphone."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "Press \"OK\" to allow Ignited to use images from your Photo Library as game artwork."
+          }
+        ]
+      },
       "appID": "com.litritt.ignited"
     },
     {
