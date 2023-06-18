@@ -1395,6 +1395,14 @@
       ],
       "versions": [
         {
+          "version": "1.4.6",
+          "date": "2023-06-17T00:00:00-04:00",
+          "localizedDescription": "New Features\n\u2022Background blur toggle now available in the pause menu\n\u2022Background blur options now available in the quick settings menu\n\nUpdates\n\u2022Adds support for skin representations with the backgroundBlur key\n\u2022Adds an option to override the backgroundBlur setting of a skin\n\u2022Disables background blur on GPGX core for the time being\n\u2022Reverts and updates pause menu icons\n\nBugfixes\n\u2022Fixes N64 screens going black when toggling background blur",
+          "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.4.6/Ignited.ipa",
+          "size": 50355653,
+          "sha256": "d29180170413dc538311a3fbf2702ca0021d52b2bf3bed1307facd3120aba5bd"
+        },
+        {
           "version": "1.4.5",
           "date": "2023-06-16T00:00:00-00:00",
           "localizedDescription": "New Features\n\u2022Blurred game backgrounds for skins\n  \u2022Options to enable/disable, change blur strength, and adjust the brightness\n\u2022Option to change the N64 graphics rendering API between OpenGL ES 2 and OpenGL ES 3\n\nUpdates\n\u2022Adds support for skins with .ignitedskin extension to differentiate between legacy Delta skins and new Ignited skins\n\u2022Adds more mappable inputs for controllers\n\nBugfixes\n\u2022Fixes overlapping buttons when mapping controller inputs\n\u2022Fixes crashes on N64 when opening menu and saving state",
