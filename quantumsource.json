@@ -1395,6 +1395,14 @@
       ],
       "versions": [
         {
+          "version": "1.4.7",
+          "date": "2023-06-18T00:00:00-04:00",
+          "localizedDescription": "New Features\n\u2022Classic skins have been added to the Skin Downloads section in settings for users who want to use the old Delta skins\n\nUpdates\n\u2022Updated NES default skin with new design\n\u2022Default skins with new design have been updated to utilize the new backgroundBlur key\n\u2022Allows skin preview images to be in either pdf or png format\n\u2022Updated logic for when the background blur pause menu button should show\n\nBugfixes\n\u2022Fixes an issue with the default GBA E2E landscape skin image",
+          "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.4.7/Ignited.ipa",
+          "size": 45506066,
+          "sha256": "13d3f8b46456a89a85b7e5bd74b465dc46ab94289fd5286412baf741dae46464"
+        },
+        {
           "version": "1.4.6",
           "date": "2023-06-17T00:00:00-04:00",
           "localizedDescription": "New Features\n\u2022Background blur toggle now available in the pause menu\n\u2022Background blur options now available in the quick settings menu\n\nUpdates\n\u2022Adds support for skin representations with the backgroundBlur key\n\u2022Adds an option to override the backgroundBlur setting of a skin\n\u2022Disables background blur on GPGX core for the time being\n\u2022Reverts and updates pause menu icons\n\nBugfixes\n\u2022Fixes N64 screens going black when toggling background blur",
