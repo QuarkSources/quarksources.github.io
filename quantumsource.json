@@ -1395,6 +1395,14 @@
       ],
       "versions": [
         {
+          "version": "1.4.8",
+          "date": "2023-06-25T00:00:00-04:00",
+          "localizedDescription": "New Features\n\u2022Rotation Lock\n\u2022  Adds a pause menu button to lock device rotation during gameplay\n\u2022Adds an option to play a 3 second countdown between initiating and capturing a game screenshot\n\nUpdates\n\u2022Default skins with blurred backgrounds have been adjusted to look seamless on all device sizes\n\u2022New icon for hold buttons pause menu button\n\u2022Speed up importing compressed games in ZIP format by skipping checksum verification\n\nBugfixes\n\u2022Fixes game screenshots being saved to Photos as JPEG instead of PNG",
+          "downloadURL": "https://github.com/Lit-Development/Ignited/releases/download/v1.4.8/Ignited.ipa",
+          "size": 45506066,
+          "sha256": "aa60fdf16779f8c301c1dcf4d506266e72884a376525bed8d1e2e9e8194a82e3"
+        },
+        {
           "version": "1.4.7",
           "date": "2023-06-18T00:00:00-04:00",
           "localizedDescription": "New Features\n\u2022Classic skins have been added to the Skin Downloads section in settings for users who want to use the old Delta skins\n\nUpdates\n\u2022Updated NES default skin with new design\n\u2022Default skins with new design have been updated to utilize the new backgroundBlur key\n\u2022Allows skin preview images to be in either pdf or png format\n\u2022Updated logic for when the background blur pause menu button should show\n\nBugfixes\n\u2022Fixes an issue with the default GBA E2E landscape skin image",
