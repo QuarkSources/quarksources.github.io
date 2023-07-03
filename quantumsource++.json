@@ -704,6 +704,14 @@
       ],
       "versions": [
         {
+          "version": "288.1",
+          "date": "2023-07-03T12:00:00-01:00",
+          "localizedDescription": "Changelog v280.0-3.8.9:\n- https://apt.alfhaily.me/depiction/4EYOXC",
+          "downloadURL": "https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/EQv6sckLCvlGnfMH24EzBpsB0SIt-cMlQrxXYjO8U_H5IA?download=1",
+          "size": 91750400,
+          "sha256": "3752b30fa6bbe520bf7d04a79f0bf36dc64536629e7854125f23ca9b9ed7874e"
+        },
+        {
           "version": "280.0",
           "date": "2023-04-28T12:00:00-01:00",
           "localizedDescription": "Changelog v280.0-3.8.5:\n- https://apt.alfhaily.me/depiction/4EYOXC",
@@ -734,6 +742,55 @@
           "size": 91750400
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "Calendars",
+            "usageDescription": "This will let Instagram sync events to your calendar."
+          },
+          {
+            "name": "Camera",
+            "usageDescription": "Instagram uses your device's camera to do things like help you take photos, record videos and use effects."
+          },
+          {
+            "name": "Contacts",
+            "usageDescription": "Instagram will use your contacts to help you connect with the people and things you care about and offer a better service. Your contacts will be synced and securely stored on Instagram's servers."
+          },
+          {
+            "name": "FaceID",
+            "usageDescription": "Enable Face ID for quick and secure authentication on Instagram."
+          },
+          {
+            "name": "FocusStatus",
+            "usageDescription": "This allows Instagram to check to see if you\u2019ve been missing notifications from friends. You can always change this later in settings."
+          },
+          {
+            "name": "Location",
+            "usageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings."
+          },
+          {
+            "name": "LocationWhenInUse",
+            "usageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings."
+          },
+          {
+            "name": "Microphone",
+            "usageDescription": "Instagram uses your device's microphone to do things like help you record videos and preview audio effects."
+          },
+          {
+            "name": "PhotoLibraryAdd",
+            "usageDescription": "This lets you save photos and videos to your Camera Roll."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "Instagram uses access to your camera roll to do things like help you share photos and videos to Instagram, apply effects and suggest photos and videos to share."
+          },
+          {
+            "name": "UserTracking",
+            "usageDescription": "This allows Instagram to provide you with a better ads experience."
+          }
+        ]
+      },
       "beta": false,
       "appID": "com.burbn.instagram"
     },
