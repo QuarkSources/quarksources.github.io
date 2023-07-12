@@ -120,7 +120,7 @@
     },
     {
       "name": "Streamer",
-      "bundleIdentifier": "com.streamer.tvos",
+      "bundleIdentifier": "com.streamer.ios",
       "developerName": "StreamerApp",
       "subtitle": "App for Streaming Movies and TV shows",
       "localizedDescription": "App for Streaming Movies and TV shows on iOS and tvOS.\n\n- Stream all TV shows and Movies from multiple websites without any annoying ads\n- Supports Chromecast to stream to FireTV and Chromecasts\n- Supports multi-language subtitles for iOS and tvOS\n- Favorite functionality to quickly access your favorite shows and movies\n",
@@ -133,6 +133,16 @@
         "https://user-images.githubusercontent.com/96978272/191682345-f882e099-3ba3-4851-b5db-b9709bc64abe.png"
       ],
       "versions": [
+        {
+          "absoluteVersion": "1.2.19",
+          "version": "1.2.19",
+          "buildVersion": "142",
+          "date": "2023-07-12T10:12:46Z",
+          "localizedDescription": "# v1.2.19 Release\n\n- Add new Providers \ud83c\uddfa\ud83c\uddf8 putlocker.vip, \ud83c\uddf8\ud83c\udde6faselhd.vip, \u2f9e kaido.to\r\n- Bug fixes and improvements for CimaNow, Arabseed and Akwam\r\n- Fixes a crash in the player\r\n\r\nDon\u2019t like ads? Consider donating to Streamer through https://buymeacoffee.com/streamerapp. Upon donation, we will email you a code to disable ads in the app. \ud83c\udf89\r\n\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs.",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.19/Streamer-iOS.ipa",
+          "size": 13561527,
+          "sha256": "8a9b6c1b0e28ad14051d04ac68003ee9ad52b849fbd5dade3471fd5325460e35"
+        },
         {
           "absoluteVersion": "1.2.18",
           "version": "1.2.18",
@@ -164,7 +174,32 @@
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": []
+        "privacy": [
+          {
+            "name": "BluetoothAlways",
+            "usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your WiFi network."
+          },
+          {
+            "name": "Camera",
+            "usageDescription": "Some ad content may access camera to take picture."
+          },
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your WiFi\n    network."
+          },
+          {
+            "name": "Motion",
+            "usageDescription": "Some ad content may require access to accelerometer for interactive ad experience."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "Some ad content may require access to the photo library."
+          },
+          {
+            "name": "UserTracking",
+            "usageDescription": "App would like to access IDFA for tracking purpose"
+          }
+        ]
       },
       "appID": "com.streamer.ios"
     },
