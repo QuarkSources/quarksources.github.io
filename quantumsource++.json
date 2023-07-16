@@ -134,6 +134,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.2.20",
+          "version": "1.2.20",
+          "buildVersion": "146",
+          "date": "2023-07-16T14:05:37Z",
+          "localizedDescription": "# v1.2.20 Release\n\n- Fixes Arabseed and CimaNow loading issues for some users \r\n- General bug fixes and improvements \r\n\r\nDon\u2019t like ads? Consider donating to Streamer through https://buymeacoffee.com/streamerapp. Upon donation, we will email you a code to disable ads in the app. \ud83c\udf89\r\n",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.20/Streamer-iOS.ipa",
+          "size": 13412959,
+          "sha256": "06b43931549bdb535b8e9acb2774a43c0067d94e8d7d9cf1294656ec06ce1c83"
+        },
+        {
           "absoluteVersion": "1.2.19",
           "version": "1.2.19",
           "buildVersion": "142",
