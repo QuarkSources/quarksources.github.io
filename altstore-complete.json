@@ -237,6 +237,15 @@
       ],
       "versions": [
         {
+          "version": "1.5b3",
+          "date": "2023-07-18T12:30:00-05:00",
+          "localizedDescription": "IMPROVED\n\nDelta Sync\n\u2022 Automatically resolves cheat + controller skin sync conflicts\n\u2022 Syncs game save hash between devices to prevent redundant uploads\n\u2022 Displays activity indicator when signing in\n\u2022 Delays seeding sync database until initial sync\n\u2022 Uses local modification date when uploading changes\n\u2022 Signs out from previous service when switching services\n\u2022 Improved error message when remote storage is out of free space (Dropbox only)\n\nSettings\n\u2022 Revised UI to use modern \"inset grouped\" style\n\u2022 Uses large titles where appropriate\n\nMisc.\n\u2022 Replaces `UIDocumentBrowserViewController` with `UIDocumentPickerViewController` on iOS 17+\n\u2022 Skips checksum verification when importing zipped games\n\nFIXED\n\nDelta Sync\n\u2022 Fixed incorrect mass conflicts when signing out then back in\n\u2022 Fixed \u201cHarmony.sqlite couldn\u2019t be opened\u201d sync error when there are more than 1000 games\n\u2022 Fixed \u201cfile does not exist\u201d sync error after restoring previous version\n\u2022 Fixed Delta Sync switch remaining OFF if users cancels \"Disable Syncing?\" warning alert\n\u2022 Fixed missing references to remote files when signing out then back in\n\u2022 Fixed queued syncs sometimes fetching outdated changes\n\u2022 Fixed accidentally using wrong account when signed-in to multiple services\n\niPad\n\u2022 Fixed crash when resolving Delta Sync merge conflicts\n\u2022 Fixed crash when disabling Delta Sync or switching services\n\nExperimental Features\n\u2022 Fixed saving screenshots to Photos with .limited authorization\n\u2022 Fixed saving screenshots to Photos as JPEGs\n\nMisc.\n\u2022 Fixed accidentally deleting Games directory during sync in rare circumstances\n\u2022 Fixed crash loading save states on iOS 17\n\u2022 Fixed displaying system name in dark text when remapping inputs on iOS 17",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_5_b3.ipa",
+          "size": 46221055,
+          "sha256": "7e809c5d3193f7e85232dcc649d72c24496d78e42111b070fe413d3437578e12",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.5b2",
           "date": "2023-05-03T14:00:00-05:00",
           "localizedDescription": "NEW\n\nAirPlay Support \n\u2022 Stream your games to the big screen with AirPlay\n\u2022 [DS] Optionally AirPlay just top screen for true multi-screen experience\n\nExperimental Features\n\u2022 New section in Settings for features by third-party contributors\n\u2022 Features are WIP and should be used at user\u2019s discretion\n\nInitial Experimental Features\n\u2022 Show Status Bar: View time/WiFi/battery while playing a game (@LitRitt)\n\u2022 Game Screenshots: Take screenshots from pause menu (@LitRitt)\n\u2022 In-Game Notifications: Show pop-up alerts when performing certain actions (@LitRitt)\n\u2022 AirPlay Skins: Customize appearance of games on TV when AirPlaying\n\u2022 Variable Fast Forward: Change the Fast Forward speed per-system\n\nFIXED\n\u2022 Fixed translucent controller skins resetting opacity after rotating device\n\u2022 Fixed incorrect thumbstick size after rotating device",
@@ -290,6 +299,23 @@
           "size": 42968657
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "Delta uses the local network to communicate with AltServer and enable JIT."
+          },
+          {
+            "name": "Microphone",
+            "usageDescription": "Delta uses your microphone to emulate the Nintendo DS microphone."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "Press \"OK\" to allow Delta to use images from your Photo Library as game artwork."
+          }
+        ]
+      },
       "beta": false,
       "appID": "com.rileytestut.Delta.Beta"
     },
