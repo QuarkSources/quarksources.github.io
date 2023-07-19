@@ -1395,6 +1395,14 @@
       ],
       "versions": [
         {
+          "version": "1.5.2",
+          "date": "2023-07-19T00:00:00-04:00",
+          "localizedDescription": "Updates\n\u2022 Adds new Classic icon by Kongolabongo\n\u2022 Changes deep link scheme from delta:// to ignited://\n\nBugfixes\n\u2022 Fixes a crash when remapping controller inputs\n\u2022 Fixes deep links not loading auto save states in some scenarios\n\u2022 Fixes wrong description for controller deadzone option",
+          "downloadURL": "https://f005.backblazeb2.com/file/lit-apps/ignited/1.5.2/Ignited.ipa",
+          "size": 45506066,
+          "sha256": "a000e7619e5ac9a2448e37ffee9833c0cae25346face692eaa1185da9bad07fb"
+        },
+        {
           "version": "1.5.1",
           "date": "2023-07-16T00:00:00-04:00",
           "localizedDescription": "Updates\n\u2022 Different button overlay styles to choose from\n\u2022 Updated button sounds to play through the audio engine instead of as system sounds\n\u2022 Button sounds can be played at either their own volume, or the same volume of game audio\n\nBugfixes\n\u2022 Fixes launching a game via deep link not respecting the auto load save state setting",
