@@ -798,6 +798,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "builds/494",
+          "version": "1.3.2",
+          "buildVersion": "494",
+          "date": "2023-05-20T23:52:43Z",
+          "localizedDescription": "# iSH 1.3.2 (build 494)\n\nFixed bugs:\r\n- Make better diagnostics work in the file provider too, to diagnose Files app issues",
+          "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/494/iSH.ipa",
+          "size": 4232682,
+          "sha256": "74b22a209340c5dc6e94975d8c07e4814ae2299dfe0b62cfa22640090d80f36c"
+        },
+        {
           "absoluteVersion": "builds/482",
           "version": "1.3",
           "date": "2023-04-23T04:46:13Z",
@@ -814,6 +824,27 @@
           "size": 4183190
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "LocationAlwaysAndWhenInUse",
+            "usageDescription": "Programs running in iSH will be allowed to track your location in the background."
+          },
+          {
+            "name": "LocationWhenInUse",
+            "usageDescription": "Programs running in iSH will be allowed to see your location."
+          },
+          {
+            "name": "LocationAlways",
+            "usageDescription": "Programs running in iSH will be allowed to track your location in the background."
+          },
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "This is required for connecting to localhost and using the ping command."
+          }
+        ]
+      },
       "appID": "app.ish.iSH"
     },
     {
