@@ -30,6 +30,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.0.6.5.6",
+          "version": "1.0.6.5",
+          "buildVersion": "6",
+          "date": "2023-07-31T11:16:28Z",
+          "localizedDescription": "# v1.0.6.5 (6) is now out!\n\nSee **[CHANGELOG.md](https://github.com/emuplace/emuthreeds/blob/main/resources/markdowns/CHANGELOG.md)** for more information.",
+          "downloadURL": "https://github.com/emuPlace/emuThreeDS/releases/download/1.0.6.5.6/emuThreeDS.v1.0.6.5.6.ipa",
+          "size": 35642893,
+          "sha256": "f1b0d1df9ca3ce907869aa9d18d109e1c2bceb283971f23bf42de3ecd59e28c9"
+        },
+        {
           "absoluteVersion": "1.0.6.4",
           "version": "1.0.6",
           "buildVersion": "4",
