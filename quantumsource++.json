@@ -134,6 +134,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.2.22",
+          "version": "1.2.22",
+          "buildVersion": "156",
+          "date": "2023-08-02T19:43:14Z",
+          "localizedDescription": "# v1.2.22 Release \n\n- VLC player integration: You can now enjoy compatible streams in VLC, which offers better performance for HDR and original quality content.\r\n- Various UI improvements for iOS and tvOS devices.\r\n- Fixed an issue with fetching translations from OpenSubtitles for some languages, such as Portuguese.\r\n- Fixed an issue with loading some content from Flixtor.\r\n<details>\r\n\r\n<summary>Screenshots</summary>\r\n\r\n![VLC](https://github.com/StreamerApp/Streamer/assets/96978272/3f563ebb-26fc-4fd7-bfe9-ef4537e2ef7f)\r\n\r\n</details>\r\n\r\n **Streamer Pro**: Enjoy MovieBoxPro movies and tv shows with Streamer Pro, which offers fast streaming servers and 4K video quality and disabling ads for iOS devices.\r\n",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.22/Streamer-iOS.ipa",
+          "size": 13518483,
+          "sha256": "df57989c9c0dda6e93cf254abdeabc7398a09f0e2093633a3d2778cd52442471"
+        },
+        {
           "absoluteVersion": "1.2.21",
           "version": "1.2.21",
           "buildVersion": "149",
