@@ -120,7 +120,7 @@
     },
     {
       "name": "Streamer",
-      "bundleIdentifier": "com.streamer.ios",
+      "bundleIdentifier": "com.streamer.tvos",
       "developerName": "StreamerApp",
       "subtitle": "App for Streaming Movies and TV shows",
       "localizedDescription": "App for Streaming Movies and TV shows on iOS and tvOS.\n\n- Stream all TV shows and Movies from multiple websites without any annoying ads\n- Supports Chromecast to stream to FireTV and Chromecasts\n- Supports multi-language subtitles for iOS and tvOS\n- Favorite functionality to quickly access your favorite shows and movies\n",
@@ -133,6 +133,16 @@
         "https://user-images.githubusercontent.com/96978272/191682345-f882e099-3ba3-4851-b5db-b9709bc64abe.png"
       ],
       "versions": [
+        {
+          "absoluteVersion": "1.2.23",
+          "version": "1.2.23",
+          "buildVersion": "20",
+          "date": "2023-08-11T20:54:44Z",
+          "localizedDescription": "# v1.2.23 Release\n\n- **Streamer Player**: Enjoy high-quality content playback within the app. Choose your preferred player from the settings screen\r\n- **Autoplay**: Customize your preferred quality for all streams in the settings screen and Streamer will automatically select it for all movies and TV shows\r\n- **Top shelf support for AppleTV**: You can now see your home screen for your favorite provider without opening the app\r\n- **Force OpenSubtitles**: Enable Streamer to always request subtitles from Open Subtitles in the subtitles settings screen\r\n- **Remove item from \u201cContinue watching\" section**: Long press any item in the \u201cContinue watching\u201d section to remove it from the list\r\n- Numerous UI fixes and improvements throughout the app\r\n- Fixed Flixtor links loading issue\r\n\r\n\ud83d\ude80 **Streamer Pro: Enjoy MovieBoxPro movies and tv shows with Streamer Pro, which offers fast streaming servers and 4K video quality and disabling ads for iOS devices.**\r\n\r\n\r\n<details>\r\n\r\n<summary>Screenshots</summary>\r\n\r\n![IMG_0054](https://github.com/StreamerApp/Streamer/assets/96978272/28ea3ee1-a2be-4dc3-a41c-a1c0b1d7638a)\r\n\r\n![IMG_0056](https://github.com/StreamerApp/Streamer/assets/96978272/4cef6a88-e682-4b87-ac6e-42eb3ec0fabf)\r\n\r\n![IMG_0055](https://github.com/StreamerApp/Streamer/assets/96978272/1cb50e43-36c6-4790-8ef7-f9cddc38e2b7)\r\n\r\n![Simulator Screenshot - Apple TV 4K (3rd generation) - 2023-08-11 at 22 33 17](https://github.com/StreamerApp/Streamer/assets/96978272/8a52c03c-e470-471b-8967-1fc12d68a5d0)\r\n![Simulator Screenshot - Apple TV 4K (3rd generation) - 2023-08-11 at 22 33 10](https://github.com/StreamerApp/Streamer/assets/96978272/739b1d7c-dba0-4b6e-8cd6-258af00c7ed2)\r\n![Simulator Screenshot - Apple TV 4K (3rd generation) - 2023-08-11 at 22 33 01](https://github.com/StreamerApp/Streamer/assets/96978272/22e153c6-6256-4e95-a1fc-15bc048bcfcf)\r\n\r\n\r\n</details>\r\n\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs.",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.23/Streamer-tvOS.ipa",
+          "size": 15961764,
+          "sha256": "f054b5c9b7a56e8f98a62088b4e2b2f0fdb551abf48322257517ee9d326a17da"
+        },
         {
           "absoluteVersion": "1.2.22",
           "version": "1.2.22",
@@ -204,32 +214,7 @@
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": [
-          {
-            "name": "BluetoothAlways",
-            "usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your WiFi network."
-          },
-          {
-            "name": "Camera",
-            "usageDescription": "Some ad content may access camera to take picture."
-          },
-          {
-            "name": "LocalNetwork",
-            "usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your WiFi\n    network."
-          },
-          {
-            "name": "Motion",
-            "usageDescription": "Some ad content may require access to accelerometer for interactive ad experience."
-          },
-          {
-            "name": "PhotoLibrary",
-            "usageDescription": "Some ad content may require access to the photo library."
-          },
-          {
-            "name": "UserTracking",
-            "usageDescription": "App would like to access IDFA for tracking purpose"
-          }
-        ]
+        "privacy": []
       },
       "appID": "com.streamer.ios"
     },
