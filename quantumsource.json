@@ -1349,6 +1349,13 @@
       ],
       "versions": [
         {
+          "version": "24351",
+          "date": "2023-08-12T03:26:25+00:00",
+          "downloadURL": "https://dl.pokemmo.com/PokeMMO-Client.ipa?r=24351",
+          "size": 93820425,
+          "sha256": "c49ecc016cdfac606b5a105f37d1c5e24b0dcf89e3c1f707de10548431dc43fb"
+        },
+        {
           "version": "22920",
           "date": "2023-05-18T11:53:56+00:00",
           "downloadURL": "https://dl.pokemmo.com/download/PokeMMO-Client.ipa?hash=46f423b6",
@@ -1495,6 +1502,10 @@
           "size": 76575373
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
       "beta": false,
       "appID": "eu.pokemmo.client"
     },
