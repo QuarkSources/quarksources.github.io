@@ -237,6 +237,15 @@
       ],
       "versions": [
         {
+          "version": "1.5b4",
+          "date": "2023-08-12T15:30:00-05:00",
+          "localizedDescription": "\u26a0\ufe0f This beta fixes a critical bug that could cause corrupted save files and save states to be uploaded to Google Drive/Dropbox.\n\nPlease update ASAP to ensure you don't lose any data. You can read more about this bug fix in today's Patreon post.",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_5_b4.ipa",
+          "size": 48565606,
+          "sha256": "ca271c488da8399f977d6d5b5051a92d01431374ca545fb952e9b62256629d58",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.5b3",
           "date": "2023-07-18T12:30:00-05:00",
           "localizedDescription": "IMPROVED\n\nDelta Sync\n\u2022 Automatically resolves cheat + controller skin sync conflicts\n\u2022 Syncs game save hash between devices to prevent redundant uploads\n\u2022 Displays activity indicator when signing in\n\u2022 Delays seeding sync database until initial sync\n\u2022 Uses local modification date when uploading changes\n\u2022 Signs out from previous service when switching services\n\u2022 Improved error message when remote storage is out of free space (Dropbox only)\n\nSettings\n\u2022 Revised UI to use modern \"inset grouped\" style\n\u2022 Uses large titles where appropriate\n\nMisc.\n\u2022 Replaces `UIDocumentBrowserViewController` with `UIDocumentPickerViewController` on iOS 17+\n\u2022 Skips checksum verification when importing zipped games\n\nFIXED\n\nDelta Sync\n\u2022 Fixed incorrect mass conflicts when signing out then back in\n\u2022 Fixed \u201cHarmony.sqlite couldn\u2019t be opened\u201d sync error when there are more than 1000 games\n\u2022 Fixed \u201cfile does not exist\u201d sync error after restoring previous version\n\u2022 Fixed Delta Sync switch remaining OFF if users cancels \"Disable Syncing?\" warning alert\n\u2022 Fixed missing references to remote files when signing out then back in\n\u2022 Fixed queued syncs sometimes fetching outdated changes\n\u2022 Fixed accidentally using wrong account when signed-in to multiple services\n\niPad\n\u2022 Fixed crash when resolving Delta Sync merge conflicts\n\u2022 Fixed crash when disabling Delta Sync or switching services\n\nExperimental Features\n\u2022 Fixed saving screenshots to Photos with .limited authorization\n\u2022 Fixed saving screenshots to Photos as JPEGs\n\nMisc.\n\u2022 Fixed accidentally deleting Games directory during sync in rare circumstances\n\u2022 Fixed crash loading save states on iOS 17\n\u2022 Fixed displaying system name in dark text when remapping inputs on iOS 17",
