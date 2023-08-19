@@ -120,7 +120,7 @@
     },
     {
       "name": "Streamer",
-      "bundleIdentifier": "com.streamer.tvos",
+      "bundleIdentifier": "com.streamer.ios",
       "developerName": "StreamerApp",
       "subtitle": "App for Streaming Movies and TV shows",
       "localizedDescription": "App for Streaming Movies and TV shows on iOS and tvOS.\n\n- Stream all TV shows and Movies from multiple websites without any annoying ads\n- Supports Chromecast to stream to FireTV and Chromecasts\n- Supports multi-language subtitles for iOS and tvOS\n- Favorite functionality to quickly access your favorite shows and movies\n",
@@ -133,6 +133,16 @@
         "https://user-images.githubusercontent.com/96978272/191682345-f882e099-3ba3-4851-b5db-b9709bc64abe.png"
       ],
       "versions": [
+        {
+          "absoluteVersion": "1.2.24",
+          "version": "1.2.24",
+          "buildVersion": "180",
+          "date": "2023-08-19T10:33:00Z",
+          "localizedDescription": "# V 1.2.24 Release\n\nThis release focuses on resolving various bugs that affected the user experience. The following issues have been fixed:\r\n- **Streamer Pro key deletion**: The Streamer Pro key would sometimes get deleted without warning, causing the loss of premium features. This issue has been resolved and the key is now securely stored.\r\n- **Downloads failure**: Downloads would not work if the user signed in with a personal free dev account. This issue has been resolved and downloads are now available for all users.\r\n- **Casting update**: Casting would not update the \u201cContinue watching\u201d section, making it difficult to resume watching later. This issue has been resolved and the section is now updated accordingly.\r\n- **Casting links**: When casting a movie or a TV show, the links list would not appear, preventing the user from choosing the best quality or source. This issue has been resolved and the links list is now visible.\r\n- **Subtitles persistence**: Subtitles would still show even when the user disabled them in the settings screen. This issue has been resolved and subtitles are now turned off as expected.\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs.",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.24/Streamer-iOS.ipa",
+          "size": 19421086,
+          "sha256": "940e49103092e7997ac5a89fe7bcd9c709a82a457888ac02545b27fbf9784c6f"
+        },
         {
           "absoluteVersion": "1.2.23",
           "version": "1.2.23",
@@ -214,7 +224,32 @@
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": []
+        "privacy": [
+          {
+            "name": "BluetoothAlways",
+            "usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your WiFi network."
+          },
+          {
+            "name": "Camera",
+            "usageDescription": "Some ad content may access camera to take picture."
+          },
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your WiFi\n    network."
+          },
+          {
+            "name": "Motion",
+            "usageDescription": "Some ad content may require access to accelerometer for interactive ad experience."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "Some ad content may require access to the photo library."
+          },
+          {
+            "name": "UserTracking",
+            "usageDescription": "App would like to access IDFA for tracking purpose"
+          }
+        ]
       },
       "appID": "com.streamer.ios"
     },
