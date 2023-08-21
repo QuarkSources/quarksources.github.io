@@ -1558,6 +1558,14 @@
       ],
       "versions": [
         {
+          "version": "1.5.3",
+          "date": "2023-08-20T00:00:00-04:00",
+          "localizedDescription": "New Features\n\u2022 Added Random Game button to load a random game from your collection\n\nUpdates\n\u2022 Improved preset theme color selection screen\n\u2022 Updated DS default skin to new style\n\u2022 Updated SNES default skin to new style",
+          "downloadURL": "https://f005.backblazeb2.com/file/lit-apps/ignited/1.5.3/Ignited.ipa",
+          "size": 45506066,
+          "sha256": "c1e9575cb8e9e400a29fbae5f6716cfe156fd61521caf725269851d7f66e13dd"
+        },
+        {
           "version": "1.5.2",
           "date": "2023-07-19T00:00:00-04:00",
           "localizedDescription": "Updates\n\u2022 Adds new Classic icon by Kongolabongo\n\u2022 Changes deep link scheme from delta:// to ignited://\n\nBugfixes\n\u2022 Fixes a crash when remapping controller inputs\n\u2022 Fixes deep links not loading auto save states in some scenarios\n\u2022 Fixes wrong description for controller deadzone option",
