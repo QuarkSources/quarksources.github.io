@@ -935,6 +935,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.1.6",
+          "version": "1.1.6",
+          "buildVersion": "1",
+          "date": "2023-08-24T09:47:24Z",
+          "localizedDescription": "# Release 1.1.6\n\nUpdate to latest appdb API version, fix bugs, replace old PLUS options",
+          "downloadURL": "https://github.com/n3d1117/appdb/releases/download/v1.1.6/appdb-v1.1.6-stev3fvcks.ipa",
+          "size": 23229778,
+          "sha256": "5d6b7924520e51f8f39ae5d2aaff44d6c940126c81463a23f7b751922be6d0fc"
+        },
+        {
           "absoluteVersion": "1.1.5",
           "version": "1.1.5",
           "date": "2023-04-06T07:51:43Z",
@@ -960,6 +970,10 @@
           "size": 25756822
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
       "appID": "it.ned.appdb-ios"
     },
     {
