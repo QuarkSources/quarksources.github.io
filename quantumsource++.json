@@ -1173,6 +1173,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "2.7.2",
+          "version": "2.7.2",
+          "buildVersion": "148",
+          "date": "2023-09-08T05:20:23Z",
+          "localizedDescription": "# Bugfixes\n\n1. fix: A parsing error occurring when attempting to access the gallery detail page.\r\n\u30ae\u30e3\u30e9\u30ea\u30fc\u8a73\u7d30\u753b\u9762\u306b\u30a2\u30af\u30bb\u30b9\u3057\u3088\u3046\u3068\u3057\u305f\u969b\u306b\u767a\u751f\u3057\u305f\u89e3\u6790\u30a8\u30e9\u30fc\u3092\u4fee\u6b63\u3002\r\n\u4fee\u6b63\u4e86\u5728\u5617\u8a66\u5b58\u53d6\u756b\u5eca\u8a73\u7d30\u9801\u9762\u6642\u51fa\u73fe\u7684\u89e3\u6790\u932f\u8aa4\u3002\r\n\r\n2. fix: Page range filter mistakenly requires both minimum and maximum values, rather than either.\r\n\u30da\u30fc\u30b8\u7bc4\u56f2\u306e\u4e0a\u4e0b\u9650\u3092\u540c\u6642\u306b\u6307\u5b9a\u3057\u306a\u3044\u3068\u305d\u306e\u30d5\u30a3\u30eb\u30bf\u30fc\u304c\u4e88\u671f\u901a\u308a\u306b\u52d5\u4f5c\u3057\u306a\u3044\u4e0d\u5177\u5408\u3092\u4fee\u6b63\u3002\r\n\u4fee\u6b63\u4e86\u9801\u6578\u7be9\u9078\u5668\u50c5\u5728\u540c\u6642\u6307\u5b9a\u4e86\u9801\u6578\u7684\u4e0a\u4e0b\u9650\u6642\u624d\u6b63\u5e38\u904b\u4f5c\u7684\u554f\u984c\u3002",
+          "downloadURL": "https://github.com/EhPanda-Team/EhPanda/releases/download/v2.7.2/EhPanda.ipa",
+          "size": 6725554,
+          "sha256": "2b0b589e8676d4fb903562d20cb4dd7e067374b3cce3e1fd0135d5c740d80aaa"
+        },
+        {
           "absoluteVersion": "2.7.1",
           "version": "2.7.1",
           "buildVersion": "147",
