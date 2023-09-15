@@ -200,6 +200,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.3.2",
+          "version": "1.3.2",
+          "buildVersion": "2023-09-14-09d9099",
+          "date": "2023-09-14T14:32:26Z",
+          "localizedDescription": "# VCMI 1.3.2\n\nWarning: saved games from 1.2 release are not supported\r\n\r\n### Player Changelog: [1.3.1 -> 1.3.2](https://github.com/vcmi/vcmi/blob/master/ChangeLog.md#131---132)\r\n\r\n### Full Changelog: https://github.com/vcmi/vcmi/compare/1.3.1...1.3.2\r\n\r\n<!-- ### Android release will be available on Google Play shortly -->\r\n<!-- ### Ubuntu release will be available on VCMI PPA shortly -->\r\n### Android release is available on [Google Play](https://play.google.com/store/apps/details?id=is.xyz.vcmi)\r\n### Ubuntu release is available on [VCMI PPA](https://launchpad.net/~vcmi/+archive/ubuntu/ppa)",
+          "downloadURL": "https://github.com/vcmi/vcmi/releases/download/1.3.2/VCMI-1.3.2-iOS.ipa",
+          "size": 27910340,
+          "sha256": "0966c7ad34a53d72e4b393bf18e2db48717a7cb5f9f49c25e60295b00de4d442"
+        },
+        {
           "absoluteVersion": "1.3.1",
           "version": "1.3.1",
           "buildVersion": "2023-08-17-daa8a49",
