@@ -1174,6 +1174,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.1.7",
+          "version": "1.1.7",
+          "buildVersion": "1",
+          "date": "2023-09-18T15:46:21Z",
+          "localizedDescription": "# 1.1.7\n\nThe long awaited release of Taurine for iOS 14.8.1 is here, now you can jailbreak all of your devices from 14.0 up to 14.8.1!\r\nThis update includes a patch to allow Old ABI tweaks to work on iOS 14.5 (and its enabled by default) so everything should just work!\r\n![](https://cdn-images-1.medium.com/max/499/1*67VnoVW3Oh3DZpRJoEIPPQ.png)\r\n**Important: If you are on iOS 14.5 or above you must use Libhooker New ABI**",
+          "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7/Taurine_1.1.7.ipa",
+          "size": 32244677,
+          "sha256": "3fb291ea6f1175726ae213fe44febb9d95b1524659cd754cbde897ab5b94faf8"
+        },
+        {
           "absoluteVersion": "1.1.6",
           "version": "1.1.6",
           "date": "2022-07-17T12:33:15Z",
@@ -1184,7 +1194,12 @@
           "minOSVersion": "14.0",
           "maxOSVersion": "14.3"
         }
-      ]
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "appID": "org.coolstar.taurine"
     },
     {
       "name": "UTM SE",
