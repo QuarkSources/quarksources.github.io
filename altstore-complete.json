@@ -233,6 +233,14 @@
       ],
       "versions": [
         {
+          "version": "1.4.2",
+          "date": "2023-09-19T12:30:00-05:00",
+          "localizedDescription": "\u2022 Fixed crash when loading save states on iOS 17\n\u2022 Fixed displaying system name in dark text when remapping inputs on iOS 17",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_4_2.ipa",
+          "size": 46319655,
+          "sha256": "60b8761b9275bd2490ee4fef524865edbabd4b6fbc0d52057c42f4f758ddfc01"
+        },
+        {
           "version": "1.4.1",
           "date": "2023-05-10T12:00:00-05:00",
           "localizedDescription": "\u2022 Fixed translucent controller skins resetting opacity after rotating device\n\u2022 Fixed incorrect thumbstick size after rotating device",
@@ -263,6 +271,23 @@
           "size": 19739373
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "Delta uses the local network to communicate with AltServer and enable JIT."
+          },
+          {
+            "name": "Microphone",
+            "usageDescription": "Delta uses your microphone to emulate the Nintendo DS microphone."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "Press \"OK\" to allow Delta to use images from your Photo Library as game artwork."
+          }
+        ]
+      },
       "appID": "com.rileytestut.Delta"
     },
     {
