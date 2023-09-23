@@ -1174,6 +1174,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.1.7-3",
+          "version": "1.1.7-3",
+          "buildVersion": "1",
+          "date": "2023-09-23T18:59:42Z",
+          "localizedDescription": "# 1.1.7-3\n\nFix kfd change being implemented incorrectly",
+          "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa",
+          "size": 32244737,
+          "sha256": "7c8cf63b14084ef27739df163508415b955e95828f2d335af8f3045130cd18bf"
+        },
+        {
           "absoluteVersion": "1.1.7-2",
           "version": "1.1.7-2",
           "buildVersion": "1",
