@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 ## QUANTUM SOURCE
 ########################
 
-sourcesData = [
+sources_data = [
     {
         "parser": Parser.GITHUB,
         "kwargs": {"repo_author": "emuPlace", "repo_name": "emuThreeDS", "include_pre": True},
@@ -166,7 +166,7 @@ sourcesData = [
         "ignoreNews": True
     }
 ]
-alternateAppData = {
+alternate_app_data = {
     "eu.pokemmo.client": {
         "beta": False
     },
@@ -201,11 +201,11 @@ alternateAppData = {
 }
 
 src = altsource_from_file("quantumsource.json")
-quantumsrc = AltSourceManager(src, sourcesData)
+quantumsrc = AltSourceManager(src, sources_data)
 try:
     quantumsrc.update()
     quantumsrc.update_hashes()
-    quantumsrc.alter_app_info(alternateAppData)
+    quantumsrc.alter_app_info(alternate_app_data)
     quantumsrc.save()
     quantumsrc.save(alternate_dir="dist/quantumsource.min.json",prettify=False)
 except Exception as err:
@@ -216,7 +216,7 @@ except Exception as err:
 ## ALTSTORE COMPLETE
 ########################
 
-sourcesData = [
+sources_data = [
     {
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "https://apps.altstore.io"},
@@ -230,7 +230,7 @@ sourcesData = [
         "getAllNews": True
     }
 ]
-alternateAppData = {
+alternate_app_data = {
     "com.rileytestut.AltStore.Beta": {
         "name": "AltStore (Beta)",
         "beta": False
@@ -246,11 +246,11 @@ alternateAppData = {
 }
 
 src = altsource_from_file("altstore-complete.json")
-alt_complete = AltSourceManager(src, sourcesData)
+alt_complete = AltSourceManager(src, sources_data)
 try:
     alt_complete.update()
     alt_complete.update_hashes()
-    alt_complete.alter_app_info(alternateAppData)
+    alt_complete.alter_app_info(alternate_app_data)
     alt_complete.save()
     alt_complete.save(alternate_dir="dist/altstore-complete.min.json",prettify=False)
 except Exception as err:
@@ -261,7 +261,7 @@ except Exception as err:
 ## QUANTUM SOURCE++
 ########################
 
-sourcesData = [
+sources_data = [
     {
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "quarksource++.json"},
@@ -328,16 +328,16 @@ sourcesData = [
         "ids": [{"com.google.ios.youtube": "com.google.ios.youtube.ivanced"}]
     }
 ]
-alternateAppData = {
+alternate_app_data = {
     "none"
 }
 
 src = altsource_from_file("quantumsource++.json")
-quantumsrc_plus = AltSourceManager(src, sourcesData)
+quantumsrc_plus = AltSourceManager(src, sources_data)
 try:
     quantumsrc_plus.update()
     quantumsrc_plus.update_hashes()
-    #quantumsrc_plus.alter_app_info(alternateAppData)
+    #quantumsrc_plus.alter_app_info(alternate_app_data)
     quantumsrc_plus.save()
     quantumsrc_plus.save(alternate_dir="dist/quantumsource++.min.json",prettify=False)
 except Exception as err:
