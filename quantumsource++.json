@@ -134,6 +134,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.2.25",
+          "version": "1.2.25",
+          "buildVersion": "183",
+          "date": "2023-10-20T17:47:47Z",
+          "localizedDescription": "# V 1.2.24 Release\n\n- Remove premium tier: Due to issues with our payment flow, we decided to give all MovieBoxPro features for **FREE**!!\r\n- Fix Flixtor provider\r\n\r\n\r\nwe will release the source code for the backend so if you want to help fix bugs or add new providers \ud83c\udf89 \r\nhttps://github.com/StreamerApp/Streamer-backend",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.25/Streamer-iOS.ipa",
+          "size": 19652222,
+          "sha256": "9e917eda40220d055c59ab76bde7ec249ee22fa2a315f243fbd4d2a0d60b2cec"
+        },
+        {
           "absoluteVersion": "1.2.24",
           "version": "1.2.24",
           "buildVersion": "180",
