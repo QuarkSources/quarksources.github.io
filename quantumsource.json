@@ -1652,6 +1652,14 @@
       ],
       "versions": [
         {
+          "version": "1.5.4",
+          "date": "2023-10-22T00:00:00-04:00",
+          "localizedDescription": "Bugfixes\n\u2022 Fixes wrong game collection being used for random game button\n\u2022 Fixes a crash when selecting hold buttons\n\u2022 Fixes a crash when displaying toasts",
+          "downloadURL": "https://f005.backblazeb2.com/file/lit-apps/ignited/1.5.4/Ignited.ipa",
+          "size": 45506066,
+          "sha256": "9cc10d411e09396e639f819aa1fb1c4a27e9f066a1270b0c34ffc49ae91ec246"
+        },
+        {
           "version": "1.5.3",
           "date": "2023-08-20T00:00:00-04:00",
           "localizedDescription": "New Features\n\u2022 Added Random Game button to load a random game from your collection\n\nUpdates\n\u2022 Improved preset theme color selection screen\n\u2022 Updated DS default skin to new style\n\u2022 Updated SNES default skin to new style",
@@ -2000,11 +2008,7 @@
         }
       ],
       "appPermissions": {
-        "entitlements": [
-          {
-            "name": "get-task-allow"
-          }
-        ],
+        "entitlements": [],
         "privacy": [
           {
             "name": "LocalNetwork",

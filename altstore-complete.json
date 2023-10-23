@@ -93,6 +93,15 @@
       ],
       "versions": [
         {
+          "version": "2.0b5",
+          "date": "2023-10-23T13:30:00-05:00",
+          "localizedDescription": "NEW\n\nSources Tab\n\u2022 \"Sources\" screen is now a dedicated tab\n\u2022 Completely redesigned to accent source icons & tint colors\n\u2022 Dedicated \"Add Source\" screen simplifies adding sources\n\nScreenshots\n\u2022 Supports screenshots of different sizes\n\u2022 Supports both iPhone and iPad specific screenshots\n\u2022 Automatically rounds screenshots taken with Face ID iPhone's\n\u2022 Preview screenshots full-screen by tapping them from an app's store page\n\nIMPROVED\n\nBrowse Tab\n\u2022 Updated app listings to use new \"card\" design\n\u2022 Swipe through all screenshots directly from Browse tab\n\nSources\n\u2022 Simplified `appPermissions` JSON format\n\u2022 Deprecates `identifier` key\n\nLogging\n\u2022 Switched to OSLog.framework for important tasks\n\u2022 Export detailed logs via Error Log from Settings tab\n\nMisc.\n\u2022 Limits relative dates to \"Today\" and \"Yesterday\"\n\u2022 Uses uniform height for all News Items on source's detail page\n\nFIXED\n\u2022 Adjusts illegible Source tint colors to make them readable\n\u2022 Fixed incorrect background color for Sources screens in dark mode\n\u2022 Fixed crash if prefetching screenshots finishes after screen has been dismissed",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_b5.ipa",
+          "size": 6094604,
+          "sha256": "2932afe112572847a89626fc403994dc8c3ae327c5d4ff7cf6ce9084414175f9",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "2.0b4",
           "date": "2023-09-15T13:30:00-05:00",
           "localizedDescription": "\u2022 Updates Home Screen widget names & descriptions\n\u2022 Fixed returning empty dialog from Refresh Apps shortcut\n\nPREVIOUS BETA\n\n\"Active Apps\" Widget (iOS 17+)\n\u2022 View remaining days for ALL active apps from Home Screen\n\u2022 Refresh apps directly from home screen by tapping countdown timers\n\nShortcuts\n\u2022 Converted existing \"Refresh All Apps\" shortcut into App Shortcut\n\u2022 Available by default in \"App Shortcuts\" section of Shortcuts app\n\u2022 Displays accurate progress when refreshing apps via Shortcuts app\n\nWidgets\n\u2022 Updated existing home screen widget to support refreshing apps by tapping countdown (iOS 17+)\n\nBug Fixes\n\u2022 Fixed AltJIT on iOS 17*\n\n*Requires AltServer 1.7rc (macOS) from latest Patreon post",
