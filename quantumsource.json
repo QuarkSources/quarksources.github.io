@@ -1659,6 +1659,14 @@
       ],
       "versions": [
         {
+          "version": "1.5.5",
+          "date": "2023-10-26T00:00:00-04:00",
+          "localizedDescription": "Updates\n\u2022 Changes some toast notifications to be disabled by default\n\nBugfixes\n\u2022 Fixes a bug with AirPlay display losing transparency after rotating the device\n\u2022 Fixes a bug with AirPlay not showing the correct DS screens on the external display\n\u2022 Fixes games losing audio after switching systems",
+          "downloadURL": "https://f005.backblazeb2.com/file/lit-apps/ignited/1.5.5/Ignited.ipa",
+          "size": 45506066,
+          "sha256": "fe707f980ae3be4d4d31c23a0075c06721b2009a0ab2036498735993b8158695"
+        },
+        {
           "version": "1.5.4",
           "date": "2023-10-22T00:00:00-04:00",
           "localizedDescription": "Bugfixes\n\u2022 Fixes wrong game collection being used for random game button\n\u2022 Fixes a crash when selecting hold buttons\n\u2022 Fixes a crash when displaying toasts",
