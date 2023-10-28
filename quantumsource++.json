@@ -134,6 +134,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.2.26",
+          "version": "1.2.26",
+          "buildVersion": "222",
+          "date": "2023-10-28T12:08:49Z",
+          "localizedDescription": "# V 1.2.26 Release\n\n### New Features:\r\n\r\n- **Real-debrid Integration**: Streamer now supports Real-debrid, a premium service that lets you download files from multiple sources at the maximum of your internet speed, without any limitations. You can access high-quality 4K original content from torrent sites with Real-debrid. To learn more about Real-debrid, visit their https://real-debrid.com/.\r\n\r\nhttps://github.com/StreamerApp/Streamer/assets/96978272/0c9ce954-4082-4497-b8ab-19abe7ec223f\r\n\r\n- **Streamer Pro Subscription**: Streamer Pro is back and better than ever! By subscribing to Streamer Pro, you can enjoy the following benefits:\r\n    - Ad-free experience: No more annoying ads in the app or during streaming.\r\n    - 4K streaming: Watch your favorite movies and TV shows in stunning 4K resolution from Moviebox and Real-debrid sources.\r\n    - Support the development: Help us improve Streamer and add more features by becoming a Streamer Pro subscriber.\r\n    \r\n  - Notes on Streamer Pro: \r\n     - Each donation gives you access to one code. One code will only work on one device at a time. \r\n     - You will need a GitHub account to donate. it's free and easy to do. \r\n     - You will receive the code in your email. make sure you register to GitHub with a valid email.  \r\n     \r\n### Bug fixes:\r\n- Resolved the bug that prevented the \"continue watching\" section from reflecting the user's progress when the player was closed prematurely.\r\n- Resolved the bug that caused the home/movies/tvshows screens to fail to load on the first app launch.\r\n- Resolved the bug that affected the download functionality for jailbroken devices.\r\n- Resolved the bug that caused issues with the picture-in-picture feature for iOS.\r\n- Added support for playing downloaded content using the Streamer player.\r\n",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.26/Streamer-iOS.ipa",
+          "size": 20774533,
+          "sha256": "998cf42a19dbdf7249fc422efc60447ed9fd4fcf7aed4c1cbafc0d7eb4d952da"
+        },
+        {
           "absoluteVersion": "1.2.25",
           "version": "1.2.25",
           "buildVersion": "183",
