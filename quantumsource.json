@@ -1659,6 +1659,14 @@
       ],
       "versions": [
         {
+          "version": "1.5.6",
+          "date": "2023-10-27T00:00:00-04:00",
+          "localizedDescription": "New Features\n\u2022 Adds support for dynamic background blur tinting based on device light/dark mode setting\n  \u2022 The background blur will be darkened in dark mode and lightened in light mode\n  \u2022 Intensity of the tint can also be adjusted\n\u2022Updates\n\u2022 Makes DSi support toggle-able\n  \u2022 Users won't be able to add DSi BIOS files until toggling DSi support on first\n  \u2022 The DSi NAND file will be removed when DSi support is toggled off to remove the DSi Home Screen\n\u2022 Moves Core Settings below Features in the settings page",
+          "downloadURL": "https://f005.backblazeb2.com/file/lit-apps/ignited/1.5.6/Ignited.ipa",
+          "size": 45506066,
+          "sha256": "00966c10a3e4eb32ede77261e48e36d06bb5167f5ae5b8477d427a8fcc3bff9e"
+        },
+        {
           "version": "1.5.5",
           "date": "2023-10-26T00:00:00-04:00",
           "localizedDescription": "Updates\n\u2022 Changes some toast notifications to be disabled by default\n\nBugfixes\n\u2022 Fixes a bug with AirPlay display losing transparency after rotating the device\n\u2022 Fixes a bug with AirPlay not showing the correct DS screens on the external display\n\u2022 Fixes games losing audio after switching systems",
