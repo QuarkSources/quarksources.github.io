@@ -1400,6 +1400,14 @@
       ],
       "versions": [
         {
+          "version": "v2.2",
+          "date": "2023-10-28T12:40:02+02:00",
+          "localizedDescription": "Sega SystemSP and VF.NET.",
+          "downloadURL": "https://github.com/flyinghead/flycast/releases/download/v2.2/Flycast-2.2.ipa",
+          "size": 15815921,
+          "sha256": "7f7b71b3e4f2c4fd41c9fd9e5eba55da2592b9c830ecd107fa3628b8e10bb926"
+        },
+        {
           "version": "v2.1",
           "date": "2023-02-16T11:24:00+01:00",
           "localizedDescription": "Full framebuffer emulation and texture upscaling on iOS.",
@@ -1415,6 +1423,19 @@
           "size": 14716842
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "Flycast uses the local network to find and communicate with AltServer."
+          },
+          {
+            "name": "Microphone",
+            "usageDescription": "Flycast requires microphone access to emulate the Dreamcast microphone"
+          }
+        ]
+      },
       "beta": false,
       "appID": "com.flyinghead.Flycast"
     },
