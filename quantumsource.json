@@ -1680,6 +1680,15 @@
       ],
       "versions": [
         {
+          "version": "1.6",
+          "date": "2023-10-30T10:00:00-04:00",
+          "localizedDescription": "NEW FEATURES\n\u2022 Adds an informative popup after successfully importing controller skins and games\n\u2022 Adds a setting to show unsupported controller skins\n\u2022 Adds an All Systems page to settings for controller skin management",
+          "downloadURL": "https://f005.backblazeb2.com/file/lit-apps/ignited/1.6/Ignited.ipa",
+          "size": 55211482,
+          "sha256": "e92c8ee89464f5e09b34343fc7e16f3ba84411df1c490b2ec770c6cb01966dda",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.5.6",
           "date": "2023-10-27T00:00:00-04:00",
           "localizedDescription": "New Features\n\u2022 Adds support for dynamic background blur tinting based on device light/dark mode setting\n  \u2022 The background blur will be darkened in dark mode and lightened in light mode\n  \u2022 Intensity of the tint can also be adjusted\n\u2022Updates\n\u2022 Makes DSi support toggle-able\n  \u2022 Users won't be able to add DSi BIOS files until toggling DSi support on first\n  \u2022 The DSi NAND file will be removed when DSi support is toggled off to remove the DSi Home Screen\n\u2022 Moves Core Settings below Features in the settings page",
