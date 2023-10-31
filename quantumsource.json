@@ -1694,6 +1694,15 @@
       ],
       "versions": [
         {
+          "version": "1.6.1",
+          "date": "2023-10-31T10:00:00-04:00",
+          "localizedDescription": "NEW FEATURES\n\u2022 Adds an option to replace the Quick Settings button on skins with another input\n\u2022 Adds an option to open Quick Settings by shaking the device\n\u2022 Adds a new menu to change or reset Override Traits, and to access the pause menu\n  \u2022 Accessible via shaking the device\n\u2022 Adds a Power User feature to copy the Google Drive refresh token\n  \u2022 Allows other applications and services to access your Google Drive Ignited Sync backup files",
+          "downloadURL": "https://f005.backblazeb2.com/file/lit-apps/ignited/1.6.1/Ignited.ipa",
+          "size": 55219452,
+          "sha256": "a541d94b59ce3bd43efa4af3e6a41dfe6cb604e1d3b6a0f12913f16435961d99",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.6",
           "date": "2023-10-30T10:00:00-04:00",
           "localizedDescription": "NEW FEATURES\n\u2022 Adds an informative popup after successfully importing controller skins and games\n\u2022 Adds a setting to show unsupported controller skins\n\u2022 Adds an All Systems page to settings for controller skin management",
