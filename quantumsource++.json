@@ -1193,6 +1193,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "2.7.4",
+          "version": "2.7.4",
+          "buildVersion": "150",
+          "date": "2023-11-02T14:11:53Z",
+          "localizedDescription": "# Bugfix\n\n1. fix: Previews parsing.\r\n\u30d7\u30ec\u30d3\u30e5\u30fc\u306e\u89e3\u6790\u30a8\u30e9\u30fc\u3092\u4fee\u6b63\u3002\r\n\u4fee\u6b63\u4e86\u7e2e\u5716\u7684\u89e3\u6790\u932f\u8aa4\u3002",
+          "downloadURL": "https://github.com/EhPanda-Team/EhPanda/releases/download/v2.7.4/EhPanda.ipa",
+          "size": 6685295,
+          "sha256": "93e2c153cd10c3dac059eba5b294f3bb9c9cbd27597ab55c80481dc5a28aa1a7"
+        },
+        {
           "absoluteVersion": "2.7.3",
           "version": "2.7.3",
           "buildVersion": "149",
