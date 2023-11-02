@@ -1193,6 +1193,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "2.7.3",
+          "version": "2.7.3",
+          "buildVersion": "149",
+          "date": "2023-11-02T12:06:11Z",
+          "localizedDescription": "# Bugfix\n\n1. fix: Multiple page viewer mode.\r\n\u30de\u30eb\u30c1\u30da\u30fc\u30b8\u30d3\u30e5\u30fc\u30a2\u30e2\u30fc\u30c9\u3092\u4fee\u6b63\u3002\r\n\u4fee\u6b63\u4e86\u591a\u9801\u700f\u89bd\u6a21\u5f0f\u3002",
+          "downloadURL": "https://github.com/EhPanda-Team/EhPanda/releases/download/v2.7.3/EhPanda.ipa",
+          "size": 6684864,
+          "sha256": "d1697f11458d302116bbcfab80e15396e34155483ce724c2d2299690679b5128"
+        },
+        {
           "absoluteVersion": "2.7.2",
           "version": "2.7.2",
           "buildVersion": "148",
