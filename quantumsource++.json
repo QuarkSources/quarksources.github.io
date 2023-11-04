@@ -134,6 +134,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.2.27",
+          "version": "1.2.27",
+          "buildVersion": "225",
+          "date": "2023-11-04T20:53:08Z",
+          "localizedDescription": "# V 1.2.27 Release\n\n- Implemented VLC and Infuse players integration\r\n- Improved Real-Debrid integration performance and accuracy\r\n- Added a feature to choose \u201cpriority foreign language\u201d for torrents in Real-Debrid\r\n- Resolved PIP issue for Apple TV\r\n- Resolved crash when tapping on the play button on the movie details page on Apple TV\r\n- Added provider logos to the favorites list\r\n- Unified subtitle parsing logic and removed extra HTML tags from all subtitles\r\n- Resolved issue when playing a completed episode\r\n- Resolved issues for movies or TV shows with incorrect data for the same title",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.27/Streamer-iOS.ipa",
+          "size": 20779195,
+          "sha256": "17de9b1f85612c21b6e3da6f6dbed5b326cbf3c7759c661c014d216cbfca569c"
+        },
+        {
           "absoluteVersion": "1.2.26",
           "version": "1.2.26",
           "buildVersion": "222",
