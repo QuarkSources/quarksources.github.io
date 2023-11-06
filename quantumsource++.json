@@ -750,7 +750,7 @@
     },
     {
       "name": "Paperback",
-      "bundleIdentifier": "com.faizandurrani.paperback.ios",
+      "bundleIdentifier": "dev.faizandurrani.moe.paperback.app",
       "developerName": "Faizan Durrani",
       "subtitle": "An ad-free manga reader for iOS.",
       "localizedDescription": "Paperback is a fully ad-free manga reader for iOS 13 and iPadOS 13.4 and up.\n\niPad support\n\u2022 Friendly layout with a robust double spread chapter reader for iPad.\n\nMangaDex integration\n\u2022 Paperback will sync your mangas and settings to and from MangaDex.\n\nNo advertisements\n\u2022 Unlike other not-to-be-named apps and websites, this is a fully ad-free experience.\n\nIf you enjoy the app, please support the developer on Patreon to get access to the beta version of the app: https://www.patreon.com/FaizanDurrani",
@@ -767,6 +767,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "0.8.6.2",
+          "version": "0.8.6",
+          "buildVersion": "2",
+          "date": "2023-11-06T05:51:12Z",
+          "localizedDescription": "# Public Release 0.8.6 (2)\n\n\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs.",
+          "downloadURL": "https://github.com/Paperback-iOS/app/releases/download/v0.8.6-r2/Paperback-0.8.6r2.ipa",
+          "size": 10915503,
+          "sha256": "e759425aa31ccdd7a6f5113a130e9dc66260b5a5fceabe4b54578098a6ec85ff"
+        },
+        {
           "absoluteVersion": "0.7.45",
           "version": "0.7",
           "date": "2022-05-28T06:15:01Z",
@@ -775,7 +785,21 @@
           "size": 21747099,
           "sha256": "c80affbf01164d033db98350c63914bb0f357de0aec3fd1b3d4597c5c323b1dd"
         }
-      ]
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "FaceID",
+            "usageDescription": "Face ID is required to unlock Library"
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "Photo Library access is required to save images to Photos"
+          }
+        ]
+      },
+      "appID": "com.faizandurrani.paperback.ios"
     },
     {
       "name": "Channels",
