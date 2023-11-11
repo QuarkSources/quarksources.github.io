@@ -134,6 +134,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.2.28",
+          "version": "1.2.28",
+          "buildVersion": "243",
+          "date": "2023-11-11T12:10:27Z",
+          "localizedDescription": "# v 1.2.28 Release\n\n- **Trakt integration**: You can now sync your viewing history and progress across different devices and apps by connecting Streamer to Trakt, a platform for tracking TV shows and movies.\r\n- **New Streamer Player for Apple TV:** We have redesigned the Streamer Player for Apple TV to make it more simple and intuitive for you to enjoy your favorite content.\r\n- **Apple TV Home**: You can now access your continue watching section from your Apple TV home screen, so you can easily resume where you left off.\r\n- **Episode status**: You can now long press on any episode and mark it as watched or unwatched. This will also sync with your Trakt account, if you have one.\r\n- **Subtitle delay**: You can now adjust the subtitle delay for Streamer Player on iOS and Apple TV, so you can sync the subtitles with the audio.\r\n\r\nand lot's of small bug fixes and improvements\r\n<img width=\"1912\" alt=\"Screenshot 2023-11-11 at 13 06 55\" src=\"https://github.com/StreamerApp/Streamer/assets/96978272/d8967fe2-0f51-4725-a430-21c33588bcdc\">\r\n<img width=\"1912\" alt=\"Screenshot 2023-11-11 at 13 07 08\" src=\"https://github.com/StreamerApp/Streamer/assets/96978272/c8a871d8-23f4-4234-8b1a-d08f895b14b4\">\r\n<img width=\"1912\" alt=\"Screenshot 2023-11-11 at 13 07 23\" src=\"https://github.com/StreamerApp/Streamer/assets/96978272/33fdffcb-6bf3-4d38-92ca-dace17bd4ae6\">\r\n<img width=\"1912\" alt=\"Screenshot 2023-11-11 at 13 07 39\" src=\"https://github.com/StreamerApp/Streamer/assets/96978272/dcbbd8a1-7bc3-41e2-ae9f-59a560b01970\">\r\n![Simulator Screenshot - Apple TV - 2023-11-11 at 13 02 42](https://github.com/StreamerApp/Streamer/assets/96978272/384388ee-bd32-4a2c-8446-f6cabd8510ca)\r\n![Simulator Screenshot - Apple TV 4K (3rd generation) (at 1080p) - 2023-11-10 at 20 47 42](https://github.com/StreamerApp/Streamer/assets/96978272/0401ccbc-d85d-4b54-b33e-03a966d5944d)\r\n![Simulator Screenshot - Apple TV 4K (3rd generation) (at 1080p) - 2023-11-11 at 13 06 07](https://github.com/StreamerApp/Streamer/assets/96978272/4717b972-42dd-4f54-9ea3-4491cc54ab5d)\r\n![Simulator Screenshot - Apple TV 4K (3rd generation) (at 1080p) - 2023-11-11 at 13 11 20](https://github.com/StreamerApp/Streamer/assets/96978272/e266d3c0-edd1-43c0-91d9-81fcc1eca50c)\r\n![Simulator Screenshot - iPad Pro (12 9-inch) (6th generation) (16GB) - 2023-11-11 at 01 51 17](https://github.com/StreamerApp/Streamer/assets/96978272/144ef5f6-b11d-45b0-85db-623554067997)\r\n![Simulator Screenshot - iPad Pro (12 9-inch) (6th generation) (16GB) - 2023-11-11 at 01 51 53](https://github.com/StreamerApp/Streamer/assets/96978272/3da2e12f-ca75-430b-a2cf-3e435cb4de2b)\r\n",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.28/Streamer-iOS.ipa",
+          "size": 21713568,
+          "sha256": "ddf5cab81bcf6cd3d0d5d94bb9185315566faf4613d60b8f103ccb43f364dba6"
+        },
+        {
           "absoluteVersion": "1.2.27",
           "version": "1.2.27",
           "buildVersion": "225",
