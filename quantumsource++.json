@@ -134,6 +134,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.2.29",
+          "version": "1.2.29",
+          "buildVersion": "256",
+          "date": "2023-11-19T16:37:06Z",
+          "localizedDescription": "# V 1.2.29 Release\n\n- Added support for various universal resolvers such as RealDebrid, Premiumize, AllDebrid, DebridLink, Offcloud and Orion\r\n- Fixed Trakt integration so that the app can update the progress for any content (TV show or movie) that is opened\r\n- Added the ability to search OpenSubtitles in Streamer Player on AppleTV devices\r\n- Added IMDB, Rotten Tomatoes and Metacritic ratings and reviews for movies and TV shows\r\n- Fixed an issue where subtitles background would stretch across the entire screen\r\n- Fixed a bug that caused Streamer sound to malfunction on iOS devices\r\n- Fixed a glitch that occurred when scrolling on the listing screen on tvOS devices\r\n\r\n![Simulator Screenshot - iPhone 15 - 2023-11-19 at 17 37 23](https://github.com/StreamerApp/Streamer/assets/96978272/ec54f27a-5b42-4ae4-b383-c1c26c766a30)\r\n![Simulator Screenshot - Apple TV 4K (3rd generation) (at 1080p) - 2023-11-14 at 21 48 53](https://github.com/StreamerApp/Streamer/assets/96978272/5287214e-df7b-49a8-9e82-de6070f580a8)\r\n![Simulator Screenshot - Apple TV 4K (3rd generation) (at 1080p) - 2023-11-14 at 21 48 49\r\n![simulator_screenshot_01FB85EC-CAB7-4570-B746-AE04FA432791](https://github.com/StreamerApp/Streamer/assets/96978272/1b0cfd2a-11b9-4a70-8aa6-7c240a691d90)\r\n](https://github.com/StreamerApp/Streamer/assets/96978272/c3c78146-d068-4b60-9ed8-a20275f21680)\r\n",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.29/Streamer-iOS.ipa",
+          "size": 23815027,
+          "sha256": "6df1486e45f19da037fb8788e8e4c89b3f3ed3b1009cd5b2f4cb8e1b4a58097e"
+        },
+        {
           "absoluteVersion": "1.2.28",
           "version": "1.2.28",
           "buildVersion": "243",
