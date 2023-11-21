@@ -315,6 +315,16 @@
       ],
       "versions": [
         {
+          "version": "1.5rc",
+          "buildVersion": "78",
+          "date": "2023-11-21T12:30:00-06:00",
+          "localizedDescription": "IMPROVED\n\nDelta Sync\n\u2022 Added detailed logging to help debug issues\n\u2022 View complete error log via \"Export Error Log\" option in Settings\n\nMisc.\n\u2022 Shows AirPlay icon when AirPlaying\n\u2022 Added \"Learn More\" links to FAQ thoughout app\n\nFIXED\n\niPad\n\u2022 Fixed crash when changing DS emulator core\n\u2022 Fixed incorrectly indented rows on MelonDS core settings screen\n\u2022 Fixed not rounding last visible row in MelonDS core settings",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_5_rc.ipa",
+          "size": 48457781,
+          "sha256": "bab95dd1801bcca1b8eab18b15abe7992550630b3e965e824c7fd34f793f63e1",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.5b4",
           "date": "2023-08-12T15:30:00-05:00",
           "localizedDescription": "\u26a0\ufe0f This beta fixes a critical bug that could cause corrupted save files and save states to be uploaded to Google Drive/Dropbox.\n\nPlease update ASAP to ensure you don't lose any data. You can read more about this bug fix in today's Patreon post.",
