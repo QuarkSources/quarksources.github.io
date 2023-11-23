@@ -120,7 +120,7 @@
     },
     {
       "name": "Streamer",
-      "bundleIdentifier": "com.streamer.ios",
+      "bundleIdentifier": "com.streamer.tvos",
       "developerName": "StreamerApp",
       "subtitle": "App for Streaming Movies and TV shows",
       "localizedDescription": "App for Streaming Movies and TV shows on iOS and tvOS.\n\n- Stream all TV shows and Movies from multiple websites without any annoying ads\n- Supports Chromecast to stream to FireTV and Chromecasts\n- Supports multi-language subtitles for iOS and tvOS\n- Favorite functionality to quickly access your favorite shows and movies\n",
@@ -133,6 +133,16 @@
         "https://user-images.githubusercontent.com/96978272/191682345-f882e099-3ba3-4851-b5db-b9709bc64abe.png"
       ],
       "versions": [
+        {
+          "absoluteVersion": "1.2.30",
+          "version": "1.2.30",
+          "buildVersion": "20",
+          "date": "2023-11-23T00:12:18Z",
+          "localizedDescription": "# V 1.2.30 Release\n\n- Added a new feature to Trakt integration that allows users to display their currently watching list on the home page.\r\n- Resolved a bug that caused Universal Resolvers to crash on iOS 15 devices.\r\n- Improved the UI of Streamer player on iOS by fixing some minor issues.\r\n- Enhanced the Streamer player on tvOS by displaying the filename and filesize of the selected media.\r\n- Fixed the 4k detection issue for EasyNews links.\r\n- Redesigned the link selection screen for Universal Resolvers to provide a better user experience.\r\n- Fixes loading movie details\r\n\r\n![Simulator Screenshot - iPhone 15 - 2023-11-22 at 13 17 20](https://github.com/StreamerApp/Streamer/assets/96978272/67d55aaf-d8ee-49d8-a388-4a6f1b813494)\r\n![Simulator Screenshot - iPhone 15 - 2023-11-22 at 10 45 43](https://github.com/StreamerApp/Streamer/assets/96978272/c4a97bd6-1d68-438e-9f79-ddbfa6174b84)\r\n![Simulator Screenshot - Apple TV 4K (3rd generation) (at 1080p) - 2023-11-22 at 13 18 25](https://github.com/StreamerApp/Streamer/assets/96978272/82a40840-c15e-48dd-9ae0-764f019834fa)\r\n\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs.",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.30/Streamer-tvOS.ipa",
+          "size": 18702364,
+          "sha256": "1c435a513fd1656a119de19f9f213abe866ced6f8ec6b3dd8d1ec20944b9c9b0"
+        },
         {
           "absoluteVersion": "1.2.29",
           "version": "1.2.29",
@@ -274,32 +284,7 @@
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": [
-          {
-            "name": "BluetoothAlways",
-            "usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your WiFi network."
-          },
-          {
-            "name": "Camera",
-            "usageDescription": "Some ad content may access camera to take picture."
-          },
-          {
-            "name": "LocalNetwork",
-            "usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your WiFi\n    network."
-          },
-          {
-            "name": "Motion",
-            "usageDescription": "Some ad content may require access to accelerometer for interactive ad experience."
-          },
-          {
-            "name": "PhotoLibrary",
-            "usageDescription": "Some ad content may require access to the photo library."
-          },
-          {
-            "name": "UserTracking",
-            "usageDescription": "App would like to access IDFA for tracking purpose"
-          }
-        ]
+        "privacy": []
       },
       "appID": "com.streamer.ios"
     },
