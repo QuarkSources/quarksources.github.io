@@ -120,7 +120,7 @@
     },
     {
       "name": "Streamer",
-      "bundleIdentifier": "com.streamer.tvos",
+      "bundleIdentifier": "com.streamer.ios",
       "developerName": "StreamerApp",
       "subtitle": "App for Streaming Movies and TV shows",
       "localizedDescription": "App for Streaming Movies and TV shows on iOS and tvOS.\n\n- Stream all TV shows and Movies from multiple websites without any annoying ads\n- Supports Chromecast to stream to FireTV and Chromecasts\n- Supports multi-language subtitles for iOS and tvOS\n- Favorite functionality to quickly access your favorite shows and movies\n",
@@ -133,6 +133,16 @@
         "https://user-images.githubusercontent.com/96978272/191682345-f882e099-3ba3-4851-b5db-b9709bc64abe.png"
       ],
       "versions": [
+        {
+          "absoluteVersion": "1.2.31",
+          "version": "1.2.31",
+          "buildVersion": "280",
+          "date": "2023-12-03T14:05:56Z",
+          "localizedDescription": "# V 1.2.31 Release\n\n- You can now enjoy the theme music of your favorite Movie/TV show when you open its details page. To enable this feature, go to Advanced Settings and turn on the option. \ud83c\udfb6\r\n- We have added a new section for streamer player in Advanced settings. Here you can customize your streaming preferences and quality.\r\n- We have fixed a bug that caused the app to crash when accessing Universal resolver settings. We have also improved the layout of this screen for a better user experience.\r\n- We are excited to announce the first version of our Mac app. \ud83d\udcbb \r\n\r\n<img width=\"810\" alt=\"Screenshot 2023-12-03 at 15 06 44\" src=\"https://github.com/StreamerApp/Streamer/assets/96978272/e6cf1b39-75f3-4b38-91ac-026d7d4d1d27\">\r\n\r\n![simulator_screenshot_1B6F10FB-D2C0-4166-A2DF-B7F0A2B1F366](https://github.com/StreamerApp/Streamer/assets/96978272/d80f74d9-0ca3-4cd4-bf88-ec170780689f)\r\n\r\n\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs.",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.31/Streamer-iOS.ipa",
+          "size": 26044049,
+          "sha256": "6acc6469ceadd5c89da51fff8c56077b5723389d91927a5e80e2a2a599f08e1a"
+        },
         {
           "absoluteVersion": "1.2.30",
           "version": "1.2.30",
@@ -284,7 +294,32 @@
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": []
+        "privacy": [
+          {
+            "name": "BluetoothAlways",
+            "usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your WiFi network."
+          },
+          {
+            "name": "Camera",
+            "usageDescription": "Some ad content may access camera to take picture."
+          },
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your WiFi\n    network."
+          },
+          {
+            "name": "Motion",
+            "usageDescription": "Some ad content may require access to accelerometer for interactive ad experience."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "Some ad content may require access to the photo library."
+          },
+          {
+            "name": "UserTracking",
+            "usageDescription": "App would like to access IDFA for tracking purpose"
+          }
+        ]
       },
       "appID": "com.streamer.ios"
     },
