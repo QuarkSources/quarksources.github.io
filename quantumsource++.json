@@ -134,6 +134,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.2.32",
+          "version": "1.2.32",
+          "buildVersion": "290",
+          "date": "2023-12-16T10:47:47Z",
+          "localizedDescription": "# V 1.2.32 Release\n\n**New Features:**\r\n- Include \"Exclude qualities/resolutions\" and \"Video size limit\" options for torrentio settings\r\n- Include \"Video Quality\" option for Orion settings\r\n- Provide Parent's guide in the details view for movies and TV shows. This option can be activated from the advanced settings\r\n- Display TV and movie icons in the search results and improve the search results layout for iOS\r\n- Include an \"Auto-play trailer\" option in the advanced settings to automatically play the trailer in the details view \r\n- Include an \"Enabled Video Qualities\" option in the advanced settings to filter out specific video qualities from the results \r\n- Implement a feature to show the Trakt WatchList on the home page\r\n- Include vertical subtitle alignment option in subtitles settings\r\n\r\n**Fixes:** \r\n- Resolve Streamer player hanging issue when opening content with saved progress\r\n- Resolve Flixtor provider issue\r\n\r\n**Mac:**\r\n- Enable IINA player compatibility for the Mac app\r\n- Fixes Trakt login button not opening the browser \r\n\r\n**tvOS:**\r\n- Allow tvOS users to adjust the number of posters per row in the advanced settings\r\n- Resolve app resetting issue when switching TV profiles\r\n\r\n**iOS:**\r\n- Include new functionality to share some file types (mainly MBP and RD) from the downloads section for iOS. This allows users to save to the files app or open it in any other player\r\n\r\n\r\n<details><summary>Screenshots</summary>\r\n<p>\r\n\r\nhttps://github.com/StreamerApp/Streamer/assets/96978272/2c48977d-27dc-4100-8b42-2573707f2ea7\r\n\r\n\r\n![Simulator Screenshot - Apple TV 4K (3rd generation) (at 1080p) - 2023-12-16 at 11 41 52](https://github.com/StreamerApp/Streamer/assets/96978272/513c0a3b-8c29-4644-a570-802149d2654e)\r\n![Simulator Screenshot - iPhone 15 - 2023-12-16 at 11 44 01](https://github.com/StreamerApp/Streamer/assets/96978272/397d01b3-5420-4f6c-b32b-52aa382168dd)\r\n![Simulator Screenshot - iPhone 15 - 2023-12-16 at 11 43 51](https://github.com/StreamerApp/Streamer/assets/96978272/f6ed2186-7266-42d1-9533-266175acadef)\r\n\r\n![Simulator Screenshot - iPhone 15 - 2023-12-16 at 11 44 42](https://github.com/StreamerApp/Streamer/assets/96978272/893533cc-f365-4995-9768-8e46a9b03f91)\r\n![Simulator Screenshot - iPhone 15 - 2023-12-16 at 11 44 38](https://github.com/StreamerApp/Streamer/assets/96978272/cfda017b-e391-4985-84a5-dc2f7039d702)\r\n![simulator_screenshot_40101253-E3F3-4EE5-945A-A6DDCB45F7B7](https://github.com/StreamerApp/Streamer/assets/96978272/91c4a64b-6ee5-409e-9ad1-af66e7b4374a)\r\n\r\n</p>\r\n</details>",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.32/Streamer-iOS.ipa",
+          "size": 27651126,
+          "sha256": "ead6aba45dfa489c572d7761861c150226ee4df8498c8c1ee163fce90f1e153d"
+        },
+        {
           "absoluteVersion": "1.2.31",
           "version": "1.2.31",
           "buildVersion": "280",
