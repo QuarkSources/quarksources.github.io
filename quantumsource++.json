@@ -134,6 +134,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.2.33",
+          "version": "1.2.33",
+          "buildVersion": "305",
+          "date": "2024-01-02T22:23:21Z",
+          "localizedDescription": "# V 1.2.33 Release\n\n- Improved the design and layout of the Movie and TV shows details page\r\n- Enhanced Trakt integration: You can now sync your favourites with Trakt.tv and access your history, watch list, favourites, and personal lists from a dedicated Trakt section in the favourite page.\r\n- Resolved the Airpod audio issue for the Streamer Player\r\n- Added custom icons for iOS and tvOS, thanks to @E3P\r\n- Added translations for Spanish, German, French, and Arabic. The Spanish translations are done by @E3P, while the other translations are generated automatically. If you encounter any bug, you can contribute to the translations here: https://crowdin.com/project/streamerapp\r\n- Tap on Actors to check out their other movies/tv shows\r\n- Added Related movies/tv shows section to the details page\r\n\r\n<details><summary>Screenshots</summary>\r\n<p>\r\n\r\n![Simulator Screenshot - Apple TV 4K 17 2 - 2024-01-02 at 23 16 52](https://github.com/StreamerApp/Streamer/assets/96978272/7941f594-ee46-4bdc-bde5-2f8d1bfd0fb2)\r\n\r\n![Simulator Screenshot - Apple TV 4K 17 2 - 2024-01-02 at 23 16 59](https://github.com/StreamerApp/Streamer/assets/96978272/dcadbee3-9ff6-4ded-8b63-747de1da5d98)\r\n\r\n![Simulator Screenshot - Apple TV 4K 17 2 - 2024-01-02 at 23 17 07](https://github.com/StreamerApp/Streamer/assets/96978272/6a6cf0d6-61d1-4fed-a6d7-b5cf3ec4e5b6)\r\n\r\n![Simulator Screenshot - iPhone 15 - 2024-01-02 at 23 13 10](https://github.com/StreamerApp/Streamer/assets/96978272/d466329b-ce12-427f-ad7c-4b24d68e6fc1)\r\n![Simulator Screenshot - iPhone 15 - 2024-01-02 at 23 12 57](https://github.com/StreamerApp/Streamer/assets/96978272/863d5646-2dbf-4ed0-bb1b-349d9b58e982)\r\n![Simulator Screenshot - iPhone 15 - 2024-01-02 at 23 12 41](https://github.com/StreamerApp/Streamer/assets/96978272/83082c8f-51d2-4533-9060-67f2df8b8ed4)\r\n![Simulator Screenshot - iPhone 15 - 2024-01-02 at 23 12 25](https://github.com/StreamerApp/Streamer/assets/96978272/58951097-7d2d-4229-b5ba-46ca610dca9a)\r\n![Simulator Screenshot - iPhone 15 - 2024-01-02 at 23 12 16](https://github.com/StreamerApp/Streamer/assets/96978272/a1591ee8-f9c7-4c95-afde-83feb3877354)\r\n\r\n</p>\r\n</details>",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.33/Streamer-iOS.ipa",
+          "size": 35282153,
+          "sha256": "1b3ddedaf58ad004848ab796285ac66e622ac2d0b40fda58dcbd285fd29ef075"
+        },
+        {
           "absoluteVersion": "1.2.32",
           "version": "1.2.32",
           "buildVersion": "290",
