@@ -903,6 +903,14 @@
       ],
       "versions": [
         {
+          "version": "312.0.0",
+          "date": "2024-01-05T12:00:00-01:00",
+          "localizedDescription": "Changelog v312.0.0-3.8.19:\n- https://apt.alfhaily.me/depiction/4EYOXC",
+          "downloadURL": "https://27man-my.sharepoint.com/:u:/g/personal/qn____27man_onmicrosoft_com/EdNlrmF07-VKts4Vb-ZNdn8Bl_HIJjiUKwnNGHEzOsmW4g?download=1",
+          "size": 91750400,
+          "sha256": "f0b9f9a90bbb79ce1b66d88569752effc1e5b732bd81c4336eed7775e224e733"
+        },
+        {
           "version": "288.1",
           "date": "2023-07-03T12:00:00-01:00",
           "localizedDescription": "Changelog v280.0-3.8.9:\n- https://apt.alfhaily.me/depiction/4EYOXC",
@@ -963,6 +971,10 @@
           {
             "name": "FocusStatus",
             "usageDescription": "This allows Instagram to check to see if you\u2019ve been missing notifications from friends. You can always change this later in settings."
+          },
+          {
+            "name": "LocationAlwaysAndWhenInUse",
+            "usageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings."
           },
           {
             "name": "Location",
@@ -1589,6 +1601,14 @@
       ],
       "versions": [
         {
+          "version": "2023.50.1",
+          "date": "2024-01-05T12:00:00-01:00",
+          "localizedDescription": "https://level3tjg.me/repo/depictions/com.level3tjg.redditfilter\n",
+          "downloadURL": "https://github.com/qnblackcat/RedditFilter_Sideloaded/releases/download/v2023.50.1-1.1.1/RedditFilter_2023.50.1_1.1.1.ipa",
+          "size": 142121615,
+          "sha256": "a2580e8fcf56be2b7668e81cfecf1e0b17b966a1da4841efcc8ebd88befe392c"
+        },
+        {
           "version": "2023.37.0",
           "date": "2023-02-22T12:00:00-01:00",
           "localizedDescription": "https://level3tjg.me/repo/depictions/com.level3tjg.redditfilter\n",
@@ -1611,6 +1631,43 @@
           "size": 142121615
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "Calendars",
+            "usageDescription": "Reddit needs access to your calendar to operate the community calendar widget."
+          },
+          {
+            "name": "Camera",
+            "usageDescription": "Use your camera to record videos. See our Privacy Policy for more information."
+          },
+          {
+            "name": "FaceID",
+            "usageDescription": "Reddit needs access to Face ID to unlock your Vault."
+          },
+          {
+            "name": "LocationWhenInUse",
+            "usageDescription": "Reddit needs access to your location to show you communities and content in your area."
+          },
+          {
+            "name": "Microphone",
+            "usageDescription": "Reddit needs access to your microphone to post videos with audio."
+          },
+          {
+            "name": "PhotoLibraryAdd",
+            "usageDescription": "Reddit needs access to your photo library to post, save, and upload photos or videos."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "Reddit needs access to your photo library to post, save, and upload photos or videos."
+          },
+          {
+            "name": "UserTracking",
+            "usageDescription": "This allows Reddit to provide you with a better ads experience."
+          }
+        ]
+      },
       "beta": false,
       "appID": "com.reddit.Reddit"
     }
