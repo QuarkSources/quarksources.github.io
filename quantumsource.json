@@ -1759,6 +1759,15 @@
       ],
       "versions": [
         {
+          "version": "1.8",
+          "date": "2024-01-06T10:00:00-04:00",
+          "localizedDescription": "New\n\u2022 Ignited Pro\n  \u2022 Select features and options will now only be available to patrons\n\u2022 Patreon Integration\n  \u2022 You can now link your Patreon account within the app to access Ignited Pro\n\nFixed\n\u2022 Fixes skin debugging being shown when the feature is off\n\u2022 Fixes game search results overlapping other games\n\u2022 Makes the transition from Quick Settings to Main Menu create an auto save state\n\u2022 Fixes animated artwork still animating when the feature is off",
+          "downloadURL": "https://cdn.ignitedemulator.com/versions/1.8/Ignited.ipa",
+          "size": 62180523,
+          "sha256": "af3fda70bbb6b7e397d231c8637e1f14976b3b3a2bbca752be10fa518c7e63ae",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.7.2",
           "date": "2023-12-23T10:00:00-04:00",
           "localizedDescription": "New\n\u2022 Adds options for opening the Pause Menu by shaking your device\n\nChanged\n\u2022 Makes the New Game, Pause, and Star icons on artwork able to be disabled\n\u2022 Makes the Pause Menu items able to be rearranged in settings\n\u2022 Makes context menu previews use auto-save states if enabled\n\nFixed\n\u2022 Makes custom artwork background color support transparency\n\u2022 Adjusts DS artwork forced aspect ratio",
