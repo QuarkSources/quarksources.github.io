@@ -1759,6 +1759,15 @@
       ],
       "versions": [
         {
+          "version": "1.8.1",
+          "date": "2024-01-08T10:00:00-04:00",
+          "localizedDescription": "New\n\u2022 Microphone can now be toggled on and off, and only allows microphone usage when using the melonDS core\n\u2022 Create an auto save state any time the app becomes inactive, even when immediately quitting the app from a game\n\u2022 Adds new icons by LitRitt and Kongolabongo\n\nChanged\n\u2022 Makes the Pro label fancy\n\u2022 Makes the alternate icon feature free, some icons will remain Pro only\n\u2022 Removes the Documentation link until it's more complete\n\u2022 Makes most system titles use full names instead of short names\n\u2022 Unhides the status bar feature in settings\n\nFixed\n\u2022 Fixes patrons list after update to Patreon benefits\n\u2022 Fixes toggling the status bar showing the wrong toast notification\n\u2022 Fixes setting game preview parameters when feature is disabled",
+          "downloadURL": "https://cdn.ignitedemulator.com/versions/1.8.1/Ignited.ipa",
+          "size": 73931114,
+          "sha256": "a432e89507149e28a7a8f527a6379a566261afcb5951461297ad715632b46a39",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.8",
           "date": "2024-01-06T10:00:00-04:00",
           "localizedDescription": "New\n\u2022 Ignited Pro\n  \u2022 Select features and options will now only be available to patrons\n\u2022 Patreon Integration\n  \u2022 You can now link your Patreon account within the app to access Ignited Pro\n\nFixed\n\u2022 Fixes skin debugging being shown when the feature is off\n\u2022 Fixes game search results overlapping other games\n\u2022 Makes the transition from Quick Settings to Main Menu create an auto save state\n\u2022 Fixes animated artwork still animating when the feature is off",
