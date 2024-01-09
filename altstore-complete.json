@@ -93,6 +93,15 @@
       ],
       "versions": [
         {
+          "version": "2.0b7",
+          "date": "2024-01-09T12:00:00-06:00",
+          "localizedDescription": "This beta fixes an issue preventing some users from downloading or refreshing Patreon-exclusive apps.",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_b7.ipa",
+          "size": 6373515,
+          "sha256": "6ddfc480c2d1dceaf0c5b7214bb0233b7f12c7b4c0ce5601b4a564d6097c88cc",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "2.0b6",
           "date": "2023-12-13T13:00:00-06:00",
           "localizedDescription": "NEW\n\nRedesigned Browse Tab\n\u2022 View most recently updated apps at a glance\n\u2022 Browse apps by source or by 8 new categories\n\u2022 Scroll through featured apps from each source\n\u2022 Change sort order of apps when browsing by source or category\n\u2022 Tap category name to easily switch between categories when browsing\n\nPatreon Integration\n\u2022 Developers can now distribute Patreon-exclusive apps to their patrons\n\u2022 Donate to developers' Patreons and download Patreon-exclusive apps all within AltStore\n\u2022 Shows required pledge amount for Patreon apps (if provided)\n\nReview Permissions Screen\n\u2022 Asks user to review permissions when installing and updating apps\n\u2022 When installing a new app, all entitlements will be shown\n\u2022 When updating an app, only added entitlements will be shown\n\nIMPROVED\n\nNews Tab\n\u2022 Changed image aspect ratio to 3:2\n\u2022 Updated font to use dynamic text styles\n\nImage Caching\n\u2022 Increased cache limit to reduce how often AltStore refetches images\n\u2022 Clear image cache with \u201cClear Cache\u2026\u201d option in Settings\n\nFIXED\n\u2022 Fixed app sometimes freezing when installing/refreshing apps\n\u2022 Fixed accidentally saving \"Operation Cancelled\" errors to Error Log\n\u2022 Fixed squished banners on App IDs screen\n\u2022 Fixed resigning apps with non-English alphanumeric characters in name\n\u2022 Fixed various issues resigning certain apps\n\u2022 Fixed button titles flashing when scrolling into view\n\u2022 Fixed not showing build version in Settings for BETA builds",
