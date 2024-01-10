@@ -1759,6 +1759,15 @@
       ],
       "versions": [
         {
+          "version": "1.8.2",
+          "date": "2024-01-10T10:00:00-04:00",
+          "localizedDescription": "New\n\u2022 SNES Invalid VRAM Access\n  \u2022 Allows text and other sprites to render properly in some emulator-only games\n  \u2022 Applied per game using the game's context menu\n\nChanged\n\u2022 N64 Graphics replaced with OpenGLES 3 toggle\n  \u2022 Applied per game using the game's context menu\n\u2022 Toast notification style updated and the code flow for toasts has been unified/simplified",
+          "downloadURL": "https://cdn.ignitedemulator.com/versions/1.8.2/Ignited.ipa",
+          "size": 73931114,
+          "sha256": "bd24a80aa3815d6b38326156be915dfa29b9aed585a89743402c62b118a2efcd",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.8.1",
           "date": "2024-01-08T10:00:00-04:00",
           "localizedDescription": "New\n\u2022 Microphone can now be toggled on and off, and only allows microphone usage when using the melonDS core\n\u2022 Create an auto save state any time the app becomes inactive, even when immediately quitting the app from a game\n\u2022 Adds new icons by LitRitt and Kongolabongo\n\nChanged\n\u2022 Makes the Pro label fancy\n\u2022 Makes the alternate icon feature free, some icons will remain Pro only\n\u2022 Removes the Documentation link until it's more complete\n\u2022 Makes most system titles use full names instead of short names\n\u2022 Unhides the status bar feature in settings\n\nFixed\n\u2022 Fixes patrons list after update to Patreon benefits\n\u2022 Fixes toggling the status bar showing the wrong toast notification\n\u2022 Fixes setting game preview parameters when feature is disabled",
