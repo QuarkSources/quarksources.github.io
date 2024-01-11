@@ -1759,6 +1759,15 @@
       ],
       "versions": [
         {
+          "version": "1.8.3",
+          "date": "2024-01-10T11:00:00-04:00",
+          "localizedDescription": "New\n\u2022 Added a check for N64 games to disallow mismatched OpenGLES versions\n\u2022 Added a view in settings to see all games with OpenGLES 3 enabled and remove them\n\u2022 Added a view in settings to see all games with Invalid VRAM Access enabled and remove them",
+          "downloadURL": "https://cdn.ignitedemulator.com/versions/1.8.3/Ignited.ipa",
+          "size": 73931114,
+          "sha256": "5a5be897df61e2a3ba01a23cc1d9f1e1b9be12b695c5a1002abc0dc04b13f8db",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.8.2",
           "date": "2024-01-10T10:00:00-04:00",
           "localizedDescription": "New\n\u2022 SNES Invalid VRAM Access\n  \u2022 Allows text and other sprites to render properly in some emulator-only games\n  \u2022 Applied per game using the game's context menu\n\nChanged\n\u2022 N64 Graphics replaced with OpenGLES 3 toggle\n  \u2022 Applied per game using the game's context menu\n\u2022 Toast notification style updated and the code flow for toasts has been unified/simplified",
