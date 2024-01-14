@@ -1759,6 +1759,15 @@
       ],
       "versions": [
         {
+          "version": "1.8.4",
+          "date": "2024-01-13T10:00:00-04:00",
+          "localizedDescription": "New\n\u2022 Battery Safety Feature\n  \u2022 Allows users to set low and critical battery level\n  \u2022 At low battery (5-10%) a popup is shown and auto save states start being created periodically\n  \u2022 At critical battery (2-5%) the currently playing game will save and close, and games cannot be launched until the device is charged\n\u2022 N64 Overscan Feature\n  \u2022 Allows users to remove the black bars surrounding N64 games\n  \u2022 Overscan settings can be edited using the new pause menu button while playing N64 games\n  \u2022 Overscan settings are backed up with Ignited Sync\n\u2022 Adds \"Learn More...\" links to guide users to relevant documentation\n  \u2022 Added to library when no games are present\n  \u2022 Added to MelonDS core BIOS section footers\n  \u2022 Added to controller skins section footer\n\nChanged\n\u2022 Updated Fir\u00e9 Ball icon\n\u2022 Changes Live Artwork feature to be disabled by default\n\nFixed\n\u2022 Fixes visual bugs on MelonDS core settings screen\n\u2022 Fixes crashes when presenting alerts\n\u2022 Fixes library play menu not updating when deleting a game",
+          "downloadURL": "https://cdn.ignitedemulator.com/versions/1.8.4/Ignited.ipa",
+          "size": 73931114,
+          "sha256": "1663f60144e9de34c18c1f6fe475821177df4d4093ad22d3e16b02d992c40441",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.8.3",
           "date": "2024-01-10T11:00:00-04:00",
           "localizedDescription": "New\n\u2022 Added a check for N64 games to disallow mismatched OpenGLES versions\n\u2022 Added a view in settings to see all games with OpenGLES 3 enabled and remove them\n\u2022 Added a view in settings to see all games with Invalid VRAM Access enabled and remove them",
