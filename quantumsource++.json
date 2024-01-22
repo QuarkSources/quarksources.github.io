@@ -134,6 +134,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.2.34",
+          "version": "1.2.34",
+          "buildVersion": "323",
+          "date": "2024-01-22T21:14:54Z",
+          "localizedDescription": "# V 1.2.34 Release\n\n- Improved Trakt Integration: \r\n  - Sync your progress with Trakt faster and easier\r\n  - Check your upcoming and previous episodes in the new Calendar view\r\n- Automatically open the first season with unwatched episodes when you select a TV show\r\n- Add a Skip button for Apple and Streamer players at 90% of the movie/show duration\r\n- iOS: Add an option to change the aspect ratio for the Streamer Player\r\n- iOS: Add an option to change the poster size\r\n- iOS: Add option to lock the player rotation in landscape mode\r\n- Add an option to watch trailers in the YouTube app\r\n- Add an option to change the language for TMDb information\r\n- Add Italian and Portuguese translations \r\n- Get better recommendations for movies and TV shows in the details page\r\n- Fixed a bug where the \"Auto\" quality option was not displayed in the links list\r\nAnd many more fixes and improvements\r\n",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.34/Streamer-iOS.ipa",
+          "size": 35884367,
+          "sha256": "e48a77ae7a46cdf9d7d39a4807814938c7042d2b1a56d571edc63ec207681dd8"
+        },
+        {
           "absoluteVersion": "1.2.33",
           "version": "1.2.33",
           "buildVersion": "305",
