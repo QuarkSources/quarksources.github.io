@@ -120,7 +120,7 @@
     },
     {
       "name": "Streamer",
-      "bundleIdentifier": "com.streamer.ios",
+      "bundleIdentifier": "com.streamer.app.ios",
       "developerName": "StreamerApp",
       "subtitle": "App for Streaming Movies and TV shows",
       "localizedDescription": "App for Streaming Movies and TV shows on iOS and tvOS.\n\n- Stream all TV shows and Movies from multiple websites without any annoying ads\n- Supports Chromecast to stream to FireTV and Chromecasts\n- Supports multi-language subtitles for iOS and tvOS\n- Favorite functionality to quickly access your favorite shows and movies\n",
@@ -133,6 +133,16 @@
         "https://user-images.githubusercontent.com/96978272/191682345-f882e099-3ba3-4851-b5db-b9709bc64abe.png"
       ],
       "versions": [
+        {
+          "absoluteVersion": "1.2.35",
+          "version": "1.2.35",
+          "buildVersion": "324",
+          "date": "2024-01-23T20:30:37Z",
+          "localizedDescription": "# V 1.2.35 Release\n\n- Fix critical universal resolvers bug where selecting any episode in any TV show always resolves the first episode of that season. \r\n\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs.",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.35/Streamer-iOS.ipa",
+          "size": 35883770,
+          "sha256": "3ecb6c21e45dd15d9bbb0a731eefbc31b09cb90b3f76c4e829535fc7a1f35e2a"
+        },
         {
           "absoluteVersion": "1.2.34",
           "version": "1.2.34",
