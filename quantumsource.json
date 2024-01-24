@@ -200,6 +200,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.4.5",
+          "version": "1.4.5",
+          "buildVersion": "2024-01-24-3d2f691",
+          "date": "2024-01-24T17:52:56Z",
+          "localizedDescription": "# VCMI 1.4.5\n\nWarning: saved games from 1.3 release are not supported\r\n\r\n### Changelog\r\n* Fixed crash on creature spellcasting\r\n* Fixed crash on unit entering magical obstacles such as quicksands\r\n* Fixed freeze on map loading on some systems\r\n* Fixed crash on attempt to start campaign with unsupported map\r\n* Fixed crash on opening creature information window with invalid SPELL_IMMUNITY bonus\r\n* Fixed placement of guards sometimes resulting into open connection into third zone\r\n* Fixed rare crash on multithreaded access during placement of artifacts or wandering monsters\r\n* Fixed inspector using wrong editor for some values\r\n* Fixed bug leading to AI not attacking wandering monsters in some cases\r\n* Fixed crash on using StupidAI for autocombat or for enemy players \r\n\r\n<!-- ### Android release will be available on Google Play shortly -->\r\n### Android release is available on [Google Play](https://play.google.com/store/apps/details?id=is.xyz.vcmi)\r\n<!-- ### Ubuntu release will be available on VCMI PPA shortly -->\r\n### Ubuntu release is available on [VCMI PPA](https://launchpad.net/~vcmi/+archive/ubuntu/ppa)",
+          "downloadURL": "https://github.com/vcmi/vcmi/releases/download/1.4.5/VCMI-iOS.ipa",
+          "size": 27227187,
+          "sha256": "16135e899edb4515a025e4914076a738c0d336c12ed3876a4967a6b083569acf"
+        },
+        {
           "absoluteVersion": "1.4.4",
           "version": "1.4.4",
           "buildVersion": "2024-01-19-b8f3de3",
