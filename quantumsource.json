@@ -1789,6 +1789,15 @@
       ],
       "versions": [
         {
+          "version": "1.8.6",
+          "date": "2024-01-29T10:00:00-04:00",
+          "localizedDescription": "New\n\u2022 New icons by LitRitt\n  \u2022 Super Ignited Bros (Smash Bros)\n  \u2022 Red Plumber (Mario)\n  \u2022 Green Plumber (Luigi)\n  \u2022 Stomp Bait (Goomba)\n  \u2022 Sparky (Pikachu)\n  \u2022 Puffball (Kirby)\n  \u2022 Sword That Seals (Master Sword)\n  \u2022 Sword That Seals Alt (Master Sword)\n  \u2022 Sword That Ignites (Master Sword)\n  \u2022 Sword That Ignites Alt (Master Sword)\n\u2022 New icons by Kongolabongo\n  \u2022 Barrel of Kong (DK)\n  \u2022 Barrel of Flame (DK)\n\u2022 New icons by Scoot the Rizzler\n  \u2022 Master Sword\n  \u2022 Hylian Shield\n  \u2022 Many Marios\n\u2022 Adds beta label for features/options\n\u2022 Adds 1.5x fast forward speed option for pause menu presets\n\nChanged\n\u2022 Raises minimum iOS version to 16\n\u2022 Updates some icons and shrinks file sizes\n\u2022 Icons are now sorted into categories\n\nFixed\n\u2022 Fixes some incorrect feature reset defaults\n\u2022 Fixes some grammar and spelling in settings\n\u2022 Fixes showing icon images after updating deployment target version",
+          "downloadURL": "https://cdn.ignitedemulator.com/versions/1.8.6/Ignited.ipa",
+          "size": 74540387,
+          "sha256": "1e540d93c8f1b79e3976ef21879273168d9cd6ab7fbbce668d4a4aebf8247a84",
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "1.8.5",
           "date": "2024-01-19T10:00:00-04:00",
           "localizedDescription": "Changed\n\u2022 Shrinks icon file sizes\n\u2022 Makes the background blur show when a controller is connected\n\u2022 Changes \"View patreon\" button to \"View membership\" when signed into Patreon\n\u2022 Updates Premium members page to load dynamically from PatreonAPI\n\nFixed\n\u2022 Fixes emulation not pausing when app is in the background\n\u2022 Fixes emulation not pausing when the screen is locked\n\u2022 Fixes issue causing Harmony to skip seeding database\n\u2022 Fixes game artwork losing shadows when toggling VRAM and OpenGLES options",
