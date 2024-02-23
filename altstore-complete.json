@@ -93,6 +93,15 @@
       ],
       "versions": [
         {
+          "version": "2.0rc",
+          "date": "2024-02-23T12:37:07-06:00",
+          "localizedDescription": "NEW\n\nApp Icon\n\u2022 Brand new app icon\n\u2022 Choose alternate app icons in Settings\n\nMisc.\n\u2022 Added social media follow buttons to Settings\n\nIMPROVED\n\nSources\n\u2022 Supports JSON5 for sources\n\u2022 Throws error when adding marketplace source to non-marketplace AltStore (and vice versa)\n\nPatreon\n\u2022 Supports custom pledge amounts\n\nMisc.\n\u2022 Changed \"WiFi\" spelling to \"Wi-Fi\"\n\u2022 Displays version # for updates in My Apps tab\n\u2022 Dismiss full-screen screenshots with swipe gesture\n\u2022 Updated social media URLs for Credits section in Settings\n\nFIXED\n\u2022 Fixed various issues when installing apps before adding source\n\u2022 Fixed not updating featured apps installation status on source detail page\n\u2022 Fixed not showing \"more updates\" button when there are more than 2 updates\n\u2022 Fixed missing blur when pushing AppViewController onto modal navigation controller\n\u2022 Fixed incorrect corner radius animation for app + source detail screens\n\u2022 Fixed not showing toast view if error occurs during initial sources fetch",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_rc.ipa",
+          "size": 20901410,
+          "sha256": "85ccc6cead79ac442bd32a72a1319a434535de29d1d712599442e29ee69732e9",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "2.0b7",
           "date": "2024-01-09T12:00:00-06:00",
           "localizedDescription": "This beta fixes an issue preventing some users from downloading or refreshing Patreon-exclusive apps.",
@@ -259,6 +268,16 @@
         "https://user-images.githubusercontent.com/705880/65601125-5b182000-df56-11e9-9e7e-261480e893c0.PNG"
       ],
       "versions": [
+        {
+          "version": "1.5",
+          "buildVersion": "85",
+          "date": "2024-02-20T11:28:09-06:00",
+          "localizedDescription": "NEW\n\nLocal Multiplayer (thanks Ian Clawson!)\n* Play multiplayer NES, SNES, and N64 games with friends\n* Supports up to 4 players\n\nAirPlay Support\n* Stream your games to the big screen with AirPlay\n* [DS] Layout screens horizontally or vertically on TV\n* [DS] Optionally AirPlay just top screen for true multi-screen experience\n\nError Log\n* Added detailed logging to help debug issues, especially related to syncing\n* View complete error log by pressing \"Export Error Log\" in Settings\n\nIMPROVED\n\nDelta Sync\n* Automatically resolves Cheat + ControllerSkin sync conflicts\n* Syncs `GameSave.sha1` hash between devices to prevent redundant uploads\n* Displays activity indicator when signing in\n* Delays seeding Delta Sync database until initial sync\n* Delays sync until after interactive Settings dismissal has completed\n* Uses local modification date when uploading changes\n* De-authenticates existing service when switching services\n* [Dropbox] Improved error message when remote storage is out of free space\n\nNon-MFi Controller Support\n* New default mappings for single Joy-Cons and Switch NES/SNES controllers\n* Uses Logo/Home button as Delta pause button if controller has one\n\nSettings\n* Revised UI to use modern \"inset grouped\" style\n* Uses large titles where appropriate\n\nMisc.\n* Adds \"Learn More\" links to FAQ thoughout the app\n* Replaces `UIDocumentBrowserViewController` with `UIDocumentPickerViewController` on iOS 17+\n* Skips checksum verification when importing zipped games\n* Displays \"Touch Screen\" instead of \"iPhone\" or \"iPad\" when using touch controls\n\nFIXED\n\nDelta Sync\n* Fixed \"Harmony.sqlite couldn't be opened\" sync error when there are more than 1000 games\n* Fixed \"file does not exist\" sync error after restoring previous version\n* Fixed Delta Sync switch remaining OFF if users cancels \"Disable Syncing?\" warning alert\n* Fixed incorrect mass conflicts when signing out then back in\n* Fixed missing references to remote files when signing out then back in\n* Fixed queued syncs sometimes fetching outdated changes\n* Fixed accidentally using wrong account when signed-in to multiple services\n* Fixed issue causing Delta to skip seeding syncing database, potentially overwriting local data with old remote data\n* Fixed incorrectly marking some game saves as conflicted during initial sync\n* Fixed accidentally signing-out after signing-in to previous Google Drive account\n* Fixed accidentally deleting Games directory during sync in rare circumstances",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_5.ipa",
+          "size": 47114236,
+          "sha256": "5768b4e1991de9ad102d417111af4a3484f6572c5e0a6bce44ce94537dd7fe63",
+          "minOSVersion": "14.0"
+        },
         {
           "version": "1.4.2",
           "date": "2023-09-19T12:30:00-05:00",
