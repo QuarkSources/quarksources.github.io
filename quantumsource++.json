@@ -160,7 +160,7 @@
     },
     {
       "name": "Streamer",
-      "bundleIdentifier": "com.streamer.app.ios",
+      "bundleIdentifier": "com.streamer.tvos",
       "developerName": "StreamerApp",
       "subtitle": "App for Streaming Movies and TV shows",
       "localizedDescription": "App for Streaming Movies and TV shows on iOS and tvOS.\n\n- Stream all TV shows and Movies from multiple websites without any annoying ads\n- Supports Chromecast to stream to FireTV and Chromecasts\n- Supports multi-language subtitles for iOS and tvOS\n- Favorite functionality to quickly access your favorite shows and movies\n",
@@ -173,6 +173,16 @@
         "https://user-images.githubusercontent.com/96978272/191682345-f882e099-3ba3-4851-b5db-b9709bc64abe.png"
       ],
       "versions": [
+        {
+          "absoluteVersion": "1.2.36",
+          "version": "1.2.36",
+          "buildVersion": "337",
+          "date": "2024-02-26T17:38:17Z",
+          "localizedDescription": "# V 1.2.36 Release\n\n- **Jackett and Annatar Integration**: Streamer now supports connecting to your own Jackett or Annatar servers, or using the ones hosted by Elfhosted. This allows you to access a wide range of torrent providers and sources for your streaming needs.\r\n\r\n- **Provider Management**: You can now customize the list of available providers by hiding the ones you don't want to use in the Advanced settings. Additionally, you can enable the \"Multi-Provider Search\" feature, which will search across all the enabled providers and display the results from each one when you look for a TV show or a movie.\r\n\r\n- **Catalog Browser**: You can now browse the catalog of your debrid services in the Debrid settings page. This lets you see what content is available on your debrid accounts and stream them directly from there.\r\n\r\n- **Trakt and Favourites**: You can now choose to replace the Trakt tab with the Favourites tab in the tabbar. This gives you quick access to your favourite TV shows and movies without having to log in to Trakt.\r\n\r\n- **Universal Resolvers UI**: We have revamped the user interface for the Universal Resolvers settings, making it easier and more intuitive to configure your resolvers and debrid services.\r\n\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs.",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.36/Streamer-tvOS.ipa",
+          "size": 27865131,
+          "sha256": "8b8e4b20ca72a0b50b87072076e919586b4874424df1f728b8ca059363365f96"
+        },
         {
           "absoluteVersion": "1.2.35",
           "version": "1.2.35",
@@ -374,32 +384,7 @@
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": [
-          {
-            "name": "BluetoothAlways",
-            "usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your WiFi network."
-          },
-          {
-            "name": "Camera",
-            "usageDescription": "Some ad content may access camera to take picture."
-          },
-          {
-            "name": "LocalNetwork",
-            "usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your WiFi\n    network."
-          },
-          {
-            "name": "Motion",
-            "usageDescription": "Some ad content may require access to accelerometer for interactive ad experience."
-          },
-          {
-            "name": "PhotoLibrary",
-            "usageDescription": "Some ad content may require access to the photo library."
-          },
-          {
-            "name": "UserTracking",
-            "usageDescription": "App would like to access IDFA for tracking purpose"
-          }
-        ]
+        "privacy": []
       },
       "appID": "com.streamer.ios"
     },
