@@ -69,6 +69,16 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "absoluteVersion": "19.08.2",
+          "version": "19.08.2",
+          "buildVersion": "19.08.2",
+          "date": "2024-02-27T14:56:49Z",
+          "localizedDescription": "# iVanced 19.08.2\n\niVanced for YouTube 19.08.2 |\r\n\r\nDownload from AppDb : https://appdb.to/app/cydia/1900001075 or download the .ipa file from this release.",
+          "downloadURL": "https://github.com/TherionRO/YouTubeiVanced/releases/download/release19.08.2/iVanced_19.08.2.ipa",
+          "size": 132283385,
+          "sha256": "6d0cd99497c71fc29b41b6858978f005ec89ba772e374b7136bc8d940c507dc9"
+        },
+        {
           "absoluteVersion": "19.06.2",
           "version": "19.06.2",
           "buildVersion": "19.06.2",
