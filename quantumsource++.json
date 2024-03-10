@@ -184,6 +184,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.2.37",
+          "version": "1.2.37",
+          "buildVersion": "338",
+          "date": "2024-03-10T21:25:19Z",
+          "localizedDescription": "# V 1.2.37 Release\n\n- Fixes WeCima, Shahid4U, FilmPalast and KinoKiste\r\n- Fixes Jackett integration and updated Annatar integration\r\n- squashed a lot of bugs ",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.37/Streamer-tvOS.ipa",
+          "size": 27989205,
+          "sha256": "76dd28962d1adc0898b3d0606e74360f3ba2d49f6a8688a038906686a4f9ac41"
+        },
+        {
           "absoluteVersion": "1.2.36",
           "version": "1.2.36",
           "buildVersion": "337",
