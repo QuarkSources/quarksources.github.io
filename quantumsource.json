@@ -1470,6 +1470,14 @@
       ],
       "versions": [
         {
+          "version": "v2.3",
+          "date": "2024-03-16T17:12:00+01:00",
+          "localizedDescription": "Battle cable support and more SystemSP games.",
+          "downloadURL": "https://github.com/flyinghead/flycast/releases/download/v2.3/Flycast-2.3.ipa",
+          "size": 16799249,
+          "sha256": "1d60645a8f7f643cedffa6f49afe930b83f05d113a842c7dcff9f350ba796bc3"
+        },
+        {
           "version": "v2.2",
           "date": "2023-10-28T12:40:02+02:00",
           "localizedDescription": "Sega SystemSP and VF.NET.",
