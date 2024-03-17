@@ -1470,6 +1470,14 @@
       ],
       "versions": [
         {
+          "version": "v2.3.1",
+          "date": "2024-03-16T17:12:00+01:00",
+          "localizedDescription": "Battle cable support and more SystemSP games.",
+          "downloadURL": "https://github.com/flyinghead/flycast/releases/download/v2.3/Flycast-2.3.1.ipa",
+          "size": 16799249,
+          "sha256": "04003c2f39aa8ff7e73c85fdc1a9243672b3081937067a1bbf79c8121eb37fe0"
+        },
+        {
           "version": "v2.3",
           "date": "2024-03-16T17:12:00+01:00",
           "localizedDescription": "Battle cable support and more SystemSP games.",
