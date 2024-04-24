@@ -170,7 +170,7 @@
     },
     {
       "name": "Streamer",
-      "bundleIdentifier": "com.streamer.tvos",
+      "bundleIdentifier": "com.streamer.ios",
       "developerName": "StreamerApp",
       "subtitle": "App for Streaming Movies and TV shows",
       "localizedDescription": "App for Streaming Movies and TV shows on iOS and tvOS.\n\n- Stream all TV shows and Movies from multiple websites without any annoying ads\n- Supports Chromecast to stream to FireTV and Chromecasts\n- Supports multi-language subtitles for iOS and tvOS\n- Favorite functionality to quickly access your favorite shows and movies\n",
@@ -183,6 +183,16 @@
         "https://user-images.githubusercontent.com/96978272/191682345-f882e099-3ba3-4851-b5db-b9709bc64abe.png"
       ],
       "versions": [
+        {
+          "absoluteVersion": "1.2.38",
+          "version": "1.2.38",
+          "buildVersion": "344",
+          "date": "2024-04-24T21:37:13Z",
+          "localizedDescription": "# V 1.2.38 Release\n\n- **New Feature: Custom Stremio Addon Support**\r\n  - You can now add your own custom Stremio addons to Streamer! These addons currently support IMDB and direct links, but torrent support is not available. Most self-hosted addons should work seamlessly.\r\n\r\n- **Enhancements: Jackett and Annatar Configurations**\r\n  - We've updated the support for Jackett and Annatar configurations. Enjoy improved performance and compatibility.\r\n\r\n- **Bug Fixes and New Provider: Filma24**\r\n  - The Flixtor provider has been fixed, and we've also added a new Albanian provider called Filma24.\r\n  - Additionally, this release includes various small bug fixes and overall improvements.\r\n\r\n<img width=\"627\" alt=\"Custom Stremio Addon Support\" src=\"https://github.com/StreamerApp/Streamer/assets/96978272/50aceceb-27ca-4807-ac95-ced248552149\">\r\n\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs.",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.38/Streamer-iOS.ipa",
+          "size": 37008501,
+          "sha256": "cf23743736ebdcbb8f0329e9ac02aac9553510a69a59c97ff23f9b5d460c8b08"
+        },
         {
           "absoluteVersion": "1.2.37",
           "version": "1.2.37",
@@ -404,7 +414,32 @@
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": []
+        "privacy": [
+          {
+            "name": "BluetoothAlways",
+            "usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your WiFi network."
+          },
+          {
+            "name": "Camera",
+            "usageDescription": "Some ad content may access camera to take picture."
+          },
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "Streamer uses the local network to discover Cast-enabled devices on your WiFi\n    network."
+          },
+          {
+            "name": "Motion",
+            "usageDescription": "Some ad content may require access to accelerometer for interactive ad experience."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "Some ad content may require access to the photo library."
+          },
+          {
+            "name": "UserTracking",
+            "usageDescription": "App would like to access IDFA for tracking purpose"
+          }
+        ]
       },
       "appID": "com.streamer.ios"
     },
