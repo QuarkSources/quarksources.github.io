@@ -269,6 +269,16 @@
       ],
       "versions": [
         {
+          "version": "1.5.2",
+          "buildVersion": "88",
+          "date": "2024-04-25T12:00:00-05:00",
+          "localizedDescription": "\u2022 Pre-fills game name in Games Database search field\n\u2022 Fixed using touch screen when AirPlaying DS games\n\u2022 Hides \"Genesis\" controller mapping while Genesis support is in beta\n\nThanks so much for using Delta! Glad to see everyone enjoying their favorite retro games \ud83d\ude42",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_5_2.ipa",
+          "size": 47130192,
+          "sha256": "95a0b5ee341a518e70489ac4a6801969974e4b434b0ed10790b2e0bdf5d1f011",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.5",
           "buildVersion": "85",
           "date": "2024-02-20T11:28:09-06:00",
