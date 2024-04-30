@@ -842,6 +842,14 @@
       ],
       "versions": [
         {
+          "version": "8.9.34",
+          "date": "2024-04-30",
+          "localizedDescription": "\u2022 Replaced Spotify v8.6.42 (Spotilife) with Spotify v8.9.34 (Eevee)",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.34.+.Eevee.v1.4.1.ipa",
+          "size": 65900000,
+          "sha256": "0da101f63331a006c3b8c8b882e72be120ff997b4f7918887da76c1c058d8d07"
+        },
+        {
           "version": "8.6.54",
           "date": "2021-11-18",
           "localizedDescription": "Should finally work on iOS 15+. Added Spos 1.7.",
@@ -850,6 +858,63 @@
           "sha256": "1402a927d7944c4782a5eab15ef6b8167b4ef9cd5d00c683d1e70af11625023d"
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "AppleMusic",
+            "usageDescription": "This will let you play your imported music on Spotify."
+          },
+          {
+            "name": "BluetoothAlways",
+            "usageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth."
+          },
+          {
+            "name": "BluetoothPeripheral",
+            "usageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth."
+          },
+          {
+            "name": "Camera",
+            "usageDescription": "This lets you scan Spotify Codes."
+          },
+          {
+            "name": "FaceID",
+            "usageDescription": "This lets you set access restrictions using Face ID."
+          },
+          {
+            "name": "HealthShare",
+            "usageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts."
+          },
+          {
+            "name": "HealthUpdate",
+            "usageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts."
+          },
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files."
+          },
+          {
+            "name": "Microphone",
+            "usageDescription": "This lets you control Spotify using your voice."
+          },
+          {
+            "name": "Motion",
+            "usageDescription": "We will use this to understand which audio motivates you most."
+          },
+          {
+            "name": "PhotoLibraryAdd",
+            "usageDescription": "This lets you save images to your Photo Library."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "This lets you select images from your Photo Library."
+          },
+          {
+            "name": "UserTracking",
+            "usageDescription": "Your data will be used to deliver personalized ads or content to you."
+          }
+        ]
+      },
       "appID": "com.spotify.client"
     },
     {
