@@ -362,6 +362,16 @@
       ],
       "versions": [
         {
+          "version": "1.6b",
+          "buildVersion": "91",
+          "date": "2024-05-01T08:30:00-05:00",
+          "localizedDescription": "Quick Gestures\n\u2022 Hold menu button to perform actions via gestures\n\u2022 Fast Forward: Swipe left or right\n\u2022 Hold Button: Tap buttons to hold/release",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_b.ipa",
+          "size": 46968202,
+          "sha256": "a001b87a482df073b8cc00d79760fca40436082f32ca83bb16e399a8cd089e1d",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.5rc2",
           "buildVersion": "85",
           "date": "2024-01-22T12:05:17-06:00",
