@@ -517,6 +517,16 @@
       ],
       "versions": [
         {
+          "version": "4.0.0b7",
+          "date": "2024-01-21T20:30:00.0000000Z",
+          "localizedDescription": "This is the first build based on the rewritten DolphiniOS code.\n\niOS 14 is required to run this build.",
+          "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b7/Non-Jailbroken.ipa",
+          "size": 13775833,
+          "sha256": "31934065e81fd76ec082814dda8cd1ad43a92c516f6c984dfa6ae4b7b39ac782",
+          "minOSVersion": "14.0",
+          "maxOSVersion": "99.0"
+        },
+        {
           "version": "3.2.1b1",
           "date": "2022-07-05T18:00:00-04:00",
           "localizedDescription": "This update contains the following changes:\n\n- Fixed ubershaders.\n- Fixed fastmem crashing on iOS 16 betas.\n\nThe next beta build will be based off the rewritten DolphiniOS source code.\n\nFor more information, see https://oatmealdome.me/blog/dolphinios-ver-3-2-0/.",
@@ -525,6 +535,15 @@
           "sha256": "302438ec452636ff0b033ac1561f35f95ec42c644263d318978ef6fb83fc09d8"
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "DolphiniOS uses the local network to find and communicate with AltServer."
+          }
+        ]
+      },
       "beta": false,
       "appID": "me.oatmealdome.DolphiniOS-njb-patreon-beta"
     },
