@@ -842,6 +842,14 @@
       ],
       "versions": [
         {
+          "version": "8.9.36",
+          "date": "2024-05-08",
+          "localizedDescription": "\u2022 Fixed app crashing when opening the player\n\u2022 EeveeSpotify now replaces Spotify monthly limited lyrics with Genius!\n\u2022 Updated Spotify to v8.9.36",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.36.+.Eevee.v2.1.ipa",
+          "size": 69100000,
+          "sha256": "365ab5551a5c27181e6d5c3be262cc5bc4a80bf48f4cfef331180082ddb16a8e"
+        },
+        {
           "version": "8.9.34",
           "date": "2024-04-30",
           "localizedDescription": "\u2022 Replaced Spotify v8.6.42 (Spotilife) with Spotify v8.9.34 (Eevee)",
