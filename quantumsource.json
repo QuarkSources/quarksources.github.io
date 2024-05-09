@@ -457,6 +457,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.6.1",
+          "version": "1.6.1",
+          "buildVersion": "1",
+          "date": "2024-05-09T23:33:26Z",
+          "localizedDescription": "# Release 1.6.1\n\n- Add Commodore 128.\r\n- Add Atari 8-Bit Computers.\r\n- Add Commander X16.\r\n- Add Polyplay Trap Them Controller.\r\n- Add VIC-20 32K RAM expansion.\r\n- Update Vice to 3.5.",
+          "downloadURL": "https://github.com/T-Pau/Ready/releases/download/release-1.6.1/Ready-1.6.1.ipa",
+          "size": 73079686,
+          "sha256": "af018a32e58099f7f476b2034eee7ae6705a54127e7df7b31e38814cf7100ad6"
+        },
+        {
           "absoluteVersion": "1.6",
           "version": "1.6",
           "date": "2020-07-08T15:55:00Z",
@@ -465,7 +475,12 @@
           "size": 63972294,
           "sha256": "379a0006350f996aa3e9b26be09bd1140553071d9301192e00f86666844e1a9b"
         }
-      ]
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "appID": "at.spiderlab.c64"
     },
     {
       "name": "DolphiniOS",
