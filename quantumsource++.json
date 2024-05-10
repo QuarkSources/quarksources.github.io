@@ -842,6 +842,14 @@
       ],
       "versions": [
         {
+          "version": "8.9.38",
+          "date": "2024-05-10",
+          "localizedDescription": "\u2022 EeveeSpotify now supports LRCLIB and Musixmatch time-synced lyrics sources! You can select your preferred source in the tweak settings\n\u2022 Lyrics colors are now normalized\n\u2022 Fixed Genius issue where the tweak would pick a translation instead of the original lyrics",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Spotify.v8.9.38.+.Eevee.v3.0.ipa",
+          "size": 68800000,
+          "sha256": "01bba7154e0b9fb25e81ac0730cf926614f077e7ef67ac6390735e29fbdad766"
+        },
+        {
           "version": "8.9.36",
           "date": "2024-05-08",
           "localizedDescription": "\u2022 Fixed app crashing when opening the player\n\u2022 EeveeSpotify now replaces Spotify monthly limited lyrics with Genius!\n\u2022 Updated Spotify to v8.9.36",
