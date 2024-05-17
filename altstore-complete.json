@@ -269,6 +269,16 @@
       ],
       "versions": [
         {
+          "version": "1.5.4",
+          "buildVersion": "93",
+          "date": "2024-05-17T12:00:00-05:00",
+          "localizedDescription": "Adobe threatened legal action unless we changed our app icon \u2014 so we did! Hope y'all like it :)\n\n\u2022 New icon to avoid legal trouble\n\u2022 Revised context menu for games\n\u2022 Fixed exporting save file without file extension\n\u2022 Fixed broken melonDS BIOS FAQ link",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_5_4.ipa",
+          "size": 45858115,
+          "sha256": "02a660bd525dc52164fdf764483858b71accfd9ad2e9e968f64fd231d126f664",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.5.2",
           "buildVersion": "88",
           "date": "2024-04-25T12:00:00-05:00",
