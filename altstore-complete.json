@@ -372,6 +372,16 @@
       ],
       "versions": [
         {
+          "version": "1.6b2",
+          "buildVersion": "94",
+          "date": "2024-05-30T11:30:00-05:00",
+          "localizedDescription": "\u26a0\ufe0f This update is incompatible with existing DS save states. Please save normally in-game before updating.\n\nNEW\n\nMultiple Windows\n\u2022 Supports multiple windows on iPad\n\u2022 Emulate games from multiple systems simultaneously \n\u2022 Open new windows via drag & drop, or by long-pressing game then choosing \"Open in New Window\"\n\u2022 Automatically pause games when switching windows (optional)\n\nUpdated melonDS core to 0.9.5\n\u2022 Improves game compatibility & performance\n\u2022 BIOS files are now optional!\n\u2022 Supports \"inserting\" GBA games into DS dual-slot\n\u2022 Increased fast forward speed to 3x (A15 processor or later)\n\n\u201cSupport External Displays\u201d Setting\n\u2022 Control whether Delta shows games full screen on external displays\n\u2022 Disable to use multiple windows on external display with Stage Manager\n\nFIXED\n\u2022 Fixed clipped context menu preview for games\n\u2022 Fixed exporting save file without file extension\n\u2022 Fixed interface rotating when playing WarioWare: Twisted!\n\u2022 [iPad] Fixed not adjusting DS screens for split view keyboard\n\u2022 [iPad] Fixed hidden save state thumbnails when in compact size class",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_b2.ipa",
+          "size": 48566277,
+          "sha256": "de325034fe709c0ed3c65d70d7c06c0038bfb31174d5de132b7be5c057840a4c",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.6b",
           "buildVersion": "91",
           "date": "2024-05-01T08:30:00-05:00",
