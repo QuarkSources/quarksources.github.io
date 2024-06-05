@@ -517,6 +517,16 @@
       ],
       "versions": [
         {
+          "version": "1.1",
+          "buildVersion": "14",
+          "date": "2024-06-05T12:00:00-05:00",
+          "localizedDescription": "\u2022 Switches to using location services to run in background\n\u2022 Improves reading clipboard on iOS 17",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/clip/1_1.ipa",
+          "size": 601183,
+          "sha256": "69bb0ef2c4419f043df58625733232a8cc899bfaba5e5325202919a1a582916a",
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.0",
           "date": "2020-06-17T12:30:00-07:00",
           "localizedDescription": "Initial version \ud83c\udf89",
@@ -525,6 +535,19 @@
           "sha256": "3ac73fe85b6bf7e5433582db73f27edd4d6ff8d4859569460ad4f5159297f63f"
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "LocationAlwaysAndWhenInUse",
+            "usageDescription": "Clip requires \u201cAlways\u201d location permission to automatically tag clippings with your location. Your location data never leaves this device."
+          },
+          {
+            "name": "LocationWhenInUse",
+            "usageDescription": "Clip requires location permissions to automatically tag clippings with your location. Your location data never leaves this device."
+          }
+        ]
+      },
       "appID": "com.rileytestut.Clip"
     },
     {
@@ -543,6 +566,16 @@
       ],
       "versions": [
         {
+          "version": "1.2b",
+          "buildVersion": "13",
+          "date": "2024-06-05T12:00:00-05:00",
+          "localizedDescription": "\u2022 Switches to using location services to run in background\n\u2022 Improves reading clipboard on iOS 17",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/clip/1_2_b.ipa",
+          "size": 601183,
+          "sha256": "e6f7add78dda8a4ba8c51e0e61c4a572faf526da8c7d6280d2531fd444d31746",
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.1b1",
           "date": "2020-06-17T12:30:00-07:00",
           "localizedDescription": "This update adds a Custom Keyboard app extension for quick access to clippings when editing text.\n\nTo enable the keyboard, go to Settings > General > Keyboard > Keyboards > Add New Keyboard... and add \"ClipBoard\". Once added, make sure to then enable \"Allow Full Access\" for ClipBoard so it can access your clippings.",
@@ -551,6 +584,19 @@
           "sha256": "d7314df158dd5918d63d07ae0c60ee4565c6e47645b3027db7b715fa1b1cf17e"
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "LocationAlwaysAndWhenInUse",
+            "usageDescription": "Clip requires \u201cAlways\u201d location permission to automatically tag clippings with your location. Your location data never leaves this device."
+          },
+          {
+            "name": "LocationWhenInUse",
+            "usageDescription": "Clip requires location permissions to automatically tag clippings with your location. Your location data never leaves this device."
+          }
+        ]
+      },
       "beta": false,
       "appID": "com.rileytestut.Clip.Beta"
     },
