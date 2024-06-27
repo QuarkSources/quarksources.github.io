@@ -372,6 +372,16 @@
       ],
       "versions": [
         {
+          "version": "1.6rc",
+          "buildVersion": "96",
+          "date": "2024-06-27T14:00:00-05:00",
+          "localizedDescription": "NEW\n\nHandoff Support\n\u2022 Seamlessly switch between iPhone and iPad\n\u2022 Continues playing exactly where you left off\n\u2022 Supports Delta on Apple Silicon Macs via Mac App Store\n\nSave States\n\u2022 View all incompatible screenshots on a separate screen\n\u2022 Export save states to import into other emulators\n\u2022 Supports sorting by name\n\nMisc.\n\u2022 Supports Game Mode on iOS 18+\n\u2022 \"Open New Window\" option by long-pressing \"Main Menu\"/\"Close\" on pause screen\n\nIMPROVED\n\nQuick Gestures\n\u2022 Added new gestures for Quick Save/Load\n\u2022 Quick Save = Double-tap\n\u2022 Quick Load = Long-press\n\nController Skins\n\u2022 Finalizes iPad controller skin designs\n\u2022 UI to choose different Split View/Stage Manager skins\n\u2022 Increased DS screen size for default edge-to-edge iPhone landscape skin\n\nExperimental Features\n\u2022 UI to choose AirPlay skins\n\u2022 \"Skin Debugging\" to toggle \"debug mode\" for skins\n\nFIXED\n\niPad\n\u2022 Fixed not recognizing quick gestures on Split View controller\n\u2022 Fixed crash when pressing \"Reset Controller Skin\" button\n\u2022 Fixed crash opening N64 games in new window with context previews enabled\n\u2022 Fixed sometimes showing incorrect skin orientation in split view\n\u2022 Fixed loading wrong game after quitting game in another window\n\u2022 Fixed potential freeze when opening games in new window",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_rc.ipa",
+          "size": 52596261,
+          "sha256": "7313b58dc3c9977193e19e9569fb3c629b798095f7dd8515e059041afa3b8b15",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.6b2",
           "buildVersion": "94",
           "date": "2024-05-30T11:30:00-05:00",
