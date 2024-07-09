@@ -916,6 +916,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "2.6",
+          "version": "2.6",
+          "buildVersion": "15",
+          "date": "2024-07-09T16:09:01Z",
+          "localizedDescription": "# Mini vMac for iOS v2.6\n\n* Added 512\u00d7384 variant of Mac II\r\n* Requires iOS 13.4\r\n    * Dropping 32-bit support (iOS 9) made the app smaller\r\n* Prefer pixel-perfect scaling when display scaling filter is set to nearest\r\n* Auto-hide iOS home indicator\r\n* Partially fix some command-key shortcuts going to iOS instead of the emulated Mac (#45)\r\n    * \u2318-w and most others will get passed to the emulated machine if it's running\r\n    * \u2318-q and \u2318-h don't seem interceptable, the app doesn't receive any key events for them, but \u2318-q doesn't do anything (or maybe it does in some other configuration?), and \u2318-h will take you to the home screen\r\n* visionOS support (only tested in simulator)\r\n\r\n**Full Changelog**: https://github.com/zydeco/minivmac4ios/compare/v2.5...v2.6",
+          "downloadURL": "https://github.com/zydeco/minivmac4ios/releases/download/v2.6/minivmac4ios-2.6.ipa",
+          "size": 668434,
+          "sha256": "cbe597bfd3e3e9b412ef0117a374453e51e5444db56dd46a267f9950bff64ad4"
+        },
+        {
           "absoluteVersion": "2.5",
           "version": "2.5",
           "date": "2022-05-26T18:30:55Z",
@@ -924,7 +934,12 @@
           "size": 1194371,
           "sha256": "2d3fd7a540944d46c1c968dbc88434deffea93a14a54f06191436fc804e9796b"
         }
-      ]
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      },
+      "appID": "net.namedfork.minivmac"
     },
     {
       "name": "Filza Escaped",
