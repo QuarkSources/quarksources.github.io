@@ -269,6 +269,16 @@
       ],
       "versions": [
         {
+          "version": "1.6",
+          "buildVersion": "102",
+          "date": "2024-07-10T12:00:00-05:00",
+          "localizedDescription": "\u26a0\ufe0f This update is incompatible with existing DS save states. Please save normally in-game before updating to avoid losing progress.\n\nNEW\n\nApp Icon\n\u2022 Brand new legally-compliant app icon (thanks Caroline Moore!)\n\u2022 Includes alternative app icons designed by community members:\n\u2022 \"Halogenide\" by Sebastiaan de With\n\u2022 \"Ketchup\" by Ben McCarthy\n\u2022 \"Microchip\" by Sean Fletcher\n\niPad Support\n\u2022 Play games full screen on iPad's beautiful display\n\u2022 Brand new controller skins designed specifically for iPad (thanks Caroline Moore!)\n\u2022 Supports multiple windows in Stage Manager and Split View\n\u2022 Automatically pauses games when switching windows (optional)\n\nHandoff\n\u2022 Seamlessly switch between iPhone and iPad\n\u2022 Continues playing exactly where you left off\n\u2022 Also supports Delta on Apple Silicon Macs via Mac App Store\n\nmelonDS 0.9.5\n\u2022 Improves DS game compatibility & performance\n\u2022 BIOS files are now optional!\n\u2022 Supports \"inserting\" GBA games into DS dual-slot\n\u2022 Increased Fast Forward speed to 3x (A15 processor or later)\n\nMenu Button Gestures\n\u2022 Use gestures while holding menu button to perform quick actions\n\u2022 Menu + Horizontal Swipe: Fast Forward\n\u2022 Menu + Any Button: Hold Button\n\u2022 Menu + Double-Tap: Quick Save\n\u2022 Menu + Long-Press: Quick Load\n\nExperimental Features\n\u2022 New section in Settings for features by third-party contributors\n\u2022 Features are WIP and should be used at user\u2019s discretion\n\u2022 Available for Patrons on \"Beta Access\" tier or higher\n\nSave States\n\u2022 Sort save states by name\n\u2022 View all incompatible screenshots on a separate screen\n\u2022 Export save states to import into other emulators\n\n\u201cDisplay Full Screen\u201d AirPlay Setting\n\u2022 Control whether Delta shows games full screen on external displays\n\u2022 Disable to use multiple windows on external display with Stage Manager\n\nMisc.\n\u2022 Supports Game Mode on iOS 18+\n\u2022 Increased DS screen size for default edge-to-edge iPhone landscape skin\n\nFIXED\n\n\u2022 Fixed exporting save file without file extension\n\u2022 Fixed interface rotating when playing WarioWare: Twisted!\n\u2022 Fixed Pokemon Black & White (2) freezing with C-Gear enabled",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6.ipa",
+          "size": 87734964,
+          "sha256": "2e41f24f617b2e73618b786efadfd9d27a9c9de119e6576caa4b51dd36c2d07e",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.5.4",
           "buildVersion": "93",
           "date": "2024-05-17T12:00:00-05:00",
