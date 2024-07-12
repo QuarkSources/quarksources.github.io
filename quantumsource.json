@@ -210,6 +210,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.5.4",
+          "version": "1.5.4",
+          "buildVersion": "2024-07-11-286a70c",
+          "date": "2024-07-11T15:12:39Z",
+          "localizedDescription": "# VCMI 1.5.4\n\n<!--Warning: saved games from 1.3 release are not supported-->\r\nNote: saved games from 1.4 release can be loaded in 1.5\r\n\r\n### Changelog\r\n- Player Changelog: [1.5.3 -> 1.5.4](https://github.com/vcmi/vcmi/blob/master/ChangeLog.md#153---154)\r\n- Full Changelog: https://github.com/vcmi/vcmi/compare/1.5.3..1.5.4\r\n\r\n### Additional builds\r\n<!-- - Android release will be available on Google Play shortly -->\r\n<!-- - Linux release will be available on Flathub shortly -->\r\n<!-- - Ubuntu release will be available on VCMI PPA shortly -->\r\n<!-- - Android release is available on [Google Play](https://play.google.com/store/apps/details?id=is.xyz.vcmi) -->\r\n<!-- - Linux release is available on [Flathub](https://flathub.org/apps/eu.vcmi.VCMI) -->\r\n<!-- - Ubuntu release is available on [VCMI PPA](https://launchpad.net/~vcmi/+archive/ubuntu/ppa) -->\r\n\r\n- Android release is available on [Google Play](https://play.google.com/store/apps/details?id=is.xyz.vcmi)\r\n- Linux release will be available on Flathub shortly\r\n- Ubuntu release will be available on VCMI PPA shortly",
+          "downloadURL": "https://github.com/vcmi/vcmi/releases/download/1.5.4/VCMI-iOS.ipa",
+          "size": 25083368,
+          "sha256": "48c75d7e4d160de6748243b0945a9c5c1f731c99f166c7fd7c4d6df06c428fc4"
+        },
+        {
           "absoluteVersion": "1.5.3",
           "version": "1.5.3",
           "buildVersion": "2024-06-20-099a491",
