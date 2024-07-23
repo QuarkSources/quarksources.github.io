@@ -269,6 +269,16 @@
       ],
       "versions": [
         {
+          "version": "1.6.1",
+          "buildVersion": "109",
+          "date": "2024-07-23T12:00:00-05:00",
+          "localizedDescription": "NEW\n\u2022 Supports using iPhone skins on iPad\n\nFIXED\n\u2022 Fixed rare crash when loading DS save states\n\u2022 Fixed game controllers not working on visionOS and macOS\n\u2022 Fixed hardware keyboard support on macOS\n\u2022 Fixed menu button not working on external controllers with remapped menu button\n\u2022 Fixed delayed inputs on external controllers with remapped menu button\n\u2022 Fixed DS touch screen not responding after updating to iPad version",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_1.ipa",
+          "size": 87753061,
+          "sha256": "f92974c49b404eb5233c8ac22cb5dc2a4a85685b24b1b1647cbe8525e347c00b",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.6",
           "buildVersion": "102",
           "date": "2024-07-10T12:00:00-05:00",
