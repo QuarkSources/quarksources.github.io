@@ -392,6 +392,16 @@
       ],
       "versions": [
         {
+          "version": "1.6.2b",
+          "buildVersion": "112",
+          "date": "2024-07-30T12:00:00-05:00",
+          "localizedDescription": "\u2022 Fixed occasionally dropping DS touch screen inputs\n\u2022 Fixed crash loading certain skins with fallback traits\n\u2022 Fixed crash loading certain iPhone skins on iPad\n\u2022 Fixed app freezing when AirPlaying\n\u2022 Fixed app freezing when rotating device with certain skins",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_2_b.ipa",
+          "size": 87750164,
+          "sha256": "aecca7266cf7295d46825377b95dc582d8fdcfc0e70ee255867b6508733843e4",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.6.1b",
           "buildVersion": "106",
           "date": "2024-07-19T12:00:00-05:00",
