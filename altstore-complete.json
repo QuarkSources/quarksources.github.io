@@ -402,6 +402,16 @@
       ],
       "versions": [
         {
+          "version": "1.6.3b",
+          "buildVersion": "117",
+          "date": "2024-09-04T12:00:00-05:00",
+          "localizedDescription": "\u2022 Fixed not unlocking Experimental Features\n\u2022 Fixed misc. visual bugs on iOS 18",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_3_b.ipa",
+          "size": 87747304,
+          "sha256": "95999a0acb1045f258b20ba368a5b87b19ce18dfd4158d44e161873a7199a0e9",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.6.2b",
           "buildVersion": "112",
           "date": "2024-07-30T12:00:00-05:00",
