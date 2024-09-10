@@ -93,6 +93,15 @@
       ],
       "versions": [
         {
+          "version": "2.0rc2",
+          "date": "2024-09-10T12:00:00-05:00",
+          "localizedDescription": "NEW\n\u2022 Handles \"search\" and \"view app\" deep links\n\u2022 Supports distributing Patreon-exclusive apps to free members\n\nIMPROVED\n\u2022 Removed ability to bypass permission errors for non-recommended sources\n\nFIXED\n\u2022 Fixed duplicate \u201cNew Update Available\u201d notifications\n\u2022 Fixed Settings tab bar disappearing on iOS 18\n\u2022 Fixed not unlocking benefits due to PatreonAPI change\n\u2022 Fixed not showing alerts when installing app before adding source\n\u2022 Fixed not presenting auth screen when installing app before adding source\n\u2022 Fixed redundant app update appearing after failing to backup/restore app\n\u2022 [iPad] Fixed crash when removing apps from My Apps tab",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_rc2.ipa",
+          "size": 20830021,
+          "sha256": "39ad883b223fb8c013f798d4cb70db0fa947eac2e84d1adeea5b6b498321044b",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "2.0rc",
           "date": "2024-02-23T12:37:07-06:00",
           "localizedDescription": "NEW\n\nApp Icon\n\u2022 Brand new app icon\n\u2022 Choose alternate app icons in Settings\n\nMisc.\n\u2022 Added social media follow buttons to Settings\n\nIMPROVED\n\nSources\n\u2022 Supports JSON5 for sources\n\u2022 Throws error when adding marketplace source to non-marketplace AltStore (and vice versa)\n\nPatreon\n\u2022 Supports custom pledge amounts\n\nMisc.\n\u2022 Changed \"WiFi\" spelling to \"Wi-Fi\"\n\u2022 Displays version # for updates in My Apps tab\n\u2022 Dismiss full-screen screenshots with swipe gesture\n\u2022 Updated social media URLs for Credits section in Settings\n\nFIXED\n\u2022 Fixed various issues when installing apps before adding source\n\u2022 Fixed not updating featured apps installation status on source detail page\n\u2022 Fixed not showing \"more updates\" button when there are more than 2 updates\n\u2022 Fixed missing blur when pushing AppViewController onto modal navigation controller\n\u2022 Fixed incorrect corner radius animation for app + source detail screens\n\u2022 Fixed not showing toast view if error occurs during initial sources fetch",
