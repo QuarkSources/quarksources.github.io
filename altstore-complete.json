@@ -23,6 +23,15 @@
       ],
       "versions": [
         {
+          "version": "2.0",
+          "date": "2024-09-28T12:00:00-05:00",
+          "localizedDescription": "NEW\n\nSources\n\u2022 Add any 3rd-party source, in addition to existing Recommended Sources!\n\u2022 New dedicated Sources tab to easily manage and browse sources\n\u2022 Separate \"Add Source\" screen to simplify adding sources\n\u2022 Preview sources and browse their apps before adding them to AltStore\n\u2022 View detailed source info as well as any additional links\n\u2022 \"Featured Apps\" section showcases a source's best apps\n\nRedesigned Browse Tab\n\u2022 New \"card\" design for app listings\n\u2022 View most recently updated apps at a glance\n\u2022 Browse apps by source or by 8 new categories\n\u2022 Scroll through featured apps from each source\n\u2022 Change sort order of apps when browsing by source or category\n\u2022 Tap category name to easily switch between categories when browsing\n\nPatreon\n\u2022 Distribute Patreon-exclusive apps to patrons, including free members\n\u2022 Donate to developers' Patreons and download Patreon-exclusive apps all within AltStore\n\u2022 Supports \"custom\" pledge amounts so patrons can donate what they want\n\u2022 Shows required pledge amount for Patreon apps (if provided)\n\nApp Icon\n\u2022 Brand new app icon\n\u2022 Choose alternate app icons in Settings\n\nDetailed App Permissions\n\u2022 View all entitlements and privacy permissions for an app from its store page\n\u2022 Tap any permission to view a detailed description\n\u2022 Automatically verifies permissions are accurate before installing\n\u2022 Asks user to review permissions when installing and updating apps\n\nMisc.\n\u2022 Added social media follow buttons to Settings\n\u2022 Handles \u201csearch\u201d and \u201cview app\u201d deep links\n\nIMPROVED\n\nScreenshots\n\u2022 Supports screenshots of different sizes\n\u2022 Supports both iPhone and iPad specific screenshots\n\u2022 Automatically rounds screenshots taken with Face ID iPhone\n\u2022 Preview screenshots full-screen by tapping them from an app's store page\n\nImage Caching\n\u2022 Increased cache limit to reduce how often AltStore refetches images\n\u2022 Clear image cache with \u201cClear Cache\u2026\u201d option in Settings\n\nMisc.\n\u2022 Changed \"WiFi\" spelling to \"Wi-Fi\"\n\u2022 Displays version # for updates in My Apps tab\n\u2022 Replaced AppCenter dependency with TelemetryDeck\n\nFIXED\n\nResigning Apps\n\u2022 Fixed various issues resigning certain apps\n\u2022 Fixed resigning apps with entitlements the original app doesn\u2019t have\n\u2022 Fixed resigning apps without required entitlements\n\u2022 Fixed resigning apps with wildcard `keychain-access-groups` entitlement\n\u2022 Fixed resigning apps with non-English alphanumeric characters in name\n\u2022 Fixed app sometimes freezing when installing/refreshing apps\n\nUser Interface\n\u2022 Fixed Settings tab bar disappearing on iOS 18\n\u2022 Fixed squished banners on App IDs screen\n\u2022 Fixed button titles flashing when scrolling into view\n\u2022 Fixed incorrect corner radius animation for app + source detail screens\n\u2022 Fixed \"More\" button appearing by accident\n\u2022 Fixed not showing \"more updates\" button when there are more than 2 updates\n\u2022 Fixed erroneously showing \u201cUnsupported Updates Available\u201d message\n\u2022 Fixed showing \u201cUpdate\u201d button on app store page when no supported update is available\n\u2022 Fixed incorrect cell height for some News items\n\u2022 Fixed missing blur when pushing an app's store page onto modal navigation controller\n\nMisc.\n\u2022 Fixed crash when adding source with the same name as another source\n\u2022 Fixed \u201cCore Data error\u201d if error occurs while parsing source JSON\n\u2022 Fixed redundant app update appearing after failing to backup/restore app\n\u2022 Fixed not showing toast view if error occurs during initial sources fetch\n\u2022 Fixed incorrectly handling various cancelled operations\n\u2022 Fixed error fetching Friend Zone patrons due to unexpected nil name\n\u2022 Fixed incorrectly merging app versions for same app from different sources",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0.ipa",
+          "size": 20833347,
+          "sha256": "6d37efb08b2970a6a9d5da602fc459dfeef209d7b58e0dc85dcfc94905c8b327",
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.7",
           "date": "2023-09-18T12:00:00-05:00",
           "localizedDescription": "NEW\n\n\"Active Apps\" Widget (iOS 17+)\n\u2022 View remaining days for ALL active apps from Home Screen\n\u2022 Refresh apps directly from home screen by tapping countdown timers\n\nIMPROVED\n\nShortcuts\n\u2022 Converted existing \"Refresh All Apps\" shortcut into App Shortcut\n\u2022 Available by default in \"App Shortcuts\" section of Shortcuts app\n\u2022 Displays accurate progress when refreshing apps via Shortcuts app\n\nWidgets\n\u2022 Updated existing home screen widget to support refreshing apps by tapping countdown (iOS 17+)\n\u2022 Fully compatible with macOS Sonoma\n\nFIXED\n\u2022 Fixed AltJIT on iOS 17*\n\u2022 Fixed updating apps with manually removed extensions (e.g. uYou+)\n\u2022 Fixed not refreshing AltStore last when refreshing via Shortcut\n\u2022 Fixed Error Log not displaying all detailed info for certain errors\n\n*Requires AltServer 1.7 (macOS)",
@@ -92,6 +101,15 @@
         "https://user-images.githubusercontent.com/705880/65605577-332cba80-df5e-11e9-9f00-b369ce974f71.PNG"
       ],
       "versions": [
+        {
+          "version": "2.0rc3",
+          "date": "2024-09-28T12:00:00-05:00",
+          "localizedDescription": "This beta adds back the ability to bypass permission alerts for non-recommended sources.\n\nPREVIOUS BETA:\n\nNEW\n\u2022 Handles \"search\" and \"view app\" deep links\n\u2022 Supports distributing Patreon-exclusive apps to free members\n\nFIXED\n\u2022 Fixed duplicate \u201cNew Update Available\u201d notifications\n\u2022 Fixed Settings tab bar disappearing on iOS 18\n\u2022 Fixed not unlocking benefits due to PatreonAPI change\n\u2022 Fixed not showing alerts when installing app before adding source\n\u2022 Fixed not presenting auth screen when installing app before adding source\n\u2022 Fixed redundant app update appearing after failing to backup/restore app\n\u2022 [iPad] Fixed crash when removing apps from My Apps tab",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_rc3.ipa",
+          "size": 20833467,
+          "sha256": "a5473848a86522192c2bea291e6f449f2321d59aa14866168ae0bd80adf65d85",
+          "minOSVersion": "14.0"
+        },
         {
           "version": "2.0rc2",
           "date": "2024-09-10T12:00:00-05:00",
@@ -897,6 +915,16 @@
       "tintColor": "DA627D",
       "notify": true,
       "url": "https://twitter.com/altstoreio/status/1638599316762664974"
+    },
+    {
+      "title": "Happy 5th Birthday AltStore!",
+      "identifier": "altstore-2.0",
+      "caption": "Update now to install apps from any 3rd-party source + other great improvements \ud83e\udd73",
+      "date": "2024-09-28",
+      "tintColor": "00CAB3",
+      "imageURL": "https://cdn.altstore.io/file/altstore/images/altstore/5yrAnniversaryMedium.png",
+      "notify": true,
+      "appID": "com.rileytestut.AltStore"
     }
   ]
 }
