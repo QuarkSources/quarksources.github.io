@@ -1599,6 +1599,14 @@
       ],
       "versions": [
         {
+          "version": "v2.4",
+          "date": "2024-10-23T15:39:00+02:00",
+          "localizedDescription": "Retro achievements, improved UI",
+          "downloadURL": "https://github.com/flyinghead/flycast/releases/download/v2.4/Flycast-2.4.ipa",
+          "size": 7885887,
+          "sha256": "461b8263898c0d9c664de9823ca30ddc665bd21d5d75b5c831191d3a8bdad504"
+        },
+        {
           "version": "v2.3.2",
           "date": "2024-05-13T22:26:00+02:00",
           "localizedDescription": "Battle cable support and more SystemSP games.",
@@ -1656,6 +1664,10 @@
           {
             "name": "Microphone",
             "usageDescription": "Flycast requires microphone access to emulate the Dreamcast microphone"
+          },
+          {
+            "name": "PhotoLibraryAdd",
+            "usageDescription": "Flycast can save screenshots to your Photo library."
           }
         ]
       },
