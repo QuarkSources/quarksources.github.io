@@ -1690,6 +1690,13 @@
       ],
       "versions": [
         {
+          "version": "27601",
+          "date": "2024-11-04T01:37:56+00:00",
+          "downloadURL": "https://dl.pokemmo.com/PokeMMO-Client.ipa?r=27601",
+          "size": 110232765,
+          "sha256": "8e1346078772d5c0b5855aff580059e17b1657abe44e23105dd10c2e09402e7b"
+        },
+        {
           "version": "27579",
           "date": "2024-11-03T01:44:47+00:00",
           "downloadURL": "https://dl.pokemmo.com/PokeMMO-Client.ipa?r=27579",
