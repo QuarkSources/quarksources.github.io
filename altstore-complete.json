@@ -439,6 +439,16 @@
       ],
       "versions": [
         {
+          "version": "1.7b2",
+          "buildVersion": "123",
+          "date": "2024-11-05T13:00:00-06:00",
+          "localizedDescription": "This beta fixes N64 games crashing on launch.\n\nPREVIOUS BETA\n\nOnline Multiplayer\n\u2022 Play Nintendo DS games online with friends!\n\u2022 Connect via 3rd-party Nintendo WFC servers (e.g. Kaeru)\n\nNintendo 64\n\u2022 New OpenGL ES 3 renderer fixes many common graphical issues\n\u2022 Optionally switch back to OpenGL ES 2 via Experimental Features\n\u2022 Custom resolutions\n\u2022 Custom texture packs\n\nMisc.\n\u2022 Adds dark + tinted variants of primary app icon\n\u2022 Fixed misleading \u201cfile does not exist\u201d Delta Sync error\n\u2022 [iPad] Fixed qutting all games when using multiple scenes",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_7_b2.ipa",
+          "size": 87951204,
+          "sha256": "5d12b4d7c12c58bde478dd5a115609c1a5625a5e9d6aa95349fc946cb1e1f698",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.7b1",
           "buildVersion": "120",
           "date": "2024-10-23T12:00:00-05:00",
