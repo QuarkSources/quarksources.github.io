@@ -111,6 +111,15 @@
       ],
       "versions": [
         {
+          "version": "2.0.2b",
+          "date": "2024-11-14T12:00:00-06:00",
+          "localizedDescription": "\u2022 Fixed runtime crashes with AltStore 2.0.1\n\u2022 Fixed \"Handshake Failed\" error when signing-in\n\nPREVIOUS UPDATE\n\u2022 Added dark mode & tinted app icons\n\u2022 Added Home Screen quick actions with support info\n\u2022 Fixed crash when fetching source containing app larger than 2GB\n\u2022 Fixed handling Patreon rate limit errors\n\u2022 Fixed crash updating apps if more than 1 update is available\n\u2022 Fixed crash installing apps if internet connection drops",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_2_b.ipa",
+          "size": 33093551,
+          "sha256": "ff255eb6009dac0ef8995c5678607d34b2565f4f2ff54558271744e314e8a1e3",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "2.0rc3",
           "date": "2024-09-28T12:00:00-05:00",
           "localizedDescription": "This beta adds back the ability to bypass permission alerts for non-recommended sources.\n\nPREVIOUS BETA:\n\nNEW\n\u2022 Handles \"search\" and \"view app\" deep links\n\u2022 Supports distributing Patreon-exclusive apps to free members\n\nFIXED\n\u2022 Fixed duplicate \u201cNew Update Available\u201d notifications\n\u2022 Fixed Settings tab bar disappearing on iOS 18\n\u2022 Fixed not unlocking benefits due to PatreonAPI change\n\u2022 Fixed not showing alerts when installing app before adding source\n\u2022 Fixed not presenting auth screen when installing app before adding source\n\u2022 Fixed redundant app update appearing after failing to backup/restore app\n\u2022 [iPad] Fixed crash when removing apps from My Apps tab",
