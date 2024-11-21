@@ -23,6 +23,15 @@
       ],
       "versions": [
         {
+          "version": "2.0.2",
+          "date": "2024-11-21T12:00:00-06:00",
+          "localizedDescription": "\u2022 Fixed runtime crashes with AltStore 2.0.1\n\u2022 Fixed \"Handshake Failed\" error when signing-in\n\nPREVIOUS UPDATE\n\n\u2022 Added dark mode & tinted app icons\n\u2022 Added Home Screen quick actions with support info\n\u2022 Fixed crash when fetching source containing app larger than 2GB\n\u2022 Fixed handling Patreon rate limit errors\n\u2022 Fixed crash updating apps if more than 1 update is available\n\u2022 Fixed crash installing apps if internet connection drops",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_2.ipa",
+          "size": 33093570,
+          "sha256": "e229ef4e29f0a673adc63d070111a4e034363b0fb05778a1484ed0079b4bfc33",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "2.0.1",
           "date": "2024-11-13T12:00:00-05:00",
           "localizedDescription": "NEW\n\u2022 Added dark mode & tinted app icons\n\u2022 Added Home Screen quick actions with support info\n\nFIXED\n\u2022 Fixed crash when fetching source containing app larger than 2GB\n\u2022 Fixed handling Patreon rate limit errors\n\u2022 Fixed crash updating apps if more than 1 update is available\n\u2022 Fixed crash installing apps if internet connection drops",
