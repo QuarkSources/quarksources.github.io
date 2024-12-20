@@ -466,6 +466,16 @@
       ],
       "versions": [
         {
+          "version": "1.7b3",
+          "buildVersion": "129",
+          "date": "2024-12-20T13:00:00-06:00",
+          "localizedDescription": "NEW\n\u2022 \u201cResume\u201d button to easily resume games\n\u2022 Additional \"Button Pack\" icons designed by Louie Mantia\n\nIMPROVED\n\u2022 Added button to view Online Multiplayer instructions\n\u2022 Enable/disable Online Multiplayer via Experimental Features\n\nFIXED\n\u2022 Fixed incorrect default mapping for iPad GBC landscape skin",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_7_b3.ipa",
+          "size": 195545849,
+          "sha256": "1f9973eef80042ac226cfd34e22cd16932e3c25f693cb644bfd9f35409c47c7c",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.7b2",
           "buildVersion": "123",
           "date": "2024-11-05T13:00:00-06:00",
