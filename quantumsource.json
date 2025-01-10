@@ -210,6 +210,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.6.3",
+          "version": "1.6.3",
+          "buildVersion": "2025-01-09-ff598b6",
+          "date": "2025-01-09T21:50:13Z",
+          "localizedDescription": "# VCMI 1.6.3\n\nNote: saved games from 1.5 release can be loaded in 1.6\r\n\r\n### Changelog\r\n- Player Changelog: [1.6.2 -> 1.6.3](https://github.com/vcmi/vcmi/blob/master/ChangeLog.md#162---163)\r\n- Full Changelog: https://github.com/vcmi/vcmi/compare/1.6.2..1.6.3\r\n\r\n### Additional builds\r\n<!-- - Android release will be available on Google Play shortly -->\r\n<!-- - Linux release will be available on Flathub shortly -->\r\n<!-- - Ubuntu release will be available on VCMI PPA shortly -->\r\n<!-- - Android release is available on [Google Play](https://play.google.com/store/apps/details?id=is.xyz.vcmi) -->\r\n<!-- - Linux release is available on [Flathub](https://flathub.org/apps/eu.vcmi.VCMI) -->\r\n<!-- - Ubuntu release is available on [VCMI PPA](https://launchpad.net/~vcmi/+archive/ubuntu/ppa) -->\r\n\r\n- Android release is available on [Google Play](https://play.google.com/store/apps/details?id=is.xyz.vcmi)\r\n- Linux release is available on [Flathub](https://flathub.org/apps/eu.vcmi.VCMI)\r\n- Ubuntu release is available on [VCMI PPA](https://launchpad.net/~vcmi/+archive/ubuntu/ppa)\r\n- macOS release can be installed via Homebrew: `brew install --cask --no-quarantine vcmi/vcmi/vcmi`",
+          "downloadURL": "https://github.com/vcmi/vcmi/releases/download/1.6.3/VCMI-iOS.ipa",
+          "size": 20716731,
+          "sha256": "f47e2153b23763bba21c135c7dab8fdd6384d2098e6ef8a073fc2232b443adf3"
+        },
+        {
           "absoluteVersion": "1.6.2",
           "version": "1.6.2",
           "buildVersion": "2025-01-04-f56fd20",
