@@ -466,6 +466,16 @@
       ],
       "versions": [
         {
+          "version": "1.7b4",
+          "buildVersion": "131",
+          "date": "2025-01-30T12:00:00-06:00",
+          "localizedDescription": "NEW\n\nGame Controller Skins\n\u2022 Choose skin to use when controller is connected\n\u2022 Customize system-wide or per-game\n\nGame Settings\n\u2022 New context-menu option to configure per-game settings\n\u2022 Disable OpenGL ES 3.0 for specific games (N64)\n\nIMPROVED\n\nOnline Multiplayer (DS)\n\u2022 Simplified setup process that doesn't require configuring DNS\n\u2022 Choose from known WFC servers in Delta's settings\n\u2022 Provide custom DNS for other WFC servers\n\nScreenshots\n\u2022 Option always visible in pause menu\n\u2022 Take screenshots with game controllers or skins\n\u2022 Saves to new \"Delta Screenshots\" album\n\nFIXED\n\u2022 Fixed no audio for game previews in silent mode\n\u2022 Fixed no \"Reset\" button when choosing landscape skin",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_7_b4.ipa",
+          "size": 195593542,
+          "sha256": "79dbaba79990079398b4f83f554a90e8e13997c08d6cc01d6aea572779548950",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.7b3",
           "buildVersion": "129",
           "date": "2024-12-20T13:00:00-06:00",
