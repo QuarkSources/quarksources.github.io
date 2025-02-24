@@ -466,6 +466,16 @@
       ],
       "versions": [
         {
+          "version": "1.7b5",
+          "buildVersion": "132",
+          "date": "2025-02-24T12:00:00-06:00",
+          "localizedDescription": "NEW\n\n\u201cWhat's New\u201d Screen\n\u2022 Lists new features in latest Delta update\n\nController Case Support\n\u2022 Adjust position of pause menu via controller skins\n\u2022 Allows using pause menu with cases such as Gamebaby and PlayCase\n\u2022 Supports vertical and horizontal insets\n\nIMPROVED\n\nOnline Multiplayer\n\u2022 Fetches known WFC servers dynamically\n\u2022 Asks user to choose WFC server when first connecting online\n\u2022 \u201cReset WFC Configuration\u201d button to reset WFC-related settings\n\nFIXED\n\u2022 Fixed using analog sticks as discrete inputs for controllers with poor calibration (Thanks Ian Clawson!)\n\u2022 Fixed not disabling active Fast Forward when connecting online\n\u2022 Fixed showing all save states as incompatible for non-DS systems\n\u2022 Fixed not showing Reset button when choosing per-game External Controller or AirPlay skins\n\u2022 Fixed crash when viewing save states for unsupported system\n\u2022 Fixed Hold Button description layout after orientation change",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_7_b5.ipa",
+          "size": 195842695,
+          "sha256": "efa7b211ff14cebc7700f2f00b01a615644d29aca354d4462c2d382374817282",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.7b4",
           "buildVersion": "131",
           "date": "2025-01-30T12:00:00-06:00",
