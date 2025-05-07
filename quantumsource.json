@@ -1699,6 +1699,14 @@
       ],
       "versions": [
         {
+          "version": "v2.5",
+          "date": "2025-05-07T11:36:00+02:00",
+          "localizedDescription": "DCNet support, new on-screen gamepad",
+          "downloadURL": "https://github.com/flyinghead/flycast/releases/download/v2.5/Flycast-2.5.ipa",
+          "size": 8161611,
+          "sha256": "cd0ab6cddf5e93cb278f9ebb09ec6f5035153fe282c145bb077559ec4312e6d2"
+        },
+        {
           "version": "v2.4",
           "date": "2024-10-23T15:39:00+02:00",
           "localizedDescription": "Retro achievements, improved UI",
