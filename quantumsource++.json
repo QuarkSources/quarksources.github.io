@@ -184,6 +184,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "1.2.42",
+          "version": "1.2.42",
+          "buildVersion": "376",
+          "date": "2025-02-22T18:01:35Z",
+          "localizedDescription": "# V 1.2.42 Release\n\n<img width=\"1694\" alt=\"Screenshot 2025-02-22 at 8 47 15\u202fAM\" src=\"https://github.com/user-attachments/assets/87a93172-f13e-4d6f-968d-2902e352ab5e\" />\r\n\ud83d\udce2 Release Update \u2013 Exciting Fixes & Improvements!\r\nWe\u2019re back with a fresh update packed with key fixes and improvements to enhance your streaming experience! \ud83c\udf89\r\n\r\n\u2705 Trakt Integration Fixed\r\nWe\u2019ve resolved the issues with Trakt integration, ensuring that your watch history, progress tracking, and syncing work seamlessly across devices.\r\n\r\n\ud83d\udcfa Anime Now Pulls Season 2 Episodes\r\nAnime fans, rejoice! \ud83c\udf8c Season 2 episodes are now properly detected and displayed, so you won\u2019t miss a single moment of your favorite series.\r\n\r\n\ud83d\udd27 Fixed Several Providers\r\nWe\u2019ve gone under the hood and fixed multiple content providers, ensuring better reliability, faster loading, and improved stream availability.\r\n\r\n\ud83d\udc1b Various Bug Fixes & Performance Enhancements\r\nFrom small glitches to UI tweaks, we\u2019ve tackled a range of bugs to make everything smoother and more stable.\r\n\r\n\ud83d\ude80 More Updates Coming Soon!\r\nThis is just the beginning! We\u2019re actively working on more improvements, new features, and optimizations\u2014stay tuned for even bigger things ahead!\r\n\r\nEnjoy the update & happy streaming! \ud83c\udfac\ud83c\udf7f",
+          "downloadURL": "https://github.com/StreamerApp/Streamer/releases/download/1.2.42/Streamer-iOS.ipa",
+          "size": 34524248,
+          "sha256": "42628ea281dc5c45d87605154cbeb355c5089d90351f3e765201e8fa354e820b"
+        },
+        {
           "absoluteVersion": "1.2.38",
           "version": "1.2.38",
           "buildVersion": "344",
@@ -1479,6 +1489,16 @@
         "https://i.imgur.com/2F6OE8W.png"
       ],
       "versions": [
+        {
+          "absoluteVersion": "2.7.10",
+          "version": "2.7.10",
+          "buildVersion": "156",
+          "date": "2024-12-21T03:22:55Z",
+          "localizedDescription": "# Bugfix\n\n1. Fixed reading page scroll functionality.",
+          "downloadURL": "https://github.com/EhPanda-Team/EhPanda/releases/download/v2.7.10/EhPanda.ipa",
+          "size": 7231227,
+          "sha256": "91980fdc3efb8a5aceb9fcaacc6ef4f19e1637793f8e4e717afe415fd2678c67"
+        },
         {
           "absoluteVersion": "2.7.4",
           "version": "2.7.4",
