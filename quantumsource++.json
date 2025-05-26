@@ -1028,6 +1028,16 @@
       ],
       "versions": [
         {
+          "absoluteVersion": "0.8.11.2",
+          "version": "0.8.11",
+          "buildVersion": "2",
+          "date": "2025-05-20T13:55:37Z",
+          "localizedDescription": "# Public Release 0.8.11 (2)\n\n",
+          "downloadURL": "https://github.com/Paperback-iOS/app/releases/download/v0.8.11-r2/Paperback.ipa",
+          "size": 13597210,
+          "sha256": "20c2f2ee6f0e51128cf639199fbbbf2009398b74d9671971428ac1ce10c48eaa"
+        },
+        {
           "absoluteVersion": "0.8.6.2",
           "version": "0.8.6",
           "buildVersion": "2",
@@ -1053,6 +1063,10 @@
           {
             "name": "FaceID",
             "usageDescription": "Face ID is required to unlock Library"
+          },
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "Atlantis would use Bonjour Service to discover Proxyman app from your local network."
           },
           {
             "name": "PhotoLibrary",
