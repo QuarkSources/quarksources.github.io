@@ -801,7 +801,7 @@
     },
     {
       "name": "OldOS",
-      "bundleIdentifier": "com.zurac.OldOS",
+      "bundleIdentifier": "com.zurac.OldOSSL2",
       "developerName": "zzanehip",
       "subtitle": "OldOS is a testament to the days of iOS 4.",
       "localizedDescription": "OldOS is a testament to the days of yesteryear, showcasing what iOS once was ten years ago. The ethos of the app is to merge the technologies of today with a pixel-perfect recreation of the user experience of the past. The vast majority of apps in OldOS are fully functional \u2014 meaning they seamlessly integrate with the data on your phone to deliver a live, emulator-esque experience. What does this mean? Well, you can play your music in iPod, get directions in Maps, surf the web in Safari, view the current weather in Weather, and much more. By the same token, no shortcuts were taken in fully fleshing out the operating system. You can change your background, adjust settings, search apps, et cetera. There are a few apps still not ready for primetime but don't worry, they're coming soon.\n\nWith OldOS, you no longer need to worry about securing a legacy iPhone to experience nostalgia \u2014 it's available on your daily driver.\n\nPart of the goal with OldOS is to enable anyone to understand how iOS works and demonstrate just how powerful SwiftUI truly is. For that reason, the entire app is open-sourced \u2014 enabling developers to learn about, modify, and add to the app. I thought building this over my last six or so months in high school and sharing it with the world would be a fun and productive endeavor.\n\nSpecial Features:\n* \ud83e\uddd1\u200d\ud83d\udcbb Built almost entirely using SwiftUI.\n* \ud83c\udfa8 Designed to be as close to pixel-perfect as possible.\n* \ud83d\udcf1 Fully functional, perhaps even usable as a second OS.\n* \u2764\ufe0f A testament to the work of Apple employees of both the past and the present.\n* \ud83d\uddfa\ufe0f Fully open source for all to learn, modify, and build on.",
@@ -815,6 +815,16 @@
         "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_5.jpg"
       ],
       "versions": [
+        {
+          "absoluteVersion": "2.0.1",
+          "version": "2.0",
+          "buildVersion": "1",
+          "date": "2025-06-29T18:02:05Z",
+          "localizedDescription": "# IPA V2.0 Build 1\n\n2.0 (1):\r\n\r\nWhere to begin. I think, first and foremost a sorry is in order \u2014 college, life, work all got in the way. This update, and my goal with it, is to bring the project back from the dead so to speak. In doing so, the codebase has been retooled and refactored, APIs have been restored, and compilation errors have been resolved. In the same vein, all (or maybe most?) bugs related to changes in iOS/Swift/SwiftUI over the past few years have been resolved. My goal is to put a new foundation in place to begin building on top of again. In other words, 2.0 returns OldOS to how it once was (and improves it perhaps too).\n\nNOTE: BundleIdentifier changed in this version and automatic updates have been disabled until manual install occurs.",
+          "downloadURL": "https://github.com/zzanehip/The-OldOS-Project/releases/download/2.0_1/OldOS.ipa",
+          "size": 108485082,
+          "sha256": "d2191ff4c84337f09c9055570f5d85f4af091a1a2d22ec136e019be2219db68b"
+        },
         {
           "absoluteVersion": "1.0.18",
           "version": "1.0",
