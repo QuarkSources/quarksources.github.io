@@ -23,6 +23,15 @@
       ],
       "versions": [
         {
+          "version": "2.2.1",
+          "date": "2025-05-12T12:00:00-05:00",
+          "localizedDescription": "This update fixes issues with installing AltStore onto multiple devices.\n\nPREVIOUS UPDATE\n\nNEW\n\u2022 Supports sideloading apps with \u201cIncreased Memory Limit\u201d entitlement\n\u2022 Supports localized titles, subtitles, and descriptions in sources\n\u2022 Added `altstore-classic://` URL scheme\n\u2022 Added Bluesky social media button to Settings\n\nIMPROVED\n\u2022 Hides \u201cSee All\u201d button in Browse tab for sources with just 1 app\n\u2022 Changed icon back to Classic icon by default\n\nFIXED\n\u2022 Fixed choosing alternate app icon on iPad\n\u2022 Fixed \u201cJoin Patreon\u201d sheet appearance in dark mode\n\u2022 Fixed installing apps before adding source via deep link\n\u2022 Fixed handling source deep link when already viewing source details\n\u2022 Fixed redundant app update appearing after resigning expired app\n\u2022 Fixed not immediately showing updates for some installed apps \n\u2022 Fixed not showing OPEN for installed apps when previewing source via deep link\n\u2022 Fixed not showing OPEN for installed apps when previewing already-added Recommended Source",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_2_1.ipa",
+          "size": 32862407,
+          "sha256": "045c2b812361feb147ae85105c83d9964a852b9ed4542ad4b2f399f757b51af7",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "2.0.2",
           "date": "2024-11-21T12:00:00-06:00",
           "localizedDescription": "\u2022 Fixed runtime crashes with AltStore 2.0.1\n\u2022 Fixed \"Handshake Failed\" error when signing-in\n\nPREVIOUS UPDATE\n\n\u2022 Added dark mode & tinted app icons\n\u2022 Added Home Screen quick actions with support info\n\u2022 Fixed crash when fetching source containing app larger than 2GB\n\u2022 Fixed handling Patreon rate limit errors\n\u2022 Fixed crash updating apps if more than 1 update is available\n\u2022 Fixed crash installing apps if internet connection drops",
@@ -119,6 +128,15 @@
         "https://user-images.githubusercontent.com/705880/65605577-332cba80-df5e-11e9-9f00-b369ce974f71.PNG"
       ],
       "versions": [
+        {
+          "version": "2.2b",
+          "date": "2025-04-09T12:00:00-05:00",
+          "localizedDescription": "NEW\n\u2022 Supports sideloading apps with \u201cIncreased Memory Limit\u201d entitlement\n\u2022 Supports localized titles, subtitles, and descriptions in sources\n\u2022 Added `altstore-classic://` URL scheme\n\u2022 Added Bluesky social media button to Settings\n\nIMPROVED\n\u2022 Hides \u201cSee All\u201d button in Browse tab for sources with just 1 app\n\u2022 Changed icon back to Classic icon by default\n\nFIXED\n\u2022 Fixed choosing alternate app icon on iPad\n\u2022 Fixed \u201cJoin Patreon\u201d sheet appearance in dark mode\n\u2022 Fixed installing apps before adding source via deep link\n\u2022 Fixed handling source deep link when already viewing source details\n\u2022 Fixed redundant app update appearing after resigning expired app\n\u2022 Fixed not immediately showing updates for some installed apps \n\u2022 Fixed not showing OPEN for installed apps when previewing source via deep link\n\u2022 Fixed not showing OPEN for installed apps when previewing already-added Recommended Source",
+          "downloadURL": "https://www.patreon.com/file?h=105173733&m=449530178",
+          "size": 32753964,
+          "sha256": "8fb4753cc4413332908fb6b4070e6eb56552ec8fa78636b76a9d79cd7a476dfe",
+          "minOSVersion": "14.0"
+        },
         {
           "version": "2.0.2b",
           "date": "2024-11-14T12:00:00-06:00",
@@ -323,6 +341,16 @@
       ],
       "versions": [
         {
+          "version": "1.7.1",
+          "buildVersion": "139",
+          "date": "2025-04-08T14:00:00-05:00",
+          "localizedDescription": "This update fixes compatibility with certain N64 games.\n\nPREVIOUS UPDATE\n\nNEW\n\nOnline Multiplayer\n\u2022 Play online-compatible Nintendo DS games with friends around the world!\n\u2022 Connect via community Nintendo WFC servers\n\u2022 Choose one of the default servers (Wiimmfi, WiiLink WFC, or AltWFC), or provide a custom DNS\n\nUpdated N64 Core\n\u2022 Uses OpenGL ES 3.0 to render games\n\u2022 Fixes many graphical issues (e.g. black textures)\n\u2022 Optionally switch back to OpenGL ES 2.0 on per-game basis\n\u2022 Custom resolutions by editing `mupen64plus.cfg` file\n\u2022 Custom texture packs via Mupen64Plus `hires_texture` directory\n\nGame Screenshots (thanks Chris Rittenhouse!)\n\u2022 New pause menu option to take game screenshots\n\u2022 Map game controller buttons to take screenshots\n\u2022 New `screenshot` input for controller skins\n\nGame Controller Skins\n\u2022 Choose a skin to use when a game controller is connected\n\u2022 Choose system-wide or per-game\n\nController Case Support\n\u2022 Controller skins can adjust position of pause menu via new `menuInsets` property\n\u2022 Allows using pause menu with cases such as GAMEBABY and PlayCase\n\nGame Settings\n\u2022 New context-menu option for per-game settings\n\u2022 Includes \u201cPreferred Game Skin\u201d, \u201cOpenGL ES 3.0\u201d (N64) and \u201cInserted GBA Game\u201d (DS)\n\nMisc.\n\u2022 \u201cResume\u201d button to easily resume games\n\u2022 Additional \u201cButton Pack\u201d icons designed by Louie Mantia\n\u2022 Adds dark + tinted variants of primary app icon\n\nFIXED\n\n\u2022 Fixed using analog sticks as discrete inputs for controllers with poor calibration (thanks Ian Clawson!)\n\u2022 Fixed black/missing/incorrect textures in various N64 games\n\u2022 Fixed white screen after (un-)locking device while AirPlaying DS games\n\u2022 Fixed no audio for game previews in silent mode when Respect Silent Mode is OFF\n\u2022 Fixed showing all save states as incompatible for non-DS systems\n\u2022 Fixed crash when viewing save states for unsupported system\n\u2022 Fixed missing accessibility label for Settings button\n\u2022 Fixed not showing \u201cReset\u201d button when choosing landscape skin\n\u2022 Fixed not showing \u201cReset\u201d button when choosing per-game Game Controller or AirPlay skins\n\u2022 Fixed \u201cHold Button\u201d description layout after orientation change\n\u2022 [Delta Sync] Fixed misleading \u201cfile does not exist\u201d errors when previous version is missing\n\u2022 [iPad] Fixed quitting all games when using multiple scenes",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_7_1.ipa",
+          "size": 196023694,
+          "sha256": "8d1b060509d99d9294910f18683dd51f14eb4fd30b7d928b2b6cd57c1971650d",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.6.3",
           "buildVersion": "120",
           "date": "2024-09-16T12:00:00-05:00",
@@ -443,8 +471,12 @@
             "usageDescription": "Delta uses your microphone to emulate the Nintendo DS microphone."
           },
           {
+            "name": "PhotoLibraryAdd",
+            "usageDescription": "Please allow Delta to save screenshots to your Photo Library."
+          },
+          {
             "name": "PhotoLibrary",
-            "usageDescription": "Press \"OK\" to allow Delta to use images from your Photo Library as game artwork."
+            "usageDescription": "Press \u201cOK\u201d to allow Delta to use images from your Photo Library as game artwork."
           }
         ]
       },
