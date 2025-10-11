@@ -702,6 +702,16 @@
       ],
       "versions": [
         {
+          "version": "5.0.0b1",
+          "date": "2025-10-11T17:00:00.0000000Z",
+          "localizedDescription": "This is the second public beta build based on the rewritten DolphiniOS code.\n\niOS 14 is required to run this build.",
+          "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b1/Non-Jailbroken.ipa",
+          "size": 17958943,
+          "sha256": "ea27bd1a7b8f6839c8e8bbdf696cf0c2d79c7d5fc106abbd39795b2a0bc535f1",
+          "minOSVersion": "14.0",
+          "maxOSVersion": "99.0"
+        },
+        {
           "version": "4.0.0b8",
           "date": "2025-01-19T00:00:00.0000000Z",
           "localizedDescription": "This is the second public beta build based on the rewritten DolphiniOS code.\n\niOS 14 is required to run this build.",
