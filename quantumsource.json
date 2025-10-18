@@ -702,6 +702,16 @@
       ],
       "versions": [
         {
+          "version": "5.0.0b3",
+          "date": "2025-10-18T00:00:00.0000000Z",
+          "localizedDescription": "Adds support for emulating Skylander Portal of Power, and fixes JIT on some devices running iOS 17 and 18.",
+          "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b3/Non-Jailbroken.ipa",
+          "size": 17958943,
+          "sha256": "9016d50856ca21b0f923f8ad4d72c97288a38ba92bea288ec8ccfb0d9388b369",
+          "minOSVersion": "14.0",
+          "maxOSVersion": "99.0"
+        },
+        {
           "version": "5.0.0b2",
           "date": "2025-10-13T00:00:00.0000000Z",
           "localizedDescription": "Adds support for JIT on iOS 26 using StikDebug.",
